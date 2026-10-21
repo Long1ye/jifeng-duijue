@@ -1,0 +1,130 @@
+{
+  "version": "v29-meowa-layered-corrected-elbows",
+  "blade_length_scale": 3,
+  "cast_duration_ms": 480,
+  "sample_step_ms": 16,
+  "scale_in_world": 0.24074074074074073,
+  "visible_body_height_in_world": 26,
+  "clips": [
+    {
+      "direction": "nw",
+      "key": "yasuo-q-nw-wind",
+      "sheet": "q-nw-layered.png",
+      "width": 480,
+      "height": 430,
+      "anchor": [
+        234,
+        272
+      ],
+      "frame_count": 31,
+      "columns": 4,
+      "rows": 8,
+      "source_pixels_preserved": false
+    },
+    {
+      "direction": "n",
+      "key": "yasuo-q-n-wind",
+      "sheet": "q-n-layered.png",
+      "width": 480,
+      "height": 430,
+      "anchor": [
+        234,
+        272
+      ],
+      "frame_count": 31,
+      "columns": 4,
+      "rows": 8,
+      "source_pixels_preserved": false
+    },
+    {
+      "direction": "ne",
+      "key": "yasuo-q-ne-wind",
+      "sheet": "q-ne-layered.png",
+      "width": 480,
+      "height": 430,
+      "anchor": [
+        234,
+        272
+      ],
+      "frame_count": 31,
+      "columns": 4,
+      "rows": 8,
+      "source_pixels_preserved": false
+    },
+    {
+      "direction": "w",
+      "key": "yasuo-q-w-wind",
+      "sheet": "q-w-layered.png",
+      "width": 480,
+      "height": 430,
+      "anchor": [
+        234,
+        272
+      ],
+      "frame_count": 31,
+      "columns": 4,
+      "rows": 8,
+      "source_pixels_preserved": false
+    },
+    {
+      "direction": "e",
+      "key": "yasuo-q-e-wind",
+      "sheet": "q-e-layered.png",
+      "width": 480,
+      "height": 430,
+      "anchor": [
+        234,
+        272
+      ],
+      "frame_count": 31,
+      "columns": 4,
+      "rows": 8,
+      "source_pixels_preserved": false
+    },
+    {
+      "direction": "sw",
+      "key": "yasuo-q-sw-wind",
+      "sheet": "q-sw-layered.png",
+      "width": 480,
+      "height": 430,
+      "anchor": [
+        234,
+        272
+      ],
+      "frame_count": 31,
+      "columns": 4,
+      "rows": 8,
+      "source_pixels_preserved": false
+    },
+    {
+      "direction": "s",
+      "key": "yasuo-q-s-wind",
+      "sheet": "q-s-layered.png",
+      "width": 480,
+      "height": 430,
+      "anchor": [
+        234,
+        272
+      ],
+      "frame_count": 31,
+      "columns": 4,
+      "rows": 8,
+      "source_pixels_preserved": false
+    },
+    {
+      "direction": "se",
+      "key": "yasuo-q-se-wind",
+      "sheet": "q-se-layered.png",
+      "width": 480,
+      "height": 430,
+      "anchor": [
+        234,
+        272
+      ],
+      "frame_count": 31,
+      "columns": 4,
+      "rows": 8,
+      "source_pixels_preserved": false
+    }
+  ]
+}

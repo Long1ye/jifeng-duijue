@@ -1,0 +1,15 @@
+# Minion aggression and attack effects — 2026-10-19
+
+Generated through the project game-assets skill with Meowa General Image 2.5, standard 1K, native transparent background. Successful job `job_07ad834e0fc844a0b32a6182270a7a2a`, one credit. The source PNG and sanitized final output manifest remain under `generated/`.
+
+The 1024 × 1024 RGBA atlas has sixteen 256 × 256 cells: blue caster flight, red caster flight, neutral melee slash/contact, and neutral caster impact, four frames each. `scripts/package-minion-vfx.py` registers bright cores with integer translation; native alpha and pixels are preserved without resampling. `contract.json` contains source hash, offsets, dimensions and alpha bounds. `preview.html` plays the native frames; all four sequences were inspected through two complete cycles.
+
+Three concrete defects were reproduced and fixed:
+
+- The current combat practice scene explicitly set melee soldiers to zero speed and zero damage, and had no caster soldiers. It now contains two live melee soldiers and two live caster soldiers, retaining the stationary hero dummy.
+- Standalone melee soldiers used their short 39-unit non-hero scan as an outer filter before hero awareness. Heroes now use the shared hero-notice rule directly, for both minion roles and both standalone and formation units. Current awareness is 115 units with a 145-unit formation leash. Existing engaged-minion priority, nearby champion-trade retaliation, death cleanup and return-to-lane rules remain intact.
+- Homing caster projectiles carry zero `vx/vy` values; the previous renderer used those fields to construct a line, producing a zero-length visual. The new sprite direction comes from the live projectile-to-target screen vector, including camera elevation and body height. It launches near the staff crystal, follows the existing homing simulation, and triggers impact sprites from actual damage events.
+
+Melee contact uses a small ivory slash and metallic flecks. Caster attacks use a compact blue/red pearl, short tapered trail, staff flash and team-tinted impact motes. Minion-versus-minion contacts are now collected by the renderer as well as minion-versus-hero contacts. Damage, attack timing, projectile speed and wind-wall blocking are unchanged.
+
+Validation: initial regression run reproduced the standalone-melee awareness and inert combat-scene defects. Final production build and all 159 test files / 867 tests pass. Coverage includes normal acquisition, formation leash, trade retaliation, target death, zero-velocity projectile visibility, actual minion-versus-minion contact rendering, and screen direction at 45/60/75-degree cameras. Browser evidence under `docs/visual-validation/2026-10-19/minion-aggro/` contains 48 phase captures across both teams, both roles, and hero/minion targets. Pause and restart clear correctly, with no page or asset errors. In the untouched combat-practice simulation, a passive hero dropped from 640 to 580 HP over six seconds and all four soldiers released attacks.

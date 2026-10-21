@@ -1,0 +1,20 @@
+{
+  "delayedEntry": [
+    {
+      "path": "/three.html?map=howling&scene=match&online=1",
+      "entryStillHeld": true,
+      "visible": true,
+      "text": "MIDLINE · 中路试炼\n正在启动游戏\n\n正在准备菜单，请稍候…"
+    },
+    {
+      "path": "/?map=howling",
+      "entryStillHeld": true,
+      "visible": true,
+      "text": "MIDLINE · 中路试炼\n正在启动游戏\n\n正在准备菜单，请稍候…"
+    }
+  ],
+  "errors": [],
+  "backgroundDoesNotBlockMenu": true,
+  "directLaunchHasLoadingHandoff": true,
+  "moduleFailureShowsRetry": true
+}

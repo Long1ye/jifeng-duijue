@@ -1,0 +1,119 @@
+{
+  "stats": [
+    {
+      "name": "windup",
+      "time": 0.35,
+      "hp": 2000,
+      "calls": 68,
+      "geometry": 68,
+      "strokeVertices": 0
+    },
+    {
+      "name": "thrust-contact",
+      "time": 0.4666666666666666,
+      "hp": 1915,
+      "qStacks": 1,
+      "calls": 73,
+      "geometry": 71,
+      "strokeVertices": 0
+    },
+    {
+      "name": "thrust-wind",
+      "time": 0.5333333333333333,
+      "hp": 1915,
+      "qStacks": 1,
+      "calls": 73,
+      "geometry": 71,
+      "strokeVertices": 0
+    },
+    {
+      "name": "dissipate",
+      "time": 0.6500000000000004,
+      "hp": 1915,
+      "qStacks": 1,
+      "calls": 69,
+      "geometry": 71,
+      "strokeVertices": 0
+    },
+    {
+      "name": "recovered",
+      "time": 0.850000000000001,
+      "hp": 1915,
+      "qStacks": 1,
+      "calls": 69,
+      "geometry": 71,
+      "strokeVertices": 0
+    },
+    {
+      "name": "aim-east",
+      "time": 0.49999999999999994,
+      "hp": 2000,
+      "calls": 68,
+      "geometry": 68,
+      "strokeVertices": 0
+    },
+    {
+      "name": "aim-northeast",
+      "time": 0.49999999999999994,
+      "hp": 2000,
+      "calls": 69,
+      "geometry": 69,
+      "strokeVertices": 0
+    },
+    {
+      "name": "aim-north",
+      "time": 0.49999999999999994,
+      "hp": 2000,
+      "calls": 68,
+      "geometry": 68,
+      "strokeVertices": 0
+    },
+    {
+      "name": "aim-northwest",
+      "time": 0.49999999999999994,
+      "hp": 2000,
+      "calls": 69,
+      "geometry": 69,
+      "strokeVertices": 0
+    },
+    {
+      "name": "aim-west",
+      "time": 0.49999999999999994,
+      "hp": 2000,
+      "calls": 68,
+      "geometry": 68,
+      "strokeVertices": 0
+    },
+    {
+      "name": "aim-southwest",
+      "time": 0.49999999999999994,
+      "hp": 2000,
+      "calls": 69,
+      "geometry": 69,
+      "strokeVertices": 0
+    },
+    {
+      "name": "aim-south",
+      "time": 0.49999999999999994,
+      "hp": 2000,
+      "calls": 68,
+      "geometry": 68,
+      "strokeVertices": 0
+    },
+    {
+      "name": "aim-southeast",
+      "time": 0.49999999999999994,
+      "hp": 2000,
+      "calls": 69,
+      "geometry": 69,
+      "strokeVertices": 0
+    }
+  ],
+  "q2": {
+    "hp": 1830,
+    "stacks": 2
+  },
+  "paused": true,
+  "resetVertices": 0,
+  "errors": []
+}

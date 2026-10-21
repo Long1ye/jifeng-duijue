@@ -1,0 +1,18 @@
+{
+  "output": {
+    "antialias": "msaa",
+    "cssHeight": 446.3125,
+    "cssWidth": 795,
+    "height": 1080,
+    "imageRendering": "auto",
+    "width": 1920
+  },
+  "checks": {
+    "tests": 20,
+    "files": 5,
+    "build": "passed",
+    "browserWarningsAndErrors": [],
+    "healthBar": "2 CSS pixel fill, 5 CSS pixel backing; continuous interpolated position"
+  },
+  "limits": "Frame-rate impact has not been benchmarked; a static screenshot cannot demonstrate temporal shimmer."
+}

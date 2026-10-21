@@ -1,0 +1,419 @@
+{
+  "initial": [
+    {
+      "key": "qBody",
+      "width": 512,
+      "height": 565
+    },
+    {
+      "key": "qSword",
+      "width": 1080,
+      "height": 78
+    },
+    {
+      "key": "cast",
+      "width": 512,
+      "height": 254
+    },
+    {
+      "key": "ultimate",
+      "width": 704,
+      "height": 704
+    },
+    {
+      "key": "ring",
+      "width": 704,
+      "height": 288
+    },
+    {
+      "key": "ring3",
+      "width": 704,
+      "height": 288
+    },
+    {
+      "key": "tornado",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "key": "wall",
+      "width": 2240,
+      "height": 488
+    },
+    {
+      "key": "shield",
+      "width": 1424,
+      "height": 1112
+    },
+    {
+      "key": "aura",
+      "width": 1024,
+      "height": 1280
+    },
+    {
+      "key": "homeguard",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "key": "move",
+      "width": 3072,
+      "height": 128
+    },
+    {
+      "key": "attack",
+      "width": 3072,
+      "height": 128
+    }
+  ],
+  "verification": {
+    "paused": true,
+    "contextState": "running",
+    "lowDrawCalls": 64,
+    "memory": {
+      "geometries": 103,
+      "textures": 43
+    },
+    "performanceSamples": [
+      {
+        "reduced": false,
+        "median": 6.099999964237213,
+        "p95": 6.899999976158142,
+        "calls": 69
+      },
+      {
+        "reduced": true,
+        "median": 6,
+        "p95": 6.399999976158142,
+        "calls": 64
+      }
+    ],
+    "stats": {
+      "art": [
+        {
+          "key": "qBody",
+          "width": 512,
+          "height": 565
+        },
+        {
+          "key": "qSword",
+          "width": 1080,
+          "height": 78
+        },
+        {
+          "key": "cast",
+          "width": 512,
+          "height": 254
+        },
+        {
+          "key": "ultimate",
+          "width": 704,
+          "height": 704
+        },
+        {
+          "key": "ring",
+          "width": 704,
+          "height": 288
+        },
+        {
+          "key": "ring3",
+          "width": 704,
+          "height": 288
+        },
+        {
+          "key": "tornado",
+          "width": 2560,
+          "height": 2560
+        },
+        {
+          "key": "wall",
+          "width": 2240,
+          "height": 488
+        },
+        {
+          "key": "shield",
+          "width": 1424,
+          "height": 1112
+        },
+        {
+          "key": "aura",
+          "width": 1024,
+          "height": 1280
+        },
+        {
+          "key": "homeguard",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "key": "move",
+          "width": 3072,
+          "height": 128
+        },
+        {
+          "key": "attack",
+          "width": 3072,
+          "height": 128
+        }
+      ],
+      "frames": [
+        {
+          "name": "q-draw",
+          "time": 0.21666666666666665,
+          "calls": 67,
+          "geometry": 67,
+          "textures": 25,
+          "cards": []
+        },
+        {
+          "name": "q-contact",
+          "time": 0.4833333333333333,
+          "calls": 70,
+          "geometry": 69,
+          "textures": 27,
+          "cards": [
+            "combat-qSword"
+          ]
+        },
+        {
+          "name": "wind-wall",
+          "time": 1.566666666666666,
+          "calls": 71,
+          "geometry": 69,
+          "textures": 29,
+          "cards": [
+            "combat-wall",
+            "combat-wall"
+          ]
+        },
+        {
+          "name": "q3-ready",
+          "time": 0.03333333333333333,
+          "calls": 67,
+          "geometry": 69,
+          "textures": 29,
+          "cards": []
+        },
+        {
+          "name": "tornado",
+          "time": 0.4333333333333333,
+          "calls": 69,
+          "geometry": 69,
+          "textures": 30,
+          "cards": [
+            "combat-tornado"
+          ]
+        },
+        {
+          "name": "ultimate",
+          "time": 1.3000000000000003,
+          "calls": 69,
+          "geometry": 69,
+          "textures": 31,
+          "cards": [
+            "combat-tornado"
+          ]
+        },
+        {
+          "name": "eq3",
+          "time": 0.5833333333333335,
+          "calls": 78,
+          "geometry": 76,
+          "textures": 37,
+          "cards": [
+            "approved-eq3-layer",
+            "approved-eq3-layer"
+          ]
+        },
+        {
+          "name": "shield-ignite",
+          "time": 0.35,
+          "calls": 68,
+          "geometry": 73,
+          "textures": 34,
+          "cards": []
+        },
+        {
+          "name": "flash",
+          "time": 0.44999999999999996,
+          "calls": 70,
+          "geometry": 75,
+          "textures": 34,
+          "cards": []
+        },
+        {
+          "name": "tower-rubble",
+          "time": 0.03333333333333333,
+          "calls": 69,
+          "geometry": 97,
+          "textures": 40,
+          "cards": []
+        },
+        {
+          "name": "fire-and-environment",
+          "time": 0.16666666666666666,
+          "calls": 71,
+          "geometry": 105,
+          "textures": 43,
+          "cards": []
+        }
+      ],
+      "audioRequests": [
+        "http://127.0.0.1:5173/assets/audio/riot-original/runtime/howling-abyss-early.mp3?import&url",
+        "http://127.0.0.1:5173/assets/audio/ice-bridge-v1/runtime/fire.mp3?import&url",
+        "http://127.0.0.1:5173/assets/audio/ice-bridge-v1/runtime/ice-crack.mp3?import&url",
+        "http://127.0.0.1:5173/assets/audio/ice-bridge-v1/runtime/wind.mp3?import&url"
+      ],
+      "errors": [],
+      "resources": [
+        {
+          "geometry": 103,
+          "textures": 43
+        },
+        {
+          "geometry": 103,
+          "textures": 43
+        },
+        {
+          "geometry": 103,
+          "textures": 43
+        },
+        {
+          "geometry": 103,
+          "textures": 43
+        },
+        {
+          "geometry": 103,
+          "textures": 43
+        }
+      ],
+      "sources": [
+        {
+          "duration": 1.3,
+          "loop": false
+        },
+        {
+          "duration": 0.43,
+          "loop": false
+        },
+        {
+          "duration": 1.1504375,
+          "loop": false
+        },
+        {
+          "duration": 1.25,
+          "loop": false
+        },
+        {
+          "duration": 10.5,
+          "loop": true
+        },
+        {
+          "duration": 2.25,
+          "loop": false
+        },
+        {
+          "duration": 1.2301666666666666,
+          "loop": false
+        },
+        {
+          "duration": 2,
+          "loop": false
+        },
+        {
+          "duration": 2.5,
+          "loop": false
+        },
+        {
+          "duration": 1.6206458333333333,
+          "loop": false
+        },
+        {
+          "duration": 1.25,
+          "loop": false
+        },
+        {
+          "duration": 2.25,
+          "loop": false
+        },
+        {
+          "duration": 1.2301666666666666,
+          "loop": false
+        },
+        {
+          "duration": 0.95,
+          "loop": false
+        },
+        {
+          "duration": 2,
+          "loop": false
+        },
+        {
+          "duration": 3.5145625,
+          "loop": false
+        },
+        {
+          "duration": 4.1449375,
+          "loop": true
+        },
+        {
+          "duration": 2.478125,
+          "loop": false
+        }
+      ],
+      "audioEnergy": [
+        {
+          "name": "q-draw",
+          "rms": 0.02281646861827638
+        },
+        {
+          "name": "q-contact",
+          "rms": 0.0758748775463656
+        },
+        {
+          "name": "wind-wall",
+          "rms": 0.04822299611992361
+        },
+        {
+          "name": "q3-ready",
+          "rms": 0
+        },
+        {
+          "name": "tornado",
+          "rms": 0.11100487208360137
+        },
+        {
+          "name": "ultimate",
+          "rms": 0.07486734177002594
+        },
+        {
+          "name": "eq3",
+          "rms": 0.11532203396497276
+        },
+        {
+          "name": "shield-ignite",
+          "rms": 0.10290853124076087
+        },
+        {
+          "name": "flash",
+          "rms": 0.0876554881958446
+        },
+        {
+          "name": "tower-rubble",
+          "rms": 0
+        },
+        {
+          "name": "fire-and-environment",
+          "rms": 0
+        }
+      ]
+    },
+    "productionInputs": {
+      "scenario": "match",
+      "hud": "生命 640 / 640 · 剑意 0 / 100 · Q 0.0 / W 13.5 / E 0.0 / R 0.0 · D 闪现 0 · F 点燃 0 · 补刀 0",
+      "errorHidden": true
+    }
+  },
+  "errors": [],
+  "failed": []
+}

@@ -1,0 +1,513 @@
+{
+  "status": "single_direction_animation_studies",
+  "capability": "animate-run",
+  "mode": "pixel-engine-v1.1",
+  "intelligence": "standard",
+  "direction": "se",
+  "direction_count": 1,
+  "requested_frames_per_clip": 8,
+  "runtime_integration": false,
+  "credits": {
+    "before": 1725,
+    "after": 1515,
+    "consumed": 210
+  },
+  "validation": {
+    "declared_media_count": 18,
+    "animated_clip_count": 6,
+    "total_animation_frames": 48,
+    "transparent": true,
+    "binary_alpha": true,
+    "input_files_unmodified": true,
+    "loop_metadata": true,
+    "production_ready": false
+  },
+  "heroes": [
+    {
+      "id": "yasuo",
+      "name": "亚索",
+      "preview_scale": 3,
+      "anchor": [
+        64,
+        115
+      ],
+      "notes": "头发轮廓及护肩细节存在跳动，待机姿态有轻微左右摆动。",
+      "clips": [
+        {
+          "state": "idle",
+          "name": "待机",
+          "job_id": "job_6aa3f55acc7149548099cab76c7d6082",
+          "webp": "yasuo/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_头发和蓝色围巾轻轻摆动_自然循_cf1f5e9e/result_output_url.webp",
+          "gif": "yasuo/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_头发和蓝色围巾轻轻摆动_自然循_cf1f5e9e/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_头发和蓝色围巾轻轻摆动_自然循_cf1f5e9e/result_output_transparent_output_urls_png.png",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              32,
+              11,
+              96,
+              115
+            ],
+            [
+              32,
+              11,
+              96,
+              115
+            ],
+            [
+              32,
+              12,
+              97,
+              115
+            ],
+            [
+              34,
+              11,
+              97,
+              114
+            ],
+            [
+              33,
+              15,
+              96,
+              115
+            ],
+            [
+              32,
+              15,
+              96,
+              115
+            ],
+            [
+              32,
+              15,
+              96,
+              115
+            ],
+            [
+              32,
+              13,
+              96,
+              115
+            ]
+          ],
+          "loop_seam_change_ratio": 0.321
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "job_id": "job_e1e7ec088ca14f30b3143d385c247bf1",
+          "webp": "yasuo/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色围巾随步伐轻_a34379c9/result_output_url.webp",
+          "gif": "yasuo/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色围巾随步伐轻_a34379c9/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色围巾随步伐轻_a34379c9/result_output_transparent_output_urls_png.png",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              32,
+              11,
+              96,
+              115
+            ],
+            [
+              34,
+              12,
+              97,
+              113
+            ],
+            [
+              37,
+              12,
+              96,
+              113
+            ],
+            [
+              34,
+              12,
+              96,
+              112
+            ],
+            [
+              30,
+              13,
+              95,
+              115
+            ],
+            [
+              31,
+              13,
+              94,
+              114
+            ],
+            [
+              31,
+              11,
+              95,
+              113
+            ],
+            [
+              32,
+              11,
+              96,
+              115
+            ]
+          ],
+          "loop_seam_change_ratio": 0.293
+        }
+      ]
+    },
+    {
+      "id": "ahri",
+      "name": "阿狸",
+      "preview_scale": 2,
+      "anchor": [
+        128,
+        208
+      ],
+      "notes": "走路中段转得偏向正面，尾巴轮廓变化较大，方向与造型稳定性需修正。",
+      "clips": [
+        {
+          "state": "idle",
+          "name": "待机",
+          "job_id": "job_78a53c1531f841b8a27ffe5a704683b2",
+          "webp": "ahri/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_白色尾巴和衣摆轻轻摆动_蓝色法_b7446cc0/result_output_url.webp",
+          "gif": "ahri/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_白色尾巴和衣摆轻轻摆动_蓝色法_b7446cc0/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_白色尾巴和衣摆轻轻摆动_蓝色法_b7446cc0/result_output_transparent_output_urls_png.png",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              61,
+              47,
+              195,
+              208
+            ],
+            [
+              67,
+              47,
+              195,
+              208
+            ],
+            [
+              65,
+              47,
+              195,
+              208
+            ],
+            [
+              58,
+              48,
+              195,
+              208
+            ],
+            [
+              52,
+              50,
+              195,
+              208
+            ],
+            [
+              55,
+              49,
+              195,
+              208
+            ],
+            [
+              57,
+              48,
+              194,
+              208
+            ],
+            [
+              59,
+              48,
+              194,
+              208
+            ]
+          ],
+          "loop_seam_change_ratio": 0.71
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "job_id": "job_d938116d3f184e3a8020b4f35d364c12",
+          "webp": "ahri/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_白色尾巴随步伐轻摆_保持_8ba0d50e/result_output_url.webp",
+          "gif": "ahri/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_白色尾巴随步伐轻摆_保持_8ba0d50e/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_白色尾巴随步伐轻摆_保持_8ba0d50e/result_output_transparent_output_urls_png.png",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              61,
+              47,
+              195,
+              208
+            ],
+            [
+              65,
+              45,
+              194,
+              206
+            ],
+            [
+              54,
+              43,
+              194,
+              204
+            ],
+            [
+              56,
+              43,
+              194,
+              201
+            ],
+            [
+              56,
+              47,
+              194,
+              205
+            ],
+            [
+              60,
+              47,
+              194,
+              205
+            ],
+            [
+              56,
+              44,
+              195,
+              203
+            ],
+            [
+              55,
+              43,
+              195,
+              204
+            ]
+          ],
+          "loop_seam_change_ratio": 0.709
+        }
+      ]
+    },
+    {
+      "id": "garen",
+      "name": "盖伦",
+      "preview_scale": 2,
+      "anchor": [
+        128,
+        211
+      ],
+      "notes": "走路步幅比较保守，披风和大剑存在少量形变，正式脚底锚点待校正。",
+      "clips": [
+        {
+          "state": "idle",
+          "name": "待机",
+          "job_id": "job_bd1c3ef197584dd8935a449d05c14d0c",
+          "webp": "garen/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_披风轻轻摆动_大剑保持在同一只_7a8860bb/result_output_url.webp",
+          "gif": "garen/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_披风轻轻摆动_大剑保持在同一只_7a8860bb/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_披风轻轻摆动_大剑保持在同一只_7a8860bb/result_output_transparent_output_urls_png.png",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              57,
+              44,
+              197,
+              211
+            ],
+            [
+              56,
+              42,
+              197,
+              211
+            ],
+            [
+              54,
+              42,
+              197,
+              211
+            ],
+            [
+              57,
+              42,
+              197,
+              211
+            ],
+            [
+              57,
+              42,
+              198,
+              211
+            ],
+            [
+              57,
+              43,
+              197,
+              211
+            ],
+            [
+              57,
+              44,
+              197,
+              211
+            ],
+            [
+              53,
+              44,
+              197,
+              211
+            ]
+          ],
+          "loop_seam_change_ratio": 0.297
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "job_id": "job_31008843d5a741a58163fc3f17336878",
+          "webp": "garen/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_披风随步伐轻摆_保持大剑_fe00d4c6/result_output_url.webp",
+          "gif": "garen/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_披风随步伐轻摆_保持大剑_fe00d4c6/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_披风随步伐轻摆_保持大剑_fe00d4c6/result_output_transparent_output_urls_png.png",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              57,
+              44,
+              198,
+              211
+            ],
+            [
+              54,
+              47,
+              197,
+              213
+            ],
+            [
+              48,
+              45,
+              196,
+              213
+            ],
+            [
+              48,
+              41,
+              196,
+              209
+            ],
+            [
+              55,
+              42,
+              198,
+              207
+            ],
+            [
+              59,
+              46,
+              200,
+              210
+            ],
+            [
+              61,
+              47,
+              201,
+              212
+            ],
+            [
+              57,
+              42,
+              197,
+              210
+            ]
+          ],
+          "loop_seam_change_ratio": 0.521
+        }
+      ]
+    }
+  ]
+}

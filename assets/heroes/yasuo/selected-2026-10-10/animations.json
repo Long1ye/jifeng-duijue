@@ -1,0 +1,560 @@
+{
+  "hero": "yasuo",
+  "selection": "user_approved",
+  "attack_direction": "se",
+  "scale_in_world": 0.25,
+  "attacks": [
+    {
+      "id": "A",
+      "key": "yasuo-attack-A",
+      "name": "高位→低位",
+      "webp": "attack-A.webp",
+      "sheet": "attack-A.png",
+      "width": 200,
+      "height": 128,
+      "frame_count": 24,
+      "columns": 8,
+      "rows": 3,
+      "durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "duration_ms": 3000,
+      "anchor": [
+        64,
+        124
+      ],
+      "impact_frame": 6,
+      "source_sha256": "c4a040b7b050067deb56e9fe2ad2e75af1e284a687dc181876d8000a7a78e273",
+      "atlas_sha256": "6c53341844f1eb5a6ade140c86c6c136f3259285a4e5e9cc1b8b01e2fcb1b48a",
+      "source_pixels_preserved": true,
+      "edge_contact_frames": [
+        6
+      ]
+    },
+    {
+      "id": "B",
+      "key": "yasuo-attack-B",
+      "name": "低位→高位",
+      "webp": "attack-B.webp",
+      "sheet": "attack-B.png",
+      "width": 200,
+      "height": 128,
+      "frame_count": 24,
+      "columns": 8,
+      "rows": 3,
+      "durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "duration_ms": 3000,
+      "anchor": [
+        64,
+        124
+      ],
+      "impact_frame": 10,
+      "source_sha256": "97554048d5f1a15ef5063f425c2597c2737988157e96639414c2dfd747831ab2",
+      "atlas_sha256": "27551160e8a30b1f6e12e1bf551aff3a91676164506fe08466f295f2ea33ac8b",
+      "source_pixels_preserved": true,
+      "edge_contact_frames": [
+        7,
+        8,
+        9,
+        12
+      ]
+    }
+  ],
+  "locomotion": [
+    {
+      "state": "idle",
+      "direction": "e",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-idle-e",
+      "sheet": "idle-e.png",
+      "anchor": [
+        64,
+        115
+      ],
+      "source_sha256": "0b5ed77dd4728f72e29d858840da94032f442ebb834aed34c6fedf3b5b8fa1c6"
+    },
+    {
+      "state": "walk",
+      "direction": "e",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-walk-e",
+      "sheet": "walk-e.png",
+      "anchor": [
+        64,
+        115
+      ],
+      "source_sha256": "4778acf5aba2c2fd0b96ddb0c6f1a94a502c559d8aef92f1c98a4cba598f7a59"
+    },
+    {
+      "state": "idle",
+      "direction": "se",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-idle-se",
+      "sheet": "idle-se.png",
+      "anchor": [
+        64,
+        115
+      ],
+      "source_sha256": "37a53d6de5675c1f6d7b13d40c7887fbeb476cae6f809cc66aaa39419961e926"
+    },
+    {
+      "state": "walk",
+      "direction": "se",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-walk-se",
+      "sheet": "walk-se.png",
+      "anchor": [
+        64,
+        115
+      ],
+      "source_sha256": "44a88b4978f96bb1c2b8c7ffaab06767f7ec2d89da2a959d909334fa5632031c"
+    },
+    {
+      "state": "idle",
+      "direction": "s",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-idle-s",
+      "sheet": "idle-s.png",
+      "anchor": [
+        64,
+        116
+      ],
+      "source_sha256": "a9c03d57e05e703a8ceb59212e2d121cf9506423c5117d5a59331d9a86f3bf28"
+    },
+    {
+      "state": "walk",
+      "direction": "s",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-walk-s",
+      "sheet": "walk-s.png",
+      "anchor": [
+        64,
+        116
+      ],
+      "source_sha256": "93bdebdfaf8275efea981046481be08f3db4d95406970bc856bb50ba12283f81"
+    },
+    {
+      "state": "idle",
+      "direction": "sw",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-idle-sw",
+      "sheet": "idle-sw.png",
+      "anchor": [
+        64,
+        116
+      ],
+      "source_sha256": "97c9ab59ac636086a3cbe6a7258e62f634819f4d7d5adbdbe8bfe09c54c5a558"
+    },
+    {
+      "state": "walk",
+      "direction": "sw",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-walk-sw",
+      "sheet": "walk-sw.png",
+      "anchor": [
+        64,
+        116
+      ],
+      "source_sha256": "396df3a2bcc680a9753afed76494794febe35fb264c210ff378bce1bbee4cf56"
+    },
+    {
+      "state": "idle",
+      "direction": "w",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-idle-w",
+      "sheet": "idle-w.png",
+      "anchor": [
+        64,
+        115
+      ],
+      "source_sha256": "04815240ab1513fff04fe48cf1b035a591d9193b2dcee1ad5f29d6e388b221b5"
+    },
+    {
+      "state": "walk",
+      "direction": "w",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-walk-w",
+      "sheet": "walk-w.png",
+      "anchor": [
+        64,
+        115
+      ],
+      "source_sha256": "07665c867cbdec0d45dd83b3c9ecbb4c721894ef44ce6c194771ba5590986b7c"
+    },
+    {
+      "state": "idle",
+      "direction": "nw",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-idle-nw",
+      "sheet": "idle-nw.png",
+      "anchor": [
+        64,
+        115
+      ],
+      "source_sha256": "93ee91e4f439f999d0f0a9deed3ede157ce19cd45d1f6fed3d0dd3c47b632099"
+    },
+    {
+      "state": "walk",
+      "direction": "nw",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-walk-nw",
+      "sheet": "walk-nw.png",
+      "anchor": [
+        64,
+        115
+      ],
+      "source_sha256": "f3f1b29099cab9faa21962003a45e7ed44c91cebd4c3ee63948684f9a51996fc"
+    },
+    {
+      "state": "idle",
+      "direction": "n",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-idle-n",
+      "sheet": "idle-n.png",
+      "anchor": [
+        64,
+        116
+      ],
+      "source_sha256": "50124cca408adc62cebd576bde3637cf3a5fdeb00b118a05c11d4de9e66562ee"
+    },
+    {
+      "state": "walk",
+      "direction": "n",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-walk-n",
+      "sheet": "walk-n.png",
+      "anchor": [
+        64,
+        116
+      ],
+      "source_sha256": "dbd23ed212f1ea9f4556c83e5194fb6f8dca8f1b9481e062755680c81a85f8a0"
+    },
+    {
+      "state": "idle",
+      "direction": "ne",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-idle-ne",
+      "sheet": "idle-ne.png",
+      "anchor": [
+        64,
+        115
+      ],
+      "source_sha256": "796e8744b879d16b0a0378b8b0138bfe984a396a4554a6183940000e4cb56d9f"
+    },
+    {
+      "state": "walk",
+      "direction": "ne",
+      "width": 128,
+      "height": 128,
+      "frame_count": 8,
+      "columns": 3,
+      "rows": 3,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "key": "yasuo-walk-ne",
+      "sheet": "walk-ne.png",
+      "anchor": [
+        64,
+        115
+      ],
+      "source_sha256": "d0537f9c3732580e4105b93d43585039843d964dcd5a71f61a419093c7b7aa3b"
+    }
+  ],
+  "seams": [
+    {
+      "from": "A",
+      "to": "B",
+      "visible_pixels_identical": false
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "visible_pixels_identical": false
+    }
+  ],
+  "generated_this_turn": false,
+  "credits_consumed": 0,
+  "notes": "原始文件逐字节保留，图集逐帧RGBA一致。不剪帧、不重画。攻击只支持右下样稿，不旋转或镜像。"
+}

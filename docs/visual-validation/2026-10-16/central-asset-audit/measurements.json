@@ -1,0 +1,114 @@
+{
+  "evidence": "CPU scene geometry and UV audit rescaled to observed internal canvas height; not a GPU pixel measurement",
+  "observed": {
+    "viewport": [
+      767,
+      884
+    ],
+    "dpr": 1,
+    "canvas": [
+      640,
+      508
+    ],
+    "cssCanvas": [
+      710,
+      563.75
+    ],
+    "elevation": 60,
+    "zoom": 0.6
+  },
+  "measurements": [
+    {
+      "name": "central-ground",
+      "zoom": 0.6,
+      "canvasPixelsAlongWidth": 754.8991178640163,
+      "canvasPixelsAlongHeight": 499.3035975434886,
+      "sourceTexelsWidth": 2048,
+      "sourceTexelsHeight": 1536,
+      "sourceTexelsPerCanvasPixelWidth": 2.7129452817414954,
+      "sourceTexelsPerCanvasPixelHeight": 3.0762846643944255,
+      "sourceAspect": 1.3333333333333333,
+      "projectedBasisAspect": 1.5119040230793963,
+      "projectedHeightRelativeToAspectPreserving": 0.8818901947344805,
+      "basisAngleDegrees": 65.51597402549676
+    },
+    {
+      "name": "near-parapet",
+      "zoom": 0.6,
+      "canvasPixelsAlongWidth": 125.81651566091885,
+      "canvasPixelsAlongHeight": 32.73777777777768,
+      "sourceTexelsWidth": 1422,
+      "sourceTexelsHeight": 619.9999780654907,
+      "sourceTexelsPerCanvasPixelWidth": 11.302172791307889,
+      "sourceTexelsPerCanvasPixelHeight": 18.938364792931825,
+      "sourceAspect": 2.293548468238484,
+      "projectedBasisAspect": 3.8431599271934327,
+      "projectedHeightRelativeToAspectPreserving": 0.5967871521582521,
+      "basisAngleDegrees": 67.6575767524098
+    },
+    {
+      "name": "bridge-support-arch",
+      "zoom": 0.6,
+      "canvasPixelsAlongWidth": 251.63302406452422,
+      "canvasPixelsAlongHeight": 76.76444444444442,
+      "sourceTexelsWidth": 976,
+      "sourceTexelsHeight": 543.0000157356262,
+      "sourceTexelsPerCanvasPixelWidth": 3.878664192144081,
+      "sourceTexelsPerCanvasPixelHeight": 7.073587513925195,
+      "sourceAspect": 1.797421679035809,
+      "projectedBasisAspect": 3.27798925512494,
+      "projectedHeightRelativeToAspectPreserving": 0.5483305585049273,
+      "basisAngleDegrees": 67.6575756142082
+    }
+  ],
+  "hashes": [
+    {
+      "id": "howling-central-ground-v1",
+      "source": "assets\\ha-live-ground\\HC01_Create_a_production_terrain_surface_patch_for_the_Howling_Abyss_pixel_ARPG_using_the_reference_only_for_s_3c26f311\\result_images_0_url.png",
+      "runtime": "assets/map-modules/howling-central-v1/runtime/ground.png",
+      "byteIdentical": true,
+      "sha256": "c1d8b462277dcfb50395873894a2039e8e499f82a6fffa0fdfb9678b6d33ac68",
+      "matchesRecordedHash": true
+    },
+    {
+      "id": "howling-central-snow-v1",
+      "source": "assets\\ha-live-snow\\HC02_A_standalone_terrain_overlay_for_a_Howling_Abyss_pixel_ARPG_matching_the_reference_stone_and_snow_style_S_2d511b48\\result_images_0_url.png",
+      "runtime": "assets/map-modules/howling-central-v1/runtime/snow.png",
+      "byteIdentical": true,
+      "sha256": "b008aad5e94093ccde7a4b039a2a50c16cf85e7fc226e924c821b1322ba258c9",
+      "matchesRecordedHash": true
+    },
+    {
+      "id": "howling-central-rail-v1",
+      "source": "assets\\ha-live-rail\\HC03_An_isolated_reusable_ancient_Howling_Abyss_bridge_parapet_module_as_detailed_pixel_art_matching_the_refer_b3b1284b\\result_images_0_url.png",
+      "runtime": "assets/map-modules/howling-central-v1/runtime/rail.png",
+      "byteIdentical": true,
+      "sha256": "ce3b10d4c5995f7339413a058f7e5b750a5f0a8fac2206493d0bd9323942d910",
+      "matchesRecordedHash": true
+    },
+    {
+      "id": "howling-central-arch-v1",
+      "source": "assets\\ha-live-arch\\HC04_An_isolated_structural_module_from_an_ancient_Howling_Abyss_bridge_in_the_pixel_art_style_and_blue_grey_s_4eab2841\\result_images_0_url.png",
+      "runtime": "assets/map-modules/howling-central-v1/runtime/arch.png",
+      "byteIdentical": true,
+      "sha256": "16e69a06164b1458b15ddaae0e8bce637e2b4fe88c3bcdf0dcd2abb213461dd9",
+      "matchesRecordedHash": true
+    },
+    {
+      "id": "howling-central-depth-v1",
+      "source": "assets\\ha-live-depth\\HC05_A_distant_background_layer_for_a_Howling_Abyss_pixel_ARPG_Match_the_reference_detailed_cold_blue_grey_pix_aff67f4d\\result_images_0_url.png",
+      "runtime": "assets/map-modules/howling-central-v1/runtime/depth.png",
+      "byteIdentical": true,
+      "sha256": "99ce1801cd8baf8e6d93b79fd2b6c158017b1df71063b63082f47f94dc30d9e3",
+      "matchesRecordedHash": true
+    },
+    {
+      "id": "howling-central-fire-v1",
+      "source": "assets\\ha-live-fire\\HC06_One_isolated_ancient_Howling_Abyss_bridge_brazier_prop_matching_the_reference_detailed_pixel_environment_59eb58ba\\result_images_0_url.png",
+      "runtime": "assets/map-modules/howling-central-v1/runtime/fire.png",
+      "byteIdentical": true,
+      "sha256": "c63972a66045e2f65c4ee598cf23b0ba84cc08e8af46c9b414192264678426a1",
+      "matchesRecordedHash": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "followLabel": "跟随英雄：开",
+  "canvas": {
+    "antialias": "msaa",
+    "height": 1992,
+    "sampling": "auto",
+    "width": 1920
+  },
+  "tests": {
+    "files": 5,
+    "passed": 43,
+    "build": "passed"
+  },
+  "liveCheck": "Locked camera enabled with Y; magnified to 1.5; right-click walking inspected; no console errors or warnings in this loaded page.",
+  "projectionAudit": "projection-audit.json",
+  "change": "Lock and held Space use the same interpolated hero position as the current rendered sprite. Removed tick-rate-dependent damped tracking from locked mode; restored original smooth canvas sampling."
+}

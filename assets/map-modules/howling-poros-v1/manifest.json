@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "reference": "assets/map-concepts/howling-detail-v1/15-sanctuary-crystal-poros.png",
+  "description": "Three transparent pixel-painted poro poses, separated from one generated sheet. Native crops, no resampling.",
+  "assets": {
+    "sleep": { "file": "poro-sleep.png", "size": [196, 173] },
+    "alert": { "file": "poro-alert.png", "size": [188, 195] },
+    "curious": { "file": "poro-curious.png", "size": [184, 204] }
+  }
+}

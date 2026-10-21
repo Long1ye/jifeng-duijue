@@ -1,0 +1,77 @@
+{
+  "evidence": "CPU projection, 60 Hz simulation with interpolated render positions; not a visual sharpness or frame-rate measurement",
+  "results": [
+    {
+      "rate": 60,
+      "zoom": 0.6,
+      "previousMaxScreenStepCssPx": 0.8102963335031019,
+      "currentMaxScreenDriftCssPx": 7.958078640513122e-13
+    },
+    {
+      "rate": 60,
+      "zoom": 1,
+      "previousMaxScreenStepCssPx": 0.07177190307959487,
+      "currentMaxScreenDriftCssPx": 1.3073986337985843e-12
+    },
+    {
+      "rate": 60,
+      "zoom": 1.5,
+      "previousMaxScreenStepCssPx": 0.0050793451939621604,
+      "currentMaxScreenDriftCssPx": 1.9895196601282805e-12
+    },
+    {
+      "rate": 120,
+      "zoom": 0.6,
+      "previousMaxScreenStepCssPx": 1.3708658013347568,
+      "currentMaxScreenDriftCssPx": 7.958078640513122e-13
+    },
+    {
+      "rate": 120,
+      "zoom": 1,
+      "previousMaxScreenStepCssPx": 2.2847763355578103,
+      "currentMaxScreenDriftCssPx": 1.3073986337985843e-12
+    },
+    {
+      "rate": 120,
+      "zoom": 1.5,
+      "previousMaxScreenStepCssPx": 3.4271645033367326,
+      "currentMaxScreenDriftCssPx": 1.9895196601282805e-12
+    },
+    {
+      "rate": 165,
+      "zoom": 0.6,
+      "previousMaxScreenStepCssPx": 1.7807444346063745,
+      "currentMaxScreenDriftCssPx": 7.958078640513122e-13
+    },
+    {
+      "rate": 165,
+      "zoom": 1,
+      "previousMaxScreenStepCssPx": 2.967985397058615,
+      "currentMaxScreenDriftCssPx": 1.3073986337985843e-12
+    },
+    {
+      "rate": 165,
+      "zoom": 1.5,
+      "previousMaxScreenStepCssPx": 4.451978347903857,
+      "currentMaxScreenDriftCssPx": 1.9895196601282805e-12
+    },
+    {
+      "rate": 240,
+      "zoom": 0.6,
+      "previousMaxScreenStepCssPx": 2.0562557107067647,
+      "currentMaxScreenDriftCssPx": 7.958078640513122e-13
+    },
+    {
+      "rate": 240,
+      "zoom": 1,
+      "previousMaxScreenStepCssPx": 3.427164340202987,
+      "currentMaxScreenDriftCssPx": 1.3073986337985843e-12
+    },
+    {
+      "rate": 240,
+      "zoom": 1.5,
+      "previousMaxScreenStepCssPx": 5.140746741660992,
+      "currentMaxScreenDriftCssPx": 1.9895196601282805e-12
+    }
+  ]
+}

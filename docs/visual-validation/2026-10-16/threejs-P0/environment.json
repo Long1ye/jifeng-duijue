@@ -1,0 +1,22 @@
+{
+  "recordedAt": "2026-10-16T11:26:40.1244496+08:00",
+  "timezone": "Asia/Shanghai",
+  "node": "v24.14.0",
+  "npm": "11.9.0",
+  "os": {
+    "Caption": "Microsoft Windows 11 专业版",
+    "Version": "10.0.26200"
+  },
+  "cpu": {
+    "Name": "13th Gen Intel(R) Core(TM) i5-13490F"
+  },
+  "gpu": {
+    "Name": "NVIDIA GeForce RTX 3060",
+    "DriverVersion": "32.0.16.1088",
+    "CurrentHorizontalResolution": 1920,
+    "CurrentVerticalResolution": 1080,
+    "CurrentRefreshRate": 165
+  },
+  "browser": "Not inspected: local origin access rejected by browser permission gate",
+  "baselineCommit": "d89285958dbf25fd9549dda91f50c0576eb26ea4"
+}

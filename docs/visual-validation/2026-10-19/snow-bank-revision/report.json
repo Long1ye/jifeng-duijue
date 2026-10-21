@@ -1,0 +1,97 @@
+{
+  "difference": {
+    "changed": 494745,
+    "maximum": 229
+  },
+  "frozen": {
+    "changed": 0,
+    "maximum": 0
+  },
+  "cameraRestored": {
+    "changed": 0,
+    "maximum": 1
+  },
+  "pickingError": 4.547473508864641e-13,
+  "hiddenCrystalStrength": 0,
+  "reducedFine": 0,
+  "baselineWinter": 0,
+  "baselinePendants": false,
+  "resources": [
+    {
+      "geometries": 165,
+      "textures": 37
+    },
+    {
+      "geometries": 165,
+      "textures": 37
+    },
+    {
+      "geometries": 165,
+      "textures": 37
+    },
+    {
+      "geometries": 165,
+      "textures": 37
+    },
+    {
+      "geometries": 165,
+      "textures": 37
+    }
+  ],
+  "calls": {
+    "before": 81,
+    "after": 84
+  },
+  "errors": [],
+  "snowBankCount": 18,
+  "viewport": [
+    1600,
+    900
+  ],
+  "zoom": 0.6,
+  "time": 2,
+  "snowContact": {
+    "accepted": true,
+    "start": {
+      "x": 618.6016,
+      "y": 2877.6128
+    },
+    "end": {
+      "x": 1527.376,
+      "y": 2233.208
+    },
+    "target": {
+      "x": 1527.376,
+      "y": 2233.208
+    },
+    "distance": 0,
+    "paused": true
+  },
+  "viewer": {
+    "cameras": [
+      {
+        "camera": "bridge",
+        "imagesLoaded": true
+      },
+      {
+        "camera": "wall",
+        "imagesLoaded": true
+      },
+      {
+        "camera": "red",
+        "imagesLoaded": true
+      },
+      {
+        "camera": "central",
+        "imagesLoaded": true
+      },
+      {
+        "camera": "sanctuary",
+        "imagesLoaded": true
+      }
+    ],
+    "beforeClip": "inset(0px 0% 0px 0px)",
+    "afterClip": "inset(0px 100% 0px 0px)"
+  },
+  "failures": []
+}

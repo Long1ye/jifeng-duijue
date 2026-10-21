@@ -1,0 +1,785 @@
+{
+  "records": [
+    {
+      "team": "blue",
+      "kind": "melee",
+      "targetKind": "hero",
+      "stage": "notice",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 4,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "melee",
+      "targetKind": "hero",
+      "stage": "windup",
+      "time": 1.3166666666666669,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 4,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "melee",
+      "targetKind": "hero",
+      "stage": "impact",
+      "time": 1.566666666666666,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 4,
+      "cards": [
+        {
+          "name": "minion-melee-contact",
+          "y": 33.732050807568875,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "melee",
+      "targetKind": "hero",
+      "stage": "sparks",
+      "time": 1.6333333333333324,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 4,
+      "cards": [
+        {
+          "name": "minion-melee-contact",
+          "y": 33.732050807568875,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "melee",
+      "targetKind": "hero",
+      "stage": "clear",
+      "time": 1.816666666666665,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 4,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "melee",
+      "targetKind": "melee",
+      "stage": "notice",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "melee",
+      "targetKind": "melee",
+      "stage": "windup",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "melee",
+      "targetKind": "melee",
+      "stage": "impact",
+      "time": 0.26666666666666666,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-melee-contact",
+          "y": 14.732050807568877,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "melee",
+      "targetKind": "melee",
+      "stage": "sparks",
+      "time": 0.3333333333333333,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-melee-contact",
+          "y": 14.732050807568877,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "melee",
+      "targetKind": "melee",
+      "stage": "clear",
+      "time": 0.5166666666666666,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "notice",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 4,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "windup",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 4,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "release",
+      "time": 0.2833333333333333,
+      "hp": 2000,
+      "attacks": 1,
+      "targetId": 4,
+      "cards": [
+        {
+          "name": "minion-caster-release",
+          "y": 29,
+          "angle": 0,
+          "opacity": 0.7
+        },
+        {
+          "name": "minion-caster-bolt",
+          "y": 29.49338250385654,
+          "angle": -0.01067413061594748,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "flight",
+      "time": 0.36666666666666664,
+      "hp": 2000,
+      "attacks": 1,
+      "targetId": 4,
+      "cards": [
+        {
+          "name": "minion-caster-release",
+          "y": 29,
+          "angle": 0,
+          "opacity": 0.051851851851852
+        },
+        {
+          "name": "minion-caster-bolt",
+          "y": 30.9154349647022,
+          "angle": -0.009194123294641103,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "impact",
+      "time": 0.5333333333333333,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 4,
+      "cards": [
+        {
+          "name": "minion-caster-contact",
+          "y": 33.732050807568875,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "sparks",
+      "time": 0.6000000000000002,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 4,
+      "cards": [
+        {
+          "name": "minion-caster-contact",
+          "y": 33.732050807568875,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "clear",
+      "time": 0.7833333333333341,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 4,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "notice",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "windup",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "release",
+      "time": 0.2833333333333333,
+      "hp": 2000,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-caster-release",
+          "y": 29,
+          "angle": 0,
+          "opacity": 0.7
+        },
+        {
+          "name": "minion-caster-bolt",
+          "y": 27.931004574977496,
+          "angle": -0.184689583979409,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "flight",
+      "time": 0.36666666666666664,
+      "hp": 2000,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-caster-release",
+          "y": 29,
+          "angle": 0,
+          "opacity": 0.051851851851852
+        },
+        {
+          "name": "minion-caster-bolt",
+          "y": 24.849890909811904,
+          "angle": -0.18860972736740042,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "impact",
+      "time": 0.5666666666666668,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-caster-contact",
+          "y": 14.732050807568877,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "sparks",
+      "time": 0.6333333333333336,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-caster-contact",
+          "y": 14.732050807568877,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "blue",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "clear",
+      "time": 0.8166666666666675,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "melee",
+      "targetKind": "hero",
+      "stage": "notice",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 3,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "melee",
+      "targetKind": "hero",
+      "stage": "windup",
+      "time": 1.3166666666666669,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 3,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "melee",
+      "targetKind": "hero",
+      "stage": "impact",
+      "time": 1.566666666666666,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 3,
+      "cards": [
+        {
+          "name": "minion-melee-contact",
+          "y": 33.732050807568875,
+          "angle": -3.141592653589793,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "melee",
+      "targetKind": "hero",
+      "stage": "sparks",
+      "time": 1.6333333333333324,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 3,
+      "cards": [
+        {
+          "name": "minion-melee-contact",
+          "y": 33.732050807568875,
+          "angle": -3.141592653589793,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "melee",
+      "targetKind": "hero",
+      "stage": "clear",
+      "time": 1.816666666666665,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 3,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "melee",
+      "targetKind": "melee",
+      "stage": "notice",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "melee",
+      "targetKind": "melee",
+      "stage": "windup",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "melee",
+      "targetKind": "melee",
+      "stage": "impact",
+      "time": 0.26666666666666666,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-melee-contact",
+          "y": 14.732050807568877,
+          "angle": -3.141592653589793,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "melee",
+      "targetKind": "melee",
+      "stage": "sparks",
+      "time": 0.3333333333333333,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-melee-contact",
+          "y": 14.732050807568877,
+          "angle": -3.141592653589793,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "melee",
+      "targetKind": "melee",
+      "stage": "clear",
+      "time": 0.5166666666666666,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "notice",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 3,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "windup",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 3,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "release",
+      "time": 0.2833333333333333,
+      "hp": 2000,
+      "attacks": 1,
+      "targetId": 3,
+      "cards": [
+        {
+          "name": "minion-caster-release",
+          "y": 29,
+          "angle": 0,
+          "opacity": 0.7
+        },
+        {
+          "name": "minion-caster-bolt",
+          "y": 29.49338250385654,
+          "angle": -3.130918522973846,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "flight",
+      "time": 0.36666666666666664,
+      "hp": 2000,
+      "attacks": 1,
+      "targetId": 3,
+      "cards": [
+        {
+          "name": "minion-caster-release",
+          "y": 29,
+          "angle": 0,
+          "opacity": 0.051851851851852
+        },
+        {
+          "name": "minion-caster-bolt",
+          "y": 30.9154349647022,
+          "angle": -3.132398530295152,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "impact",
+      "time": 0.5333333333333333,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 3,
+      "cards": [
+        {
+          "name": "minion-caster-contact",
+          "y": 33.732050807568875,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "sparks",
+      "time": 0.6000000000000002,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 3,
+      "cards": [
+        {
+          "name": "minion-caster-contact",
+          "y": 33.732050807568875,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "hero",
+      "stage": "clear",
+      "time": 0.7833333333333341,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 3,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "notice",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "windup",
+      "time": 0.016666666666666666,
+      "hp": 2000,
+      "attacks": 0,
+      "targetId": 6,
+      "cards": []
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "release",
+      "time": 0.2833333333333333,
+      "hp": 2000,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-caster-release",
+          "y": 29,
+          "angle": 0,
+          "opacity": 0.7
+        },
+        {
+          "name": "minion-caster-bolt",
+          "y": 27.931004574977496,
+          "angle": -2.956903069610384,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "flight",
+      "time": 0.36666666666666664,
+      "hp": 2000,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-caster-release",
+          "y": 29,
+          "angle": 0,
+          "opacity": 0.051851851851852
+        },
+        {
+          "name": "minion-caster-bolt",
+          "y": 24.849890909811904,
+          "angle": -2.9529829262223926,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "impact",
+      "time": 0.5666666666666668,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-caster-contact",
+          "y": 14.732050807568877,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "sparks",
+      "time": 0.6333333333333336,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": [
+        {
+          "name": "minion-caster-contact",
+          "y": 14.732050807568877,
+          "angle": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "team": "red",
+      "kind": "ranged",
+      "targetKind": "melee",
+      "stage": "clear",
+      "time": 0.8166666666666675,
+      "hp": 1994,
+      "attacks": 1,
+      "targetId": 6,
+      "cards": []
+    }
+  ],
+  "practice": {
+    "before": 640,
+    "after": 580,
+    "units": [
+      {
+        "kind": "melee",
+        "damage": 6,
+        "speed": 28,
+        "released": 3,
+        "targetId": 3
+      },
+      {
+        "kind": "ranged",
+        "damage": 6,
+        "speed": 28,
+        "released": 3,
+        "targetId": 3
+      },
+      {
+        "kind": "melee",
+        "damage": 6,
+        "speed": 28,
+        "released": 3,
+        "targetId": 3
+      },
+      {
+        "kind": "ranged",
+        "damage": 6,
+        "speed": 28,
+        "released": 2,
+        "targetId": 3
+      }
+    ]
+  },
+  "paused": true,
+  "cleared": true,
+  "errors": []
+}

@@ -1,0 +1,4 @@
+{
+  "state": "Browser tab: 1, Title: \"S01 · 嚎哭深渊冰桥样板\", URL: \"http://127.0.0.1:5173/three.html?map=howling\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 53\n+\t\t55 text 中央冰桥 · 目标图构建 · playing · 261.92s · HP 640/640 · 缩放 0.4 · 45° · 内部 1280×1095 · 调用 65 · 目标 无 · 冷却 Q 0.0 / W 0.0 / E 0.0 / R 0.0\nThe focused UI element is 49 container Description: 嚎哭深渊冰桥游戏视口, ID: viewport",
+  "time": "2026-10-16T08:44:59.716Z"
+}

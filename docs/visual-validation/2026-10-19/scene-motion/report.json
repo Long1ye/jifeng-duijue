@@ -1,0 +1,149 @@
+{
+  "results": [
+    {
+      "name": "fire",
+      "temporal": {
+        "pixels": 1928,
+        "maximum": 131
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -285,
+        "v": 0
+      },
+      "candidateBatches": 10
+    },
+    {
+      "name": "flags",
+      "temporal": {
+        "pixels": 3891,
+        "maximum": 143
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -357,
+        "v": -60
+      },
+      "candidateBatches": 3
+    },
+    {
+      "name": "grass",
+      "temporal": {
+        "pixels": 70000,
+        "maximum": 202
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -285,
+        "v": 0
+      },
+      "candidateBatches": 5
+    },
+    {
+      "name": "structures",
+      "temporal": {
+        "pixels": 73676,
+        "maximum": 40
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -550,
+        "v": 0
+      },
+      "candidateBatches": 24
+    },
+    {
+      "name": "structures-red",
+      "temporal": {
+        "pixels": 61653,
+        "maximum": 84
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": 550,
+        "v": 0
+      },
+      "candidateBatches": 24
+    },
+    {
+      "name": "ice",
+      "temporal": {
+        "pixels": 5365,
+        "maximum": 25
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -285,
+        "v": 0
+      },
+      "candidateBatches": 11
+    },
+    {
+      "name": "lanterns",
+      "temporal": {
+        "pixels": 2207,
+        "maximum": 19
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -357,
+        "v": -60
+      },
+      "candidateBatches": 1
+    }
+  ],
+  "memory": {
+    "geometries": 138,
+    "textures": 33
+  },
+  "viewport": [
+    1600,
+    900
+  ],
+  "zoom": 0.6,
+  "resources": [
+    {
+      "geometries": 137,
+      "textures": 33
+    },
+    {
+      "geometries": 137,
+      "textures": 33
+    },
+    {
+      "geometries": 137,
+      "textures": 33
+    },
+    {
+      "geometries": 137,
+      "textures": 33
+    },
+    {
+      "geometries": 137,
+      "textures": 33
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

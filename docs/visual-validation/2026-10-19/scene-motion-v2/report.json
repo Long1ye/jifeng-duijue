@@ -1,0 +1,205 @@
+{
+  "results": [
+    {
+      "name": "fire",
+      "temporal": {
+        "pixels": 2120,
+        "maximum": 141
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -285,
+        "v": 0
+      }
+    },
+    {
+      "name": "flags",
+      "temporal": {
+        "pixels": 3891,
+        "maximum": 143
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -357,
+        "v": -60
+      }
+    },
+    {
+      "name": "grass",
+      "temporal": {
+        "pixels": 70000,
+        "maximum": 202
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -285,
+        "v": 0
+      }
+    },
+    {
+      "name": "structures",
+      "temporal": {
+        "pixels": 106062,
+        "maximum": 222
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -550,
+        "v": 0
+      }
+    },
+    {
+      "name": "structures-red",
+      "temporal": {
+        "pixels": 102856,
+        "maximum": 238
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": 550,
+        "v": 0
+      }
+    },
+    {
+      "name": "ice",
+      "temporal": {
+        "pixels": 8281,
+        "maximum": 65
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -285,
+        "v": 0
+      }
+    },
+    {
+      "name": "lanterns",
+      "temporal": {
+        "pixels": 2207,
+        "maximum": 19
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -357,
+        "v": -60
+      }
+    },
+    {
+      "name": "glints",
+      "temporal": {
+        "pixels": 1030,
+        "maximum": 104
+      },
+      "frozen": {
+        "pixels": 0,
+        "maximum": 0
+      },
+      "camera": {
+        "u": -357,
+        "v": -60
+      }
+    }
+  ],
+  "memory": {
+    "geometries": 140,
+    "textures": 33
+  },
+  "viewport": [
+    1600,
+    900
+  ],
+  "zoom": 0.6,
+  "cameraSampling": {
+    "hardwareAntialias": true,
+    "samples": [
+      {
+        "resolution": 1280,
+        "zoom": 0.4,
+        "restoredChangedPixels": 0,
+        "restoredMaximumDelta": 1,
+        "pickingError": 0
+      },
+      {
+        "resolution": 1280,
+        "zoom": 0.6,
+        "restoredChangedPixels": 0,
+        "restoredMaximumDelta": 1,
+        "pickingError": 4.547473508864641e-13
+      },
+      {
+        "resolution": 1280,
+        "zoom": 1.5,
+        "restoredChangedPixels": 0,
+        "restoredMaximumDelta": 0,
+        "pickingError": 0
+      },
+      {
+        "resolution": 1920,
+        "zoom": 0.4,
+        "restoredChangedPixels": 0,
+        "restoredMaximumDelta": 1,
+        "pickingError": 0
+      },
+      {
+        "resolution": 1920,
+        "zoom": 0.6,
+        "restoredChangedPixels": 0,
+        "restoredMaximumDelta": 0,
+        "pickingError": 4.547473508864641e-13
+      },
+      {
+        "resolution": 1920,
+        "zoom": 1.5,
+        "restoredChangedPixels": 0,
+        "restoredMaximumDelta": 1,
+        "pickingError": 0
+      }
+    ],
+    "note": "Camera pan/return and picking regression, not proof that all intermediate frames are free from shimmer."
+  },
+  "resources": [
+    {
+      "geometries": 141,
+      "textures": 34
+    },
+    {
+      "geometries": 141,
+      "textures": 34
+    },
+    {
+      "geometries": 141,
+      "textures": 34
+    },
+    {
+      "geometries": 141,
+      "textures": 34
+    },
+    {
+      "geometries": 141,
+      "textures": 34
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

@@ -1,0 +1,19 @@
+{
+  "patch": "26.20",
+  "equipment": false,
+  "scope": "Existing melee/caster minions and outer towers only; no siege minions or new structures.",
+  "sources": [
+    {"url":"https://raw.communitydragon.org/16.20/game/data/characters/sru_orderminionmelee/sru_orderminionmelee.bin.json","fields":"SR melee base HP, AD, AS, MS, range, experience and attack timing"},
+    {"url":"https://raw.communitydragon.org/16.20/game/data/characters/sru_orderminionranged/sru_orderminionranged.bin.json","fields":"SR caster base HP, AD, AS, MS, range, experience and attack timing"},
+    {"url":"https://www.leagueoflegends.com/en-us/news/game-updates/patch-26-1-notes/","fields":"SR 9000 HP outer turret, resist decay, unequal permanent plates, melee champion turret bonus and minion MS"},
+    {"url":"https://www.leagueoflegends.com/en-sg/news/game-updates/patch-26-3-notes/","fields":"SR Bulwark resistance per nearby enemy count"},
+    {"url":"https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-9-notes/","fields":"SR melee HP growth and minion current-health on-hit damage"},
+    {"url":"https://www.leagueoflegends.com/en-sg/news/game-updates/patch-25-s1-1-notes/","fields":"Minion growth, champion damage multiplier, turret warming"}
+  ],
+  "howlingAbyss": {
+    "plating": false,
+    "bulwark": false,
+    "status": "INCOMPLETE: only the map-specific exclusion of plates is implemented. Remaining tower HP/AD/resistance/growth and minion mode overrides are not verified against current PC ARAM. Existing LaneStats base numbers remain SR numbers, and must not be described as a completed current ARAM port.",
+    "excludedEvidence": "2025-10-07 PBE turret HP datamine is not sufficient to establish current live values; Wild Rift and ARAM Mayhem rules must not be substituted."
+  }
+}

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b111b" />
+    <style>
+      body.launcher-pending{margin:0;background:#08121c}.launcher-pending>:not(.start-screen):not(.boot-screen):not(script){display:none!important}
+      .boot-screen{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;background:#08121c;color:#e7edf0;font:15px/1.8 "Segoe UI","Microsoft YaHei",sans-serif}.boot-content{width:min(440px,calc(100% - 48px))}.boot-brand{color:#d5bc83;letter-spacing:6px;font-size:13px}.boot-screen h1{font-size:26px;font-weight:500;margin:16px 0 12px}.boot-screen p{color:#a8bdc9;margin:14px 0;overflow-wrap:anywhere}.boot-screen progress{display:block;width:100%;height:5px;margin:24px 0;accent-color:#d5bc83}.boot-screen button{padding:9px 18px;background:#102630;border:1px solid #718895;color:#e7edf0;font:inherit;cursor:pointer}.boot-screen button:focus-visible{outline:2px solid #d5bc83;outline-offset:4px}.boot-screen[hidden],.boot-screen button[hidden]{display:none}
+    </style>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%236de5db' d='M16 2 29 16 16 30 3 16z'/%3E%3Cpath fill='%230b111b' d='m16 9 7 7-7 7-7-7z'/%3E%3C/svg%3E" />
+    <title>疾风对决</title>
+  </head>
+  <body class="launcher-pending">
+    <section id="boot-screen" class="boot-screen" aria-label="启动游戏" aria-busy="true">
+      <div class="boot-content"><div class="boot-brand">疾风对决</div><h1>正在启动游戏</h1><p data-boot-message role="status" aria-live="polite">正在准备菜单，请稍候…</p><progress aria-label="正在加载启动资源"></progress><button type="button" hidden>刷新重试</button><noscript><p>请启用浏览器 JavaScript 后刷新页面。</p></noscript></div>
+    </section>
+    <script>
+      (()=>{const panel=document.getElementById('boot-screen'),message=panel.querySelector('[data-boot-message]'),retry=panel.querySelector('button');retry.onclick=()=>location.reload();const slow=setTimeout(()=>{if(panel.isConnected){message.textContent='启动资源仍在加载，请保持主机服务运行。';retry.hidden=false}},8000);document.addEventListener('midline:boot-ready',()=>{clearTimeout(slow);panel.remove()},{once:true});window.addEventListener('error',event=>{if(panel.isConnected&&event.target instanceof HTMLScriptElement){clearTimeout(slow);message.textContent='启动文件加载失败，请检查主机服务后刷新重试。';panel.setAttribute('aria-busy','false');retry.hidden=false}},true)})();
+    </script>
+    <div class="app-shell">
+      <header class="site-header">
+        <a class="brand" href="/?map=howling" aria-label="疾风对决 冰桥对局"><span class="brand-mark">◈</span><span>疾风对决<span class="brand-sub">PIXEL SOLO</span></span></a>
+        <div class="header-note"><span class="status-dot"></span>中路试炼 <span class="divider">/</span> 1 vs 1</div>
+        亚索八向 Q · 已接入 ↗
+      </header>
+
+      <main>
+        <div class="page-heading"><div><p class="eyebrow">ONE LANE. THREE WAYS TO WIN.</p><h1>一条中路，三种胜利。</h1></div><p class="heading-description">把每一次补刀、每一次走位，<br />变成你的优势。</p></div>
+
+        <section class="match-shell" aria-label="中路对线游戏">
+          <div class="scoreboard" aria-label="对局数据">
+            <div class="match-kills" title="双方英雄击杀" aria-label="双方英雄击杀"><b id="blue-kills">0</b><span>vs</span><b id="red-kills">0</b></div>
+            <div class="match-kda" title="击杀 / 阵亡 / 助攻"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 1l10 10-2 2L1 3zm12 0L4 11l2 2 9-10z" fill="currentColor"/><path d="M2 11l3 3m6-3l3 3" stroke="currentColor" stroke-width="2"/></svg><b id="player-kda">0/0/0</b></div>
+            <div class="match-cs" title="补刀"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 1h6l3 5-3 7H5L2 6z" fill="none" stroke="currentColor"/><path d="M5 6h6M6 9h4" stroke="currentColor"/></svg><b id="player-cs">0</b></div>
+            <div class="team-score blue"><span class="team-dot"></span><div><span class="team-label">你 · 亚索</span><strong><span id="blue-cs">0</span><small> / 100 CS</small></strong></div></div>
+            <div class="match-clock"><span id="phase-label">准备就绪</span><strong id="match-time">00:00</strong><span id="wave-label">等待第一波兵线</span></div>
+            <div class="team-score red"><div><span class="team-label">亚索 · AI</span><strong><span id="red-cs">0</span><small> / 100 CS</small></strong></div><span class="team-dot"></span></div>
+          </div>
+
+          <div class="arena-row">
+            <aside class="match-sidebar">
+              <p class="eyebrow">WIN CONDITIONS</p><h2>抢先完成任意一项</h2>
+              <div class="objective"><span class="objective-index">01</span><div><strong>一血</strong><p>击败对方英雄</p></div><span class="objective-icon">✦</span></div>
+              <div class="objective"><span class="objective-index">02</span><div><strong>一塔</strong><p>摧毁对方防御塔</p></div><span class="objective-icon">♜</span></div>
+              <div class="objective"><span class="objective-index">03</span><div><strong>一百刀</strong><p>完成 100 次最后一击</p></div><span class="objective-icon">⌖</span></div>
+              <div class="tower-status"><span>防御塔耐久</span><div class="tower-row"><b>我方</b><progress id="blue-tower" max="1000" value="1000"></progress></div><div class="tower-row enemy"><b>敌方</b><progress id="red-tower" max="1000" value="1000"></progress></div></div>
+              <p class="lane-tip">兵线替你承受塔的攻击。<br />攻击塔下英雄会吸引塔仇恨。</p>
+              <span class="sidebar-footer">亚索 A/B、八向 Q 动画已接入<br />技能判定仍沿用原型配置</span>
+            </aside>
+
+            <div class="arena-column">
+              <div id="arena" class="arena" aria-label="游戏画布，左键拖动地图，右键移动或攻击，A 后左键攻击，Q W E 施法" tabindex="0">
+                <div id="game"></div>
+                <div class="arena-corner top-left">MID LANE <span id="camera-label">1× 局部视角</span></div>
+                <div id="target-readout" class="target-readout" hidden><div><strong id="target-name">目标</strong><span id="target-health"></span></div><progress id="target-bar" max="100" value="100"></progress></div>
+                <div class="arena-corner bottom-right"><span class="status-dot"></span>出生点恢复生命；移动积攒剑意</div>
+                <div id="match-overlay" class="match-overlay">
+                  <div class="overlay-card">
+                    <span id="overlay-kicker" class="eyebrow">THE 疾风对决 TRIAL</span>
+                    <span id="overlay-symbol" class="overlay-symbol">◈</span>
+                    <h2 id="overlay-title">赢下这条中路</h2>
+                    <p id="overlay-description">补好每一刀，找准出手的时机。<br />一血、一塔、一百刀，任意一项即可获胜。</p>
+                    <div id="result-stats" class="result-stats" hidden></div>
+                    <button id="start-button" class="primary-button" type="button">进入对线 <span>→</span></button>
+                    <span class="overlay-footnote">鼠标键盘操作 · 无需登录</span>
+                  </div>
+                </div>
+                <div id="toast" class="toast" role="status"></div>
+              </div>
+
+              <div class="player-hud">
+                <div class="hero-summary"><span class="hero-portrait">◈</span><div class="hero-vitals"><div class="vitals-title"><strong>亚索</strong><span id="health-text">640 / 640</span></div><progress id="hero-health" max="640" value="640"></progress><progress id="hero-flow" max="100" value="0" aria-label="剑意"></progress><div class="flow-label">剑意 <span id="flow-text">0 / 100</span></div><output id="hero-animation-state" style="display:block;font-size:9px;color:#a6c5c6;margin-top:5px">亚索 · 待机</output></div></div>
+                <div class="ability-bar">
+                  <button class="ability" id="ability-q" type="button" aria-label="Q 斩钢闪"><span class="ability-glyph">➶</span><span class="ability-key">Q</span><span class="ability-name">斩钢闪</span><span class="ability-time" id="cooldown-q"></span></button>
+                  <button class="ability" id="ability-w" type="button" aria-label="W 风之障壁"><span class="ability-glyph">≋</span><span class="ability-key">W</span><span class="ability-name">风之障壁</span><span class="ability-time" id="cooldown-w"></span></button>
+                  <button class="ability" id="ability-e" type="button" aria-label="E 踏前斩"><span class="ability-glyph">➟</span><span class="ability-key">E</span><span class="ability-name">踏前斩</span><span class="ability-time" id="cooldown-e"></span></button>
+                  <button class="ability" id="ability-r" type="button" aria-label="R 狂风绝息斩"><span class="ability-glyph">✦</span><span class="ability-key">R</span><span class="ability-name">狂风绝息斩</span><span class="ability-time" id="cooldown-r"></span></button>
+                </div>
+                <div class="match-actions"><button id="camera-button" type="button" aria-pressed="true">跟随镜头 · Y</button><button id="pause-button" type="button" disabled>暂停 <kbd>Esc</kbd></button><button id="restart-button" type="button">重新开局 ↻</button><button id="sound-button" type="button" aria-pressed="true">音效开启 ♪</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="controls-strip"><span><kbd>右键</kbd> 移动 / 攻击</span><span><kbd>A</kbd> + 左键攻击</span><span><kbd>Q</kbd><kbd>W</kbd><kbd>E</kbd> 施法</span><span><kbd>3</kbd> 吹箫</span><span><kbd>Y</kbd> 镜头锁定</span><span><kbd>Space</kbd> 回英雄</span><span><kbd>↑↓←→</kbd> / 左键·中键拖动地图</span><span>滚轮 1× / 1.5×</span></div>
+        </section>
+        <footer class="page-footer"><span>练习走位。读懂兵线。把握时机。</span><span>疾风对决 <span class="divider">/</span> LOCAL SOLO DEMO</span></footer>
+      </main>
+    </div>
+    <script type="module" src="/src/launch.ts"></script>
+  </body>
+</html>
+
+

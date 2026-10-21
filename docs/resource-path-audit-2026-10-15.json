@@ -1,0 +1,761 @@
+{
+  "root": "D:\\Long1ye\\pixel-league-of-legends",
+  "date": "2026-10-15",
+  "note": "Read-only scan. Hash matches compare media bytes to assets only; unmatched does not mean unused or disposable. Other projects and the installed LoL client were not scanned.",
+  "projectDirectories": [
+    {
+      "directory": "D:\\Long1ye\\pixel-league-of-legends\\assets",
+      "files": 2641,
+      "bytes": 337352884
+    },
+    {
+      "directory": "D:\\Long1ye\\pixel-league-of-legends\\meowa-output",
+      "files": 55,
+      "bytes": 1128341
+    },
+    {
+      "directory": "D:\\Long1ye\\pixel-league-of-legends\\dist",
+      "files": 534,
+      "bytes": 80908834
+    }
+  ],
+  "siblingDirectories": [
+    {
+      "directory": "D:\\Long1ye\\abyss-clean-v1",
+      "files": 2,
+      "bytes": 988001,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "result_images_0_url\\output.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\abyss-v1",
+      "files": 2,
+      "bytes": 1593123,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "Four_isolated_environment_modules_for_a_dark_frozen_canyon_beneath_a_pixel_art_ancient_stone_bridge_in_a_regul_d694a5cd\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\art-output",
+      "files": 55,
+      "bytes": 9655075,
+      "mediaFiles": 16,
+      "identicalToProject": 8,
+      "notIdenticalToProject": 8,
+      "duplicates": [
+        {
+          "file": "howling-brush-clean-v1\\result_images_0_url\\output.png",
+          "matches": [
+            "assets\\map-modules\\howling-brush-crystal-v1\\brush.png"
+          ],
+          "bytes": 320242
+        },
+        {
+          "file": "howling-brush-clean-v2\\result_images_0_url\\output.png",
+          "matches": [
+            "assets\\map-modules\\howling-brush-crystal-v2\\brush.png"
+          ],
+          "bytes": 479367
+        },
+        {
+          "file": "howling-crystal-clean-v1\\result_images_0_url\\output.png",
+          "matches": [
+            "assets\\map-modules\\howling-brush-crystal-v1\\inhibitor.png"
+          ],
+          "bytes": 502696
+        },
+        {
+          "file": "howling-crystal-clean-v2\\result_images_0_url\\output.png",
+          "matches": [
+            "assets\\map-modules\\howling-brush-crystal-v2\\inhibitor.png"
+          ],
+          "bytes": 719546
+        },
+        {
+          "file": "howling-light-props-v2\\split\\component_001.png",
+          "matches": [
+            "assets\\map-modules\\howling-lights-v1\\beacon.png"
+          ],
+          "bytes": 212477
+        },
+        {
+          "file": "howling-light-props-v2\\split\\component_002.png",
+          "matches": [
+            "assets\\map-modules\\howling-lights-v1\\sconce.png"
+          ],
+          "bytes": 164803
+        },
+        {
+          "file": "howling-light-props-v2\\split\\component_003.png",
+          "matches": [
+            "assets\\map-modules\\howling-lights-v1\\fallen.png"
+          ],
+          "bytes": 119045
+        },
+        {
+          "file": "howling-rail-brazier-v1\\Create_ONE_isolated_game-ready_isometric_pixel-art_bridge_railing_module_Use_the_first_reference_for_exact_sno_992ed8be\\result_images_0_url.png",
+          "matches": [
+            "assets\\map-modules\\howling-rail-brazier-v1\\brazier.png"
+          ],
+          "bytes": 1309805
+        }
+      ],
+      "unmatchedMedia": [
+        "howling-brush-v1\\A_single_low_irregular_patch_of_frost-hardy_reeds_and_icy_brush_for_an_isometric_pixel-art_frozen_stone_bridge_d6fa8cb1\\result_images_0_url.png",
+        "howling-brush-v2\\Create_one_continuous_dense_frost-hardy_brush_patch_for_an_isometric_pixel-art_frozen_bridge_game_Match_the_re_6ca3c08b\\result_images_0_url.png",
+        "howling-crystal-v1\\A_single_small_inhibitor_crystal_prop_for_an_isometric_pixel-art_frozen_bridge_game_pale_blue_faceted_crystal_433c8dd0\\result_images_0_url.png",
+        "howling-crystal-v2\\Create_one_isometric_pixel-art_inhibitor_crystal_prop_matching_the_reference_s_pale_ice-blue_faceted_crystal_a_e22372ca\\result_images_0_url.png",
+        "howling-light-props-v1\\A_clean_game-asset_sheet_of_three_separate_isometric_pixel-art_bridge-light_props_evenly_spaced_in_one_horizon_35028a92\\result_images_0_url.png",
+        "howling-light-props-v2\\split\\component_004.png",
+        "howling-light-props-v2\\split\\component_005.png",
+        "howling-light-props-v2\\Three_NEW_and_DISTINCT_small_isometric_pixel-art_lighting_props_for_a_frozen_battle_bridge_presented_as_separa_e00c947a\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\bridge-props-v1",
+      "files": 2,
+      "bytes": 1583674,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "Four_separate_small_environmental_storytelling_prop_clusters_for_a_pixel_art_frozen_stone_bridge_game_regular_e47ee6c1\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\camp-rest-v1",
+      "files": 4,
+      "bytes": 4253548,
+      "mediaFiles": 3,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 3,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "The_tired_armored_guard_rests_in_place_slowly_lowering_his_hammer_and_leaning_on_it_shoulders_breathing_heavil_fb0b8ae7\\result_output_transparent_output_urls_gif.gif",
+        "The_tired_armored_guard_rests_in_place_slowly_lowering_his_hammer_and_leaning_on_it_shoulders_breathing_heavil_fb0b8ae7\\result_output_transparent_output_urls_png.png",
+        "The_tired_armored_guard_rests_in_place_slowly_lowering_his_hammer_and_leaning_on_it_shoulders_breathing_heavil_fb0b8ae7\\result_output_url.webp"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\circle-clean-v1",
+      "files": 2,
+      "bytes": 1310955,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "result_images_0_url\\output.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\circle-v1",
+      "files": 2,
+      "bytes": 1810201,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "One_severely_battle-damaged_circular_rune_pavement_for_a_pixel-art_icy_bridge_Strict_flat_overhead_view_true_c_806ac105\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\damage-clean-v1",
+      "files": 2,
+      "bytes": 359296,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "result_images_0_url\\output.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\damage-v1",
+      "files": 2,
+      "bytes": 1119813,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "Four_separate_ground_damage_decals_in_a_regular_2_by_2_sprite_sheet_on_transparent_background_Match_the_refere_eb66aa29\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\edge-art-v2",
+      "files": 2,
+      "bytes": 1423081,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "Four_separate_modular_broken_bridge_edge_segments_in_a_2_by_2_asset_sheet_on_transparent_background_Pixel_art_8dc6cc80\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\edge-clean-v2",
+      "files": 2,
+      "bytes": 745464,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "result_images_0_url\\output.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\edge-floor-v3",
+      "files": 2,
+      "bytes": 1777292,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "A_production_texture_atlas_of_sixteen_individual_square_paving_stone_tiles_in_an_exact_4_by_4_grid_no_margins_a77bc582\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\fortress-art-v1",
+      "files": 2,
+      "bytes": 1730519,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "Four_separate_finished_pixel-art_fortress_modules_in_an_exact_2_by_2_sheet_each_inside_its_512_square_quadrant_cbba4a25\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\fortress-clean-v1",
+      "files": 2,
+      "bytes": 1160589,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "result_images_0_url\\output.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\fortress-parts-v1",
+      "files": 5,
+      "bytes": 1321486,
+      "mediaFiles": 4,
+      "identicalToProject": 4,
+      "notIdenticalToProject": 0,
+      "duplicates": [
+        {
+          "file": "component_001.png",
+          "matches": [
+            "assets\\map-modules\\howling-fortress-v1\\module-2.png"
+          ],
+          "bytes": 399150
+        },
+        {
+          "file": "component_002.png",
+          "matches": [
+            "assets\\map-modules\\howling-fortress-v1\\module-0.png"
+          ],
+          "bytes": 359515
+        },
+        {
+          "file": "component_003.png",
+          "matches": [
+            "assets\\map-modules\\howling-fortress-v1\\module-1.png"
+          ],
+          "bytes": 364330
+        },
+        {
+          "file": "component_004.png",
+          "matches": [
+            "assets\\map-modules\\howling-fortress-v1\\module-3.png"
+          ],
+          "bytes": 197138
+        }
+      ],
+      "unmatchedMedia": []
+    },
+    {
+      "directory": "D:\\Long1ye\\fortress-rear-clean-v1",
+      "files": 2,
+      "bytes": 1157714,
+      "mediaFiles": 1,
+      "identicalToProject": 1,
+      "notIdenticalToProject": 0,
+      "duplicates": [
+        {
+          "file": "result_images_0_url\\output.png",
+          "matches": [
+            "assets\\map-modules\\howling-rear-v1\\rear.png"
+          ],
+          "bytes": 1157455
+        }
+      ],
+      "unmatchedMedia": []
+    },
+    {
+      "directory": "D:\\Long1ye\\fortress-rear-v1",
+      "files": 2,
+      "bytes": 1498807,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "A_dense_rear_district_behind_a_snowy_frontier_fortress_for_an_isometric_pixel_game_Match_the_reference_masonry_123450fe\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\fortress-story-clean-v2",
+      "files": 2,
+      "bytes": 952458,
+      "mediaFiles": 1,
+      "identicalToProject": 1,
+      "notIdenticalToProject": 0,
+      "duplicates": [
+        {
+          "file": "result_images_0_url\\output.png",
+          "matches": [
+            "assets\\map-modules\\howling-fortress-v2\\module-4.png"
+          ],
+          "bytes": 952198
+        }
+      ],
+      "unmatchedMedia": []
+    },
+    {
+      "directory": "D:\\Long1ye\\fortress-story-v2",
+      "files": 2,
+      "bytes": 1334785,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "An_isolated_wide_squat_fortress_building_group_for_an_isometric_pixel_game_matching_the_reference_cold_gray_ma_89a9e7bc\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\gate-clean-v1",
+      "files": 2,
+      "bytes": 1310940,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "result_images_0_url\\output.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\gate-clean-v2",
+      "files": 2,
+      "bytes": 972509,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "result_images_0_url\\output.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\gate-v1",
+      "files": 2,
+      "bytes": 1868964,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "Four_isolated_pixel_art_environment_modules_in_a_regular_2_by_2_sheet_each_entirely_inside_its_own_quadrant_wi_0a301da8\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\gate-v2",
+      "files": 2,
+      "bytes": 1546676,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "A_2_by_2_sheet_of_four_separated_pixel_art_game_architecture_sprites_on_transparent_background_Same_snowy_grey_57fcde3c\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\ice-gatehouse-clean-v4",
+      "files": 2,
+      "bytes": 1012553,
+      "mediaFiles": 1,
+      "identicalToProject": 1,
+      "notIdenticalToProject": 0,
+      "duplicates": [
+        {
+          "file": "result_images_0_url\\output.png",
+          "matches": [
+            "assets\\map-modules\\howling-gatehouse-v4\\module-5.png"
+          ],
+          "bytes": 1012294
+        }
+      ],
+      "unmatchedMedia": []
+    },
+    {
+      "directory": "D:\\Long1ye\\ice-gatehouse-v4",
+      "files": 2,
+      "bytes": 1389008,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "A_single_wide_low_mountainside_gatehouse_for_an_isometric_pixel-art_frozen_bridge_game_The_bridge_approaches_a_64df42f9\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\props-clean-v1",
+      "files": 2,
+      "bytes": 876862,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "result_images_0_url\\output.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\pv1",
+      "files": 2,
+      "bytes": 1241612,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "job_eb1781e3f3364c7281b8dce902bb2f0b\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\pv1-clean",
+      "files": 2,
+      "bytes": 645627,
+      "mediaFiles": 1,
+      "identicalToProject": 1,
+      "notIdenticalToProject": 0,
+      "duplicates": [
+        {
+          "file": "result_images_0_url\\output.png",
+          "matches": [
+            "assets\\map-modules\\howling-paving-v1\\paving.png"
+          ],
+          "bytes": 645381
+        }
+      ],
+      "unmatchedMedia": []
+    },
+    {
+      "directory": "D:\\Long1ye\\rails-clean-v1",
+      "files": 2,
+      "bytes": 764226,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "result_images_0_url\\output.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\rails-v1",
+      "files": 2,
+      "bytes": 1463027,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "Four_separate_modular_ruined_stone_bridge_railings_in_an_exact_2_by_2_sprite_sheet_transparent_background_each_3320be27\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\repair-v1",
+      "files": 2,
+      "bytes": 1487842,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "Four_square_floor_tiles_in_an_exact_2_by_2_atlas_no_gaps_or_margins_Match_the_reference_blue_grey_pixel_stone_3a0049dc\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\seal-v1",
+      "files": 2,
+      "bytes": 1837303,
+      "mediaFiles": 1,
+      "identicalToProject": 1,
+      "notIdenticalToProject": 0,
+      "duplicates": [
+        {
+          "file": "A_modular_ancient_frost-seal_stone_floor_atlas_exactly_4_columns_and_4_rows_of_equal_square_tiles_no_margins_o_f0cbf618\\result_images_0_url.png",
+          "matches": [
+            "assets\\map-modules\\howling-seal-v1\\seal-sheet.png"
+          ],
+          "bytes": 1836946
+        }
+      ],
+      "unmatchedMedia": []
+    },
+    {
+      "directory": "D:\\Long1ye\\tiles-v2",
+      "files": 2,
+      "bytes": 1302884,
+      "mediaFiles": 1,
+      "identicalToProject": 0,
+      "notIdenticalToProject": 1,
+      "duplicates": [],
+      "unmatchedMedia": [
+        "A_production_texture_atlas_for_a_pixel_art_icy_stone_bridge_game_Exactly_4_columns_by_4_rows_of_equal_square_c_4eb0ae81\\result_images_0_url.png"
+      ]
+    },
+    {
+      "directory": "D:\\Long1ye\\资源",
+      "files": 46,
+      "bytes": 8949573,
+      "mediaFiles": 46,
+      "identicalToProject": 23,
+      "notIdenticalToProject": 23,
+      "duplicates": [
+        {
+          "file": "yasuo-A-v2.webp",
+          "matches": [
+            "assets\\heroes\\yasuo\\attacks-v2-2026-10-13\\attack-A.webp"
+          ],
+          "bytes": 417702
+        },
+        {
+          "file": "yasuo-A.webp",
+          "matches": [
+            "assets\\heroes\\yasuo\\selected-2026-10-10\\attack-A.webp"
+          ],
+          "bytes": 204644
+        },
+        {
+          "file": "yasuo-B-v2.webp",
+          "matches": [
+            "assets\\heroes\\yasuo\\attacks-v2-2026-10-13\\attack-B.webp"
+          ],
+          "bytes": 482432
+        },
+        {
+          "file": "yasuo-B.webp",
+          "matches": [
+            "assets\\heroes\\yasuo\\selected-2026-10-10\\attack-B.webp"
+          ],
+          "bytes": 215676
+        },
+        {
+          "file": "亚索拔刀.webp",
+          "matches": [
+            "assets\\heroes\\yasuo\\q-draw-2026-10-13\\body.webp"
+          ],
+          "bytes": 259938
+        },
+        {
+          "file": "亚索拔刀v2.webp",
+          "matches": [
+            "assets\\heroes\\yasuo\\q-draw-v2-2026-10-13\\body.webp"
+          ],
+          "bytes": 249282
+        },
+        {
+          "file": "卡牌-e.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌-e.png"
+          ],
+          "bytes": 8161
+        },
+        {
+          "file": "卡牌-n.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌-n.png"
+          ],
+          "bytes": 8417
+        },
+        {
+          "file": "卡牌-ne.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌-ne.png"
+          ],
+          "bytes": 9311
+        },
+        {
+          "file": "卡牌-nw.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌-nw.png"
+          ],
+          "bytes": 9289
+        },
+        {
+          "file": "卡牌-s.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌-s.png"
+          ],
+          "bytes": 10287
+        },
+        {
+          "file": "卡牌-se.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌-se.png"
+          ],
+          "bytes": 10684
+        },
+        {
+          "file": "卡牌-sw.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌-sw.png"
+          ],
+          "bytes": 10666
+        },
+        {
+          "file": "卡牌-w.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌-w.png"
+          ],
+          "bytes": 8163
+        },
+        {
+          "file": "卡牌站立-e.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌站立-e.png"
+          ],
+          "bytes": 6775
+        },
+        {
+          "file": "卡牌站立-n.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌站立-n.png"
+          ],
+          "bytes": 9894
+        },
+        {
+          "file": "卡牌站立-ne.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌站立-ne.png"
+          ],
+          "bytes": 9095
+        },
+        {
+          "file": "卡牌站立-nw.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌站立-nw.png"
+          ],
+          "bytes": 9120
+        },
+        {
+          "file": "卡牌站立-s.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌站立-s.png"
+          ],
+          "bytes": 11690
+        },
+        {
+          "file": "卡牌站立-se.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌站立-se.png"
+          ],
+          "bytes": 10461
+        },
+        {
+          "file": "卡牌站立-sw.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌站立-sw.png"
+          ],
+          "bytes": 10398
+        },
+        {
+          "file": "卡牌站立-w.png",
+          "matches": [
+            "assets\\heroes\\twisted-fate\\user-eight\\卡牌站立-w.png"
+          ],
+          "bytes": 6703
+        },
+        {
+          "file": "斩钢闪刀身.webp",
+          "matches": [
+            "assets\\hero-skills\\2026-10-13\\yasuo\\q-v25-user-sword-subtle\\sword.webp",
+            "assets\\heroes\\yasuo\\q-draw-2026-10-13\\sword.webp"
+          ],
+          "bytes": 48520
+        }
+      ],
+      "unmatchedMedia": [
+        "generated-image-1.png",
+        "generated-image-1.webp",
+        "generated-image-2.png",
+        "image-1791616958875-ct7e0o1zgnb.webp",
+        "lol中路地图.png",
+        "q-badcase-nw.webp",
+        "q-badcase-s.webp",
+        "q3旋风.png",
+        "QQ20261009-152900-HD.mp4",
+        "QQ20261009-153017-HD.mp4",
+        "QQ20261009-182535-HD.mp4",
+        "QQ20261009-182632-HD.mp4",
+        "QQ20261009-182753-HD.mp4",
+        "QQ20261009-182843-HD.mp4",
+        "QQ20261009-182920-HD.mp4",
+        "QQ20261009-190735-HD.mp4",
+        "w-q3挥刀.gif",
+        "yasuo-Q.webp",
+        "亚索qbadcase.gif",
+        "风墙特效.mp4",
+        "亚索音频\\LOL疾风剑豪 亚索台词--索_爱给网_aigei_com.mp3",
+        "亚索音频\\[LOL英雄配音 亚索]哈撒_爱给网_aigei_com.mp3",
+        "亚索音频\\英雄联盟疾风剑豪亚索台词语音包 (35)_爱给网_aigei_com.mp3"
+      ]
+    }
+  ],
+  "externalSourceScripts": [
+    "scripts/import-yasuo-ab-v2.py",
+    "scripts/package-camp.py",
+    "scripts/package-yasuo-q-draw.py",
+    "scripts/package-yasuo-q-draw-v2.py",
+    "scripts/prepare-yasuo-q-direction.py",
+    "scripts/prepare-yasuo-q-layered.py"
+  ],
+  "findings": {
+    "runtime": "No sibling absolute paths or /@fs/ references found in src or Vite config. Current runtime resource imports point inside the project.",
+    "sourceDependencies": "Six packaging/preparation scripts contain absolute sibling source paths; moving those inputs requires updating scripts.",
+    "duplicates": "Fortress components and several cleaned map images are byte-identical to files in assets.",
+    "derivedExample": "scripts/package-camp.py repacks camp-rest-v1 into assets/units/bridge-camp-v1; lack of an identical file hash does not mean a source is unused.",
+    "cause": "Sibling directories contain final_outputs.json with generated outputs; this identifies them as asset generation/processing outputs. Historical execution cwd cannot be determined from the directory layout alone.",
+    "notScanned": [
+      "Other sibling software projects",
+      "Installed League of Legends client",
+      "node_modules",
+      ".git"
+    ]
+  }
+}

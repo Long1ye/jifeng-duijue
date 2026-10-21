@@ -1,0 +1,274 @@
+{
+  "verification": {
+    "samples": [
+      {
+        "scene": "central",
+        "enhanced": false,
+        "time": 0.016666666666666666,
+        "calls": 82,
+        "geometry": 77,
+        "textures": 27,
+        "shadowWorldTexel": 3.125,
+        "contacts": false,
+        "glow": false
+      },
+      {
+        "scene": "central",
+        "enhanced": true,
+        "time": 0.016666666666666666,
+        "calls": 69,
+        "geometry": 77,
+        "textures": 27,
+        "shadowWorldTexel": 0.71875,
+        "contacts": true,
+        "glow": true
+      },
+      {
+        "scene": "tower",
+        "enhanced": false,
+        "time": 0.016666666666666666,
+        "calls": 85,
+        "geometry": 97,
+        "textures": 33,
+        "shadowWorldTexel": 3.125,
+        "contacts": false,
+        "glow": false
+      },
+      {
+        "scene": "tower",
+        "enhanced": true,
+        "time": 0.016666666666666666,
+        "calls": 76,
+        "geometry": 97,
+        "textures": 33,
+        "shadowWorldTexel": 0.71875,
+        "contacts": true,
+        "glow": true
+      },
+      {
+        "scene": "sanctuary",
+        "enhanced": false,
+        "time": 0.016666666666666666,
+        "calls": 99,
+        "geometry": 127,
+        "textures": 35,
+        "shadowWorldTexel": 3.125,
+        "contacts": false,
+        "glow": false
+      },
+      {
+        "scene": "sanctuary",
+        "enhanced": true,
+        "time": 0.016666666666666666,
+        "calls": 94,
+        "geometry": 127,
+        "textures": 35,
+        "shadowWorldTexel": 0.84375,
+        "contacts": true,
+        "glow": true
+      }
+    ],
+    "reduced": {
+      "calls": 53,
+      "glow": false,
+      "contacts": true
+    },
+    "paused": true,
+    "resources": [
+      {
+        "geometries": 143,
+        "textures": 36
+      },
+      {
+        "geometries": 143,
+        "textures": 36
+      },
+      {
+        "geometries": 143,
+        "textures": 36
+      },
+      {
+        "geometries": 143,
+        "textures": 36
+      },
+      {
+        "geometries": 143,
+        "textures": 36
+      }
+    ],
+    "failures": [],
+    "renderer": "WebKit WebGL",
+    "motion": [
+      {
+        "resolution": 1280,
+        "zoom": 0.4,
+        "pickingError": 0
+      },
+      {
+        "resolution": 1280,
+        "zoom": 0.65,
+        "pickingError": 0
+      },
+      {
+        "resolution": 1280,
+        "zoom": 1.5,
+        "pickingError": 0
+      },
+      {
+        "resolution": 1920,
+        "zoom": 0.4,
+        "pickingError": 0
+      },
+      {
+        "resolution": 1920,
+        "zoom": 0.65,
+        "pickingError": 0
+      },
+      {
+        "resolution": 1920,
+        "zoom": 1.5,
+        "pickingError": 0
+      }
+    ],
+    "simulationUntouched": true
+  },
+  "errors": [],
+  "failures": [],
+  "effectDifferences": [
+    {
+      "effect": "contact",
+      "changedPixels": 49695,
+      "maximumChannelDelta": 36
+    },
+    {
+      "effect": "materials",
+      "changedPixels": 1529420,
+      "maximumChannelDelta": 61
+    },
+    {
+      "effect": "glow",
+      "changedPixels": 40671,
+      "maximumChannelDelta": 21
+    },
+    {
+      "effect": "grading",
+      "changedPixels": 1817361,
+      "maximumChannelDelta": 158
+    }
+  ],
+  "timing": [
+    {
+      "enhanced": false,
+      "frames": 45,
+      "medianMs": 1.100000023841858,
+      "p95Ms": 1.5,
+      "note": "Static sanctuary, host update + gl.finish; includes CPU/GPU synchronization, not a gameplay FPS guarantee."
+    },
+    {
+      "enhanced": true,
+      "frames": 45,
+      "medianMs": 1,
+      "p95Ms": 1.5,
+      "note": "Static sanctuary, host update + gl.finish; includes CPU/GPU synchronization, not a gameplay FPS guarantee."
+    }
+  ],
+  "details": [
+    {
+      "scene": "fire-actors",
+      "object": "painted-fire-bowl",
+      "time": 0.016666666666666666,
+      "lightAtBlueTorso": 0.5164642063168623,
+      "lightAtRedTorso": 0.16496986278185877,
+      "changedPixels": 16952,
+      "maximumChannelDelta": 50,
+      "pausedFrameStable": true,
+      "pausedBitExact": true,
+      "pausedChangedPixels": 0,
+      "pausedMaximumDelta": 0,
+      "pausedDifferences": [],
+      "fullyFoggedPier": null
+    },
+    {
+      "scene": "lantern-actors",
+      "object": "painted-small-wall-lantern-neutral",
+      "time": 0.016666666666666666,
+      "lightAtBlueTorso": 0.19108636218979988,
+      "lightAtRedTorso": 0.013914716984258831,
+      "changedPixels": 15434,
+      "maximumChannelDelta": 34,
+      "pausedFrameStable": true,
+      "pausedBitExact": true,
+      "pausedChangedPixels": 0,
+      "pausedMaximumDelta": 0,
+      "pausedDifferences": [],
+      "fullyFoggedPier": null
+    },
+    {
+      "scene": "blue-ice",
+      "object": "ice-coping-crown-blue",
+      "time": 0.016666666666666666,
+      "lightAtBlueTorso": 0,
+      "lightAtRedTorso": 0,
+      "changedPixels": 1341178,
+      "maximumChannelDelta": 43,
+      "pausedFrameStable": true,
+      "pausedBitExact": false,
+      "pausedChangedPixels": 1,
+      "pausedMaximumDelta": 1,
+      "pausedDifferences": [
+        {
+          "x": 1678,
+          "y": 268,
+          "delta": 1
+        }
+      ],
+      "fullyFoggedPier": null
+    },
+    {
+      "scene": "red-ice",
+      "object": "ice-coping-crown-red",
+      "time": 0.016666666666666666,
+      "lightAtBlueTorso": 0,
+      "lightAtRedTorso": 0,
+      "changedPixels": 1402037,
+      "maximumChannelDelta": 61,
+      "pausedFrameStable": true,
+      "pausedBitExact": true,
+      "pausedChangedPixels": 0,
+      "pausedMaximumDelta": 0,
+      "pausedDifferences": [],
+      "fullyFoggedPier": null
+    },
+    {
+      "scene": "canyon",
+      "object": "painted-bridge-arch",
+      "time": 0.016666666666666666,
+      "lightAtBlueTorso": 0,
+      "lightAtRedTorso": 0,
+      "changedPixels": 1931628,
+      "maximumChannelDelta": 175,
+      "pausedFrameStable": true,
+      "pausedBitExact": true,
+      "pausedChangedPixels": 0,
+      "pausedMaximumDelta": 0,
+      "pausedDifferences": [],
+      "fullyFoggedPier": {
+        "samples": 1263,
+        "maximumDelta": 0
+      }
+    }
+  ],
+  "controls": {
+    "customized": "画质对比：自定义",
+    "baselineDisabled": true,
+    "restored": true
+  },
+  "viewport": [
+    1600,
+    900
+  ],
+  "internal": [
+    1920,
+    1080
+  ]
+}

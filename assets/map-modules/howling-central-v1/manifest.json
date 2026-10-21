@@ -1,0 +1,218 @@
+[
+  {
+    "id": "howling-central-ground-v1",
+    "path": "assets/map-modules/howling-central-v1/runtime/ground.png",
+    "sourceManifest": "assets/ha-live-ground/HC01_Create_a_production_terrain_surface_patch_for_the_Howling_Abyss_pixel_ARPG_using_the_reference_only_for_s_3c26f311/final_outputs.json",
+    "jobId": "job_11b2450fc2e545199f4f3045dbed6a7e",
+    "size": [
+      2048,
+      1536
+    ],
+    "alphaRange": [
+      255,
+      255
+    ],
+    "transparentFraction": 0.0,
+    "visibleBounds": [
+      0,
+      0,
+      2048,
+      1536
+    ],
+    "solidBounds": [
+      0,
+      0,
+      2048,
+      1536
+    ],
+    "runtimeBounds": [
+      0,
+      0,
+      2048,
+      1536
+    ],
+    "sha256": "c1d8b462277dcfb50395873894a2039e8e499f82a6fffa0fdfb9678b6d33ac68",
+    "byteIdentical": true,
+    "status": "candidate layer; native media checked; gameplay visual acceptance pending"
+  },
+  {
+    "id": "howling-central-snow-v1",
+    "path": "assets/map-modules/howling-central-v1/runtime/snow.png",
+    "sourceManifest": "assets/ha-live-snow/HC02_A_standalone_terrain_overlay_for_a_Howling_Abyss_pixel_ARPG_matching_the_reference_stone_and_snow_style_S_2d511b48/final_outputs.json",
+    "jobId": "job_8936f89fadc445d0a6405c2a190011c5",
+    "size": [
+      1024,
+      768
+    ],
+    "alphaRange": [
+      0,
+      253
+    ],
+    "transparentFraction": 0.72735595703125,
+    "visibleBounds": [
+      0,
+      0,
+      1024,
+      496
+    ],
+    "solidBounds": [
+      0,
+      3,
+      1024,
+      383
+    ],
+    "runtimeBounds": [
+      0,
+      0,
+      1024,
+      512
+    ],
+    "sha256": "b008aad5e94093ccde7a4b039a2a50c16cf85e7fc226e924c821b1322ba258c9",
+    "byteIdentical": true,
+    "status": "candidate layer; native media checked; gameplay visual acceptance pending"
+  },
+  {
+    "id": "howling-central-rail-v1",
+    "path": "assets/map-modules/howling-central-v1/runtime/rail.png",
+    "sourceManifest": "assets/ha-live-rail/HC03_An_isolated_reusable_ancient_Howling_Abyss_bridge_parapet_module_as_detailed_pixel_art_matching_the_refer_b3b1284b/final_outputs.json",
+    "jobId": "job_0732dccc90534dc6b63e27bb38df9ffe",
+    "size": [
+      1536,
+      864
+    ],
+    "alphaRange": [
+      0,
+      254
+    ],
+    "transparentFraction": 0.5331586672935957,
+    "visibleBounds": [
+      54,
+      40,
+      1504,
+      864
+    ],
+    "solidBounds": [
+      60,
+      130,
+      1482,
+      750
+    ],
+    "runtimeBounds": [
+      60,
+      130,
+      1482,
+      750
+    ],
+    "sha256": "ce3b10d4c5995f7339413a058f7e5b750a5f0a8fac2206493d0bd9323942d910",
+    "byteIdentical": true,
+    "status": "candidate layer; native media checked; gameplay visual acceptance pending"
+  },
+  {
+    "id": "howling-central-arch-v1",
+    "path": "assets/map-modules/howling-central-v1/runtime/arch.png",
+    "sourceManifest": "assets/ha-live-arch/HC04_An_isolated_structural_module_from_an_ancient_Howling_Abyss_bridge_in_the_pixel_art_style_and_blue_grey_s_4eab2841/final_outputs.json",
+    "jobId": "job_87dab2777f754046b1086bbc24917eb4",
+    "size": [
+      1024,
+      768
+    ],
+    "alphaRange": [
+      0,
+      254
+    ],
+    "transparentFraction": 0.5125223795572916,
+    "visibleBounds": [
+      17,
+      0,
+      1008,
+      754
+    ],
+    "solidBounds": [
+      24,
+      8,
+      1000,
+      748
+    ],
+    "runtimeBounds": [
+      24,
+      205,
+      1000,
+      748
+    ],
+    "sha256": "16e69a06164b1458b15ddaae0e8bce637e2b4fe88c3bcdf0dcd2abb213461dd9",
+    "byteIdentical": true,
+    "status": "candidate layer; native media checked; gameplay visual acceptance pending"
+  },
+  {
+    "id": "howling-central-depth-v1",
+    "path": "assets/map-modules/howling-central-v1/runtime/depth.png",
+    "sourceManifest": "assets/ha-live-depth/HC05_A_distant_background_layer_for_a_Howling_Abyss_pixel_ARPG_Match_the_reference_detailed_cold_blue_grey_pix_aff67f4d/final_outputs.json",
+    "jobId": "job_3ba722d992704296b66bdcf6817681b7",
+    "size": [
+      1536,
+      864
+    ],
+    "alphaRange": [
+      255,
+      255
+    ],
+    "transparentFraction": 0.0,
+    "visibleBounds": [
+      0,
+      0,
+      1536,
+      864
+    ],
+    "solidBounds": [
+      0,
+      0,
+      1536,
+      864
+    ],
+    "runtimeBounds": [
+      0,
+      0,
+      1536,
+      864
+    ],
+    "sha256": "99ce1801cd8baf8e6d93b79fd2b6c158017b1df71063b63082f47f94dc30d9e3",
+    "byteIdentical": true,
+    "status": "candidate layer; native media checked; gameplay visual acceptance pending"
+  },
+  {
+    "id": "howling-central-fire-v1",
+    "path": "assets/map-modules/howling-central-v1/runtime/fire.png",
+    "sourceManifest": "assets/ha-live-fire/HC06_One_isolated_ancient_Howling_Abyss_bridge_brazier_prop_matching_the_reference_detailed_pixel_environment_59eb58ba/final_outputs.json",
+    "jobId": "job_1396503036ee40b89c7bfb66b17abc39",
+    "size": [
+      1024,
+      1024
+    ],
+    "alphaRange": [
+      0,
+      254
+    ],
+    "transparentFraction": 0.6110515594482422,
+    "visibleBounds": [
+      0,
+      17,
+      1004,
+      996
+    ],
+    "solidBounds": [
+      161,
+      33,
+      862,
+      991
+    ],
+    "runtimeBounds": [
+      161,
+      33,
+      862,
+      991
+    ],
+    "sha256": "c63972a66045e2f65c4ee598cf23b0ba84cc08e8af46c9b414192264678426a1",
+    "byteIdentical": true,
+    "status": "candidate layer; native media checked; gameplay visual acceptance pending"
+  }
+]

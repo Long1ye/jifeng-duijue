@@ -1,0 +1,131 @@
+{
+  "results": [
+    {
+      "name": "wall-fire",
+      "changed": 3709,
+      "maximum": 209,
+      "silhouette": 7,
+      "pausedChanges": 0
+    },
+    {
+      "name": "blue-ice",
+      "changed": 715,
+      "maximum": 49,
+      "silhouette": 0,
+      "pausedChanges": 0
+    },
+    {
+      "name": "red-ice",
+      "changed": 1546,
+      "maximum": 67,
+      "silhouette": 0,
+      "pausedChanges": 0
+    },
+    {
+      "name": "tower-flag",
+      "changed": 3999,
+      "maximum": 235,
+      "silhouette": 559,
+      "pausedChanges": 0
+    },
+    {
+      "name": "brazier",
+      "changed": 1733,
+      "maximum": 240,
+      "silhouette": 219,
+      "pausedChanges": 0
+    }
+  ],
+  "colorSamples": [
+    {
+      "time": 0,
+      "redPixels": 1705,
+      "bluePixels": 0
+    },
+    {
+      "time": 0.25,
+      "redPixels": 1717,
+      "bluePixels": 0
+    },
+    {
+      "time": 0.5,
+      "redPixels": 1715,
+      "bluePixels": 0
+    },
+    {
+      "time": 0.75,
+      "redPixels": 1698,
+      "bluePixels": 0
+    },
+    {
+      "time": 1,
+      "redPixels": 1693,
+      "bluePixels": 0
+    },
+    {
+      "time": 1.25,
+      "redPixels": 1695,
+      "bluePixels": 0
+    },
+    {
+      "time": 1.5,
+      "redPixels": 1696,
+      "bluePixels": 0
+    },
+    {
+      "time": 1.75,
+      "redPixels": 1697,
+      "bluePixels": 0
+    },
+    {
+      "time": 2,
+      "redPixels": 1708,
+      "bluePixels": 0
+    },
+    {
+      "time": 2.25,
+      "redPixels": 1715,
+      "bluePixels": 0
+    },
+    {
+      "time": 2.5,
+      "redPixels": 1711,
+      "bluePixels": 0
+    },
+    {
+      "time": 2.75,
+      "redPixels": 1697,
+      "bluePixels": 0
+    }
+  ],
+  "brightness": {
+    "tinted": 125.25128535324515,
+    "untinted": 150.32001619758745,
+    "ratio": 1.2001474936855232,
+    "note": "Same animation time, changes only the old material multiply color."
+  },
+  "errors": [],
+  "resources": [
+    {
+      "geometries": 140,
+      "textures": 34
+    },
+    {
+      "geometries": 140,
+      "textures": 34
+    },
+    {
+      "geometries": 140,
+      "textures": 34
+    },
+    {
+      "geometries": 140,
+      "textures": 34
+    },
+    {
+      "geometries": 140,
+      "textures": 34
+    }
+  ],
+  "failures": []
+}

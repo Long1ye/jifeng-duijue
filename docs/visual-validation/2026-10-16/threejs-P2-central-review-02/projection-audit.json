@@ -1,0 +1,159 @@
+{
+  "evidence": "CPU actual scene geometry plus source UV measurements; NOT a screenshot or GPU test",
+  "referenceConditions": {
+    "cssWidth": 1280,
+    "cssHeight": 720,
+    "canvasWidth": 640,
+    "canvasHeight": 360,
+    "elevation": 60,
+    "cameraFocusU": -4,
+    "actualUserViewportKnown": false
+  },
+  "measurements": [
+    {
+      "name": "central-ground",
+      "zoom": 0.6,
+      "canvasPixelsAlongWidth": 534.9678788012714,
+      "canvasPixelsAlongHeight": 353.8371951095589,
+      "sourceTexelsWidth": 2048,
+      "sourceTexelsHeight": 1536,
+      "sourceTexelsPerCanvasPixelWidth": 3.828267230901888,
+      "sourceTexelsPerCanvasPixelHeight": 4.340979470867689,
+      "sourceAspect": 1.3333333333333333,
+      "projectedBasisAspect": 1.5119040230793963,
+      "projectedHeightRelativeToAspectPreserving": 0.8818901947344805,
+      "basisAngleDegrees": 65.51597402549676
+    },
+    {
+      "name": "near-parapet",
+      "zoom": 0.6,
+      "canvasPixelsAlongWidth": 89.16131031088737,
+      "canvasPixelsAlongHeight": 23.199999999999932,
+      "sourceTexelsWidth": 1422,
+      "sourceTexelsHeight": 619.9999780654907,
+      "sourceTexelsPerCanvasPixelWidth": 15.948621605512244,
+      "sourceTexelsPerCanvasPixelHeight": 26.724136985581577,
+      "sourceAspect": 2.293548468238484,
+      "projectedBasisAspect": 3.8431599271934327,
+      "projectedHeightRelativeToAspectPreserving": 0.5967871521582521,
+      "basisAngleDegrees": 67.6575767524098
+    },
+    {
+      "name": "bridge-support-arch",
+      "zoom": 0.6,
+      "canvasPixelsAlongWidth": 178.32261547879668,
+      "canvasPixelsAlongHeight": 54.39999999999998,
+      "sourceTexelsWidth": 976,
+      "sourceTexelsHeight": 543.0000157356262,
+      "sourceTexelsPerCanvasPixelWidth": 5.473226137803315,
+      "sourceTexelsPerCanvasPixelHeight": 9.981617936316663,
+      "sourceAspect": 1.797421679035809,
+      "projectedBasisAspect": 3.27798925512494,
+      "projectedHeightRelativeToAspectPreserving": 0.5483305585049273,
+      "basisAngleDegrees": 67.6575756142082
+    },
+    {
+      "name": "central-ground",
+      "zoom": 1,
+      "canvasPixelsAlongWidth": 891.6131313354522,
+      "canvasPixelsAlongHeight": 589.7286585159316,
+      "sourceTexelsWidth": 2048,
+      "sourceTexelsHeight": 1536,
+      "sourceTexelsPerCanvasPixelWidth": 2.2969603385411332,
+      "sourceTexelsPerCanvasPixelHeight": 2.604587682520613,
+      "sourceAspect": 1.3333333333333333,
+      "projectedBasisAspect": 1.5119040230793959,
+      "projectedHeightRelativeToAspectPreserving": 0.8818901947344807,
+      "basisAngleDegrees": 65.51597402549676
+    },
+    {
+      "name": "near-parapet",
+      "zoom": 1,
+      "canvasPixelsAlongWidth": 148.60218385147905,
+      "canvasPixelsAlongHeight": 38.66666666666674,
+      "sourceTexelsWidth": 1422,
+      "sourceTexelsHeight": 619.9999780654907,
+      "sourceTexelsPerCanvasPixelWidth": 9.56917296330734,
+      "sourceTexelsPerCanvasPixelHeight": 16.034482191348868,
+      "sourceAspect": 2.293548468238484,
+      "projectedBasisAspect": 3.8431599271934163,
+      "projectedHeightRelativeToAspectPreserving": 0.5967871521582545,
+      "basisAngleDegrees": 67.65757675240974
+    },
+    {
+      "name": "bridge-support-arch",
+      "zoom": 1,
+      "canvasPixelsAlongWidth": 297.2043591313278,
+      "canvasPixelsAlongHeight": 90.66666666666663,
+      "sourceTexelsWidth": 976,
+      "sourceTexelsHeight": 543.0000157356262,
+      "sourceTexelsPerCanvasPixelWidth": 3.2839356826819888,
+      "sourceTexelsPerCanvasPixelHeight": 5.988970761789997,
+      "sourceAspect": 1.797421679035809,
+      "projectedBasisAspect": 3.2779892551249405,
+      "projectedHeightRelativeToAspectPreserving": 0.5483305585049272,
+      "basisAngleDegrees": 67.65757561420821
+    },
+    {
+      "name": "central-ground",
+      "zoom": 1.5,
+      "canvasPixelsAlongWidth": 1337.4196970031783,
+      "canvasPixelsAlongHeight": 884.5929877738973,
+      "sourceTexelsWidth": 2048,
+      "sourceTexelsHeight": 1536,
+      "sourceTexelsPerCanvasPixelWidth": 1.5313068923607553,
+      "sourceTexelsPerCanvasPixelHeight": 1.7363917883470752,
+      "sourceAspect": 1.3333333333333333,
+      "projectedBasisAspect": 1.5119040230793959,
+      "projectedHeightRelativeToAspectPreserving": 0.8818901947344807,
+      "basisAngleDegrees": 65.51597402549675
+    },
+    {
+      "name": "near-parapet",
+      "zoom": 1.5,
+      "canvasPixelsAlongWidth": 222.90327577721845,
+      "canvasPixelsAlongHeight": 58,
+      "sourceTexelsWidth": 1422,
+      "sourceTexelsHeight": 619.9999780654907,
+      "sourceTexelsPerCanvasPixelWidth": 6.379448642204897,
+      "sourceTexelsPerCanvasPixelHeight": 10.689654794232599,
+      "sourceAspect": 2.293548468238484,
+      "projectedBasisAspect": 3.8431599271934216,
+      "projectedHeightRelativeToAspectPreserving": 0.5967871521582537,
+      "basisAngleDegrees": 67.65757675240977
+    },
+    {
+      "name": "bridge-support-arch",
+      "zoom": 1.5,
+      "canvasPixelsAlongWidth": 445.80653869699165,
+      "canvasPixelsAlongHeight": 135.99999999999991,
+      "sourceTexelsWidth": 976,
+      "sourceTexelsHeight": 543.0000157356262,
+      "sourceTexelsPerCanvasPixelWidth": 2.189290455121326,
+      "sourceTexelsPerCanvasPixelHeight": 3.992647174526666,
+      "sourceAspect": 1.797421679035809,
+      "projectedBasisAspect": 3.2779892551249405,
+      "projectedHeightRelativeToAspectPreserving": 0.5483305585049273,
+      "basisAngleDegrees": 67.6575756142082
+    }
+  ],
+  "geometryCounts": {
+    "nearWalls": 6,
+    "farWalls": 6,
+    "arches": 6
+  },
+  "archCrop": {
+    "fullSolidBounds": [
+      24,
+      8,
+      1000,
+      748
+    ],
+    "runtimeBounds": [
+      24,
+      205,
+      1000,
+      748
+    ]
+  }
+}

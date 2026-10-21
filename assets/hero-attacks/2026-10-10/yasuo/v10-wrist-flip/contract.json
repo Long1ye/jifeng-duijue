@@ -1,0 +1,140 @@
+{
+  "hero": "yasuo",
+  "direction": "se",
+  "scope": "one B refinement, first variant A retained",
+  "approved_motion_prompt": "在最低点翻转手腕，将刀身转为参考图所示的朝向，以这一形态从下向上连贯挥砍。到达最高点后再次翻腕，恢复高位持刀姿态，为下一次向下挥砍做准备。",
+  "prompt_author": "assistant_reviewed_and_authorized_by_user",
+  "prompt_optimization": true,
+  "width": 176,
+  "height": 176,
+  "frames": 12,
+  "credits_before": 7935,
+  "estimated_credits": 63,
+  "pose_edit_prompts": {
+    "low": "只输出参考图1中的完整亚索人物。保持服装、发型、身体比例、双脚位置和刀柄位置不变，仅翻转持刀手腕，让刀身采用参考图2的翻面朝向，形成在最低点准备向上反手挥砍的姿势。保持原图176×176透明画布，不添加刀光。",
+    "high": "只输出参考图1中的完整亚索人物。保持服装、发型、身体比例、双脚位置和刀柄位置不变，仅翻转持刀手腕，让刀身采用参考图2的翻面朝向，表现向上反手挥砍刚到最高点、尚未翻腕还原的姿势。保持原图176×176透明画布，不添加刀光。"
+  },
+  "sword_reference": {
+    "original": "C:\\Users\\PC\\AppData\\Local\\Temp\\codex-clipboard-c780503f-4bf8-4b96-a3e8-9a142ea039ba.png",
+    "sha256": "c192bccd9c638c13fa9294c2a524a358e372e0881d692d81aee4078344e4b6b8"
+  },
+  "retained_A": {
+    "root": "assets/hero-attacks/2026-10-10/yasuo/v9-three-variants/variant-1",
+    "clip": {
+      "id": "A",
+      "name": "第二次挥刀 · 图1→图2",
+      "from_pose": 1,
+      "to_pose": 2,
+      "prompt": "绘制第二次挥刀动画，第一次挥刀结束自然过渡到第二次挥刀结束",
+      "prompt_author": "user",
+      "prompt_optimization": true,
+      "job_id": "job_4f9047be111546d0b2f3d5910ee850ea",
+      "webp": "clips/animation-A/绘制第二次挥刀动画_第一次挥刀结束自然过渡到第二次挥刀结束/result_output_url.webp",
+      "frame_count": 8,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 800,
+      "columns": 3,
+      "rows": 3,
+      "edge_contact_frames": [],
+      "first_to_input": {
+        "mean_rgb_error": 1.4147727272727273,
+        "alpha_identical": false
+      },
+      "last_to_input": {
+        "mean_rgb_error": 1.2890517389807163,
+        "alpha_identical": false
+      },
+      "final_media": [
+        {
+          "label": "透明WebP",
+          "path": "clips/animation-A/绘制第二次挥刀动画_第一次挥刀结束自然过渡到第二次挥刀结束/result_output_url.webp"
+        },
+        {
+          "label": "透明GIF",
+          "path": "clips/animation-A/绘制第二次挥刀动画_第一次挥刀结束自然过渡到第二次挥刀结束/result_output_transparent_output_urls_gif.gif"
+        },
+        {
+          "label": "PNG图集",
+          "path": "clips/animation-A/绘制第二次挥刀动画_第一次挥刀结束自然过渡到第二次挥刀结束/result_output_transparent_output_urls_png.png"
+        }
+      ],
+      "webp_sha256": "277a45dc7542026eb3d0ed1a733ddc5c3fe2bd0bd5735f375110c9526090f1a0"
+    },
+    "sha256": "277a45dc7542026eb3d0ed1a733ddc5c3fe2bd0bd5735f375110c9526090f1a0"
+  },
+  "original_B": {
+    "id": "B",
+    "name": "第一次挥刀 · 图2→图1",
+    "from_pose": 2,
+    "to_pose": 1,
+    "prompt": "绘制第一次挥刀动画，第二次挥刀结束自然过渡到第一次挥刀结束",
+    "prompt_author": "user",
+    "prompt_optimization": true,
+    "job_id": "job_c1ed8e1bc2e846609b140d2e98a69224",
+    "webp": "clips/animation-B/绘制第一次挥刀动画_第二次挥刀结束自然过渡到第一次挥刀结束/result_output_url.webp",
+    "frame_count": 8,
+    "durations_ms": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "duration_ms": 800,
+    "columns": 3,
+    "rows": 3,
+    "edge_contact_frames": [],
+    "first_to_input": {
+      "mean_rgb_error": 1.2490422692837466,
+      "alpha_identical": false
+    },
+    "last_to_input": {
+      "mean_rgb_error": 1.5195850550964185,
+      "alpha_identical": false
+    },
+    "final_media": [
+      {
+        "label": "透明WebP",
+        "path": "clips/animation-B/绘制第一次挥刀动画_第二次挥刀结束自然过渡到第一次挥刀结束/result_output_url.webp"
+      },
+      {
+        "label": "透明GIF",
+        "path": "clips/animation-B/绘制第一次挥刀动画_第二次挥刀结束自然过渡到第一次挥刀结束/result_output_transparent_output_urls_gif.gif"
+      },
+      {
+        "label": "PNG图集",
+        "path": "clips/animation-B/绘制第一次挥刀动画_第二次挥刀结束自然过渡到第一次挥刀结束/result_output_transparent_output_urls_png.png"
+      }
+    ],
+    "webp_sha256": "bf3f257d28a02ed116fa4165f0522311b8fa17ae3479ccd7a37125713124c859"
+  },
+  "endpoints": {
+    "low": "selected A frame 8",
+    "high": "selected A frame 1"
+  },
+  "production_ready": false,
+  "runtime_integrated": false,
+  "pose_preparation_review": {
+    "accepted": false,
+    "reason": "低位被改成高位，高位背景不透明；两个辅助姿势均不用于动画。",
+    "credits_consumed": 18
+  },
+  "route": "keyframes-run",
+  "requested_canvas": "176x176, same as selected A endpoints",
+  "primary_reference": "video",
+  "optimization_method": "keyframes-run --optimize-prompt; enhanced text is not returned",
+  "reference_edit_optimization": "failed; no reference-edit animation submitted",
+  "sword_input_limitation": "keyframes-run does not accept a separate weapon reference; supplied sword is a review reference only"
+}

@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "name": "enemy minion behind allied minion",
+      "actual": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "name": "attack command keeps hostile target",
+      "actual": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "name": "minion torso with overlapping enemy hero",
+      "actual": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "name": "enemy hero upper torso",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "dead enemies removed from picking",
+      "actual": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "name": "empty ground stays unselected",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "name": "empty ground issues move",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    }
+  ],
+  "errors": []
+}

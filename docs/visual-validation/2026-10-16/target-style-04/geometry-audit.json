@@ -1,0 +1,13 @@
+{
+  "evidence": "CPU geometry/ownership check, not visual quality or GPU performance proof",
+  "loadedTextures": [
+    "/assets/map-modules/howling-target-v2/ground.png",
+    "/assets/map-modules/howling-central-v1/runtime/snow.png",
+    "/assets/map-modules/howling-target-v2/stone.png"
+  ],
+  "meshes": 119,
+  "triangles": 179508,
+  "materials": 104,
+  "directionalLights": 2,
+  "finitePositions": true
+}

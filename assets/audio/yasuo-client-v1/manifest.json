@@ -1,0 +1,116 @@
+{
+  "source_client": "D:\\Long1ye\\英雄联盟(26)\\Game\\DATA\\FINAL\\Champions\\Yasuo.wad.client",
+  "bank": "assets/sounds/wwise2016/sfx/characters/yasuo/skins/base/yasuo_base_sfx_audio.bnk",
+  "clips": [
+    {
+      "key": "q-cast",
+      "event": "Play_sfx_Yasuo_YasuoQ2_OnCast {r}",
+      "file": "yasuo-client-q-cast.mp3",
+      "duration": 1.3,
+      "peak": 0.6468997001647949,
+      "rms": 0.09507421525209146,
+      "gain": 0.6772963782805368,
+      "source_sha256": "708bc87628031b5016e54663ad4c8cc7efdfae97ca0a5309b9e9332a3140ecaa",
+      "sha256": "918750e5ba1f31d0f3694d6bb8bd6bfe1af785601b12cdbf704c1af0f52589cc"
+    },
+    {
+      "key": "q-hit",
+      "event": "Play_sfx_Yasuo_YasuoQ_hit {r}",
+      "file": "yasuo-client-q-hit.mp3",
+      "duration": 1.1504761904761904,
+      "peak": 0.5689117312431335,
+      "rms": 0.09508395876609399,
+      "gain": 0.5627276566247372,
+      "source_sha256": "f0b37ce37f3aa214541cebb9b5e6bdc72393f52eea03062b8cb14693ed91ae97",
+      "sha256": "dfdf500c20d51d0d82c3c1c326d1fdec49e4f9b4e86e1bf2a993a51288a87009"
+    },
+    {
+      "key": "q3-cast",
+      "event": "Play_sfx_Yasuo_YasuoQ3W_missilelaunch {r}",
+      "file": "yasuo-client-q3-cast.mp3",
+      "duration": 2.2500226757369615,
+      "peak": 0.4319060742855072,
+      "rms": 0.09500192807522784,
+      "gain": 0.43413425765842784,
+      "source_sha256": "b681524139a2b432963500d9e3a4fdafba5a4edcface8513f860847007d366f9",
+      "sha256": "0678111b7b689c03b805fc132a3f623ed2e64c024e02a57e29dd18a76f218ec3"
+    },
+    {
+      "key": "q3-hit",
+      "event": "Play_sfx_Yasuo_YasuoQ3W_hit {r}",
+      "file": "yasuo-client-q3-hit.mp3",
+      "duration": 2.0,
+      "peak": 0.36013537645339966,
+      "rms": 0.09497051471526104,
+      "gain": 0.36064782358667474,
+      "source_sha256": "7bf4aa6c6b58875cde60841d2216239e9fc421dfba528799f9389ab9dfab0d7b",
+      "sha256": "8d9a0c16ce523adeaab56a1723206466bee59238c510f4c498353d4a96136639"
+    },
+    {
+      "key": "w-cast",
+      "event": "Play_sfx_Yasuo_YasuoWMovingWall_OnCast {r}",
+      "file": "yasuo-client-w-cast.mp3",
+      "duration": 1.2500226757369615,
+      "peak": 0.5072634220123291,
+      "rms": 0.09507932215729242,
+      "gain": 0.5007877017750803,
+      "source_sha256": "bb53e918102d1e11fc79b57efe20be756d501767722cc5bc77210120e4f7e3e1",
+      "sha256": "37a23f26b57e48fc382f21b9158dea317241d56d1e4607e59c760289cbfae856"
+    },
+    {
+      "key": "w-loop",
+      "event": "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate",
+      "file": "yasuo-client-w-loop.mp3",
+      "duration": 10.5,
+      "peak": 0.38528886437416077,
+      "rms": 0.07128680977965071,
+      "gain": 0.42216509567912547,
+      "source_sha256": "47f34930d41f33157d4da5ef8988c051580185242c1ba0f4fb5c4d516bda6c69",
+      "sha256": "15213f89e92ff10cd8ddd9287303ab67b01d81ec8321b9a47b41d66caa7b1ce7"
+    },
+    {
+      "key": "e-cast",
+      "event": "Play_sfx_Yasuo_YasuoDashWrapper_cast {r}",
+      "file": "yasuo-client-e-cast.mp3",
+      "duration": 1.2500226757369615,
+      "peak": 0.5541018843650818,
+      "rms": 0.09492108765503876,
+      "gain": 0.5816927311846002,
+      "source_sha256": "d94abfc1f8e7458e8ad5deb917b9d4a567c946b27f04ccf346087d525937e93c",
+      "sha256": "e77db6dde822ad8643b13634018531c757222cc8e51b26031953de44af879d18"
+    },
+    {
+      "key": "e-hit",
+      "event": "Play_sfx_Yasuo_YasuoDashWrapper_hit {r}",
+      "file": "yasuo-client-e-hit.mp3",
+      "duration": 0.9500226757369614,
+      "peak": 0.7305759787559509,
+      "rms": 0.09535128947934908,
+      "gain": 0.848262886204279,
+      "source_sha256": "3ce39383c770e80ee59284d55274acc148741b9d7a27ec7c5a7f4819156cc48c",
+      "sha256": "47c8ae850db3f77ca8af59fdd16e9e0a22e900d21d3b5354de6befb38a2a17b2"
+    },
+    {
+      "key": "r-slash",
+      "event": "Play_sfx_Yasuo_YasuoRKnockUpCombo_OnBuffActivate {r}",
+      "file": "yasuo-client-r-slash.mp3",
+      "duration": 2.5,
+      "peak": 0.5921395421028137,
+      "rms": 0.09509390126942455,
+      "gain": 0.6470095648462079,
+      "source_sha256": "775669c9aff1ec917c7f9d7942aca7018f2a5751242d36b5909951abc916c4d1",
+      "sha256": "84052a84c5cee1209d3bcb7bc99c28bc5f587c72663f9c660a83f7fe6fbfc93f"
+    },
+    {
+      "key": "r-hit",
+      "event": "Play_sfx_Yasuo_YasuoRKnockUpCombo_hit_land {r}",
+      "file": "yasuo-client-r-hit.mp3",
+      "duration": 2.3,
+      "peak": 0.6236017942428589,
+      "rms": 0.09495017956971019,
+      "gain": 0.5991419845554531,
+      "source_sha256": "12d1b4aa61dca7a84d6d8ebdbf53326744b40e517a60a509be1e154dfa034618",
+      "sha256": "70e3a7f14a5e540d64691b4942906e588b8ee076b18c0ca78b0860c5f949ea7f"
+    }
+  ]
+}

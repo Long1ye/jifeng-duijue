@@ -1,0 +1,9 @@
+.battle-lobby{position:absolute;inset:0;z-index:30;display:grid;place-items:center;background:#061017d9;backdrop-filter:blur(5px);font-family:Microsoft YaHei,sans-serif}
+.battle-lobby[hidden],.battle-lobby [hidden],.battle-badge[hidden]{display:none!important}
+.online-lobby{padding:0;min-height:100svh}.online-lobby .battle-lobby{position:relative;min-height:100svh;box-sizing:border-box;padding:24px 0}.online-lobby .fullscreen-toggle{position:fixed;top:16px;right:16px;z-index:31;background:#102630;border:1px solid #607e8c66;color:#cbb686;padding:8px 12px;cursor:pointer}.online-lobby .fullscreen-message{position:fixed;bottom:16px;right:16px;z-index:31;color:#d3b87d}
+.battle-card{box-sizing:border-box;width:min(540px,94%);max-height:95%;overflow:auto;padding:28px;border:1px solid #8a7852;background:linear-gradient(145deg,#132c38,#0b1924);color:#e7e0ca;box-shadow:0 16px 70px #0008}
+.battle-card h2{font-size:28px;margin:10px 0}.battle-card p{line-height:1.8}.battle-card small{color:#9cbcc8;letter-spacing:2px}
+.battle-card button,.battle-badge button{border:1px solid #8b805d;background:#23404d;color:#f0e7cf;padding:9px 16px;cursor:pointer}.battle-card button:disabled{opacity:.5;cursor:default}
+.battle-card form{display:flex;align-items:end;gap:8px;margin-top:20px}.battle-card label{display:grid;gap:8px;flex:1}.battle-card input{min-width:0;width:100%;box-sizing:border-box;padding:10px;color:#fff;background:#071722;border:1px solid #67828d;font:inherit;letter-spacing:2px}
+.battle-room strong{font-size:30px;letter-spacing:5px;color:#fff1b7}.battle-room button{margin:4px}.battle-card .battle-help{font-size:12px;color:#a5bdc5}.battle-card a{color:#bed6dc}.battle-message{min-height:28px}
+.battle-badge{position:absolute;top:12px;left:12px;z-index:12;padding:5px 9px;color:#dce9ec;background:#071923db;font:12px Microsoft YaHei,sans-serif}.battle-badge button{font-size:11px;padding:4px 8px;margin-left:12px}

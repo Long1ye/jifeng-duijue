@@ -1,0 +1,12 @@
+{
+  "url": "http://127.0.0.1:5180/three.html?map=howling&scene=match&online=1",
+  "code": "253821",
+  "players": 2,
+  "sharedState": true,
+  "blueAndRedInput": true,
+  "pauseIgnored": true,
+  "waves": 1,
+  "towers": 2,
+  "reconnectSessionRetained": true,
+  "errors": []
+}

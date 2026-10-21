@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'"><title>疾风对决 · 局域网</title><link rel="stylesheet" href="launcher.css"></head>
+<body><main>
+  <header><img class="mark" src="icon-256.png" alt="疾风对决剑风图标" width="64" height="64"><div><p class="eyebrow">ONE LANE / TWO RIVALS</p><h1>疾风对决</h1><p class="tagline">风雪之上，胜负一线。</p></div><span id="version">0.1.0</span></header>
+  <section class="intro"><h2>同一片冰桥，面对面的对手。</h2><p>两台电脑连接同一 Wi-Fi 或有线局域网。一人创建对局，另一人输入主机地址与房间码。</p></section>
+  <div class="columns">
+    <section class="card host"><p class="eyebrow">01 / HOST</p><h2>创建局域网对局</h2><p>由这台电脑主持对局。把主机地址和游戏内的六位房间码告诉好友。</p><button id="host" class="primary">创建对局</button>
+      <div id="host-info" hidden><h3>好友连接以下地址</h3><div id="addresses"></div><p id="host-note"></p><button id="stop" class="secondary">停止主持并关闭当前对局</button></div>
+    </section>
+    <section class="card"><p class="eyebrow">02 / JOIN</p><h2>加入好友对局</h2><form id="join-form"><label for="address">主机地址</label><input id="address" required maxlength="100" placeholder="例如 192.168.1.20:5180" autocomplete="off" spellcheck="false"><label for="room">六位房间码</label><input id="room" required pattern="[0-9]{6}" maxlength="6" inputmode="numeric" placeholder="例如 123456" autocomplete="off"><button id="join" class="primary">连接并加入</button></form></section>
+  </div>
+  <p id="message" role="status" aria-live="polite">选择创建或加入，无需账号与互联网。</p>
+  <footer><button id="solo" class="secondary">单人练习 · 对战 AI</button><div><p>首次主持时，请允许 Windows 防火墙的“专用网络”访问。</p><p>主机退出程序会结束对战；双方准备并加载完成后开局。</p></div></footer>
+</main><script src="launcher.js"></script></body></html>

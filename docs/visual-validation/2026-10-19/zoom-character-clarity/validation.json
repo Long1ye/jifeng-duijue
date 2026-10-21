@@ -1,0 +1,21 @@
+{
+  "normalView": {
+    "antialias": "msaa",
+    "filter": "auto",
+    "height": 1992,
+    "width": 1920
+  },
+  "magnifiedView": {
+    "filter": "pixelated",
+    "antialias": "msaa",
+    "width": 1920,
+    "height": 1992
+  },
+  "checks": {
+    "tests": 12,
+    "files": 3,
+    "build": "passed",
+    "walkingAndZoomSwitch": "inspected live"
+  },
+  "change": "Only presentation sampling changes at zoom >= 1; original source art, animation frames, MSAA and alpha-to-coverage retained; no extra render passes."
+}

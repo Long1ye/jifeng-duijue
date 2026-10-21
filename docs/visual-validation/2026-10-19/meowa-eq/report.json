@@ -1,0 +1,273 @@
+{
+  "records": [
+    {
+      "empowered": false,
+      "stage": "gather",
+      "time": 0.4833333333333333,
+      "after": -0.053333333333333344,
+      "cards": [
+        {
+          "name": "meowa-eq-cutting-rim",
+          "opacity": 0.8666666666666661,
+          "depthTest": true,
+          "x": 6.8902909090911635,
+          "y": 1.1,
+          "z": 31.44959999999992
+        }
+      ],
+      "targetHp": 1945
+    },
+    {
+      "empowered": false,
+      "stage": "contact",
+      "time": 0.55,
+      "after": 0.01333333333333342,
+      "cards": [
+        {
+          "name": "meowa-eq-cutting-rim",
+          "opacity": 1,
+          "depthTest": true,
+          "x": 20.07210909090918,
+          "y": 1.1,
+          "z": 31.44959999999992
+        }
+      ],
+      "targetHp": 1860
+    },
+    {
+      "empowered": false,
+      "stage": "sweep",
+      "time": 0.6166666666666669,
+      "after": 0.0800000000000003,
+      "cards": [
+        {
+          "name": "meowa-eq-cutting-rim",
+          "opacity": 1,
+          "depthTest": true,
+          "x": 20.73120000000017,
+          "y": 1.1,
+          "z": 31.44959999999992
+        }
+      ],
+      "targetHp": 1860
+    },
+    {
+      "empowered": false,
+      "stage": "release",
+      "time": 0.6833333333333338,
+      "after": 0.14666666666666717,
+      "cards": [
+        {
+          "name": "meowa-eq-cutting-rim",
+          "opacity": 1,
+          "depthTest": true,
+          "x": 20.73120000000017,
+          "y": 1.1,
+          "z": 31.44959999999992
+        }
+      ],
+      "targetHp": 1860
+    },
+    {
+      "empowered": false,
+      "stage": "fade",
+      "time": 0.7833333333333341,
+      "after": 0.24666666666666748,
+      "cards": [
+        {
+          "name": "meowa-eq-cutting-rim",
+          "opacity": 0.7619047619047509,
+          "depthTest": true,
+          "x": 20.73120000000017,
+          "y": 1.1,
+          "z": 31.44959999999992
+        }
+      ],
+      "targetHp": 1860
+    },
+    {
+      "empowered": false,
+      "stage": "finished",
+      "time": 0.8666666666666677,
+      "after": 0.33000000000000107,
+      "cards": [],
+      "targetHp": 1860
+    },
+    {
+      "empowered": true,
+      "stage": "gather",
+      "time": 0.4833333333333333,
+      "after": -0.053333333333333344,
+      "cards": [
+        {
+          "name": "meowa-eq-cutting-rim",
+          "opacity": 0.563333333333333,
+          "depthTest": true,
+          "x": 6.8902909090911635,
+          "y": 1.1,
+          "z": 31.44959999999992
+        },
+        {
+          "name": "meowa-eq3-rear",
+          "opacity": 0.7799999999999996,
+          "depthTest": true,
+          "x": 6.8902909090911635,
+          "y": 0.033974596215561315,
+          "z": 30.94959999999992
+        },
+        {
+          "name": "meowa-eq3-front",
+          "opacity": 0.7799999999999996,
+          "depthTest": false,
+          "x": 6.8902909090911635,
+          "y": 1.7660254037844387,
+          "z": 31.94959999999992
+        }
+      ],
+      "targetHp": 1945
+    },
+    {
+      "empowered": true,
+      "stage": "contact",
+      "time": 0.55,
+      "after": 0.01333333333333342,
+      "cards": [
+        {
+          "name": "meowa-eq-cutting-rim",
+          "opacity": 0.65,
+          "depthTest": true,
+          "x": 20.07210909090918,
+          "y": 1.1,
+          "z": 31.44959999999992
+        },
+        {
+          "name": "meowa-eq3-rear",
+          "opacity": 0.9,
+          "depthTest": true,
+          "x": 20.07210909090918,
+          "y": 0.033974596215561315,
+          "z": 30.94959999999992
+        },
+        {
+          "name": "meowa-eq3-front",
+          "opacity": 0.9,
+          "depthTest": false,
+          "x": 20.07210909090918,
+          "y": 1.7660254037844387,
+          "z": 31.94959999999992
+        }
+      ],
+      "targetHp": 1860
+    },
+    {
+      "empowered": true,
+      "stage": "sweep",
+      "time": 0.6166666666666669,
+      "after": 0.0800000000000003,
+      "cards": [
+        {
+          "name": "meowa-eq-cutting-rim",
+          "opacity": 0.65,
+          "depthTest": true,
+          "x": 20.73120000000017,
+          "y": 1.1,
+          "z": 31.44959999999992
+        },
+        {
+          "name": "meowa-eq3-rear",
+          "opacity": 0.9,
+          "depthTest": true,
+          "x": 20.73120000000017,
+          "y": 0.033974596215561315,
+          "z": 30.94959999999992
+        },
+        {
+          "name": "meowa-eq3-front",
+          "opacity": 0.9,
+          "depthTest": false,
+          "x": 20.73120000000017,
+          "y": 1.7660254037844387,
+          "z": 31.94959999999992
+        }
+      ],
+      "targetHp": 1860
+    },
+    {
+      "empowered": true,
+      "stage": "release",
+      "time": 0.6833333333333338,
+      "after": 0.14666666666666717,
+      "cards": [
+        {
+          "name": "meowa-eq-cutting-rim",
+          "opacity": 0.65,
+          "depthTest": true,
+          "x": 20.73120000000017,
+          "y": 1.1,
+          "z": 31.44959999999992
+        },
+        {
+          "name": "meowa-eq3-rear",
+          "opacity": 0.9,
+          "depthTest": true,
+          "x": 20.73120000000017,
+          "y": 0.033974596215561315,
+          "z": 30.94959999999992
+        },
+        {
+          "name": "meowa-eq3-front",
+          "opacity": 0.9,
+          "depthTest": false,
+          "x": 20.73120000000017,
+          "y": 1.7660254037844387,
+          "z": 31.94959999999992
+        }
+      ],
+      "targetHp": 1860
+    },
+    {
+      "empowered": true,
+      "stage": "fade",
+      "time": 0.7833333333333341,
+      "after": 0.24666666666666748,
+      "cards": [
+        {
+          "name": "meowa-eq-cutting-rim",
+          "opacity": 0.4952380952380881,
+          "depthTest": true,
+          "x": 20.73120000000017,
+          "y": 1.1,
+          "z": 31.44959999999992
+        },
+        {
+          "name": "meowa-eq3-rear",
+          "opacity": 0.6857142857142758,
+          "depthTest": true,
+          "x": 20.73120000000017,
+          "y": 0.033974596215561315,
+          "z": 30.94959999999992
+        },
+        {
+          "name": "meowa-eq3-front",
+          "opacity": 0.6857142857142758,
+          "depthTest": false,
+          "x": 20.73120000000017,
+          "y": 1.7660254037844387,
+          "z": 31.94959999999992
+        }
+      ],
+      "targetHp": 1860
+    },
+    {
+      "empowered": true,
+      "stage": "finished",
+      "time": 0.8666666666666677,
+      "after": 0.33000000000000107,
+      "cards": [],
+      "targetHp": 1860
+    }
+  ],
+  "paused": true,
+  "cleared": true,
+  "errors": []
+}

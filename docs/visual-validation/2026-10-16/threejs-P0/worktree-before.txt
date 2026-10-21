@@ -1,0 +1,22 @@
+ M .gitignore
+ M README.md
+ M docs/development-workflow.md
+ M docs/visual-improvement-roadmap.md
+ M package.json
+ M src/game/Match.ts
+ M src/render/ArenaScene.ts
+ M src/render/CameraRig.ts
+ M src/render/Presentation.ts
+ M tests/camera.test.ts
+?? .cache/eq-flash-judgment-build.log
+?? .cache/flash-combos-build.log
+?? .cache/locked-camera-validation-2026-10-16/
+?? .cache/share-build.log
+?? .openai/
+?? docs/threejs-visual-refactor.md
+?? docs/visual-validation/2026-10-16/
+?? docs/web-sharing.md
+?? src/render/RenderPositions.ts
+?? tests/locked-camera-continuity.test.ts
+?? tests/yasuo-flash-combos.test.ts
+?? vite.share.config.ts

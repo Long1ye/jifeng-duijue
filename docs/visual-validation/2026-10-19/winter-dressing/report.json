@@ -1,0 +1,79 @@
+{
+  "difference": {
+    "changed": 498540,
+    "maximum": 229
+  },
+  "frozen": {
+    "changed": 0,
+    "maximum": 2
+  },
+  "cameraRestored": {
+    "changed": 0,
+    "maximum": 1
+  },
+  "pickingError": 4.547473508864641e-13,
+  "hiddenCrystalStrength": 0,
+  "reducedFine": 0,
+  "baselineWinter": 0,
+  "baselinePendants": false,
+  "resources": [
+    {
+      "geometries": 163,
+      "textures": 36
+    },
+    {
+      "geometries": 163,
+      "textures": 36
+    },
+    {
+      "geometries": 163,
+      "textures": 36
+    },
+    {
+      "geometries": 163,
+      "textures": 36
+    },
+    {
+      "geometries": 163,
+      "textures": 36
+    }
+  ],
+  "calls": {
+    "before": 81,
+    "after": 82
+  },
+  "errors": [],
+  "viewport": [
+    1600,
+    900
+  ],
+  "zoom": 0.6,
+  "time": 2,
+  "viewer": {
+    "cameras": [
+      {
+        "camera": "bridge",
+        "imagesLoaded": true
+      },
+      {
+        "camera": "wall",
+        "imagesLoaded": true
+      },
+      {
+        "camera": "red",
+        "imagesLoaded": true
+      },
+      {
+        "camera": "central",
+        "imagesLoaded": true
+      },
+      {
+        "camera": "sanctuary",
+        "imagesLoaded": true
+      }
+    ],
+    "beforeClip": "inset(0px 0% 0px 0px)",
+    "afterClip": "inset(0px 100% 0px 0px)"
+  },
+  "failures": []
+}

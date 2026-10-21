@@ -1,0 +1,66 @@
+{
+  "wall-seam": {
+    "size": [
+      273,
+      451
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "sourceRect": [
+      0,
+      0,
+      701,
+      650
+    ],
+    "crop": [
+      239,
+      138,
+      512,
+      589
+    ]
+  },
+  "coping-crown": {
+    "size": [
+      290,
+      221
+    ],
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  "hanging-shards": {
+    "size": [
+      285,
+      250
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "sourceRect": [
+      0,
+      650,
+      701,
+      1122
+    ],
+    "crop": [
+      217,
+      109,
+      502,
+      359
+    ]
+  },
+  "pillar-foot": {
+    "size": [
+      418,
+      251
+    ],
+    "alphaRange": [
+      0,
+      255
+    ]
+  }
+}
