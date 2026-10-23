@@ -1,0 +1,90 @@
+{
+  "scope": "Six independently generated variants, three clips each; only the existing SE walk is reused. No runtime integration or new walk generation.",
+  "direction": "se",
+  "canvas": [
+    176,
+    176
+  ],
+  "source_dimensions": [
+    128,
+    128
+  ],
+  "walk_translation": [
+    16,
+    32
+  ],
+  "walk_anchor": [
+    64,
+    115
+  ],
+  "walk_source": "assets/hero-animations/2026-10-09/v1/yasuo/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色围巾随步伐轻_a34379c9/result_output_url.webp",
+  "walk_sha256": "68a40a22e4b2415c6ddbc571c23eb70bf1b3a4e5764bfe7a11890b6ffca98981",
+  "input_pixels_resampled": false,
+  "pose_prompts": {
+    "first-end": "保持这张走路亚索的像素造型、服装、发型、持刀手和人物大小。只改变动作：停止迈步，拔出腰间的武士刀，完成一次向右上方的上挥砍，刀停在身体右侧高位。双脚自然站稳，角色仍朝右下方。只画真实金属刀身，不要刀光、拖影或特效，透明背景。",
+    "second-end": "保持这张走路亚索的像素造型、服装、发型、持刀手和人物大小。只改变动作：完成一次从右上向右下的挥砍，刀停在身体右前方低位，准备反手向上挥砍。双脚自然站稳，角色仍朝右下方。只画真实金属刀身，不要刀光、拖影或特效，透明背景。"
+  },
+  "motion_prompts": {
+    "entry": "亚索从迈步姿势自然停稳，拔刀并完成一次从低位到高位的挥砍，衔接第一次挥刀结束姿势。保持右下朝向和原有服装造型，动作连贯、收势自然。只保留真实刀身，不要刀光、拖影或特效。",
+    "second": "亚索从第一次挥刀结束的高位姿势，顺势从上向下挥砍一次，自然衔接第二次挥刀结束的低位姿势。保持右下朝向和原有服装造型，动作连贯、收势自然。只保留真实刀身，不要刀光、拖影或特效。",
+    "repeat": "亚索从第二次挥刀结束的低位姿势，翻腕后反手从下向上挥砍一次，到高位后翻腕还原，自然衔接第一次挥刀结束姿势。保持右下朝向和原有服装造型，动作连贯、收势自然。只保留真实刀身，不要刀光、拖影或特效。"
+  },
+  "prompt_optimization": true,
+  "optimized_backend_text_saved": false,
+  "variant_count": 6,
+  "animation_count": 18,
+  "frames_per_clip": 8,
+  "timeline": [
+    "walk_once",
+    "entry_once",
+    "second_repeat",
+    "repeat_repeat"
+  ],
+  "credits_before": 7842,
+  "estimated_credits": 828,
+  "production_ready": false,
+  "runtime_integrated": false,
+  "initial_pose_acceptance": "rejected: unwanted glow around character and sword; not used as animation keyframes",
+  "cleanup_prompt": "参考图1是要保留的挥刀结束动作，参考图2是人物造型。保持图1的姿势、持刀位置和大小，让服装、银色肩甲与图2一致。去掉全部刀光、发光、光晕和脚下光效，只留下清晰像素人物和实心金属刀，背景完全透明。",
+  "extra_cleanup_jobs": 2,
+  "poses_reviewed": true,
+  "pose_inputs": {
+    "first-end": {
+      "source": "assets/hero-attacks/2026-10-10/yasuo/v11-walk-six/poses/first-end-clean/参考图1是要保留的挥刀结束动作_参考图2是人物造型_保持图1的姿势_持刀位置和大_079072d1/remove_bg.png",
+      "source_sha256": "7cad8f938b80cec0e80984a219bd85e9b75da3e7c889187d11cfdca1885e243f",
+      "integer_translation": [
+        0,
+        3
+      ],
+      "aligned_bbox": [
+        48,
+        28,
+        134,
+        147
+      ],
+      "review": "Native view checked: SE facing, blue scarf, silver shoulder armor, one solid blade, no visible glow; accepted as motion keyframe, not production art."
+    },
+    "second-end": {
+      "source": "assets/hero-attacks/2026-10-10/yasuo/v11-walk-six/poses/second-end-clean/参考图1是要保留的挥刀结束动作_参考图2是人物造型_保持图1的姿势_持刀位置和大_079072d1/remove_bg.png",
+      "source_sha256": "f821e87ca3ca7ecd2817a12b63f9842b1526d913105be9b56e30c413709dd912",
+      "integer_translation": [
+        0,
+        -1
+      ],
+      "aligned_bbox": [
+        47,
+        38,
+        150,
+        147
+      ],
+      "review": "Native view checked: SE facing, blue scarf, silver shoulder armor, one solid blade, no visible glow; accepted as motion keyframe, not production art."
+    }
+  },
+  "pose_review_note": "Initial glowy poses rejected. Cleaned poses inspected before use. Foot baseline aligned only by integer translation; no resampling.",
+  "requested_omission": {
+    "variant": 1,
+    "clip": "second",
+    "reason": "Submission outcome unknown, no job ID. Human explicitly chose not to resubmit or incur duplicate charge."
+  },
+  "expected_delivered_clips": 17
+}

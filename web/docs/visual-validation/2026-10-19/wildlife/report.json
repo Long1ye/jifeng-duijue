@@ -1,0 +1,895 @@
+{
+  "errors": [],
+  "frames": [
+    {
+      "time": 0,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 0.5,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 1,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 1.5,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 2,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 2.5,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 3,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 3.5,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 4,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 4.5,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 5,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 5.5,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 6,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 6.5,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 7,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            -1551.6335999999997,
+            108.90549985970104,
+            462.6749288135593
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 7.5,
+      "birds": [
+        {
+          "state": "flying",
+          "frame": 6,
+          "position": [
+            -1548.515441715976,
+            128.10466612958436,
+            461.19512488215787
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 8,
+      "birds": [
+        {
+          "state": "flying",
+          "frame": 4,
+          "position": [
+            -1527.4144801775144,
+            149.76334302630568,
+            451.1811092367866
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 8.5,
+      "birds": [
+        {
+          "state": "flying",
+          "frame": 5,
+          "position": [
+            -1495.036891420118,
+            158.88104403174594,
+            435.81547389429306
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 9,
+      "birds": [
+        {
+          "state": "flying",
+          "frame": 5,
+          "position": [
+            -1461.6341547337277,
+            152.09635903806003,
+            419.9633276702434
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 9.5,
+      "birds": [
+        {
+          "state": "flying",
+          "frame": 4,
+          "position": [
+            -1437.457749408284,
+            131.67783572266717,
+            408.48977938020244
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 10,
+      "birds": [
+        {
+          "state": "landing",
+          "frame": 7,
+          "position": [
+            -1431.5135999999998,
+            109.94539986225226,
+            405.668827118644
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 10.5,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            -1431.5135999999998,
+            106.94539986225192,
+            405.668827118644
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            -186.63359999999966,
+            108.90549985970104,
+            -185.1216813559322
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 11,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 1,
+          "position": [
+            -1431.5135999999998,
+            106.94539986225192,
+            405.668827118644
+          ],
+          "visible": true
+        },
+        {
+          "state": "flying",
+          "frame": 4,
+          "position": [
+            -186.8010408284017,
+            117.58483801298253,
+            -185.04221791194482
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 11.5,
+      "birds": [
+        {
+          "state": "perched",
+          "frame": 0,
+          "position": [
+            -1431.5135999999998,
+            106.94539986225192,
+            405.668827118644
+          ],
+          "visible": true
+        },
+        {
+          "state": "flying",
+          "frame": 6,
+          "position": [
+            -204.26272721893292,
+            142.2432125900626,
+            -176.75531589609932
+          ],
+          "visible": true
+        },
+        {
+          "state": "perched",
+          "frame": 2,
+          "position": [
+            1178.3664000000008,
+            108.90549985970104,
+            -832.9182915254239
+          ],
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "name": "normal scale loaded birds",
+      "passed": true
+    },
+    {
+      "name": "flight and landing visible",
+      "passed": true
+    },
+    {
+      "name": "pause freezes animals and poses",
+      "passed": true
+    },
+    {
+      "name": "hidden enemy cannot attract poros",
+      "passed": true
+    },
+    {
+      "name": "hidden enemy cannot startle ravens",
+      "passed": true
+    },
+    {
+      "name": "restart resources stable",
+      "passed": true
+    }
+  ],
+  "resources": [
+    {
+      "geometries": 99,
+      "textures": 39
+    },
+    {
+      "geometries": 99,
+      "textures": 39
+    },
+    {
+      "geometries": 99,
+      "textures": 39
+    },
+    {
+      "geometries": 99,
+      "textures": 39
+    },
+    {
+      "geometries": 99,
+      "textures": 39
+    }
+  ],
+  "assetErrors": [],
+  "failures": []
+}

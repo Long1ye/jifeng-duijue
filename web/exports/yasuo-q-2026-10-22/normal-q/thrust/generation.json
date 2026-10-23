@@ -1,0 +1,132 @@
+{
+  "title": "Q1/Q2 出刺风刃",
+  "folder": "normal-q/thrust",
+  "feature": "通用生成",
+  "command": "general-image-run",
+  "parameters": {
+    "generation-model": "image-2.5",
+    "quality": "standard",
+    "resolution": "1K",
+    "aspect-ratio": "1:1",
+    "remove-bg-method": "standard",
+    "template": null,
+    "reference-images": []
+  },
+  "actualOutput": {
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "columns": 2,
+    "frames": 8,
+    "frameSize": [
+      512,
+      256
+    ]
+  },
+  "prompt": "制作游戏可直接切片的斩钢闪特效序列图，透明背景，严格两列四行，共八个等大的方形格子，没有网格线和文字。每格只画同一次向右直刺的风刃特效，不画人物、刀柄或实体武器。风刃从每格左侧10%、高度50%的固定位置出发，朝右水平延伸，长度约占格子80%，高度只占格子12%。贴近英雄联盟基础皮肤亚索普通Q：细锐的象牙白剑尖风光，周围是半透明的灰白空气薄雾和少量淡青色细风丝，轮廓是扁平狭长的梭形，尖端锋利，不能像火焰或激光。按从左到右、从上到下展示八个连续阶段：短风线开始、快速伸长、完全刺出、白色尖端最亮、风痕散开、薄雾破碎、极淡残丝、最后少量消失的残雾。所有格子的起点和方向完全相同，留足透明边距。风效精致但克制，适配像素角色上的原版风格技能特效。",
+  "historicalCommand": "python .agents/skills/game-assets/meowart_api.py general-image-run --generation-model image-2.5 --resolution 1K --aspect-ratio 1:1 --quality standard --remove-bg-method standard --prompt '制作游戏可直接切片的斩钢闪特效序列图，透明背景，严格两列四行，共八个等大的方形格子，没有网格线和文字。每格只画同一次向右直刺的风刃特效，不画人物、刀柄或实体武器。风刃从每格左侧10%、高度50%的固定位置出发，朝右水平延伸，长度约占格子80%，高度只占格子12%。贴近英雄联盟基础皮肤亚索普通Q：细锐的象牙白剑尖风光，周围是半透明的灰白空气薄雾和少量淡青色细风丝，轮廓是扁平狭长的梭形，尖端锋利，不能像火焰或激光。按从左到右、从上到下展示八个连续阶段：短风线开始、快速伸长、完全刺出、白色尖端最亮、风痕散开、薄雾破碎、极淡残丝、最后少量消失的残雾。所有格子的起点和方向完全相同，留足透明边距。风效精致但克制，适配像素角色上的原版风格技能特效。' --output-dir assets/effects/yasuo-q-meowa-2026-10-19/generated",
+  "jobId": "job_1be52f9aecd84191a52c5f875e512cea",
+  "sourceSHA256": "4e7d26f071b1741bfb3c7ff6487ed553615826e4ae028ae63f2a2b9d4526a6dd",
+  "runtimeSHA256": "680858098737f753b4004cf024637c4debf3b7be8cf29addea4ce9e85ce3ce07",
+  "postProcessing": {
+    "key": "thrust",
+    "job": "job_1be52f9aecd84191a52c5f875e512cea",
+    "source": "assets\\effects\\yasuo-q-meowa-2026-10-19\\generated\\制作游戏可直接切片的斩钢闪特效序列图_透明背景_严格两列四行_共八个等大的方_07ae1d0d\\result_images_0_url.png",
+    "sha256": "4e7d26f071b1741bfb3c7ff6487ed553615826e4ae028ae63f2a2b9d4526a6dd",
+    "cell": [
+      512,
+      256
+    ],
+    "frames": 8,
+    "bounds": [
+      [
+        55,
+        86,
+        218,
+        166
+      ],
+      [
+        49,
+        88,
+        397,
+        166
+      ],
+      [
+        55,
+        87,
+        476,
+        165
+      ],
+      [
+        48,
+        87,
+        488,
+        166
+      ],
+      [
+        55,
+        81,
+        489,
+        168
+      ],
+      [
+        49,
+        71,
+        434,
+        167
+      ],
+      [
+        55,
+        70,
+        398,
+        160
+      ],
+      [
+        51,
+        51,
+        316,
+        140
+      ]
+    ],
+    "alignment_shifts": [
+      [
+        0,
+        -22
+      ],
+      [
+        0,
+        -22
+      ],
+      [
+        0,
+        -7
+      ],
+      [
+        0,
+        -7
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -8
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        -17
+      ]
+    ],
+    "alpha": [
+      0,
+      253
+    ],
+    "resampled": false
+  },
+  "previewFrameMilliseconds": 100
+}

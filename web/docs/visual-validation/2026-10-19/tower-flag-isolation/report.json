@@ -1,0 +1,40 @@
+{
+  "report": [
+    {
+      "team": "blue",
+      "stoneChanges": 0,
+      "flagChanges": 454681,
+      "pausedChanges": 0,
+      "stoneRegion": {
+        "tl": {
+          "x": 811.3060000000002,
+          "y": 635.526036798993
+        },
+        "br": {
+          "x": 1108.694,
+          "y": 804.4740271617154
+        }
+      },
+      "note": "Only flag clock advances; crystal shading and floating crown held fixed."
+    },
+    {
+      "team": "red",
+      "stoneChanges": 0,
+      "flagChanges": 398492,
+      "pausedChanges": 0,
+      "stoneRegion": {
+        "tl": {
+          "x": 811.3060000000002,
+          "y": 635.5260367989933
+        },
+        "br": {
+          "x": 1108.694,
+          "y": 804.474027161716
+        }
+      },
+      "note": "Only flag clock advances; crystal shading and floating crown held fixed."
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

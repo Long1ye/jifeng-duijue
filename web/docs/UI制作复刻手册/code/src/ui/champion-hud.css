@@ -1,0 +1,28 @@
+.pixel-hud .player-hud{width:552px;height:104px;grid-template-rows:52px 25px;row-gap:7px;grid-template-columns:132px 68px 244px 56px;column-gap:8px}
+.pixel-hud .hero-portrait{grid-column:2}
+.pixel-hud .ability-bar,.pixel-hud .hero-vitals{grid-column:3}
+.pixel-hud .summoner-slots{grid-column:4}
+.pixel-hud .champion-stats-panel{grid-column:1;grid-row:1/3;align-self:stretch;display:flex;align-items:center;padding:0 8px 0 0;border-right:1px solid #5d583e;background:linear-gradient(90deg,#0c1d24,#08151c)}
+#champion-stats-body{width:100%;display:grid;grid-template-columns:1fr 1fr;grid-auto-flow:column;grid-template-rows:repeat(3,21px);gap:1px 9px}
+.champion-stat{display:flex;align-items:center;gap:5px;min-width:0;color:#ded6bc}
+.champion-stat svg{width:16px;height:16px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
+.champion-stat b{font:12px/20px Consolas,monospace;font-variant-numeric:tabular-nums;text-shadow:0 1px #000}
+.champion-stat .stat-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.stat-0 svg{color:#e0a574}.stat-1 svg{color:#d4bd76}.stat-2 svg{color:#9dc5cb}.stat-3 svg{color:#d7c28c}.stat-4 svg{color:#d09f91}.stat-5 svg{color:#c8d8bc}
+.pixel-hud .hero-portrait{position:relative}
+.champion-level{position:absolute;right:1px;bottom:1px;min-width:20px;padding:1px;background:#08151cf2;border:1px solid #c6ac67;color:#f1ddb0;text-align:center;font:bold 12px Consolas;z-index:2}
+.pixel-hud .champion-xp{position:absolute;left:150px;bottom:5px;top:auto;width:68px;height:3px;border:0;background:#121524;appearance:none}
+.champion-xp::-webkit-progress-bar{background:#121524}.champion-xp::-webkit-progress-value{background:linear-gradient(#c7b5df,#8561b5)}.champion-xp::-moz-progress-bar{background:#a47bcd}
+.pixel-hud .ability-bar{position:relative;align-items:start;align-self:start}
+.champion-ability-slot{position:relative;display:grid;grid-template-rows:44px 3px;row-gap:4px;width:100%;min-width:0}
+.pixel-hud .skill-upgrade{position:absolute;left:0;top:-28px;width:100%;height:22px;padding:0;border:1px solid #c8aa60;background:linear-gradient(#77602e,#302716);color:#ffe5a0;font:bold 20px/19px Consolas;cursor:pointer;border-radius:0;z-index:3;box-shadow:inset 0 0 0 1px #29291d,0 1px 4px #000}
+.pixel-hud .skill-upgrade:hover{background:linear-gradient(#b28d3b,#57401c);border-color:#ffe1a0}.pixel-hud .skill-upgrade:focus-visible{outline:2px solid #fff0bd;outline-offset:2px}
+.pixel-hud .skill-rank{position:static;display:flex;justify-content:center;gap:3px;height:3px;margin:0 2px;pointer-events:none}
+.skill-rank i{flex:1;max-width:7px;background:#111b1e;box-shadow:0 0 0 1px #454331}.skill-rank i.learned{background:#e3bd66;box-shadow:0 0 0 1px #796139}
+.pixel-hud .ability.unlearned .ability-glyph{filter:grayscale(1) brightness(.35)}
+.champion-skill-points{position:absolute;top:-27px;left:9px;width:123px;box-sizing:border-box;text-align:center;padding:4px 2px;border:1px solid #887142;background:linear-gradient(#203239,#0b191f);color:#ead292;font:11px/14px 'Microsoft YaHei',sans-serif;white-space:nowrap}
+.pixel-hud [hidden]{display:none!important}
+@media(max-width:1100px){.pixel-hud .player-hud{left:50%;transform:translateX(-50%)}}
+@media(max-width:800px){.pixel-hud .player-hud{left:5px;transform:none}.pixel-hud .minimap{bottom:106px}}
+@media(max-width:590px){.pixel-hud .champion-ability-slot{grid-template-rows:40px 3px}.pixel-hud .player-hud{left:4px;width:368px;height:144px;grid-template-columns:56px 224px 56px;grid-template-rows:48px 23px 39px;gap:5px 6px}.pixel-hud .hero-portrait{grid-column:1;grid-row:1/3}.pixel-hud .ability-bar,.pixel-hud .hero-vitals{grid-column:2}.pixel-hud .summoner-slots{grid-column:3}.pixel-hud .champion-stats-panel{grid-column:1/-1;grid-row:3;padding:6px 0 0;border-right:0;border-top:1px solid #4f513b;background:none}.pixel-hud #champion-stats-body{grid-auto-flow:row;grid-template-columns:repeat(6,1fr);grid-template-rows:21px;gap:3px}.champion-stat{gap:3px}.champion-stat b{font-size:11px}.champion-stat svg{width:13px;height:13px}.pixel-hud .champion-xp{left:7px;bottom:55px;width:56px}.champion-skill-points{top:-26px;left:5px;width:56px;font-size:9px}.pixel-hud .minimap{bottom:154px}.pixel-hud .toast{bottom:180px}}
+@media(max-width:375px){.pixel-hud .champion-ability-slot{grid-template-rows:38px 3px}.pixel-hud .player-hud{width:calc(100% - 4px);left:2px;grid-template-columns:48px minmax(0,1fr) 48px;column-gap:4px}.pixel-hud .champion-xp{width:48px}.champion-stat b{font-size:10px}.champion-stat svg{width:11px;height:11px}}

@@ -1,0 +1,33 @@
+/* Classic client options: brass frame, side categories and a centered modal. */
+.league-ui .hud-menu{position:absolute;z-index:8;top:42px;right:10px;padding:5px 10px;border:1px solid #716344;border-radius:0;background:#09151de8;color:#cbbb95;font:11px 'Microsoft YaHei',sans-serif;cursor:pointer}
+.league-ui .settings-internal[hidden],.league-ui .settings-section[hidden]{display:none!important}
+.league-ui .player-settings-window{position:fixed;inset:0;margin:auto;width:min(780px,calc(100vw - 32px));height:min(580px,calc(100dvh - 40px));max-width:none;max-height:none;padding:0;box-sizing:border-box;border:2px solid #8c7549;background:linear-gradient(130deg,#14252c,#08151d 45%);color:#c6c7bb;box-shadow:0 0 0 2px #050c10,0 0 0 3px #3e3c2d,0 20px 90px #000b;font:13px/1.5 'Microsoft YaHei',sans-serif;overflow:hidden}
+.league-ui .player-settings-window[open]{display:flex;flex-direction:column}
+.player-settings-window::backdrop{background:#01090d8c}
+.league-ui .settings-heading{display:flex;align-items:center;justify-content:space-between;flex-shrink:0;padding:17px 22px;border-bottom:1px solid #64583b;background:linear-gradient(#1b2c31,#101f26)}
+.league-ui .settings-heading h1{margin:0;color:#e0cc98;font:600 21px/1.5 'Microsoft YaHei',sans-serif;letter-spacing:5px}
+.league-ui .settings-close{width:30px;height:30px;padding:0;border:1px solid #7e6c43;border-radius:0;background:#0b1920;color:#d0bd8c;font:24px/26px Georgia;cursor:pointer}
+.league-ui .settings-layout{display:grid;grid-template-columns:150px minmax(0,1fr);flex:1;min-height:0}
+.league-ui .settings-tabs{display:flex;flex-direction:column;gap:3px;padding:22px 0;background:#06101788;border-right:1px solid #4b4834}
+.league-ui .settings-tabs button{padding:12px 22px;border:0;border-left:3px solid transparent;border-radius:0;background:none;color:#9dacae;font:14px 'Microsoft YaHei',sans-serif;text-align:left;cursor:pointer}
+.league-ui .settings-tabs button[aria-selected='true']{border-left-color:#d4b56b;background:linear-gradient(90deg,#51452b88,#16282d);color:#efdcac}
+.league-ui .player-settings-window .hud-menu-content{width:auto;max-width:none;max-height:none;min-width:0;overflow-y:auto;overscroll-behavior:contain;box-sizing:border-box;padding:24px 28px;border:0;background:none;box-shadow:none;scrollbar-width:thin;scrollbar-color:#756444 #0a1820}
+.league-ui .settings-section{margin:0;padding:0;border:0;background:none}
+.league-ui .settings-section h2{margin:0 0 22px;padding:0 0 12px;border-bottom:1px solid #4d4c37;color:#dfc68d;font:600 15px/1.5 'Microsoft YaHei',sans-serif;letter-spacing:2px}
+.league-ui .settings-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.league-ui .settings-controls>button{width:100%;min-height:36px;min-width:0;padding:7px 8px;border:1px solid #756b48;border-radius:0;background:linear-gradient(#1b3038,#10212a);color:#d5d4bf;font:12px/1.5 'Microsoft YaHei',sans-serif;cursor:pointer}
+.league-ui .settings-controls>button[aria-pressed='true']{border-color:#b49a5c;background:#203632;color:#eee0b5}
+.league-ui .settings-controls>label{grid-column:1/-1;display:grid;gap:9px;color:#c7d1d0;font:12px/1.5 'Microsoft YaHei',sans-serif}
+.league-ui .settings-controls select{width:100%;box-sizing:border-box;min-width:0;padding:8px;color:#e1e6df;background:#10232b;border:1px solid #726846;font:12px/1.5 'Microsoft YaHei',sans-serif}
+.league-ui .settings-controls input[type='range']{width:100%;accent-color:#bba46b}
+.league-ui .settings-controls .cast-settings{margin:0 0 5px;padding:0 0 16px}
+.league-ui .settings-controls .quality-controls{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:5px 0 0}
+.league-ui .settings-controls .quality-controls label{display:flex;align-items:center;gap:6px;color:#c7d1d0;font-size:11px}
+.league-ui .settings-controls input[type='checkbox']{accent-color:#b7a16a}
+.league-ui #performance-status{grid-column:1/-1;margin:0;color:#a6babd;font-size:12px;line-height:1.7}
+.league-ui .settings-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 22px;border-top:1px solid #64583b;background:#08151c;flex-shrink:0}
+.settings-footer span{color:#84948f;font-size:11px}
+.league-ui .settings-footer button{min-width:112px;padding:8px 20px;border:1px solid #ad9358;border-radius:0;background:linear-gradient(#2c3d3f,#13272d);color:#e7d3a1;font:13px 'Microsoft YaHei',sans-serif;cursor:pointer}
+.league-ui .player-settings-window :focus-visible{outline:2px solid #cdbb83;outline-offset:2px}
+.league-ui .settings-close:hover,.league-ui .settings-footer button:hover{border-color:#efd18a;color:#fff0c4}
+@media(max-width:590px){.league-ui .player-settings-window{width:calc(100vw - 16px);height:calc(100dvh - 24px)}.league-ui .settings-layout{grid-template-columns:80px minmax(0,1fr)}.league-ui .settings-tabs button{padding:12px}.league-ui .player-settings-window .hud-menu-content{padding:16px 12px}.league-ui .settings-controls{gap:10px;grid-template-columns:1fr}.league-ui .settings-footer{padding:12px}.settings-footer span{font-size:9px}.league-ui .settings-footer button{min-width:76px}}

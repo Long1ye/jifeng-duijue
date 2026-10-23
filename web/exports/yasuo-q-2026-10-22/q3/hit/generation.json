@@ -1,0 +1,93 @@
+{
+  "title": "Q3 命中上升风流",
+  "folder": "q3/hit",
+  "feature": "通用生成",
+  "command": "general-image-run",
+  "parameters": {
+    "generation-model": "image-2.5",
+    "quality": "standard",
+    "resolution": "1K",
+    "aspect-ratio": "1:1",
+    "remove-bg-method": "standard",
+    "template": null,
+    "reference-images": []
+  },
+  "actualOutput": {
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "columns": 2,
+    "frames": 4,
+    "frameSize": [
+      512,
+      512
+    ]
+  },
+  "prompt": "制作透明背景的亚索Q3旋风命中击飞特效序列图，严格两列两行共四格，不要文字、网格、人物或武器。每格效果以格子中央下方80%高度为固定脚底锚点。低饱和灰白和淡青的两条半透明风带自下而上卷起，像原版英雄联盟基础皮肤亚索Q3命中敌人时短促的上升气流，能透出目标的身体，不要实心龙卷风、火焰、星芒或冰晶。四格从左到右从上到下表现：脚底小型扁平风环、风带向上环绕抬升、弧形空气和细尘碎开、极淡风丝消失。保持同一固定中心和尺度，风环直径约占格子40%，最强阶段高度约占格子60%，透明留白均匀。",
+  "historicalCommand": "python .agents/skills/game-assets/meowart_api.py general-image-run --generation-model image-2.5 --resolution 1K --aspect-ratio 1:1 --quality standard --remove-bg-method standard --prompt '制作透明背景的亚索Q3旋风命中击飞特效序列图，严格两列两行共四格，不要文字、网格、人物或武器。每格效果以格子中央下方80%高度为固定脚底锚点。低饱和灰白和淡青的两条半透明风带自下而上卷起，像原版英雄联盟基础皮肤亚索Q3命中敌人时短促的上升气流，能透出目标的身体，不要实心龙卷风、火焰、星芒或冰晶。四格从左到右从上到下表现：脚底小型扁平风环、风带向上环绕抬升、弧形空气和细尘碎开、极淡风丝消失。保持同一固定中心和尺度，风环直径约占格子40%，最强阶段高度约占格子60%，透明留白均匀。' --output-dir assets/effects/yasuo-q3-meowa-2026-10-19/hit-generated",
+  "jobId": "job_9495ed81804547948bafd31ba56b2352",
+  "sourceSHA256": "486e827e731bb9c6d15a19bde5c2b4871882c634f4f3139d03a705c8a7a18ced",
+  "runtimeSHA256": "6ab0fc5b01eca0520c53f3eb2216c8b2b4888b6d61ad29bd1491c797027b1d22",
+  "postProcessing": {
+    "key": "hit",
+    "job": "job_9495ed81804547948bafd31ba56b2352",
+    "source": "assets\\effects\\yasuo-q3-meowa-2026-10-19\\hit-generated\\制作透明背景的亚索Q3旋风命中击飞特效序列图_严格两列两行共四格_不要文字_网格_6f8b02ad\\result_images_0_url.png",
+    "sha256": "486e827e731bb9c6d15a19bde5c2b4871882c634f4f3139d03a705c8a7a18ced",
+    "cell": [
+      512,
+      512
+    ],
+    "columns": 2,
+    "frames": 4,
+    "alignment_shifts": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "bounds": [
+      [
+        112,
+        326,
+        418,
+        444
+      ],
+      [
+        101,
+        78,
+        392,
+        444
+      ],
+      [
+        80,
+        31,
+        484,
+        453
+      ],
+      [
+        123,
+        67,
+        403,
+        446
+      ]
+    ],
+    "alpha": [
+      0,
+      250
+    ],
+    "resampled": false
+  },
+  "previewFrameMilliseconds": 100
+}

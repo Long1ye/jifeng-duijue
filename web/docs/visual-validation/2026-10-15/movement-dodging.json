@@ -1,0 +1,34 @@
+{
+  "evidence": {
+    "results": [
+      {
+        "kind": "Q",
+        "dodge": false,
+        "damage": 85,
+        "speed": 80
+      },
+      {
+        "kind": "Q",
+        "dodge": true,
+        "damage": 0,
+        "speed": 80
+      },
+      {
+        "kind": "Q3",
+        "dodge": false,
+        "damage": 85,
+        "speed": 80
+      },
+      {
+        "kind": "Q3",
+        "dodge": true,
+        "damage": 0,
+        "speed": 80
+      }
+    ],
+    "measuredSpeed": 80.00000000000911,
+    "walkFrames": 16,
+    "fps": "FPS 165"
+  },
+  "errors": []
+}

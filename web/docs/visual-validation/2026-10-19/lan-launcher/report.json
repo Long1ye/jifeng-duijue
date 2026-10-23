@@ -1,0 +1,10 @@
+{
+  "websocket": "pong",
+  "childPid": 13556,
+  "screenshot": "D:\\Long1ye\\pixel-league-of-legends-V2\\.cache\\lan-launcher\\launcher.png",
+  "http": 200,
+  "copyEnabled": true,
+  "childStopped": true,
+  "url": "http://192.168.2.139:5181/three.html?map=howling&scene=match&online=1",
+  "occupiedPortPreserved": true
+}

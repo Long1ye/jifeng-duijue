@@ -1,0 +1,5 @@
+{
+  "comparedBaselineFiles": 223,
+  "changedExistingSourceFiles": [],
+  "note": "New P1 files are additions; this compares existing src/tests only. Package and Vite config changes are intentional."
+}

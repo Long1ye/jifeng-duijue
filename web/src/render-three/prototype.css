@@ -1,0 +1,21 @@
+/* Current Three.js world with the established pixel HUD layered above it. */
+body.three-ui{overflow:hidden}
+.three-ui main.match-shell{width:100%;height:100dvh;min-height:0;margin:0;padding:0;max-width:none}
+.three-ui #viewport{position:absolute;inset:0;width:100%;height:100%;border:0;outline:none;overflow:hidden;user-select:none;touch-action:none;background:#111c2b}
+.three-ui #viewport canvas{display:block;width:100%;height:100%;image-rendering:auto;touch-action:none;cursor:url('../../assets/ui/riot-healthbars-2026-10-15/runtime/hover_precise.png') 2 2,default}
+.three-ui #viewport[data-dragging='true'] canvas{cursor:grabbing}
+.three-ui #viewport[data-attack-selecting='true'] > canvas{cursor:url('../../assets/ui/riot-healthbars-2026-10-15/runtime/target_precise.png') 16 16,crosshair}
+.three-ui #error{position:absolute;inset:20px;padding:24px;background:#402b2b;z-index:10;white-space:pre-wrap}
+.three-ui .hud-menu-content{width:360px;max-width:calc(100vw - 24px)}
+.three-ui .match-actions{grid-template-columns:1fr 1fr;align-items:start}
+.three-ui .match-actions label{display:grid;gap:5px;font-size:10px;color:#b7c4c5}
+.three-ui select{width:100%;min-width:0;padding:5px;color:#d6d0bd;background:#142328;border:1px solid #364746;font:11px inherit}
+.three-ui .hud-menu-content details{margin-top:12px}
+.three-ui .hud-menu-content header{display:block;margin-top:12px}
+.three-ui .hud-menu-content h1{font-size:15px;letter-spacing:0;margin:8px 0}
+.three-ui .hud-menu-content p,.three-ui .hud-menu-content output{font:10px/1.7 Consolas,'Microsoft YaHei',sans-serif;color:#9fbbb9;overflow-wrap:anywhere}
+.three-ui .hud-menu-content a{color:#d2bf87;text-decoration:underline}
+.three-ui .quality-controls{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.three-ui .quality-controls label{display:flex;align-items:center;gap:4px;font-size:10px}
+.three-ui .match-overlay{z-index:6}
+#viewport[data-shop-hover=true] canvas{cursor:pointer}

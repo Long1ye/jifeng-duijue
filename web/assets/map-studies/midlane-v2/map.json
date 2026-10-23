@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "width": 1024,
+  "height": 640,
+  "tileSize": 64,
+  "lane": {"start": [80, 520], "end": [944, 120], "width": 256, "shoulder": 72},
+  "river": {"start": [344, 56], "end": [680, 584], "width": 128},
+  "towers": [{"id":"blue-outer","team":"blue","x":256,"y":438},{"id":"red-outer","team":"red","x":768,"y":202}],
+  "brushes": [{"id":"north-river","x":384,"y":168,"width":104,"height":42},{"id":"south-river","x":640,"y":472,"width":104,"height":42}],
+  "spawn": [376, 384],
+  "layers": ["terrain", "river", "lane", "towerPads", "actors", "brush", "ambient", "debug"]
+}

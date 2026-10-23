@@ -1,0 +1,262 @@
+{
+  "hero": "yasuo",
+  "action": "endpoint_transitions_no_fx",
+  "direction": "se",
+  "width": 192,
+  "height": 192,
+  "clips": {
+    "a": {
+      "id": "a",
+      "transition": "a-to-b",
+      "candidate": "a-remove-fx",
+      "job_id": "job_192791e279ff446cbb111d20281fb8d2",
+      "webp": "clips/a-remove-fx/删除动画每一帧中附加的蓝色_白色弧形刀光_发光轨迹和残影_只保留角色手中真实_df79cbb8/frames_edit.webp",
+      "frame_count": 73,
+      "durations_ms": [
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41
+      ],
+      "duration_ms": 3000,
+      "first_to_input": {
+        "mean_rgb_error": 3.2063892505787037,
+        "alpha_identical": false
+      },
+      "last_to_input": {
+        "mean_rgb_error": 3.618679470486111,
+        "alpha_identical": false
+      },
+      "final_media": [
+        {
+          "label": "透明WebP",
+          "path": "clips/a-remove-fx/删除动画每一帧中附加的蓝色_白色弧形刀光_发光轨迹和残影_只保留角色手中真实_df79cbb8/frames_edit.webp",
+          "animated": true
+        },
+        {
+          "label": "PNG图集",
+          "path": "clips/a-remove-fx/删除动画每一帧中附加的蓝色_白色弧形刀光_发光轨迹和残影_只保留角色手中真实_df79cbb8/sprite_sheet.png",
+          "animated": false
+        }
+      ]
+    },
+    "b": {
+      "id": "b",
+      "transition": "b-to-a",
+      "candidate": "b-to-a",
+      "job_id": "job_81e93a2c1aa54afeaed615b9e1d742d1",
+      "webp": "clips/b-to-a/Yasuo_performs_exactly_one_downward_sword_slash_on_the_right_side_of_the_screen_from_the_high_guard_in_the_fir_4d020548/meowa_animation.webp",
+      "frame_count": 73,
+      "durations_ms": [
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41
+      ],
+      "duration_ms": 3000,
+      "first_to_input": {
+        "mean_rgb_error": 1.3269133391203705,
+        "alpha_identical": false
+      },
+      "last_to_input": {
+        "mean_rgb_error": 1.3090729890046295,
+        "alpha_identical": false
+      },
+      "final_media": [
+        {
+          "label": "透明WebP",
+          "path": "clips/b-to-a/Yasuo_performs_exactly_one_downward_sword_slash_on_the_right_side_of_the_screen_from_the_high_guard_in_the_fir_4d020548/meowa_animation.webp",
+          "animated": true
+        },
+        {
+          "label": "保留背景WebP",
+          "path": "clips/b-to-a/Yasuo_performs_exactly_one_downward_sword_slash_on_the_right_side_of_the_screen_from_the_high_guard_in_the_fir_4d020548/meowa_animation_background.webp",
+          "animated": true
+        }
+      ]
+    }
+  },
+  "seams": {
+    "a_to_b": {
+      "mean_rgb_error": 3.539921513310185,
+      "alpha_identical": false
+    },
+    "b_to_a": {
+      "mean_rgb_error": 3.1532841435185186,
+      "alpha_identical": false
+    }
+  },
+  "credits_before": 9225,
+  "credits_after": 9060,
+  "credits_consumed": 165,
+  "review": "逐帧未发现刀光或残影。上撩使用去光编辑版，但衣服、脸部被重绘，与下斩不一致；不是定稿。下斩沿右上→右下完成一刀。两条末段都存在较长停顿，接缝和攻速仍需后续处理。",
+  "visual_acceptance": "no_fx_pass_style_mismatch",
+  "runtime_integrated": false,
+  "production_ready": false,
+  "rejected_candidates": [
+    {
+      "candidate": "a-to-b",
+      "job_id": "job_ec01c813817f435f91cd5753438356a4",
+      "reason": "Large blue sword arc in frames 10-16."
+    },
+    {
+      "candidate": "a-keyframes-no-fx",
+      "job_id": "job_ff77268c3bd340659270192af09ca4a4",
+      "reason": "White motion trails and duplicate blade in frames 3 and 5-8. Not included in the no-effects preview."
+    }
+  ],
+  "effect_constraint_pass": true,
+  "style_consistency_pass": false,
+  "partial_candidates": [
+    {
+      "candidate": "a-remove-fx",
+      "job_id": "job_192791e279ff446cbb111d20281fb8d2",
+      "reason": "Effects removed, but clothing and face redrawn. Included only as explicitly labelled motion-review draft."
+    }
+  ],
+  "credit_breakdown": {
+    "initial_upward": 45,
+    "downward": 45,
+    "upward_effect_removal": 30,
+    "upward_keyframes_retry": 45
+  },
+  "paid_generation_finished": true
+}

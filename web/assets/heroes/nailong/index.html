@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>奶龙 · 动画验收</title>
+<style>body{margin:0;background:#17202b;color:#f3e8d3;font:16px system-ui;padding:32px}main{max-width:1200px;margin:auto}h1{margin-bottom:8px}p{color:#b3c0ce}canvas{max-width:100%;background:repeating-conic-gradient(#232d39 0% 25%,#293441 0% 50%) 50%/24px 24px;image-rendering:pixelated;border-radius:12px}label{display:flex;gap:16px;align-items:center;margin:20px 0}input{width:320px}a{color:#ffc75f}.legend{color:#ffc75f}</style>
+<main><h1>奶龙 · 动画验收</h1><p>八方向行走循环 · 左右两个攻击朝向 · 选择方向直线喷火 · 可横向躲避</p>
+<canvas id="walk" width="1152" height="160" aria-label="奶龙八方向行走动画"></canvas>
+<label>攻击角度 <input id="angle" type="range" min="0" max="360" value="0"><output id="degrees">0°</output></label>
+<canvas id="attack" width="800" height="340" aria-label="奶龙远程普攻预览"></canvas>
+<p id="status" class="legend">正在加载动画…</p>
+<p><a href="../../../three.html?launch=1&scene=match&map=howling&review=nailong">进入游戏内奶龙验收场景</a> · <a href="../../../three.html?launch=1&scene=match&map=howling">开始普通单人对局</a></p></main>
+<script type="module">
+const dirs=['e','se','s','sw','w','nw','n','ne'],labels=['右','右下','下','左下','左','左上','上','右上'];
+const urls=import.meta.glob('./*.png',{eager:true,query:'?url',import:'default'});
+const images={};const load=async(name)=>{const im=new Image();im.src=urls['./'+name+'.png']??'./'+name+'.png';await im.decode();images[name]=im;};
+try{await Promise.all([...dirs.map(d=>'walk-'+d),'attack','fire','fire-hit'].map(load));document.querySelector('#status').textContent='已加载：8 个方向，每方向 8 帧；攻击保留原始 39 帧；火焰可独立瞄准任意角度。';}catch(e){document.querySelector('#status').textContent='动画尚未就绪：'+e.message;}
+const walk=document.querySelector('#walk').getContext('2d'),attack=document.querySelector('#attack').getContext('2d'),slider=document.querySelector('#angle');
+function cell(ctx,name,frame,w,h,x,y){const im=images[name];if(im)ctx.drawImage(im,frame%8*w,Math.floor(frame/8)*h,w,h,x,y,w,h);}
+function draw(ms){
+ const t=ms/1000,cycle=t%2.4;walk.clearRect(0,0,1152,160);walk.imageSmoothingEnabled=false;
+ dirs.forEach((d,i)=>{cell(walk,'walk-'+d,Math.floor(t*10)%8,128,128,i*144,0);walk.fillStyle='#f3e8d3';walk.font='15px system-ui';walk.fillText(labels[i],i*144+56,150);});
+ attack.clearRect(0,0,800,340);attack.imageSmoothingEnabled=false;const angle=Number(slider.value)*Math.PI/180;document.querySelector('#degrees').textContent=slider.value+'°';
+ const frame=cycle<.36?Math.min(11,Math.floor(cycle/.36*12)):Math.min(38,12+Math.floor((cycle-.36)/.42*27));
+ attack.save();attack.translate(400,215);if(Math.cos(angle)<0)attack.scale(-1,1);cell(attack,'attack',frame,128,128,-64,-119);attack.restore();
+ if(cycle>.36&&cycle<1.2){const age=cycle-.36,flight=Math.min(1,age/.6),dist=40+flight*240;
+  attack.save();attack.translate(400+Math.cos(angle)*dist,154+Math.sin(angle)*dist*.45);attack.rotate(angle);attack.scale(.48,.48);cell(attack,age<.6?'fire':'fire-hit',age<.6?Math.floor(age*24)%12:Math.min(10,Math.floor((age-.6)*30)),184,120,-92,-60);attack.restore();}
+ requestAnimationFrame(draw);
+}requestAnimationFrame(draw);
+</script></html>

@@ -1,0 +1,30 @@
+{
+  "command": "keyframes-run",
+  "recovery_command": "animate-poll",
+  "args": [
+    "--keyframe",
+    "0=assets/hero-attacks/2026-10-10/yasuo/v13-impact-no-fx-user/inputs/pose-2.png",
+    "--keyframe",
+    "7=assets/hero-attacks/2026-10-10/yasuo/v13-impact-no-fx-user/inputs/pose-1.png",
+    "--keyframe-strength",
+    "0=1",
+    "--keyframe-strength",
+    "7=1",
+    "--prompt",
+    "亚索从低位挥砍到高位，动作自然流畅，要有打击感，不要有刀光",
+    "--animation-model",
+    "pixel-engine-v1.1",
+    "--optimize-prompt",
+    "--total-frames",
+    "8",
+    "--output-format",
+    "webp",
+    "--animation-type",
+    "attack",
+    "--color-count",
+    "64",
+    "--remove-bg-method",
+    "standard"
+  ],
+  "output_dir": "assets/hero-attacks/2026-10-10/yasuo/v13-impact-no-fx-user/clips/animation-B"
+}

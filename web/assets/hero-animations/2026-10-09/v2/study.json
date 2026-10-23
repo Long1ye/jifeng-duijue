@@ -1,0 +1,1817 @@
+{
+  "status": "eight_direction_animation_studies",
+  "capability": "animate-run",
+  "mode": "pixel-engine-v1.1",
+  "intelligence": "standard",
+  "direction_count": 8,
+  "directions": [
+    "e",
+    "se",
+    "s",
+    "sw",
+    "w",
+    "nw",
+    "n",
+    "ne"
+  ],
+  "requested_frames_per_clip": 8,
+  "runtime_integration": false,
+  "corrective_regeneration": false,
+  "total_clip_count": 48,
+  "ready_clip_count": 48,
+  "reused_clip_count": 6,
+  "new_clip_count": 42,
+  "refunded_failed_attempt_count": 1,
+  "refunded_credits": 35,
+  "credits": {
+    "before": 11515,
+    "after": 10045,
+    "expected_consumed": 1470,
+    "consumed": 1470
+  },
+  "validation": {
+    "status": "technical_pass",
+    "production_ready": false,
+    "input_files_unmodified": true,
+    "media_count": 144,
+    "seamless_loop_guaranteed": false
+  },
+  "heroes": [
+    {
+      "id": "yasuo",
+      "name": "亚索",
+      "preview_scale": 3,
+      "anchors": {
+        "e": [
+          64,
+          115
+        ],
+        "se": [
+          64,
+          115
+        ],
+        "s": [
+          64,
+          116
+        ],
+        "sw": [
+          64,
+          116
+        ],
+        "w": [
+          64,
+          115
+        ],
+        "nw": [
+          64,
+          115
+        ],
+        "n": [
+          64,
+          116
+        ],
+        "ne": [
+          64,
+          115
+        ]
+      },
+      "notes": "按用户要求保留现有造型与镜像方向，不进行修正或重画。造型变化与动作跳动不代表技术输出缺失。",
+      "clips": [
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "e",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_0ed7587ee1b7404cadc686838823a906",
+          "webp": "yasuo/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_56349665/result_output_url.webp",
+          "gif": "yasuo/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_56349665/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_56349665/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_56349665/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "e",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_edd58b0ac78e47d8bcf7e12c73fb20a9",
+          "webp": "yasuo/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_783c8636/result_output_url.webp",
+          "gif": "yasuo/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_783c8636/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_783c8636/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_783c8636/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "job_id": "job_6aa3f55acc7149548099cab76c7d6082",
+          "webp": "../v1/yasuo/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_头发和蓝色围巾轻轻摆动_自然循_cf1f5e9e/result_output_url.webp",
+          "gif": "../v1/yasuo/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_头发和蓝色围巾轻轻摆动_自然循_cf1f5e9e/result_output_transparent_output_urls_gif.gif",
+          "sheet": "../v1/yasuo/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_头发和蓝色围巾轻轻摆动_自然循_cf1f5e9e/result_output_transparent_output_urls_png.png",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              32,
+              11,
+              96,
+              115
+            ],
+            [
+              32,
+              11,
+              96,
+              115
+            ],
+            [
+              32,
+              12,
+              97,
+              115
+            ],
+            [
+              34,
+              11,
+              97,
+              114
+            ],
+            [
+              33,
+              15,
+              96,
+              115
+            ],
+            [
+              32,
+              15,
+              96,
+              115
+            ],
+            [
+              32,
+              15,
+              96,
+              115
+            ],
+            [
+              32,
+              13,
+              96,
+              115
+            ]
+          ],
+          "loop_seam_change_ratio": 0.321,
+          "direction": "se",
+          "status": "success",
+          "reused": true,
+          "manifest": "../v1/yasuo/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_头发和蓝色围巾轻轻摆动_自然循_cf1f5e9e/final_outputs.json"
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "job_id": "job_e1e7ec088ca14f30b3143d385c247bf1",
+          "webp": "../v1/yasuo/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色围巾随步伐轻_a34379c9/result_output_url.webp",
+          "gif": "../v1/yasuo/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色围巾随步伐轻_a34379c9/result_output_transparent_output_urls_gif.gif",
+          "sheet": "../v1/yasuo/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色围巾随步伐轻_a34379c9/result_output_transparent_output_urls_png.png",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              32,
+              11,
+              96,
+              115
+            ],
+            [
+              34,
+              12,
+              97,
+              113
+            ],
+            [
+              37,
+              12,
+              96,
+              113
+            ],
+            [
+              34,
+              12,
+              96,
+              112
+            ],
+            [
+              30,
+              13,
+              95,
+              115
+            ],
+            [
+              31,
+              13,
+              94,
+              114
+            ],
+            [
+              31,
+              11,
+              95,
+              113
+            ],
+            [
+              32,
+              11,
+              96,
+              115
+            ]
+          ],
+          "loop_seam_change_ratio": 0.293,
+          "direction": "se",
+          "status": "success",
+          "reused": true,
+          "manifest": "../v1/yasuo/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色围巾随步伐轻_a34379c9/final_outputs.json"
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "s",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_2fd11682c3d24ca29852f8d10fc3fc72",
+          "webp": "yasuo/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_fc6b9d24/result_output_url.webp",
+          "gif": "yasuo/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_fc6b9d24/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_fc6b9d24/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_fc6b9d24/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "s",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_19262f5fd5e9448eb0a10c78756e65cf",
+          "webp": "yasuo/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_012e28bd/result_output_url.webp",
+          "gif": "yasuo/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_012e28bd/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_012e28bd/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_012e28bd/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "sw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_c24be344a2a94f5a8b6f5b2f28b6585f",
+          "webp": "yasuo/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_a3689dce/result_output_url.webp",
+          "gif": "yasuo/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_a3689dce/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_a3689dce/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_a3689dce/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "sw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_55f478510aac48bebd0093a914298ab0",
+          "webp": "yasuo/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_头发和蓝_b5fc0051/result_output_url.webp",
+          "gif": "yasuo/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_头发和蓝_b5fc0051/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_头发和蓝_b5fc0051/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_头发和蓝_b5fc0051/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "w",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_9164b6009898499f9d87a21fc2c08f74",
+          "webp": "yasuo/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_cd81c779/result_output_url.webp",
+          "gif": "yasuo/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_cd81c779/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_cd81c779/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_cd81c779/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "w",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_671c8acfcf3040afbb07f016594c07a9",
+          "webp": "yasuo/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_9d233f4f/result_output_url.webp",
+          "gif": "yasuo/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_9d233f4f/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_9d233f4f/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_9d233f4f/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "nw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_b07b2b9f471f40b0839bd8fb5d676ea0",
+          "webp": "yasuo/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_a9df3fcf/result_output_url.webp",
+          "gif": "yasuo/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_a9df3fcf/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_a9df3fcf/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_a9df3fcf/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "nw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_c2e8edcc14a74785a99c15467741dbfd",
+          "webp": "yasuo/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_头发和蓝_b6fe95ea/result_output_url.webp",
+          "gif": "yasuo/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_头发和蓝_b6fe95ea/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_头发和蓝_b6fe95ea/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_头发和蓝_b6fe95ea/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "n",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_55a206d897f24206b6548f3d386e1ba3",
+          "webp": "yasuo/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_d42e2886/result_output_url.webp",
+          "gif": "yasuo/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_d42e2886/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_d42e2886/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色围_d42e2886/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "n",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_31df70fb799c4f4a8af46c69e6c4ebfa",
+          "webp": "yasuo/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_d07d5c0f/result_output_url.webp",
+          "gif": "yasuo/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_d07d5c0f/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_d07d5c0f/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_头发和蓝色_d07d5c0f/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "ne",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_9496bbdcad9447f2b7a11dc6ac5b93f8",
+          "webp": "yasuo/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_08af8f0b/result_output_url.webp",
+          "gif": "yasuo/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_08af8f0b/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_08af8f0b/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_头发和蓝色_08af8f0b/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "ne",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_aa0b8f734d9a43ff8e5e0d120def6279",
+          "webp": "yasuo/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_头发和蓝_7fdc77bb/result_output_url.webp",
+          "gif": "yasuo/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_头发和蓝_7fdc77bb/result_output_transparent_output_urls_gif.gif",
+          "sheet": "yasuo/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_头发和蓝_7fdc77bb/result_output_transparent_output_urls_png.png",
+          "manifest": "yasuo/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_头发和蓝_7fdc77bb/final_outputs.json",
+          "width": 128,
+          "height": 128,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        }
+      ]
+    },
+    {
+      "id": "ahri",
+      "name": "阿狸",
+      "preview_scale": 2,
+      "anchors": {
+        "e": [
+          128,
+          208
+        ],
+        "se": [
+          128,
+          208
+        ],
+        "s": [
+          128,
+          211
+        ],
+        "sw": [
+          128,
+          209
+        ],
+        "w": [
+          128,
+          208
+        ],
+        "nw": [
+          128,
+          211
+        ],
+        "n": [
+          128,
+          209
+        ],
+        "ne": [
+          128,
+          211
+        ]
+      },
+      "notes": "按用户要求保留现有造型与镜像方向，不进行修正或重画。造型变化与动作跳动不代表技术输出缺失。",
+      "clips": [
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "e",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_ac799e12fdfd4aaaac1e1fc75d1656d3",
+          "webp": "ahri/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_f59910ca/result_output_url.webp",
+          "gif": "ahri/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_f59910ca/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_f59910ca/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_f59910ca/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "e",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_c687560402aa4d839ef0024895c092fd",
+          "webp": "ahri/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_693a64cc/result_output_url.webp",
+          "gif": "ahri/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_693a64cc/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_693a64cc/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_693a64cc/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "job_id": "job_78a53c1531f841b8a27ffe5a704683b2",
+          "webp": "../v1/ahri/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_白色尾巴和衣摆轻轻摆动_蓝色法_b7446cc0/result_output_url.webp",
+          "gif": "../v1/ahri/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_白色尾巴和衣摆轻轻摆动_蓝色法_b7446cc0/result_output_transparent_output_urls_gif.gif",
+          "sheet": "../v1/ahri/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_白色尾巴和衣摆轻轻摆动_蓝色法_b7446cc0/result_output_transparent_output_urls_png.png",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              61,
+              47,
+              195,
+              208
+            ],
+            [
+              67,
+              47,
+              195,
+              208
+            ],
+            [
+              65,
+              47,
+              195,
+              208
+            ],
+            [
+              58,
+              48,
+              195,
+              208
+            ],
+            [
+              52,
+              50,
+              195,
+              208
+            ],
+            [
+              55,
+              49,
+              195,
+              208
+            ],
+            [
+              57,
+              48,
+              194,
+              208
+            ],
+            [
+              59,
+              48,
+              194,
+              208
+            ]
+          ],
+          "loop_seam_change_ratio": 0.71,
+          "direction": "se",
+          "status": "success",
+          "reused": true,
+          "manifest": "../v1/ahri/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_白色尾巴和衣摆轻轻摆动_蓝色法_b7446cc0/final_outputs.json"
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "job_id": "job_d938116d3f184e3a8020b4f35d364c12",
+          "webp": "../v1/ahri/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_白色尾巴随步伐轻摆_保持_8ba0d50e/result_output_url.webp",
+          "gif": "../v1/ahri/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_白色尾巴随步伐轻摆_保持_8ba0d50e/result_output_transparent_output_urls_gif.gif",
+          "sheet": "../v1/ahri/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_白色尾巴随步伐轻摆_保持_8ba0d50e/result_output_transparent_output_urls_png.png",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              61,
+              47,
+              195,
+              208
+            ],
+            [
+              65,
+              45,
+              194,
+              206
+            ],
+            [
+              54,
+              43,
+              194,
+              204
+            ],
+            [
+              56,
+              43,
+              194,
+              201
+            ],
+            [
+              56,
+              47,
+              194,
+              205
+            ],
+            [
+              60,
+              47,
+              194,
+              205
+            ],
+            [
+              56,
+              44,
+              195,
+              203
+            ],
+            [
+              55,
+              43,
+              195,
+              204
+            ]
+          ],
+          "loop_seam_change_ratio": 0.709,
+          "direction": "se",
+          "status": "success",
+          "reused": true,
+          "manifest": "../v1/ahri/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_白色尾巴随步伐轻摆_保持_8ba0d50e/final_outputs.json"
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "s",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_30261beda7b84370985b13b340955c1a",
+          "webp": "ahri/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_2298d5fd/result_output_url.webp",
+          "gif": "ahri/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_2298d5fd/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_2298d5fd/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_2298d5fd/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "s",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_8de3658d52b74cc7ac5ce43a75f0ab78",
+          "webp": "ahri/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_75c1ae3b/result_output_url.webp",
+          "gif": "ahri/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_75c1ae3b/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_75c1ae3b/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_75c1ae3b/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "sw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_004e2080725c4173b914441f3461d9f1",
+          "webp": "ahri/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_04741ab1/result_output_url.webp",
+          "gif": "ahri/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_04741ab1/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_04741ab1/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_04741ab1/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "sw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_930ff27b622a4c04802cb380bd21a073",
+          "webp": "ahri/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_白色尾巴_00b3b7b9/result_output_url.webp",
+          "gif": "ahri/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_白色尾巴_00b3b7b9/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_白色尾巴_00b3b7b9/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_白色尾巴_00b3b7b9/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "w",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_07ca6865a50b4cdcb142a31b021d33c0",
+          "webp": "ahri/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_c3348820/result_output_url.webp",
+          "gif": "ahri/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_c3348820/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_c3348820/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_c3348820/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "w",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_40bd281274bf47eda0582e5fbf54fdc2",
+          "webp": "ahri/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_ec0f2dfb/result_output_url.webp",
+          "gif": "ahri/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_ec0f2dfb/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_ec0f2dfb/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_ec0f2dfb/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "nw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_0a8641d37ba14387afff818f0e73e115",
+          "webp": "ahri/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_bcc260bf/result_output_url.webp",
+          "gif": "ahri/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_bcc260bf/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_bcc260bf/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_bcc260bf/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "nw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_5d6b5d94f46846baa799f7544ecaf359",
+          "webp": "ahri/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_白色尾巴_80f51f6c/result_output_url.webp",
+          "gif": "ahri/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_白色尾巴_80f51f6c/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_白色尾巴_80f51f6c/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_白色尾巴_80f51f6c/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "n",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_35547395ec404da18be28b8bd416e9be",
+          "webp": "ahri/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_4228ed72/result_output_url.webp",
+          "gif": "ahri/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_4228ed72/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_4228ed72/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和衣_4228ed72/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "n",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_4b407547d13b461492f5b52bcfa06c87",
+          "webp": "ahri/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_0b63c30a/result_output_url.webp",
+          "gif": "ahri/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_0b63c30a/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_0b63c30a/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_白色尾巴和_0b63c30a/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "ne",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_cb5a0575a04f41ba9367f31c6954b564",
+          "webp": "ahri/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_998def52/result_output_url.webp",
+          "gif": "ahri/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_998def52/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_998def52/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_白色尾巴和_998def52/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "ne",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_586a23d96e2048e5a0c99ff779061f2a",
+          "webp": "ahri/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_白色尾巴_1c5ef12d/result_output_url.webp",
+          "gif": "ahri/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_白色尾巴_1c5ef12d/result_output_transparent_output_urls_gif.gif",
+          "sheet": "ahri/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_白色尾巴_1c5ef12d/result_output_transparent_output_urls_png.png",
+          "manifest": "ahri/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_白色尾巴_1c5ef12d/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        }
+      ]
+    },
+    {
+      "id": "garen",
+      "name": "盖伦",
+      "preview_scale": 2,
+      "anchors": {
+        "e": [
+          128,
+          205
+        ],
+        "se": [
+          128,
+          211
+        ],
+        "s": [
+          128,
+          213
+        ],
+        "sw": [
+          128,
+          212
+        ],
+        "w": [
+          128,
+          205
+        ],
+        "nw": [
+          128,
+          207
+        ],
+        "n": [
+          128,
+          210
+        ],
+        "ne": [
+          128,
+          207
+        ]
+      },
+      "notes": "按用户要求保留现有造型与镜像方向，不进行修正或重画。造型变化与动作跳动不代表技术输出缺失。",
+      "clips": [
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "e",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_698086cb522d472686f7f7b66bbdd39c",
+          "webp": "garen/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_1dab36ed/result_output_url.webp",
+          "gif": "garen/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_1dab36ed/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_1dab36ed/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/idle-e/角色保持输入图中的朝向_屏幕右方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_1dab36ed/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "e",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_c76e6aa92a76429bbf75c01ff400a549",
+          "webp": "garen/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_披风随动作_93ee97b4/result_output_url.webp",
+          "gif": "garen/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_披风随动作_93ee97b4/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_披风随动作_93ee97b4/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/walk-e/角色保持输入图中的朝向_屏幕右方_原地交替迈步_双脚轮流向前和向后_披风随动作_93ee97b4/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "job_id": "job_bd1c3ef197584dd8935a449d05c14d0c",
+          "webp": "../v1/garen/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_披风轻轻摆动_大剑保持在同一只_7a8860bb/result_output_url.webp",
+          "gif": "../v1/garen/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_披风轻轻摆动_大剑保持在同一只_7a8860bb/result_output_transparent_output_urls_gif.gif",
+          "sheet": "../v1/garen/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_披风轻轻摆动_大剑保持在同一只_7a8860bb/result_output_transparent_output_urls_png.png",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              57,
+              44,
+              197,
+              211
+            ],
+            [
+              56,
+              42,
+              197,
+              211
+            ],
+            [
+              54,
+              42,
+              197,
+              211
+            ],
+            [
+              57,
+              42,
+              197,
+              211
+            ],
+            [
+              57,
+              42,
+              198,
+              211
+            ],
+            [
+              57,
+              43,
+              197,
+              211
+            ],
+            [
+              57,
+              44,
+              197,
+              211
+            ],
+            [
+              53,
+              44,
+              197,
+              211
+            ]
+          ],
+          "loop_seam_change_ratio": 0.297,
+          "direction": "se",
+          "status": "success",
+          "reused": true,
+          "manifest": "../v1/garen/idle-se/角色保持朝向右下方站立待机_双脚固定_轻微呼吸_披风轻轻摆动_大剑保持在同一只_7a8860bb/final_outputs.json"
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "job_id": "job_31008843d5a741a58163fc3f17336878",
+          "webp": "../v1/garen/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_披风随步伐轻摆_保持大剑_fe00d4c6/result_output_url.webp",
+          "gif": "../v1/garen/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_披风随步伐轻摆_保持大剑_fe00d4c6/result_output_transparent_output_urls_gif.gif",
+          "sheet": "../v1/garen/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_披风随步伐轻摆_保持大剑_fe00d4c6/result_output_transparent_output_urls_png.png",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3,
+          "bounds": [
+            [
+              57,
+              44,
+              198,
+              211
+            ],
+            [
+              54,
+              47,
+              197,
+              213
+            ],
+            [
+              48,
+              45,
+              196,
+              213
+            ],
+            [
+              48,
+              41,
+              196,
+              209
+            ],
+            [
+              55,
+              42,
+              198,
+              207
+            ],
+            [
+              59,
+              46,
+              200,
+              210
+            ],
+            [
+              61,
+              47,
+              201,
+              212
+            ],
+            [
+              57,
+              42,
+              197,
+              210
+            ]
+          ],
+          "loop_seam_change_ratio": 0.521,
+          "direction": "se",
+          "status": "success",
+          "reused": true,
+          "manifest": "../v1/garen/walk-se/角色保持朝向右下方_原地交替迈步_双脚轮流向前和向后_披风随步伐轻摆_保持大剑_fe00d4c6/final_outputs.json"
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "s",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_c5a563f27a914fc49aefe20a4214f938",
+          "webp": "garen/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_d9fdf2b2/result_output_url.webp",
+          "gif": "garen/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_d9fdf2b2/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_d9fdf2b2/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/idle-s/角色保持输入图中的朝向_屏幕下方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_d9fdf2b2/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "s",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_e52714c58bad4c71b1b81dccda8e2dc9",
+          "webp": "garen/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_披风随动作_68786260/result_output_url.webp",
+          "gif": "garen/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_披风随动作_68786260/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_披风随动作_68786260/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/walk-s/角色保持输入图中的朝向_屏幕下方_原地交替迈步_双脚轮流向前和向后_披风随动作_68786260/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "sw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_c0af52b0f6aa4dd5831e6489fb43e48a",
+          "webp": "garen/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_披风随动作_67f221cb/result_output_url.webp",
+          "gif": "garen/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_披风随动作_67f221cb/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_披风随动作_67f221cb/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/idle-sw/角色保持输入图中的朝向_屏幕左下方_原地站立待机_双脚固定_轻微呼吸_披风随动作_67f221cb/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "sw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_4fa46b5960bf48cba7b3a45033efab64",
+          "webp": "garen/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_披风随动_30cdb9b7/result_output_url.webp",
+          "gif": "garen/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_披风随动_30cdb9b7/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_披风随动_30cdb9b7/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/walk-sw/角色保持输入图中的朝向_屏幕左下方_原地交替迈步_双脚轮流向前和向后_披风随动_30cdb9b7/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "w",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_dab1a597141c4a3d9a675bd9c5c74b44",
+          "webp": "garen/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_32af549a/result_output_url.webp",
+          "gif": "garen/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_32af549a/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_32af549a/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/idle-w/角色保持输入图中的朝向_屏幕左方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_32af549a/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "w",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_516fb857d7574929833c0b96e63d000e",
+          "webp": "garen/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_披风随动作_f9edaae7/result_output_url.webp",
+          "gif": "garen/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_披风随动作_f9edaae7/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_披风随动作_f9edaae7/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/walk-w/角色保持输入图中的朝向_屏幕左方_原地交替迈步_双脚轮流向前和向后_披风随动作_f9edaae7/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "nw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_8ae6d5d0da184ec5ad16d8e25b686cb7",
+          "webp": "garen/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_披风随动作_4a36bd8b/result_output_url.webp",
+          "gif": "garen/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_披风随动作_4a36bd8b/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_披风随动作_4a36bd8b/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/idle-nw/角色保持输入图中的朝向_屏幕左上方_原地站立待机_双脚固定_轻微呼吸_披风随动作_4a36bd8b/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "nw",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_181829e324ff4cf89d7376f15e236a54",
+          "webp": "garen/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_披风随动_866acbde/result_output_url.webp",
+          "gif": "garen/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_披风随动_866acbde/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_披风随动_866acbde/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/walk-nw/角色保持输入图中的朝向_屏幕左上方_原地交替迈步_双脚轮流向前和向后_披风随动_866acbde/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "n",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_5749b961290a4c738758ec4ab6f1b420",
+          "webp": "garen/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_38712929/result_output_url.webp",
+          "gif": "garen/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_38712929/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_38712929/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/idle-n/角色保持输入图中的朝向_屏幕上方_原地站立待机_双脚固定_轻微呼吸_披风随动作轻_38712929/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "n",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_82b8d6121c24436ba63a49a15601062c",
+          "webp": "garen/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_披风随动作_069dfa0b/result_output_url.webp",
+          "gif": "garen/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_披风随动作_069dfa0b/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_披风随动作_069dfa0b/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/walk-n/角色保持输入图中的朝向_屏幕上方_原地交替迈步_双脚轮流向前和向后_披风随动作_069dfa0b/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "idle",
+          "name": "待机",
+          "direction": "ne",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_8656a326656c4368ba85e202881b2135",
+          "webp": "garen/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_披风随动作_6225d3f9/result_output_url.webp",
+          "gif": "garen/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_披风随动作_6225d3f9/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_披风随动作_6225d3f9/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/idle-ne/角色保持输入图中的朝向_屏幕右上方_原地站立待机_双脚固定_轻微呼吸_披风随动作_6225d3f9/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        },
+        {
+          "state": "walk",
+          "name": "走路",
+          "direction": "ne",
+          "status": "success",
+          "reused": false,
+          "job_id": "job_1bdd83cc96bb48b389b3e30b603c880b",
+          "webp": "garen/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_披风随动_11d58ed0/result_output_url.webp",
+          "gif": "garen/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_披风随动_11d58ed0/result_output_transparent_output_urls_gif.gif",
+          "sheet": "garen/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_披风随动_11d58ed0/result_output_transparent_output_urls_png.png",
+          "manifest": "garen/walk-ne/角色保持输入图中的朝向_屏幕右上方_原地交替迈步_双脚轮流向前和向后_披风随动_11d58ed0/final_outputs.json",
+          "width": 256,
+          "height": 256,
+          "frame_count": 8,
+          "durations_ms": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ],
+          "duration_ms": 800,
+          "columns": 3,
+          "rows": 3
+        }
+      ]
+    }
+  ]
+}

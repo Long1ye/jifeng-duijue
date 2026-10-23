@@ -1,0 +1,133 @@
+{
+  "directions": {
+    "s": 1,
+    "se": 6,
+    "e": 9,
+    "ne": 13,
+    "n": 17,
+    "nw": 20,
+    "w": 23,
+    "sw": 27
+  },
+  "visible_height": 104,
+  "attack": {
+    "frames": 39,
+    "cell": [
+      128,
+      128
+    ],
+    "anchor": [
+      64,
+      119
+    ]
+  },
+  "fire": {
+    "frames": 12,
+    "cell": [
+      184,
+      120
+    ],
+    "anchor": [
+      92,
+      60
+    ]
+  },
+  "walk": {
+    "s": {
+      "frames": 8,
+      "cell": [
+        128,
+        128
+      ],
+      "anchor": [
+        64,
+        119
+      ],
+      "source": "assets\\heroes\\nailong\\generated-v2\\walk-s\\job_cf1779176c6f404bb0d779adb75ec29f\\meowa_animation.webp"
+    },
+    "se": {
+      "frames": 8,
+      "cell": [
+        128,
+        128
+      ],
+      "anchor": [
+        64,
+        119
+      ],
+      "source": "assets\\heroes\\nailong\\generated-v2\\walk-se\\奶龙保持朝向屏幕右下_原地交替迈步行走_双脚轮流前后摆动_手臂自然摆动_尾巴轻_a4b6acab\\meowa_animation.webp"
+    },
+    "e": {
+      "frames": 8,
+      "cell": [
+        128,
+        128
+      ],
+      "anchor": [
+        64,
+        119
+      ],
+      "source": "assets\\heroes\\nailong\\generated-v2\\walk-e\\奶龙保持朝向屏幕右_原地交替迈步行走_双脚轮流前后摆动_手臂自然摆动_尾巴轻摆_97dc32b1\\meowa_animation.webp"
+    },
+    "ne": {
+      "frames": 8,
+      "cell": [
+        128,
+        128
+      ],
+      "anchor": [
+        64,
+        119
+      ],
+      "source": "assets\\heroes\\nailong\\generated-v2\\walk-ne\\奶龙保持朝向屏幕右上_原地交替迈步行走_双脚轮流前后摆动_手臂自然摆动_尾巴轻_1cf95a1a\\meowa_animation.webp"
+    },
+    "n": {
+      "frames": 8,
+      "cell": [
+        128,
+        128
+      ],
+      "anchor": [
+        64,
+        119
+      ],
+      "source": "assets\\heroes\\nailong\\generated-v2\\walk-n\\奶龙保持朝向屏幕上_原地交替迈步行走_双脚轮流前后摆动_手臂自然摆动_尾巴轻摆_b727647e\\meowa_animation.webp"
+    },
+    "nw": {
+      "frames": 8,
+      "cell": [
+        128,
+        128
+      ],
+      "anchor": [
+        64,
+        119
+      ],
+      "source": "assets\\heroes\\nailong\\generated-v2\\walk-nw\\奶龙保持朝向屏幕左上_原地交替迈步行走_双脚轮流前后摆动_手臂自然摆动_尾巴轻_a6691510\\meowa_animation.webp"
+    },
+    "w": {
+      "frames": 8,
+      "cell": [
+        128,
+        128
+      ],
+      "anchor": [
+        64,
+        119
+      ],
+      "source": "assets\\heroes\\nailong\\generated-v2\\walk-w\\奶龙保持朝向屏幕左_原地交替迈步行走_双脚轮流前后摆动_手臂自然摆动_尾巴轻摆_86b0d698\\meowa_animation.webp"
+    },
+    "sw": {
+      "frames": 8,
+      "cell": [
+        128,
+        128
+      ],
+      "anchor": [
+        64,
+        119
+      ],
+      "source": "assets\\heroes\\nailong\\generated-v2\\walk-sw\\奶龙保持朝向屏幕左下_原地交替迈步行走_双脚轮流前后摆动_手臂自然摆动_尾巴轻_159e0438\\meowa_animation.webp"
+    }
+  }
+}

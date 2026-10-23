@@ -1,0 +1,133 @@
+{
+  "title": "Q3 飞行旋风",
+  "folder": "q3/tornado",
+  "feature": "通用生成",
+  "command": "general-image-run",
+  "parameters": {
+    "generation-model": "image-2.5",
+    "quality": "standard",
+    "resolution": "1K",
+    "aspect-ratio": "1:1",
+    "remove-bg-method": "standard",
+    "template": null,
+    "reference-images": []
+  },
+  "actualOutput": {
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "columns": 4,
+    "frames": 8,
+    "frameSize": [
+      256,
+      512
+    ]
+  },
+  "prompt": "制作英雄联盟基础皮肤亚索Q3飞行旋风的游戏特效序列图，透明背景，严格四列两行共八格，不要文字、网格、人物或武器。每格是一根完整、直立的小旋风，底部在格子中心下方90%高度固定，顶部在12%高度，所有帧高度和位置一致，边缘留白。形状上宽下窄，底部细而收束，三到四条宽而稀疏的灰白、淡青风带沿螺旋向上旋转，半透明的空气能透出背景；顶部是开放的斜椭圆风环，不是实心漏斗或大碗。色彩接近原版的低饱和青灰风和象牙白细亮边，空气薄雾轻柔，不要高亮蓝色实心墙、闪电、冰晶和卡通粗描边。八格按从左到右从上到下表现连续旋转一整圈，风带和细小尘屑的位置逐帧变化，外轮廓与脚底锚点保持稳定，最后一帧能衔接第一帧。适合在像素角色游戏中以角色一人高的尺寸显示。",
+  "historicalCommand": "python .agents/skills/game-assets/meowart_api.py general-image-run --generation-model image-2.5 --resolution 1K --aspect-ratio 1:1 --quality standard --remove-bg-method standard --prompt '制作英雄联盟基础皮肤亚索Q3飞行旋风的游戏特效序列图，透明背景，严格四列两行共八格，不要文字、网格、人物或武器。每格是一根完整、直立的小旋风，底部在格子中心下方90%高度固定，顶部在12%高度，所有帧高度和位置一致，边缘留白。形状上宽下窄，底部细而收束，三到四条宽而稀疏的灰白、淡青风带沿螺旋向上旋转，半透明的空气能透出背景；顶部是开放的斜椭圆风环，不是实心漏斗或大碗。色彩接近原版的低饱和青灰风和象牙白细亮边，空气薄雾轻柔，不要高亮蓝色实心墙、闪电、冰晶和卡通粗描边。八格按从左到右从上到下表现连续旋转一整圈，风带和细小尘屑的位置逐帧变化，外轮廓与脚底锚点保持稳定，最后一帧能衔接第一帧。适合在像素角色游戏中以角色一人高的尺寸显示。' --output-dir assets/effects/yasuo-q3-meowa-2026-10-19/generated",
+  "jobId": "job_c934deaa10014b4cb173d6134fc4bd19",
+  "sourceSHA256": "490bb3eaaeaaa1654739215b41211906ed0039644fa61d0edfe3bf3bbb361a38",
+  "runtimeSHA256": "b27715833ff1278bf9258f64dceade3cd68a770e5729e4696523b371acb7933d",
+  "postProcessing": {
+    "key": "tornado",
+    "job": "job_c934deaa10014b4cb173d6134fc4bd19",
+    "source": "assets\\effects\\yasuo-q3-meowa-2026-10-19\\generated\\制作英雄联盟基础皮肤亚索Q3飞行旋风的游戏特效序列图_透明背景_严格四列两行共_338c168d\\result_images_0_url.png",
+    "sha256": "490bb3eaaeaaa1654739215b41211906ed0039644fa61d0edfe3bf3bbb361a38",
+    "cell": [
+      256,
+      512
+    ],
+    "columns": 4,
+    "frames": 8,
+    "alignment_shifts": [
+      [
+        -11,
+        -20
+      ],
+      [
+        -7,
+        -20
+      ],
+      [
+        0,
+        -20
+      ],
+      [
+        9,
+        -20
+      ],
+      [
+        -11,
+        -16
+      ],
+      [
+        -4,
+        -16
+      ],
+      [
+        2,
+        -16
+      ],
+      [
+        11,
+        -16
+      ]
+    ],
+    "bounds": [
+      [
+        20,
+        25,
+        239,
+        460
+      ],
+      [
+        18,
+        25,
+        237,
+        460
+      ],
+      [
+        18,
+        25,
+        235,
+        460
+      ],
+      [
+        22,
+        25,
+        242,
+        460
+      ],
+      [
+        17,
+        25,
+        238,
+        460
+      ],
+      [
+        24,
+        24,
+        241,
+        460
+      ],
+      [
+        23,
+        24,
+        238,
+        460
+      ],
+      [
+        20,
+        24,
+        239,
+        460
+      ]
+    ],
+    "alpha": [
+      0,
+      253
+    ],
+    "resampled": false
+  },
+  "previewFrameMilliseconds": 125
+}

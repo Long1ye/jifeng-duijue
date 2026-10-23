@@ -1,0 +1,40 @@
+{
+  "repeatedIdentically": true,
+  "sha256": "fcdde1b34e81298b66c1b049111ceaf5d9340e16019314dddccdb358103a44ad",
+  "birth": {
+    "time": 0,
+    "entities": 4
+  },
+  "midlane": {
+    "time": 119.99999999999447,
+    "phase": "playing",
+    "wave": 4,
+    "entities": 34,
+    "events": 1149
+  },
+  "skill": {
+    "accepted": true,
+    "hits": [
+      {
+        "type": "hit",
+        "team": "blue",
+        "x": 3092.7312,
+        "y": 1731.4496,
+        "amount": 85,
+        "absorbed": 0,
+        "critical": false,
+        "at": 0.4333333333333333,
+        "sourceId": 3,
+        "targetId": 4,
+        "sourceKind": "hero",
+        "targetKind": "hero",
+        "from": {
+          "x": 3033.7312,
+          "y": 1731.4496
+        },
+        "impact": "q",
+        "sampledAt": 0.4333333333333333
+      }
+    ]
+  }
+}

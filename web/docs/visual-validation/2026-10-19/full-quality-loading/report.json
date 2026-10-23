@@ -1,0 +1,9 @@
+{
+  "delayedTextureBlocksEntry": true,
+  "visibleCylinders": 0,
+  "resolution": 1920,
+  "autoDowngradeUnderCpuLoad": false,
+  "fogInterval": 0,
+  "loadFailureBlocksEntry": true,
+  "errors": []
+}

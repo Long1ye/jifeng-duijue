@@ -1,0 +1,92 @@
+{
+  "title": "Q1/Q2 命中风雾",
+  "folder": "normal-q/hit",
+  "feature": "通用生成",
+  "command": "general-image-run",
+  "parameters": {
+    "generation-model": "image-2.5",
+    "quality": "standard",
+    "resolution": "1K",
+    "aspect-ratio": "1:1",
+    "remove-bg-method": "standard",
+    "template": null,
+    "reference-images": []
+  },
+  "actualOutput": {
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "columns": 2,
+    "frames": 4,
+    "frameSize": [
+      512,
+      512
+    ]
+  },
+  "prompt": "制作一张透明背景的游戏风刃命中特效序列图，严格两列两行共四格，不要网格线、文字、人物、武器。贴近英雄联盟基础皮肤亚索普通Q的轻巧命中：目标中心一条很短的水平象牙白闪痕，少量灰白空气从中心向两侧卷开，伴随几颗极小的土黄色尘粒，不要星芒、火焰、爆炸或圆形光球。四格从左到右从上到下，分别是短促白闪、两片透明风雾展开、空气碎屑消散、极淡残雾。每格以相同的正中心为锚点，效果集中在格子中央一半的区域，透明留白均匀，精致克制，能够叠加在像素角色身体上。",
+  "historicalCommand": "python .agents/skills/game-assets/meowart_api.py general-image-run --generation-model image-2.5 --resolution 1K --aspect-ratio 1:1 --quality standard --remove-bg-method standard --prompt '制作一张透明背景的游戏风刃命中特效序列图，严格两列两行共四格，不要网格线、文字、人物、武器。贴近英雄联盟基础皮肤亚索普通Q的轻巧命中：目标中心一条很短的水平象牙白闪痕，少量灰白空气从中心向两侧卷开，伴随几颗极小的土黄色尘粒，不要星芒、火焰、爆炸或圆形光球。四格从左到右从上到下，分别是短促白闪、两片透明风雾展开、空气碎屑消散、极淡残雾。每格以相同的正中心为锚点，效果集中在格子中央一半的区域，透明留白均匀，精致克制，能够叠加在像素角色身体上。' --output-dir assets/effects/yasuo-q-meowa-2026-10-19/hit-generated",
+  "jobId": "job_5b8d289c52494e9a87fe944f60488e21",
+  "sourceSHA256": "3e974a4b3a042cf53ecae95b02f00d396e6d6ce679fb29a9589f5f7e30b109b0",
+  "runtimeSHA256": "b0b4fec1ccf05d5b52beee8a499611f18066d44489e91c7888b640848233b511",
+  "postProcessing": {
+    "key": "hit",
+    "job": "job_5b8d289c52494e9a87fe944f60488e21",
+    "source": "assets\\effects\\yasuo-q-meowa-2026-10-19\\hit-generated\\制作一张透明背景的游戏风刃命中特效序列图_严格两列两行共四格_不要网格线_文_449ffbd3\\result_images_0_url.png",
+    "sha256": "3e974a4b3a042cf53ecae95b02f00d396e6d6ce679fb29a9589f5f7e30b109b0",
+    "cell": [
+      512,
+      512
+    ],
+    "frames": 4,
+    "bounds": [
+      [
+        175,
+        243,
+        346,
+        280
+      ],
+      [
+        42,
+        174,
+        456,
+        364
+      ],
+      [
+        64,
+        179,
+        457,
+        322
+      ],
+      [
+        93,
+        191,
+        434,
+        276
+      ]
+    ],
+    "alignment_shifts": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "alpha": [
+      0,
+      251
+    ],
+    "resampled": false
+  },
+  "previewFrameMilliseconds": 100
+}

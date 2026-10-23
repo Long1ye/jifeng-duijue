@@ -1,0 +1,79 @@
+[
+  {
+    "source": "assets/source-materials/audio/亚索音频/亚索q-v1.mp3",
+    "source_sha256": "9e4a1451e019985c6342f82c68eb9dce85091004cdce236da9ac9cc27031bcef",
+    "file": "yasuo-q-user-v1.mp3",
+    "start": 0.19,
+    "duration": 0.43,
+    "gain": 0.533576,
+    "peak": 0.51293,
+    "rms": 0.09017,
+    "sha256": "ada763fa910ea061e061cc9719e336b84aea3eed2b9821f43a4195c0e25a1a43"
+  },
+  {
+    "source": "assets/source-materials/audio/亚索音频/亚索q-v2.mp3",
+    "source_sha256": "eaa8170902eecb188c280d072e0dcf944fc3938962c725c8f054be58f2f5ccfa",
+    "file": "yasuo-q-user-v2.mp3",
+    "start": 0.015,
+    "duration": 0.57,
+    "gain": 0.39461,
+    "peak": 0.369228,
+    "rms": 0.09019,
+    "sha256": "77e18f87484745c6b59e1e0b4eaf7eb24913c041077db447397ea76ab2513557"
+  },
+  {
+    "source": "assets/source-materials/audio/亚索音频/亚索大招音效.mp4",
+    "source_sha256": "a9699b0396d2b851d8d3df956e61dfdcdf6264476fd35764bfaabb737326206f",
+    "file": "yasuo-r-user.mp3",
+    "start": 0.86,
+    "duration": 1.6207,
+    "gain": 1.843096,
+    "peak": 0.40302,
+    "rms": 0.090316,
+    "sha256": "49f855750e129d983919e84f0b8955b1b2d593ed3a475fe4b0a0d3e2aeb06e93"
+  },
+  {
+    "source": "assets/source-materials/audio/亚索音频/亚索q3.mp4",
+    "source_sha256": "cf4ecf87a31b3fd148d1621a0d2ddde14c521e7df73356454a80218b3aa39aee",
+    "file": "yasuo-q3-user.mp3",
+    "start": 0,
+    "duration": 1.2302,
+    "gain": 2.602568,
+    "peak": 0.459985,
+    "rms": 0.090235,
+    "sha256": "02d2acaef1a572e25b776fd6e374d4ef749dd46788aaa8cdf0c5ea86cf5db8b4"
+  },
+  {
+    "source": "assets/source-materials/audio/亚索音频/亚索走路音效.mp4",
+    "source_sha256": "e8e5ded92e18d78b1826408287a95753d385c3d9a66384dbf19fe5fde7ab722a",
+    "file": "yasuo-walk-user-v1.mp3",
+    "start": 0,
+    "duration": 3.6719,
+    "gain": 3,
+    "peak": 0.462363,
+    "rms": 0.077648,
+    "sha256": "51a41b1c5e6c69d15de30a063ac0c7ef9dabea2c4187bff49e517b52ed192039"
+  },
+  {
+    "source": "assets/source-materials/audio/亚索音频/亚索走路音效-v2.mp4",
+    "source_sha256": "9525ec6970b4d04b114c10f943e00a1bfa178dee033441dd3a432d66f57c2de6",
+    "file": "yasuo-walk-user-v2.mp3",
+    "start": 0.05,
+    "duration": 4.9508,
+    "gain": 3,
+    "peak": 0.441267,
+    "rms": 0.069407,
+    "sha256": "ca1c5dc406b4ad44d41a402022355db36f7dfd6eadce99b6f523017ee28b1514"
+  },
+  {
+    "source": "assets/source-materials/audio/亚索音频/亚索吹箫音效.mp4",
+    "source_sha256": "44e44b8c06c5d1551f13dfc6c3f553efe3b13d83b668bf7fb42795e8189f57f3",
+    "file": "yasuo-flute-user.mp3",
+    "start": 0,
+    "duration": 6.301,
+    "gain": 3,
+    "peak": 0.200929,
+    "rms": 0.0348,
+    "sha256": "3baa62c404d0472c3be37e8eb7e3f024213e7c9e5dea0654bab7ffd1f6e6d676"
+  }
+]

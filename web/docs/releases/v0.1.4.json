@@ -1,0 +1,36 @@
+{
+  "version": "0.1.4",
+  "date": "2026-10-23",
+  "testFiles": 190,
+  "testsPassed": 1061,
+  "packages": [
+    {
+      "kind": "web",
+      "file": "jifeng-duijue-web-0.1.4.zip",
+      "bytes": 135913789,
+      "sha256": "083DB4EBA609515BD5FD0EF7F7EDEEACB896D2210F98055970D35538CE28EFF0",
+      "indexAtRoot": true,
+      "within50MB": false
+    },
+    {
+      "kind": "platform",
+      "file": "jifeng-duijue-web-0.1.4-platform.zip",
+      "bytes": 49897171,
+      "sha256": "C1E2399B3782CE38D3820A7B1B766A6F22955B4C84E91AA30B86B3A65B80798A",
+      "indexAtRoot": true,
+      "within50MB": true
+    }
+  ],
+  "changes": [
+    "Single-player Yasuo/Nailong opponent selection",
+    "Conservative GPU/CPU/memory graphics presets and sustained-frame-time reductions",
+    "Improved low/balanced graphics; native-resolution minion health bars",
+    "Pre-game graphics notice and prominent Meowa attribution"
+  ],
+  "validation": [
+    "vitest",
+    "TypeScript client and server checks",
+    "ordinary and platform build",
+    "ZIP CRC, SHA256, root entry and version verification"
+  ]
+}

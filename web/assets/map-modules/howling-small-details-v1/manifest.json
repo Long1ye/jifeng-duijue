@@ -1,0 +1,339 @@
+{
+  "generator": "built-in imagegen",
+  "atlasSize": [
+    1448,
+    1086
+  ],
+  "grid": [
+    4,
+    3
+  ],
+  "runtimeIntegrated": true,
+  "assets": [
+    {
+      "id": "ice-crystal-cluster",
+      "title": "三棱小冰晶",
+      "file": "props/ice-crystal-cluster.png",
+      "size": [
+        203,
+        263
+      ],
+      "attachment": "ground",
+      "atlasCell": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "cropInCell": [
+        97,
+        90,
+        300,
+        353
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "9db2bc889548826a64d2f60805265354a62a46f12273d66fe0f40634eb14f605"
+    },
+    {
+      "id": "ice-crystal-shard",
+      "title": "细长小冰晶",
+      "file": "props/ice-crystal-shard.png",
+      "size": [
+        197,
+        224
+      ],
+      "attachment": "ground",
+      "atlasCell": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "cropInCell": [
+        88,
+        121,
+        285,
+        345
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "7a06f203c1081afe3e4608799c5ff2c652bbe059bab1b6353191307310c3d3d3"
+    },
+    {
+      "id": "ice-crystal-fan",
+      "title": "低矮扇形冰晶",
+      "file": "props/ice-crystal-fan.png",
+      "size": [
+        220,
+        193
+      ],
+      "attachment": "ground",
+      "atlasCell": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "cropInCell": [
+        69,
+        153,
+        289,
+        346
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "0fec3633a9d37083d569d6781b74aed5e5653d996815d779ebdc93c9f7e2e931"
+    },
+    {
+      "id": "wall-banner",
+      "title": "蓝色挂旗",
+      "file": "props/wall-banner.png",
+      "size": [
+        196,
+        335
+      ],
+      "attachment": "wall",
+      "atlasCell": [
+        1086,
+        0,
+        1448,
+        402
+      ],
+      "cropInCell": [
+        53,
+        49,
+        249,
+        384
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "51a7abab6604c2ce2a8e96ba00bb59a1fe76b84d77363139498fdb6e76a455e8"
+    },
+    {
+      "id": "wall-chain",
+      "title": "垂挂铁链",
+      "file": "props/wall-chain.png",
+      "size": [
+        275,
+        207
+      ],
+      "attachment": "wall",
+      "atlasCell": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "cropInCell": [
+        70,
+        106,
+        345,
+        313
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "720c1b412a0777616e2f6f1c3c5a9373c85269486a4a1cf163194ff9a7e22765"
+    },
+    {
+      "id": "wall-lantern",
+      "title": "壁挂暖灯",
+      "file": "props/wall-lantern.png",
+      "size": [
+        143,
+        281
+      ],
+      "attachment": "wall",
+      "atlasCell": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "cropInCell": [
+        129,
+        62,
+        272,
+        343
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "40b6bb2ee9f950794840517636f227317118d0203876d632653c025499a6610a"
+    },
+    {
+      "id": "drainage-grate",
+      "title": "排水格栅",
+      "file": "props/drainage-grate.png",
+      "size": [
+        256,
+        172
+      ],
+      "attachment": "ground",
+      "atlasCell": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "cropInCell": [
+        54,
+        128,
+        310,
+        300
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "7639e6fa8625fe3ae4244bfe5ab8ba14dbc80c51b1d8d72c4e1902c5bc1567fc"
+    },
+    {
+      "id": "rope-coil",
+      "title": "绳圈",
+      "file": "props/rope-coil.png",
+      "size": [
+        215,
+        183
+      ],
+      "attachment": "ground",
+      "atlasCell": [
+        1086,
+        402,
+        1448,
+        724
+      ],
+      "cropInCell": [
+        65,
+        97,
+        280,
+        280
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "d8d846c93f6b3095ae0f90a26d5791aa0246b8b78baa02e74458d94ecda1ae2a"
+    },
+    {
+      "id": "folded-tarp",
+      "title": "折叠蓝篷布",
+      "file": "props/folded-tarp.png",
+      "size": [
+        281,
+        227
+      ],
+      "attachment": "ground",
+      "atlasCell": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "cropInCell": [
+        60,
+        75,
+        341,
+        302
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "3047ee3a20b3d9df8fbc93a4820deb971f6f571a712ad6260825ad59f332396e"
+    },
+    {
+      "id": "snow-drift",
+      "title": "浅雪堆",
+      "file": "props/snow-drift.png",
+      "size": [
+        275,
+        187
+      ],
+      "attachment": "ground",
+      "atlasCell": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "cropInCell": [
+        55,
+        98,
+        330,
+        285
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "bb00abe1c66b5774cb25edd5fdca5eebf133ee635226a233c69eaceac6e47309"
+    },
+    {
+      "id": "loose-cobbles",
+      "title": "零散小石",
+      "file": "props/loose-cobbles.png",
+      "size": [
+        262,
+        191
+      ],
+      "attachment": "ground",
+      "atlasCell": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "cropInCell": [
+        49,
+        85,
+        311,
+        276
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "e2bfd45cdfe75881208ead5c981c10fb7aa52599e177d56b558813deb89298cd"
+    },
+    {
+      "id": "icicle-fringe",
+      "title": "短冰挂",
+      "file": "props/icicle-fringe.png",
+      "size": [
+        265,
+        277
+      ],
+      "attachment": "wall",
+      "atlasCell": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "cropInCell": [
+        46,
+        35,
+        311,
+        312
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "3e5352d3da6e9dc0adbedc19ea072585a7e03684bb896f6772ba71cb2be3d6cc"
+    }
+  ],
+  "runtimeModule": "src/render-three/PaintedSmallDetails.ts"
+}

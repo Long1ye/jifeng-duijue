@@ -1,0 +1,237 @@
+{
+  "entries": [
+    {
+      "direction": "nw",
+      "source": "source/user-nw.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "source_alpha_bounds": [
+        156,
+        50,
+        868,
+        972
+      ],
+      "source_sha256": "d3cf300d0829bb7c938c2cba437ad610ac41104b6601041ade5079cd48f85375",
+      "runtime": "media/user-nw.png",
+      "runtime_dimensions": [
+        128,
+        128
+      ],
+      "runtime_alpha_bounds": [
+        19,
+        6,
+        108,
+        121
+      ],
+      "source_byte_exact": true,
+      "runtime_sampling": "nearest; explicit game asset preparation, original retained"
+    },
+    {
+      "direction": "n",
+      "source": "source/user-n.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "source_alpha_bounds": [
+        183,
+        49,
+        841,
+        975
+      ],
+      "source_sha256": "1e46e3f0a5df4afa9a657ca6050c9686c05466908516a940dde29ac3d9a8dc2d",
+      "runtime": "media/user-n.png",
+      "runtime_dimensions": [
+        128,
+        128
+      ],
+      "runtime_alpha_bounds": [
+        23,
+        6,
+        105,
+        122
+      ],
+      "source_byte_exact": true,
+      "runtime_sampling": "nearest; explicit game asset preparation, original retained"
+    },
+    {
+      "direction": "ne",
+      "source": "source/user-ne.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "source_alpha_bounds": [
+        156,
+        50,
+        868,
+        972
+      ],
+      "source_sha256": "4c47a8e4a3703e9d36c23146aab9105da3fe82df239c7a5b7faf7d8449e9fa41",
+      "runtime": "media/user-ne.png",
+      "runtime_dimensions": [
+        128,
+        128
+      ],
+      "runtime_alpha_bounds": [
+        19,
+        6,
+        108,
+        121
+      ],
+      "source_byte_exact": true,
+      "runtime_sampling": "nearest; explicit game asset preparation, original retained"
+    },
+    {
+      "direction": "w",
+      "source": "source/user-w.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "source_alpha_bounds": [
+        156,
+        48,
+        869,
+        975
+      ],
+      "source_sha256": "99fc34ae52f5e89302300c9836ee70a82ff5f77abeaaea20d32edb606acdca71",
+      "runtime": "media/user-w.png",
+      "runtime_dimensions": [
+        128,
+        128
+      ],
+      "runtime_alpha_bounds": [
+        19,
+        6,
+        109,
+        122
+      ],
+      "source_byte_exact": true,
+      "runtime_sampling": "nearest; explicit game asset preparation, original retained"
+    },
+    {
+      "direction": "e",
+      "source": "source/user-e.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "source_alpha_bounds": [
+        155,
+        48,
+        868,
+        975
+      ],
+      "source_sha256": "a13eef01d4895718075eb37375e6c08e068cd2316aa76c33ae1e2fc017cf3d49",
+      "runtime": "media/user-e.png",
+      "runtime_dimensions": [
+        128,
+        128
+      ],
+      "runtime_alpha_bounds": [
+        20,
+        6,
+        108,
+        122
+      ],
+      "source_byte_exact": true,
+      "runtime_sampling": "nearest; explicit game asset preparation, original retained"
+    },
+    {
+      "direction": "sw",
+      "source": "source/user-sw.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "source_alpha_bounds": [
+        188,
+        51,
+        837,
+        972
+      ],
+      "source_sha256": "9b663eb35b096412d21f4c2299094cf8cf011e639a88b3374cd3d3425aa78836",
+      "runtime": "media/user-sw.png",
+      "runtime_dimensions": [
+        128,
+        128
+      ],
+      "runtime_alpha_bounds": [
+        23,
+        6,
+        105,
+        121
+      ],
+      "source_byte_exact": true,
+      "runtime_sampling": "nearest; explicit game asset preparation, original retained"
+    },
+    {
+      "direction": "se",
+      "source": "source/user-se.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "source_alpha_bounds": [
+        187,
+        51,
+        836,
+        972
+      ],
+      "source_sha256": "dae9660cd466f240634d0f6be93fba7510b1615c3175cfacfcb63100c796cbfb",
+      "runtime": "media/user-se.png",
+      "runtime_dimensions": [
+        128,
+        128
+      ],
+      "runtime_alpha_bounds": [
+        24,
+        6,
+        104,
+        121
+      ],
+      "source_byte_exact": true,
+      "runtime_sampling": "nearest; explicit game asset preparation, original retained"
+    },
+    {
+      "direction": "s",
+      "source": "source/user-s.png",
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "source_alpha_bounds": [
+        218,
+        49,
+        806,
+        973
+      ],
+      "source_sha256": "289c0e34bcbc8f49fbb8c2ba781296b918d958d69d6bcd03a494c9636612d017",
+      "runtime": "media/user-s.png",
+      "runtime_dimensions": [
+        128,
+        128
+      ],
+      "runtime_alpha_bounds": [
+        27,
+        6,
+        101,
+        122
+      ],
+      "source_byte_exact": true,
+      "runtime_sampling": "nearest; explicit game asset preparation, original retained"
+    }
+  ],
+  "duplicate_uploads": [
+    6,
+    7
+  ],
+  "duplicate_byte_exact": true,
+  "missing_direction": null,
+  "southeast_supplied_separately": true,
+  "north_supplied_by_user": true,
+  "scope": "Use the user's art, preserve originals and previous studies; no paid regeneration"
+}

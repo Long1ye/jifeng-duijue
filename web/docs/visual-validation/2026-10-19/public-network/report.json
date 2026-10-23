@@ -1,0 +1,174 @@
+{
+  "base": "http://127.0.0.1:5182",
+  "results": [
+    {
+      "scenario": {
+        "name": "rtt60",
+        "rtt": 60,
+        "jitter": 5,
+        "lossEvery": 0
+      },
+      "trials": [
+        {
+          "team": "blue",
+          "localResponseMs": 0.8999999761581421,
+          "acknowledgementMs": 89.39999997615814,
+          "pending": 0
+        },
+        {
+          "team": "red",
+          "localResponseMs": 4.200000047683716,
+          "acknowledgementMs": 67.5,
+          "pending": 0
+        }
+      ],
+      "peers": [
+        {
+          "team": "blue",
+          "positionError": 2.206544744740485e-7,
+          "pending": 0,
+          "interpolationMs": 114.32235631779122,
+          "retransmits": 0,
+          "frameP95Ms": 6.199999988079071
+        },
+        {
+          "team": "red",
+          "positionError": 8.612849341613112e-7,
+          "pending": 0,
+          "interpolationMs": 114.03960648575091,
+          "retransmits": 0,
+          "frameP95Ms": 6.200000047683716
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "name": "rtt100-jitter30",
+        "rtt": 100,
+        "jitter": 30,
+        "lossEvery": 0
+      },
+      "trials": [
+        {
+          "team": "blue",
+          "localResponseMs": 2.400000035762787,
+          "acknowledgementMs": 157.69999998807907,
+          "pending": 0
+        },
+        {
+          "team": "red",
+          "localResponseMs": 6.599999964237213,
+          "acknowledgementMs": 162.19999998807907,
+          "pending": 0
+        }
+      ],
+      "peers": [
+        {
+          "team": "blue",
+          "positionError": 1.016845989170083e-12,
+          "pending": 0,
+          "interpolationMs": 80.39120047416344,
+          "retransmits": 0,
+          "frameP95Ms": 6.200000047683716
+        },
+        {
+          "team": "red",
+          "positionError": 0.0000016890516492455319,
+          "pending": 0,
+          "interpolationMs": 81.09971799575473,
+          "retransmits": 0,
+          "frameP95Ms": 6.200000047683716
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "name": "rtt150-retransmission-1pct-cycle",
+        "rtt": 150,
+        "jitter": 20,
+        "lossEvery": 100
+      },
+      "trials": [
+        {
+          "team": "blue",
+          "localResponseMs": 8.300000011920929,
+          "acknowledgementMs": 193.5,
+          "pending": 0
+        },
+        {
+          "team": "red",
+          "localResponseMs": 0.800000011920929,
+          "acknowledgementMs": 240.60000002384186,
+          "pending": 0
+        }
+      ],
+      "peers": [
+        {
+          "team": "blue",
+          "positionError": 3.0673119625173665e-8,
+          "pending": 0,
+          "interpolationMs": 115.89924389020588,
+          "retransmits": 1,
+          "frameP95Ms": 6.200000047683716
+        },
+        {
+          "team": "red",
+          "positionError": 0.0000017054769307908217,
+          "pending": 0,
+          "interpolationMs": 111.99004572777343,
+          "retransmits": 1,
+          "frameP95Ms": 6.200000047683716
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "name": "rtt150-retransmission",
+        "rtt": 150,
+        "jitter": 20,
+        "lossEvery": 20
+      },
+      "trials": [
+        {
+          "team": "blue",
+          "localResponseMs": 2.5,
+          "acknowledgementMs": 199.89999997615814,
+          "pending": 0
+        },
+        {
+          "team": "red",
+          "localResponseMs": 0.5,
+          "acknowledgementMs": 155.60000002384186,
+          "pending": 0
+        }
+      ],
+      "peers": [
+        {
+          "team": "blue",
+          "positionError": 2.4363437103230323e-7,
+          "pending": 0,
+          "interpolationMs": 107.37592012579621,
+          "retransmits": 3,
+          "frameP95Ms": 6.200000047683716
+        },
+        {
+          "team": "red",
+          "positionError": 0.0000067533791826713385,
+          "pending": 0,
+          "interpolationMs": 107.11920002814811,
+          "retransmits": 3,
+          "frameP95Ms": 6.200000047683716
+        }
+      ]
+    }
+  ],
+  "withoutPrediction": {
+    "localResponseMs": 309.4000000357628,
+    "acknowledgementMs": 168.60000002384186
+  },
+  "sharedAuthoritativeState": true,
+  "shortOutageRecovered": true,
+  "reloadResumedSeat": true,
+  "errors": [],
+  "model": "Real browser WebSockets with ordered application-message delays; retransmission stalls approximated, not real IP packet loss."
+}

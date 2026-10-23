@@ -1,0 +1,121 @@
+[
+  {
+    "file": "howling-abyss-early.mp3",
+    "seconds": 313.655,
+    "peak": 0.656362,
+    "rms": 0.087097,
+    "sha256": "efbcc68a45be855b327dab2ccc5732aa8a5ad25659c08ae393e3c439eae9be83"
+  },
+  {
+    "file": "tf-hit.mp3",
+    "seconds": 0.35,
+    "peak": 0.312385,
+    "rms": 0.08539,
+    "sha256": "c5135b15218465b33a47c4759b52a806443fda238e3576d14cb31ff16924f7f8"
+  },
+  {
+    "file": "tf-q-cast.mp3",
+    "seconds": 0.25,
+    "peak": 0.466114,
+    "rms": 0.07878,
+    "sha256": "5b04e4818fb7e68e187fa1a5bba558f10eef8932189c1a93f42480ff3f6643c2"
+  },
+  {
+    "file": "tf-q-hit.mp3",
+    "seconds": 0.6,
+    "peak": 0.35879,
+    "rms": 0.084097,
+    "sha256": "28d01544452b7583592bb995d7212d5e099895c6b429c972b6ae43356a7d3f7d"
+  },
+  {
+    "file": "tf-red-hit.mp3",
+    "seconds": 0.65,
+    "peak": 0.461524,
+    "rms": 0.082695,
+    "sha256": "c7d3c5e59f87f71f2ff55704c2435bcaad3b35ef03a38fabaa1c8cb1aa75b840"
+  },
+  {
+    "file": "tf-swing.mp3",
+    "seconds": 0.17,
+    "peak": 0.462283,
+    "rms": 0.082756,
+    "sha256": "77ed8ab7c4f5439ddab2c7865ffb1d8b3e6ba1026499a529de80be098ed72f36"
+  },
+  {
+    "file": "tf-w.mp3",
+    "seconds": 0.44,
+    "peak": 0.632342,
+    "rms": 0.04014,
+    "sha256": "4e201dd5a81afe265496ea6931673c7232adae0572c1264a8e11a6778371ebf0"
+  },
+  {
+    "file": "yasuo-attack-hit.mp3",
+    "seconds": 0.35,
+    "peak": 0.301003,
+    "rms": 0.084749,
+    "sha256": "0963cfb892e13ccc3ef906526545deeb191350d4b247be8948840786cb0e2615"
+  },
+  {
+    "file": "yasuo-e.mp3",
+    "seconds": 0.65,
+    "peak": 0.677507,
+    "rms": 0.073767,
+    "sha256": "d81bf89d3a50770793a229ccb311da361d14a6909f95e6adf30276aa8e38e69d"
+  },
+  {
+    "file": "yasuo-q-cast.mp3",
+    "seconds": 0.18,
+    "peak": 0.298151,
+    "rms": 0.079269,
+    "sha256": "0a744ec702a227e6865827ffb2dd49eff1a5a907d436992792d08c0261646da1"
+  },
+  {
+    "file": "yasuo-q-hit.mp3",
+    "seconds": 0.55,
+    "peak": 0.375123,
+    "rms": 0.084928,
+    "sha256": "48c232bb6f843ffe9fafc08029e291ca8f71e4bab5ffa7def372ec868f6d8972"
+  },
+  {
+    "file": "yasuo-q3-cast.mp3",
+    "seconds": 0.8,
+    "peak": 0.358775,
+    "rms": 0.08482,
+    "sha256": "6e07d959f9efc6c8831f9fb2a7aaebfb02b6dcad21f098562709d623f5648678"
+  },
+  {
+    "file": "yasuo-q3-hit.mp3",
+    "seconds": 0.35,
+    "peak": 0.244175,
+    "rms": 0.083551,
+    "sha256": "c1ed13f5d417f68faabe387e9058cfc96675e6277b77485121a3d1f4a96e02d5"
+  },
+  {
+    "file": "yasuo-r-cast.mp3",
+    "seconds": 0.65,
+    "peak": 0.315934,
+    "rms": 0.084784,
+    "sha256": "4c7c3c686659b9fed5b08fec069e688ba38543418e12758ca2c870fea23714d7"
+  },
+  {
+    "file": "yasuo-r-hit.mp3",
+    "seconds": 0.7,
+    "peak": 0.360029,
+    "rms": 0.084694,
+    "sha256": "90b20ba04d7023a3fa2b0177f52f6d8a9df76c34c7a899a799128e87f37684c7"
+  },
+  {
+    "file": "yasuo-swing.mp3",
+    "seconds": 0.12,
+    "peak": 0.245434,
+    "rms": 0.04531,
+    "sha256": "3eda560b527e683e532148d2b7aa05c4a93ae0012b136da2362a02e6d5164592"
+  },
+  {
+    "file": "yasuo-w.mp3",
+    "seconds": 1.3,
+    "peak": 0.473794,
+    "rms": 0.084986,
+    "sha256": "5d262d49d716b42a273ba734341b94587d2061ce0dee014a7c5b65aa570b5717"
+  }
+]

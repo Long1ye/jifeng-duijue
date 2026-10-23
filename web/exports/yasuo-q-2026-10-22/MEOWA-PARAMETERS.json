@@ -1,0 +1,452 @@
+[
+  {
+    "title": "Q1/Q2 出刺风刃",
+    "folder": "normal-q/thrust",
+    "feature": "通用生成",
+    "command": "general-image-run",
+    "parameters": {
+      "generation-model": "image-2.5",
+      "quality": "standard",
+      "resolution": "1K",
+      "aspect-ratio": "1:1",
+      "remove-bg-method": "standard",
+      "template": null,
+      "reference-images": []
+    },
+    "actualOutput": {
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "columns": 2,
+      "frames": 8,
+      "frameSize": [
+        512,
+        256
+      ]
+    },
+    "prompt": "制作游戏可直接切片的斩钢闪特效序列图，透明背景，严格两列四行，共八个等大的方形格子，没有网格线和文字。每格只画同一次向右直刺的风刃特效，不画人物、刀柄或实体武器。风刃从每格左侧10%、高度50%的固定位置出发，朝右水平延伸，长度约占格子80%，高度只占格子12%。贴近英雄联盟基础皮肤亚索普通Q：细锐的象牙白剑尖风光，周围是半透明的灰白空气薄雾和少量淡青色细风丝，轮廓是扁平狭长的梭形，尖端锋利，不能像火焰或激光。按从左到右、从上到下展示八个连续阶段：短风线开始、快速伸长、完全刺出、白色尖端最亮、风痕散开、薄雾破碎、极淡残丝、最后少量消失的残雾。所有格子的起点和方向完全相同，留足透明边距。风效精致但克制，适配像素角色上的原版风格技能特效。",
+    "historicalCommand": "python .agents/skills/game-assets/meowart_api.py general-image-run --generation-model image-2.5 --resolution 1K --aspect-ratio 1:1 --quality standard --remove-bg-method standard --prompt '制作游戏可直接切片的斩钢闪特效序列图，透明背景，严格两列四行，共八个等大的方形格子，没有网格线和文字。每格只画同一次向右直刺的风刃特效，不画人物、刀柄或实体武器。风刃从每格左侧10%、高度50%的固定位置出发，朝右水平延伸，长度约占格子80%，高度只占格子12%。贴近英雄联盟基础皮肤亚索普通Q：细锐的象牙白剑尖风光，周围是半透明的灰白空气薄雾和少量淡青色细风丝，轮廓是扁平狭长的梭形，尖端锋利，不能像火焰或激光。按从左到右、从上到下展示八个连续阶段：短风线开始、快速伸长、完全刺出、白色尖端最亮、风痕散开、薄雾破碎、极淡残丝、最后少量消失的残雾。所有格子的起点和方向完全相同，留足透明边距。风效精致但克制，适配像素角色上的原版风格技能特效。' --output-dir assets/effects/yasuo-q-meowa-2026-10-19/generated",
+    "jobId": "job_1be52f9aecd84191a52c5f875e512cea",
+    "sourceSHA256": "4e7d26f071b1741bfb3c7ff6487ed553615826e4ae028ae63f2a2b9d4526a6dd",
+    "runtimeSHA256": "680858098737f753b4004cf024637c4debf3b7be8cf29addea4ce9e85ce3ce07",
+    "postProcessing": {
+      "key": "thrust",
+      "job": "job_1be52f9aecd84191a52c5f875e512cea",
+      "source": "assets\\effects\\yasuo-q-meowa-2026-10-19\\generated\\制作游戏可直接切片的斩钢闪特效序列图_透明背景_严格两列四行_共八个等大的方_07ae1d0d\\result_images_0_url.png",
+      "sha256": "4e7d26f071b1741bfb3c7ff6487ed553615826e4ae028ae63f2a2b9d4526a6dd",
+      "cell": [
+        512,
+        256
+      ],
+      "frames": 8,
+      "bounds": [
+        [
+          55,
+          86,
+          218,
+          166
+        ],
+        [
+          49,
+          88,
+          397,
+          166
+        ],
+        [
+          55,
+          87,
+          476,
+          165
+        ],
+        [
+          48,
+          87,
+          488,
+          166
+        ],
+        [
+          55,
+          81,
+          489,
+          168
+        ],
+        [
+          49,
+          71,
+          434,
+          167
+        ],
+        [
+          55,
+          70,
+          398,
+          160
+        ],
+        [
+          51,
+          51,
+          316,
+          140
+        ]
+      ],
+      "alignment_shifts": [
+        [
+          0,
+          -22
+        ],
+        [
+          0,
+          -22
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -8
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          -17
+        ]
+      ],
+      "alpha": [
+        0,
+        253
+      ],
+      "resampled": false
+    },
+    "previewFrameMilliseconds": 100
+  },
+  {
+    "title": "Q1/Q2 命中风雾",
+    "folder": "normal-q/hit",
+    "feature": "通用生成",
+    "command": "general-image-run",
+    "parameters": {
+      "generation-model": "image-2.5",
+      "quality": "standard",
+      "resolution": "1K",
+      "aspect-ratio": "1:1",
+      "remove-bg-method": "standard",
+      "template": null,
+      "reference-images": []
+    },
+    "actualOutput": {
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "columns": 2,
+      "frames": 4,
+      "frameSize": [
+        512,
+        512
+      ]
+    },
+    "prompt": "制作一张透明背景的游戏风刃命中特效序列图，严格两列两行共四格，不要网格线、文字、人物、武器。贴近英雄联盟基础皮肤亚索普通Q的轻巧命中：目标中心一条很短的水平象牙白闪痕，少量灰白空气从中心向两侧卷开，伴随几颗极小的土黄色尘粒，不要星芒、火焰、爆炸或圆形光球。四格从左到右从上到下，分别是短促白闪、两片透明风雾展开、空气碎屑消散、极淡残雾。每格以相同的正中心为锚点，效果集中在格子中央一半的区域，透明留白均匀，精致克制，能够叠加在像素角色身体上。",
+    "historicalCommand": "python .agents/skills/game-assets/meowart_api.py general-image-run --generation-model image-2.5 --resolution 1K --aspect-ratio 1:1 --quality standard --remove-bg-method standard --prompt '制作一张透明背景的游戏风刃命中特效序列图，严格两列两行共四格，不要网格线、文字、人物、武器。贴近英雄联盟基础皮肤亚索普通Q的轻巧命中：目标中心一条很短的水平象牙白闪痕，少量灰白空气从中心向两侧卷开，伴随几颗极小的土黄色尘粒，不要星芒、火焰、爆炸或圆形光球。四格从左到右从上到下，分别是短促白闪、两片透明风雾展开、空气碎屑消散、极淡残雾。每格以相同的正中心为锚点，效果集中在格子中央一半的区域，透明留白均匀，精致克制，能够叠加在像素角色身体上。' --output-dir assets/effects/yasuo-q-meowa-2026-10-19/hit-generated",
+    "jobId": "job_5b8d289c52494e9a87fe944f60488e21",
+    "sourceSHA256": "3e974a4b3a042cf53ecae95b02f00d396e6d6ce679fb29a9589f5f7e30b109b0",
+    "runtimeSHA256": "b0b4fec1ccf05d5b52beee8a499611f18066d44489e91c7888b640848233b511",
+    "postProcessing": {
+      "key": "hit",
+      "job": "job_5b8d289c52494e9a87fe944f60488e21",
+      "source": "assets\\effects\\yasuo-q-meowa-2026-10-19\\hit-generated\\制作一张透明背景的游戏风刃命中特效序列图_严格两列两行共四格_不要网格线_文_449ffbd3\\result_images_0_url.png",
+      "sha256": "3e974a4b3a042cf53ecae95b02f00d396e6d6ce679fb29a9589f5f7e30b109b0",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": 4,
+      "bounds": [
+        [
+          175,
+          243,
+          346,
+          280
+        ],
+        [
+          42,
+          174,
+          456,
+          364
+        ],
+        [
+          64,
+          179,
+          457,
+          322
+        ],
+        [
+          93,
+          191,
+          434,
+          276
+        ]
+      ],
+      "alignment_shifts": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "alpha": [
+        0,
+        251
+      ],
+      "resampled": false
+    },
+    "previewFrameMilliseconds": 100
+  },
+  {
+    "title": "Q3 飞行旋风",
+    "folder": "q3/tornado",
+    "feature": "通用生成",
+    "command": "general-image-run",
+    "parameters": {
+      "generation-model": "image-2.5",
+      "quality": "standard",
+      "resolution": "1K",
+      "aspect-ratio": "1:1",
+      "remove-bg-method": "standard",
+      "template": null,
+      "reference-images": []
+    },
+    "actualOutput": {
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "columns": 4,
+      "frames": 8,
+      "frameSize": [
+        256,
+        512
+      ]
+    },
+    "prompt": "制作英雄联盟基础皮肤亚索Q3飞行旋风的游戏特效序列图，透明背景，严格四列两行共八格，不要文字、网格、人物或武器。每格是一根完整、直立的小旋风，底部在格子中心下方90%高度固定，顶部在12%高度，所有帧高度和位置一致，边缘留白。形状上宽下窄，底部细而收束，三到四条宽而稀疏的灰白、淡青风带沿螺旋向上旋转，半透明的空气能透出背景；顶部是开放的斜椭圆风环，不是实心漏斗或大碗。色彩接近原版的低饱和青灰风和象牙白细亮边，空气薄雾轻柔，不要高亮蓝色实心墙、闪电、冰晶和卡通粗描边。八格按从左到右从上到下表现连续旋转一整圈，风带和细小尘屑的位置逐帧变化，外轮廓与脚底锚点保持稳定，最后一帧能衔接第一帧。适合在像素角色游戏中以角色一人高的尺寸显示。",
+    "historicalCommand": "python .agents/skills/game-assets/meowart_api.py general-image-run --generation-model image-2.5 --resolution 1K --aspect-ratio 1:1 --quality standard --remove-bg-method standard --prompt '制作英雄联盟基础皮肤亚索Q3飞行旋风的游戏特效序列图，透明背景，严格四列两行共八格，不要文字、网格、人物或武器。每格是一根完整、直立的小旋风，底部在格子中心下方90%高度固定，顶部在12%高度，所有帧高度和位置一致，边缘留白。形状上宽下窄，底部细而收束，三到四条宽而稀疏的灰白、淡青风带沿螺旋向上旋转，半透明的空气能透出背景；顶部是开放的斜椭圆风环，不是实心漏斗或大碗。色彩接近原版的低饱和青灰风和象牙白细亮边，空气薄雾轻柔，不要高亮蓝色实心墙、闪电、冰晶和卡通粗描边。八格按从左到右从上到下表现连续旋转一整圈，风带和细小尘屑的位置逐帧变化，外轮廓与脚底锚点保持稳定，最后一帧能衔接第一帧。适合在像素角色游戏中以角色一人高的尺寸显示。' --output-dir assets/effects/yasuo-q3-meowa-2026-10-19/generated",
+    "jobId": "job_c934deaa10014b4cb173d6134fc4bd19",
+    "sourceSHA256": "490bb3eaaeaaa1654739215b41211906ed0039644fa61d0edfe3bf3bbb361a38",
+    "runtimeSHA256": "b27715833ff1278bf9258f64dceade3cd68a770e5729e4696523b371acb7933d",
+    "postProcessing": {
+      "key": "tornado",
+      "job": "job_c934deaa10014b4cb173d6134fc4bd19",
+      "source": "assets\\effects\\yasuo-q3-meowa-2026-10-19\\generated\\制作英雄联盟基础皮肤亚索Q3飞行旋风的游戏特效序列图_透明背景_严格四列两行共_338c168d\\result_images_0_url.png",
+      "sha256": "490bb3eaaeaaa1654739215b41211906ed0039644fa61d0edfe3bf3bbb361a38",
+      "cell": [
+        256,
+        512
+      ],
+      "columns": 4,
+      "frames": 8,
+      "alignment_shifts": [
+        [
+          -11,
+          -20
+        ],
+        [
+          -7,
+          -20
+        ],
+        [
+          0,
+          -20
+        ],
+        [
+          9,
+          -20
+        ],
+        [
+          -11,
+          -16
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          2,
+          -16
+        ],
+        [
+          11,
+          -16
+        ]
+      ],
+      "bounds": [
+        [
+          20,
+          25,
+          239,
+          460
+        ],
+        [
+          18,
+          25,
+          237,
+          460
+        ],
+        [
+          18,
+          25,
+          235,
+          460
+        ],
+        [
+          22,
+          25,
+          242,
+          460
+        ],
+        [
+          17,
+          25,
+          238,
+          460
+        ],
+        [
+          24,
+          24,
+          241,
+          460
+        ],
+        [
+          23,
+          24,
+          238,
+          460
+        ],
+        [
+          20,
+          24,
+          239,
+          460
+        ]
+      ],
+      "alpha": [
+        0,
+        253
+      ],
+      "resampled": false
+    },
+    "previewFrameMilliseconds": 125
+  },
+  {
+    "title": "Q3 命中上升风流",
+    "folder": "q3/hit",
+    "feature": "通用生成",
+    "command": "general-image-run",
+    "parameters": {
+      "generation-model": "image-2.5",
+      "quality": "standard",
+      "resolution": "1K",
+      "aspect-ratio": "1:1",
+      "remove-bg-method": "standard",
+      "template": null,
+      "reference-images": []
+    },
+    "actualOutput": {
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "columns": 2,
+      "frames": 4,
+      "frameSize": [
+        512,
+        512
+      ]
+    },
+    "prompt": "制作透明背景的亚索Q3旋风命中击飞特效序列图，严格两列两行共四格，不要文字、网格、人物或武器。每格效果以格子中央下方80%高度为固定脚底锚点。低饱和灰白和淡青的两条半透明风带自下而上卷起，像原版英雄联盟基础皮肤亚索Q3命中敌人时短促的上升气流，能透出目标的身体，不要实心龙卷风、火焰、星芒或冰晶。四格从左到右从上到下表现：脚底小型扁平风环、风带向上环绕抬升、弧形空气和细尘碎开、极淡风丝消失。保持同一固定中心和尺度，风环直径约占格子40%，最强阶段高度约占格子60%，透明留白均匀。",
+    "historicalCommand": "python .agents/skills/game-assets/meowart_api.py general-image-run --generation-model image-2.5 --resolution 1K --aspect-ratio 1:1 --quality standard --remove-bg-method standard --prompt '制作透明背景的亚索Q3旋风命中击飞特效序列图，严格两列两行共四格，不要文字、网格、人物或武器。每格效果以格子中央下方80%高度为固定脚底锚点。低饱和灰白和淡青的两条半透明风带自下而上卷起，像原版英雄联盟基础皮肤亚索Q3命中敌人时短促的上升气流，能透出目标的身体，不要实心龙卷风、火焰、星芒或冰晶。四格从左到右从上到下表现：脚底小型扁平风环、风带向上环绕抬升、弧形空气和细尘碎开、极淡风丝消失。保持同一固定中心和尺度，风环直径约占格子40%，最强阶段高度约占格子60%，透明留白均匀。' --output-dir assets/effects/yasuo-q3-meowa-2026-10-19/hit-generated",
+    "jobId": "job_9495ed81804547948bafd31ba56b2352",
+    "sourceSHA256": "486e827e731bb9c6d15a19bde5c2b4871882c634f4f3139d03a705c8a7a18ced",
+    "runtimeSHA256": "6ab0fc5b01eca0520c53f3eb2216c8b2b4888b6d61ad29bd1491c797027b1d22",
+    "postProcessing": {
+      "key": "hit",
+      "job": "job_9495ed81804547948bafd31ba56b2352",
+      "source": "assets\\effects\\yasuo-q3-meowa-2026-10-19\\hit-generated\\制作透明背景的亚索Q3旋风命中击飞特效序列图_严格两列两行共四格_不要文字_网格_6f8b02ad\\result_images_0_url.png",
+      "sha256": "486e827e731bb9c6d15a19bde5c2b4871882c634f4f3139d03a705c8a7a18ced",
+      "cell": [
+        512,
+        512
+      ],
+      "columns": 2,
+      "frames": 4,
+      "alignment_shifts": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        [
+          112,
+          326,
+          418,
+          444
+        ],
+        [
+          101,
+          78,
+          392,
+          444
+        ],
+        [
+          80,
+          31,
+          484,
+          453
+        ],
+        [
+          123,
+          67,
+          403,
+          446
+        ]
+      ],
+      "alpha": [
+        0,
+        250
+      ],
+      "resampled": false
+    },
+    "previewFrameMilliseconds": 100
+  }
+]

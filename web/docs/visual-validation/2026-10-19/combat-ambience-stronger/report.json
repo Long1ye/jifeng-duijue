@@ -1,0 +1,99 @@
+{
+  "groundTemporal": {
+    "changed": 22170,
+    "maximum": 32
+  },
+  "frozen": {
+    "changed": 0,
+    "maximum": 0
+  },
+  "calls": [
+    81,
+    82
+  ],
+  "reducedHidden": true,
+  "toggleHidden": true,
+  "paused": true,
+  "resources": [
+    {
+      "geometries": 71,
+      "textures": 29
+    },
+    {
+      "geometries": 71,
+      "textures": 29
+    },
+    {
+      "geometries": 71,
+      "textures": 29
+    },
+    {
+      "geometries": 71,
+      "textures": 29
+    },
+    {
+      "geometries": 71,
+      "textures": 29
+    }
+  ],
+  "birds": [
+    {
+      "name": "raven-0",
+      "state": "perched"
+    },
+    {
+      "name": "raven-1",
+      "state": "perched"
+    },
+    {
+      "name": "raven-2",
+      "state": "perched"
+    }
+  ],
+  "viewport": [
+    1600,
+    900
+  ],
+  "zoom": 0.4,
+  "recording": {
+    "seconds": 16,
+    "samplesPerSecond": 20,
+    "note": "Visual preview; not an FPS benchmark.",
+    "crossing": [
+      {
+        "name": "raven-0",
+        "state": "perched",
+        "position": [
+          -1021.8719999999994,
+          108.90549985970104,
+          758.6497627118642
+        ]
+      },
+      {
+        "name": "raven-1",
+        "state": "flying",
+        "position": [
+          -116.21041030032848,
+          148.70267635045104,
+          -116.25941513438397
+        ]
+      },
+      {
+        "name": "raven-2",
+        "state": "perched",
+        "position": [
+          1178.3664000000008,
+          108.90549985970104,
+          -832.9182915254239
+        ]
+      }
+    ],
+    "playback": {
+      "duration": 15.858702,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "errors": [],
+  "failures": []
+}

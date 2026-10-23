@@ -1,0 +1,350 @@
+[
+  {
+    "id": "hud-eight",
+    "status": "historical_prompt_verified",
+    "function": "UI generation ui-gen-run",
+    "prompt": "Create a crisp pixel-art MOBA HUD icon sheet inspired by the reference interface. Exactly eight separate square icons in two rows of four, read left to right. Top row: portrait of Yasuo, the dark-haired wind swordsman with high ponytail and blue scarf; passive skill, a cyan wind shield with a small sword; Q, silver katana thrust with pale blue wind; W, upright cyan wind barrier. Bottom row: E, a blue swordsman silhouette dashing forward; R READY, bright silver diagonal sword in a violet airborne vortex, fully colored and illuminated; D, golden flash; F, a red-orange flame. All eight icons have consistent thin stepped antique-gold pixel borders and opaque dark navy interiors. Authentic carefully clustered 48-pixel-game artwork with visible square pixels, limited colors, strong silhouettes and hard edges, no smooth painted shading. Equal square icons, generous fully transparent gaps, transparent sheet background. Only these eight icons. No letters, numbers, level badges, equipment, gold counters, buff strips, upgrade arrows or interface panel. Use reference only for icon meaning and palette; redraw all eight in matching pixel art.",
+    "references": [
+      "inputs/hud-layout.png",
+      "inputs/hud-r-ready.png"
+    ],
+    "parameters": {
+      "mode": "generate",
+      "quality": "standard",
+      "resolution": "1K",
+      "aspect_ratio": "16:9",
+      "remove_bg_method": "standard",
+      "split_components": true,
+      "generation_model": "historical model not recorded; Image2.5 suggested for new runs"
+    },
+    "job_id": "job_8985ee41f61e478fafb6aa4ccbfbc30a",
+    "output": {
+      "size": [
+        1536,
+        864
+      ],
+      "file": "images/eight-icons-sheet.png",
+      "crop_records": [
+        {
+          "id": "portrait",
+          "file": "runtime/portrait.png",
+          "bbox": [
+            106,
+            121,
+            382,
+            398
+          ],
+          "width": 276,
+          "height": 277,
+          "pixels_preserved": true,
+          "sha256": "2ed38dfb37dfac1b41fc35038be964863831ffe70192de17f523ef157bd672a0"
+        },
+        {
+          "id": "passive",
+          "file": "runtime/passive.png",
+          "bbox": [
+            457,
+            121,
+            735,
+            398
+          ],
+          "width": 278,
+          "height": 277,
+          "pixels_preserved": true,
+          "sha256": "e525a331caa73ea16bc397bbd082c4ee780ee0ad03fc67a8ba849160a870bda4"
+        },
+        {
+          "id": "q",
+          "file": "runtime/q.png",
+          "bbox": [
+            807,
+            121,
+            1085,
+            398
+          ],
+          "width": 278,
+          "height": 277,
+          "pixels_preserved": true,
+          "sha256": "837044a2dcb4574650c8d0dc0df72c4f9bae3b52df32290b4c1da660f012db53"
+        },
+        {
+          "id": "w",
+          "file": "runtime/w.png",
+          "bbox": [
+            1156,
+            121,
+            1432,
+            398
+          ],
+          "width": 276,
+          "height": 277,
+          "pixels_preserved": true,
+          "sha256": "488f2b93d4af6d58fdacfde8f69c59cce85cb97af26c3d6201bfec2769f9eb05"
+        },
+        {
+          "id": "e",
+          "file": "runtime/e.png",
+          "bbox": [
+            107,
+            477,
+            382,
+            753
+          ],
+          "width": 275,
+          "height": 276,
+          "pixels_preserved": true,
+          "sha256": "0a28437a0a92978455e0c94b67e12896d7e4203db0e8c40575ae6912f024a1c1"
+        },
+        {
+          "id": "r",
+          "file": "runtime/r.png",
+          "bbox": [
+            458,
+            477,
+            734,
+            753
+          ],
+          "width": 276,
+          "height": 276,
+          "pixels_preserved": true,
+          "sha256": "fdbb915afe0293d9fdb4c3ca7fde65a0979a194367b8eb8c9e48348b2f9ffd8b"
+        },
+        {
+          "id": "d",
+          "file": "runtime/d.png",
+          "bbox": [
+            807,
+            477,
+            1084,
+            753
+          ],
+          "width": 277,
+          "height": 276,
+          "pixels_preserved": true,
+          "sha256": "51c1db57e4e841c9e80e4b73e6d61a124923a5c8f54063135bd2a4ce978c9ca0"
+        },
+        {
+          "id": "f",
+          "file": "runtime/f.png",
+          "bbox": [
+            1157,
+            477,
+            1432,
+            753
+          ],
+          "width": 275,
+          "height": 276,
+          "pixels_preserved": true,
+          "sha256": "164cba1195d851a140c476085bdcbd8cb97b0dde309ecb2e92e97751b5351c02"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yasuo-r",
+    "status": "historical_prompt_missing",
+    "prompt": null,
+    "suggested_reproduction_prompt": "参考输入图，重绘亚索狂风绝息斩技能图标。保留深蓝背景、交错的青蓝刀光和横贯下半部的弧形亮刃，使用清晰方形像素簇，与现有冰桥 HUD 配色一致。单个正方形图标，不添加文字、数字或外部界面。",
+    "references": [
+      "inputs/official-yasuo-r.png"
+    ],
+    "function": "general-image-run",
+    "parameters": {
+      "resolution": "1K",
+      "aspect_ratio": "1:1",
+      "quality": "detailed",
+      "remove_bg_method": "none",
+      "reference_count": 1,
+      "generation_model": "historical model not recorded; Image2.5 suggested"
+    },
+    "job_id": "job_aa0a92e9ef8a4afa88ce52685dc3e11e",
+    "output": {
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "opaque RGB PNG",
+      "file": "assets/ui/yasuo-r-icon-2026-10-15/runtime/r.png"
+    }
+  },
+  {
+    "id": "yasuo-passive",
+    "status": "historical_prompt_missing",
+    "prompt": null,
+    "suggested_reproduction_prompt": "参考输入图，重绘亚索浪客之道被动图标。保留环绕的青蓝气流、中央深色剑客剪影和少量金色细节，使用清晰像素轮廓和深色不透明背景，与现有冰桥 HUD 一致。不添加文字、数字或其他图标。",
+    "references": [
+      "inputs/official-yasuo-passive.png"
+    ],
+    "function": "general-image-run",
+    "parameters": {
+      "resolution": "1K",
+      "aspect_ratio": "1:1",
+      "quality": "detailed",
+      "remove_bg_method": "none",
+      "reference_count": 1,
+      "generation_model": "historical model not recorded; Image2.5 suggested"
+    },
+    "job_id": "job_d4c0808d8946466fbf93c1ee26a24e4f",
+    "output": {
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "opaque RGB PNG",
+      "file": "assets/ui/yasuo-passive-icon-2026-10-15/runtime/passive.png"
+    }
+  },
+  {
+    "id": "menu-overview",
+    "status": "historical_prompt_verified",
+    "function": "general-image-run",
+    "prompt": "HA01. A beautiful pure gameplay environment target for a pixel art action RPG, inspired by the detailed pixel craftsmanship and stone architecture of Eldest Souls and the atmospheric environmental richness of Hunt the Night. The subject is the Howling Abyss: an ancient Freljord stone bridge suspended above a freezing blue abyss. One coherent wide scene from a fixed steep overhead orthographic gameplay camera. The route flows from a blue team sanctuary platform on the lower left, through an outer defensive tower and its broad circular stone apron, to an open central bridge crossing toward the upper right. The bridge has substantial broken parapets, carved Nordic stone guardians, icy supporting arches and distant cliffs below. Large individually weathered slate flagstones, smaller dark repair cobbles, worn geometric Freljord carvings, frost lodged in joints, wind-shaped snowbanks along the edges, translucent ice over exposed stone and scattered broken masonry form naturally interlocking ground materials. Keep the middle walking route broad and quiet with readable stone surfaces. Cold desaturated blue grey architecture, pale snow, restrained cyan ice crystals and a few small warm braziers. Deliberate crisp pixel clusters and rich material detail at a consistent pixel scale, finished game environment art rather than a 3D render or a painterly illustration. No characters, interface, lettering, labels, arrows, borders or presentation panels.",
+    "references": [],
+    "parameters": {
+      "generation_model": "image-2.5",
+      "quality": "detailed",
+      "resolution": "2K",
+      "aspect_ratio": "16:9"
+    },
+    "output": {
+      "size": [
+        2048,
+        1152
+      ],
+      "file": "assets/map-concepts/howling-abyss-target-v1/01-overview.png"
+    }
+  },
+  {
+    "id": "retired-atlas-v1",
+    "status": "retired_historical_prompt_verified",
+    "function": "general-image-run",
+    "prompt": "Create a production game item icon atlas, exactly 4 columns and 4 rows of equally sized square icons, edge to edge with no gutters, no text or numbers. Hand-painted fantasy pixel style, rich jewel colors, dark navy backgrounds and thin antique gold borders, recognizable silhouettes at small HUD size, suitable for an icy MOBA battlefield. Row 1: simple steel longsword, silver dagger, brown leather boots, bronze sword with red ruby. Row 2: purple luminous cloak, heavy steel pickaxe, broad golden greatsword, red vampiric curved scepter. Row 3: turquoise recurve bow, twin silver blades with green energy, large red ruby, folded steel chain armor. Row 4: armored golden berserker boots with orange wings, legendary golden infinity sword radiating amber light, crossed spectral swords with teal mist, black curved ruined king blade glowing emerald. Exactly one item per square, consistent scale, fill each icon with the item and its subtle magical background.",
+    "references": [],
+    "parameters": {
+      "generation_model": "image-2.5",
+      "quality": "ultimate",
+      "resolution": "2K",
+      "aspect_ratio": "1:1"
+    },
+    "job_id": "job_c55efa7e77614a3f800b249dac3d1f58",
+    "output": {
+      "size": [
+        2048,
+        2048
+      ],
+      "layout": "4x4",
+      "cell": [
+        512,
+        512
+      ],
+      "file": "assets/ui/equipment-2026-10-20/runtime/item-atlas.png"
+    }
+  },
+  {
+    "id": "retired-atlas-v2",
+    "status": "retired_historical_prompt_verified",
+    "function": "image-edit-run",
+    "prompt": "Redesign this complete sixteen-item MOBA equipment atlas for clearer recognition in a tiny inventory. Keep exactly the same 4 by 4 grid, equal square cells, order and opaque square format. Use cohesive hand-painted fantasy pixel-style objects, large clean silhouettes, simple dark backgrounds, restrained magical accents, and thin antique-gold borders. Remove the detailed castle scenery and decorative border corners so the objects dominate. No text or numbers. Row 1: a plain slender steel longsword with brown grip; a short triangular silver dagger; simple brown leather boots; a broad curved bronze Doran sword with a red gem and red grip. Row 2: a folded purple agility cloak; a rugged iron pickaxe with wooden handle; a massive broad SILVER two-handed greatsword with dark steel fittings and icy blue highlights, clearly different from the golden legendary sword; a hooked dark vampiric scepter holding a crimson orb. Row 3: a compact recurved wooden and turquoise bow with a visible bowstring; two curved ivory dueling blades crossing over a restrained MAGENTA aura; a single large vivid ruby; a padded tan CLOTH vest with stitches and fabric folds, no metal plates or chainmail. Row 4: a single heavy golden berserker boot with a red-orange wing motif; an ornate GOLD legendary infinity sword with a small infinity-shaped guard and amber edge; two slim spectral TEAL swords in a ghostly dance; a heavy jagged BLACK ruined king sword with an emerald glowing fissure. Keep gold light reserved for legendary equipment. Each whole object fits inside its cell with consistent small padding. Preserve readable shapes at 32 and 48 pixels.",
+    "references": [
+      "assets/ui/equipment-2026-10-20/runtime/item-atlas.png"
+    ],
+    "parameters": {
+      "mode": "hd",
+      "generation_model": "image-2.5",
+      "quality": "ultimate",
+      "resolution": "2K",
+      "remove_bg_method": "none"
+    },
+    "job_id": "job_618a17613ee34b1b9df33dcda7108d8b",
+    "output": {
+      "layout": "4x4",
+      "cell": [
+        512,
+        512
+      ],
+      "format": "lossless WebP",
+      "file": "assets/ui/equipment-icons-v2-2026-10-20/source-atlas.png"
+    }
+  },
+  {
+    "id": "sanctuary-stall",
+    "status": "historical_prompt_verified",
+    "function": "general-image-run",
+    "prompt": "One small fantasy weapon merchant stall as a transparent game prop, isometric three-quarter view seen from above, matching a hand-painted pixel-style snowy ancient stone bridge MOBA. A low wooden counter under a short faded burgundy cloth awning dusted with snow. Two warm amber hanging lanterns, a hanging wooden shield-shaped sign with a golden sword symbol and no writing, a rack of steel swords, a few glowing cyan and red potion bottles, a wooden chest and two little supply crates at the sides. Compact silhouette, low enough to sit beside a tall existing sanctuary building without obscuring it. Front of stall faces toward bottom of image. No people, no background, no floor tile, no text. Center complete prop with transparent padding around all sides, crisp detailed materials, cold blue shadows and warm shop lighting.",
+    "references": [],
+    "parameters": {
+      "generation_model": "image-2.5",
+      "quality": "ultimate",
+      "resolution": "1K",
+      "aspect_ratio": "1:1",
+      "remove_bg_method": "standard"
+    },
+    "job_id": "job_4b180f8a4982479ca4fc311f3033e3f2",
+    "output": {
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "file": "assets/map-modules/sanctuary-shop-2026-10-20/runtime/shop.png"
+    }
+  },
+  {
+    "id": "equipment-229",
+    "status": "historical_prompt_verified",
+    "function": "custom-size-pixel-gen-run",
+    "prompt": "保持原有的朝向和美术风格，变为像素化",
+    "references": [
+      "assets/ui/league-items-16.20.1/<id>.png"
+    ],
+    "parameters": {
+      "width": 64,
+      "height": 64,
+      "generation_model": "nano-banana",
+      "content_mode": "portrait",
+      "remove_bg_method": "none",
+      "fill_canvas": false,
+      "strong_pixelation": true,
+      "overrides": {
+        "3024": "image-2"
+      }
+    },
+    "output": {
+      "count": 229,
+      "size": [
+        64,
+        64
+      ],
+      "file": "assets/ui/equipment-pixel-64/<id>.png"
+    }
+  },
+  {
+    "id": "equipment-background",
+    "status": "verified_processing_recipe",
+    "function": "remove-background-run then deterministic composition",
+    "prompt": null,
+    "references": [
+      "lossless WebP batch of up to 16 source icons"
+    ],
+    "parameters": {
+      "mode": "pixel",
+      "quality": "standard",
+      "remove_bg_batch_size": 16,
+      "preserve_translucency": false,
+      "background": "original.resize((64,64), BOX).GaussianBlur(12) * 0.22",
+      "retained_ids": [
+        2055,
+        3072
+      ]
+    },
+    "output": {
+      "count": 229,
+      "size": [
+        64,
+        64
+      ],
+      "file": "assets/ui/equipment-pixel-dark-64/<id>.png",
+      "changed_backgrounds": 227
+    }
+  }
+]

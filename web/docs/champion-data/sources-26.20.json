@@ -1,0 +1,25 @@
+{
+  "patch": "26.20",
+  "checkedAt": "2026-10-20",
+  "sources": {
+    "championStatsAndCooldowns": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/champion/Yasuo.json",
+    "attackDamageGrowthCorrection": "https://www.leagueoflegends.com/en-gb/news/game-updates/patch-25-14-notes/",
+    "currentCritPenalty": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-17-notes/",
+    "minionExperienceAndSharing": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-26-1-notes/",
+    "experienceThresholdsRangeAndEligibility": "https://wiki.leagueoflegends.com/en-us/Experience_%28champion%29",
+    "soloKillExperienceTable": "https://www.leagueofdata.fr/data.html",
+    "qDamage": "https://wiki.leagueoflegends.com/en-us/Template%3AData_Yasuo/Steel_Tempest",
+    "eDamageAndStacks": "https://www.leagueoflegends.com/en-gb/news/game-updates/patch-14-15-notes/",
+    "eStackDuration": "https://wiki.leagueoflegends.com/en-us/Template%3AData_Yasuo/Sweeping_Blade",
+    "rDamage": "https://wiki.leagueoflegends.com/en-us/Template%3AData_Yasuo/Last_Breath"
+  },
+  "corrections": [
+    "DDragon 16.20.1 reports attackdamageperlevel=0 for Yasuo. Use 2.5 from Riot patch 25.14 and corroborated current stat tables instead of silently accepting zero growth.",
+    "DDragon spell descriptions omit damage scalars. Q/E/R scalars are separately sourced.",
+    "DDragon mp=100 represents Flow; the simulation keeps mana=0 and its existing 0..100 Flow mechanic."
+  ],
+  "scope": {
+    "enabled": ["normal solo match", "server-authoritative multiplayer", "level 1..18", "skill points", "curved base stat growth", "damage resistance", "existing melee and caster minion XP"],
+    "notImplemented": ["equipment", "runes", "role quests", "cannon minions", "jungle", "ARAM automatic XP", "full original skill geometry and animation timing", "multi-champion assists", "minion-level catch-up XP"]
+  }
+}

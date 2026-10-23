@@ -1,0 +1,1162 @@
+[
+  {
+    "path": "assets/map-studies/howling-abyss-v1/geometry.ts",
+    "bytes": 1252,
+    "sha256": "d3798b8bd9cd8d350beabdf1df3f71abed26b46c6519bec2a5afb395bbba3a5c"
+  },
+  {
+    "path": "assets/map-studies/howling-abyss-v1/layout.json",
+    "bytes": 1633,
+    "sha256": "570d94e8887aa5c089dab02a8d5960e42a1c736a33ae1ad6768f050e0edf12ce"
+  },
+  {
+    "path": "assets/units/minions-animated-v1/runtime/clips.json",
+    "bytes": 4251,
+    "sha256": "cab239de41db057cf0cbf9112cb622449cb5065b2518b327833b3da278b9a2cb"
+  },
+  {
+    "path": "index.html",
+    "bytes": 8541,
+    "sha256": "31c05e0feb77ed825fb3c6c330709dfa57e10f7e37955ff2575d0d32ac9a4a80"
+  },
+  {
+    "path": "package-lock.json",
+    "bytes": 47892,
+    "sha256": "b1e45fb277700e90b7a40a491646b1ae2fb3fe51cb85c0e75846d5b64e1f3e3b"
+  },
+  {
+    "path": "package.json",
+    "bytes": 521,
+    "sha256": "379688994a85ff63e5c2f06b910e75cc5e5e183a77ae6daf450d50d415220e05"
+  },
+  {
+    "path": "src/game/ActionTiming.ts",
+    "bytes": 1069,
+    "sha256": "284dbc12a55add8b4bef429e2b9373f634096da0c3ae51bba038234a5b6bc5c1"
+  },
+  {
+    "path": "src/game/Bridge.ts",
+    "bytes": 2372,
+    "sha256": "ab823f1fdedb93daf11ad007e688db9f0259fbe11dfacb28560cc7b6e8822e71"
+  },
+  {
+    "path": "src/game/BridgeInteraction.ts",
+    "bytes": 2449,
+    "sha256": "b8e5a5b4080c7028f9ee9a627f26cf13df59b1a24f3734039b0b9bb54a52dcfb"
+  },
+  {
+    "path": "src/game/CombatPractice.ts",
+    "bytes": 618,
+    "sha256": "e937b60a805af628016f6d658f15099622a26b32f742a4089c7fcc6c0928d4db"
+  },
+  {
+    "path": "src/game/EPractice.ts",
+    "bytes": 557,
+    "sha256": "97c33fe6a582ec4bfb2b74cb21c3377b38b6914f70c02db94c947381aefdb8b1"
+  },
+  {
+    "path": "src/game/HitStun.ts",
+    "bytes": 1767,
+    "sha256": "86c68b7c229b929d6ec223cfddde22bae1495a8833e5f89edfe3e68fe0f5011d"
+  },
+  {
+    "path": "src/game/Homeguard.ts",
+    "bytes": 1384,
+    "sha256": "917a5d35de64ac96a49e3c0ff4ba18dee3a65725fe32ee305467e44b38e4c47e"
+  },
+  {
+    "path": "src/game/Match.ts",
+    "bytes": 47783,
+    "sha256": "532f7b15ae13dd1ce8d5fdf8f15ec9fb85599f88e607ad2974adf9ac3e36a728"
+  },
+  {
+    "path": "src/game/MinionLane.ts",
+    "bytes": 2680,
+    "sha256": "1bc7b3b0b77a40eef466147b8b20cf1960cdca4f31950e87a9629fdc856d2cb7"
+  },
+  {
+    "path": "src/game/MinionPractice.ts",
+    "bytes": 840,
+    "sha256": "8f05362e6cca747c196747caa94daf0c040474ef148181b412ce57313462262e"
+  },
+  {
+    "path": "src/game/RPractice.ts",
+    "bytes": 257,
+    "sha256": "8c664265746420444c892aec9fbfa596ee67617e6fa3297a81895e42a6c824c4"
+  },
+  {
+    "path": "src/game/SummonerSpells.ts",
+    "bytes": 398,
+    "sha256": "1c993224893346fb1ce63ab0f91c1523e30fa756be2300baba671f8e8fd53477"
+  },
+  {
+    "path": "src/game/UnitMetrics.ts",
+    "bytes": 1556,
+    "sha256": "f8a2f6ef0a8da191f9ea25728a4336fafe34a8518c3d2de93368892904859368"
+  },
+  {
+    "path": "src/game/WindWall.ts",
+    "bytes": 1788,
+    "sha256": "78b05e5aa39f66e3b005aba19bf44d50c2c5ad3faaea1578bb091944858e298e"
+  },
+  {
+    "path": "src/game/YasuoE.ts",
+    "bytes": 1328,
+    "sha256": "a3a28ae7e557b16e9566ad8ef0280ec6f69f53ac2b92b29865da288f439b9046"
+  },
+  {
+    "path": "src/game/YasuoFlute.ts",
+    "bytes": 482,
+    "sha256": "c5876bed0bd9105bc18a445ae52146e53444f9e69accfd10a041135abc09c3a5"
+  },
+  {
+    "path": "src/game/YasuoPassive.ts",
+    "bytes": 1737,
+    "sha256": "e46d75d44ac78a7330d2e6c119eaf19f214cd47f05987b06eff28f88cc96f7b2"
+  },
+  {
+    "path": "src/game/YasuoQ.ts",
+    "bytes": 596,
+    "sha256": "dc4beba604e6783b2317095f648ef3df5ffbccaa141e720b6f6741a3afe1d296"
+  },
+  {
+    "path": "src/game/YasuoR.ts",
+    "bytes": 836,
+    "sha256": "a139cf027baa8024ae773df4a65e7e6e8f4630254245302990631ff0da4aaaac"
+  },
+  {
+    "path": "src/game/YasuoStorm.ts",
+    "bytes": 825,
+    "sha256": "147de68e6736542148d2373e3ca0840595d090741671bd52fa5aa9855ecb21b7"
+  },
+  {
+    "path": "src/game/config.ts",
+    "bytes": 3048,
+    "sha256": "1c6b8f08a14d4e4d58d2a1498aece40481fdf2e0c8f2e79cb5d1fd5091b4a96e"
+  },
+  {
+    "path": "src/game/geometry.ts",
+    "bytes": 1357,
+    "sha256": "a93ae0a667ab085b57ba5ba69d9ef53701a912b5e11a09b167f68548e264bdd3"
+  },
+  {
+    "path": "src/game/types.ts",
+    "bytes": 3696,
+    "sha256": "43a564b3cd1a735f6ee516fa7835298540b8fc522d708cbdbbb5214154a9901f"
+  },
+  {
+    "path": "src/main.ts",
+    "bytes": 40663,
+    "sha256": "5daefe9d6f5dce7db7ae902a03d57d63f8b2ffd92a08b7449dd945fa0d7fb417"
+  },
+  {
+    "path": "src/render/AbyssLife.ts",
+    "bytes": 2944,
+    "sha256": "cd68a0ed7dfe917d811bcfbf3f2e6a49e2b5de95f4ef9d0c2d782874f2ab74c0"
+  },
+  {
+    "path": "src/render/AbyssMotion.ts",
+    "bytes": 295,
+    "sha256": "4d6427f61f5b3069a90d29b9072bd16acb789b00a6ab4b8d081085ffeb50df95"
+  },
+  {
+    "path": "src/render/AbyssScenery.ts",
+    "bytes": 3146,
+    "sha256": "4de777b93ea7648ec12518bd7fbaabf7b16c06f095f36cce5af08e63f742c087"
+  },
+  {
+    "path": "src/render/AmbientWildlife.ts",
+    "bytes": 2935,
+    "sha256": "a9040c1e70df824def5fb98bd5916cdb49360cff9d7663605f8ce22d73595b9b"
+  },
+  {
+    "path": "src/render/ArenaAccents.ts",
+    "bytes": 3535,
+    "sha256": "1380f022490b6eaf37c6fc996f2027f23144b9251a009c3567ccf635ecfd4781"
+  },
+  {
+    "path": "src/render/ArenaLighting.ts",
+    "bytes": 5861,
+    "sha256": "78c3afbbf62a3f433752f1865b49c706324770a88ba63575275ff908639881b5"
+  },
+  {
+    "path": "src/render/ArenaScene.ts",
+    "bytes": 51121,
+    "sha256": "6e9a32d1f30c57f662145c76c494091c8db65f60042e62f4a769b0402f190b35"
+  },
+  {
+    "path": "src/render/BattleTraces.ts",
+    "bytes": 1075,
+    "sha256": "adc2487c972a7ca0ea2b00b677b132e05840c5d5c86f47ea467524b4f3b039bb"
+  },
+  {
+    "path": "src/render/BattlefieldMotion.ts",
+    "bytes": 3310,
+    "sha256": "d605f3c11c526036999982fe3dfb6dd1e5c7ed1f384569e832077db5a86b4b44"
+  },
+  {
+    "path": "src/render/BridgeCamp.ts",
+    "bytes": 1523,
+    "sha256": "22739a898b7a5370b5c0d2484a52396ae8fbc34c8441608d17b353d48855aafc"
+  },
+  {
+    "path": "src/render/BridgeCircle.ts",
+    "bytes": 946,
+    "sha256": "956f02d9b00aacfc26e9f097e662a8ea2e00dc85e4e6ea6aa372e122db49a6d2"
+  },
+  {
+    "path": "src/render/BridgeDecor.ts",
+    "bytes": 7886,
+    "sha256": "29e03efa9251a4f05f830f5b4e3bd3cf00e88d9114772449ed74f1ad5cf3eb85"
+  },
+  {
+    "path": "src/render/BridgeEdge.ts",
+    "bytes": 887,
+    "sha256": "9208c777c305b50f1fbdf1de19ddda0fe2685e919d5696e039d924d6c2de7b1a"
+  },
+  {
+    "path": "src/render/BridgeLights.ts",
+    "bytes": 2867,
+    "sha256": "eb0aad8cd2303ddee2640046627a7a7f1b074f1bef536109fb6f60c289fe44a9"
+  },
+  {
+    "path": "src/render/BridgePaving.ts",
+    "bytes": 1471,
+    "sha256": "686e5bf903b142270a6ebdf54baf65c53573a897201892f01d683b9dde467f77"
+  },
+  {
+    "path": "src/render/BridgeProps.ts",
+    "bytes": 3325,
+    "sha256": "3df4fed05e75140e0da075c14a91cee6d28fa71c71ff2b45294f91d17dcc593b"
+  },
+  {
+    "path": "src/render/BridgeRails.ts",
+    "bytes": 3091,
+    "sha256": "98be950aa618debd0073d07594581001d0809b2d381f9e00fceacd9a7634f799"
+  },
+  {
+    "path": "src/render/BridgeSiteArt.ts",
+    "bytes": 1008,
+    "sha256": "6a7204eaab6457f6f085c166630ff96e69c8a44c53a47794f93279cdb2d62a08"
+  },
+  {
+    "path": "src/render/BridgeSites.ts",
+    "bytes": 1152,
+    "sha256": "3ca989bd67c779ac4785eccfb4d66f5767dfabaab3195940cfb1122506098784"
+  },
+  {
+    "path": "src/render/BridgeStory.ts",
+    "bytes": 2310,
+    "sha256": "5c2fd610d1a4502b65f81b4de4b11eba81c3a686fda758f227b35f93bf8edd96"
+  },
+  {
+    "path": "src/render/BridgeSurface.ts",
+    "bytes": 893,
+    "sha256": "5111b17b09f6a67f2ad916b117d6199cb8265e20fa6420ef0326963de8694f13"
+  },
+  {
+    "path": "src/render/BridgeTiles.ts",
+    "bytes": 4175,
+    "sha256": "548d557879a32506b2653c3f30e1462b4ab67377979e52612a8ed85628b57465"
+  },
+  {
+    "path": "src/render/Bridgehead.ts",
+    "bytes": 2443,
+    "sha256": "4c56376e21c14d0e6b22e501c7eedf14038467b23d8009ac2e281022a4ba19ce"
+  },
+  {
+    "path": "src/render/BrushMotion.ts",
+    "bytes": 1083,
+    "sha256": "35e304583125b14f147fdb6d7da005f37b07095ab31d012f655f411ef191d824"
+  },
+  {
+    "path": "src/render/BuildingAnimation.ts",
+    "bytes": 973,
+    "sha256": "20d8108cb76d02680d86c8df9fbd81fb730031d045c6ac35353897917b4b0bcd"
+  },
+  {
+    "path": "src/render/BuildingMotion.ts",
+    "bytes": 7958,
+    "sha256": "b1ebe5c0131438c226570ca09bc6b608c0224678cf10c54f2e69da18d2c1f077"
+  },
+  {
+    "path": "src/render/CachedPolygon.ts",
+    "bytes": 772,
+    "sha256": "98b4fa3c2a8157b6ad684ecee2005889edf3d7705f04bc705e87db60abe1ed6d"
+  },
+  {
+    "path": "src/render/CameraDrag.ts",
+    "bytes": 882,
+    "sha256": "0aa8520e246fe292341f5d790e46d4da25724a68007ea54218420c8d4a4f50a1"
+  },
+  {
+    "path": "src/render/CameraRig.ts",
+    "bytes": 2750,
+    "sha256": "e8edaaa43f08d706cf82205852e9e422e07b62199a0820a1d9f47032d2e8d892"
+  },
+  {
+    "path": "src/render/CampLayout.ts",
+    "bytes": 2411,
+    "sha256": "f8af704b540c1a2af713737f3efe413f1e2f28598b22b36a6d773d02aa949878"
+  },
+  {
+    "path": "src/render/CombatFeedback.ts",
+    "bytes": 5319,
+    "sha256": "b453db5d991858e9b144a82379e5e6fd884394636b7086b94d6ac354475de79e"
+  },
+  {
+    "path": "src/render/CombatFeel.ts",
+    "bytes": 4516,
+    "sha256": "3b73c633aaa4ae5f90578520fcc99b206f57bbe88fa82bd61c2a4b8b9fabbec4"
+  },
+  {
+    "path": "src/render/DashTargetTimer.ts",
+    "bytes": 2326,
+    "sha256": "cd60cd36d6ce357d63d6b2b37c5aa41fa30339876271f52d6c61e94e34c88573"
+  },
+  {
+    "path": "src/render/DashTargetTimerState.ts",
+    "bytes": 786,
+    "sha256": "c0df6746c586bfbdc01a2499fc1b967ef2aa17ed9cdbcd5aa5fdf888616d984d"
+  },
+  {
+    "path": "src/render/EnvironmentWind.ts",
+    "bytes": 303,
+    "sha256": "27405bb89b8865a0d2b79bdca3364e97c8da03df6a4508e256dbca84cb38e074"
+  },
+  {
+    "path": "src/render/EnvironmentalLight.ts",
+    "bytes": 479,
+    "sha256": "ddef49bfd66d4968f37ea8a0cd716012e262017e971e4cfaa9cf8ffa4095cdd0"
+  },
+  {
+    "path": "src/render/HealthBarTrail.ts",
+    "bytes": 902,
+    "sha256": "7a5862c8dd665f2f3f26f065f58b68aa9991b6624558c1136539efde1fafe1e7"
+  },
+  {
+    "path": "src/render/HealthBars.ts",
+    "bytes": 3058,
+    "sha256": "c9e0f031cf3c35ea21cc9db20cec4d9114f7bb801a0da35e3f62450991e0122c"
+  },
+  {
+    "path": "src/render/HowlingAtmosphere.ts",
+    "bytes": 5912,
+    "sha256": "06798122caea34b08772de3b64da0610344d48ae1bb1ae73761bff921c1aa5f2"
+  },
+  {
+    "path": "src/render/IceFloor.ts",
+    "bytes": 11383,
+    "sha256": "dba8a0dcea864b0e93ebce47fe7d58b7fc886a8f20dbfde01efd1834f92f3377"
+  },
+  {
+    "path": "src/render/ImpactMotion.ts",
+    "bytes": 485,
+    "sha256": "98486a51a6f88b9b9ad0396f6979399d1cbd0c261ec4060b2ff2cae0cb3eca2f"
+  },
+  {
+    "path": "src/render/LayeredForest.ts",
+    "bytes": 3519,
+    "sha256": "ba5e8dee6f305ab2ce76d9aa1f619dc51ee7d7b33751f5d41fc0ccda8ba8013f"
+  },
+  {
+    "path": "src/render/LivingBrush.ts",
+    "bytes": 5856,
+    "sha256": "2712fe25d698213c4c61b941197ba5a116d89b8e1f656a420da3fc039fb0e86b"
+  },
+  {
+    "path": "src/render/MapLayerFrames.ts",
+    "bytes": 1151,
+    "sha256": "3b15924111273c93bc03e7e5673d73f70a43c7685f6b354dc39f1b64e9e278a7"
+  },
+  {
+    "path": "src/render/MapLayerLayout.ts",
+    "bytes": 2360,
+    "sha256": "1afc8c43f05883cfe7e34fafedbc6d75e8435fd7504874c4085c7f61cc8b3242"
+  },
+  {
+    "path": "src/render/MinionAnimation.ts",
+    "bytes": 3461,
+    "sha256": "d0dc71a57ac6a81d3ddb80971e3532d0a59ef104d1fcd0d2af0b996d71a2433e"
+  },
+  {
+    "path": "src/render/MoveClickIndicator.ts",
+    "bytes": 1431,
+    "sha256": "ab905af02f71c7d93e71444ee4ab88cf69f75472a44662ec9aa8ebc78e34a190"
+  },
+  {
+    "path": "src/render/PassiveShieldPose.ts",
+    "bytes": 739,
+    "sha256": "6751e5522398dbb4a52bbed24668887b72cd1a826f714bfefb1e3c2530a47e5b"
+  },
+  {
+    "path": "src/render/PassiveShieldVfx.ts",
+    "bytes": 2125,
+    "sha256": "6e0e91ca4e69bef682b4d0f5fd1ee1e8a1beea7dacd3c171f27a535ccd4f0831"
+  },
+  {
+    "path": "src/render/Presentation.ts",
+    "bytes": 960,
+    "sha256": "867a6aa619708d6b4833137336bbfb417ad9176753efa5389dbecfbe1c54ebd4"
+  },
+  {
+    "path": "src/render/RenderDepth.ts",
+    "bytes": 457,
+    "sha256": "ba0ad855f2298f216102a040686eea55ebeee54bf3a829a4a668d656fb036a84"
+  },
+  {
+    "path": "src/render/RenderPositions.ts",
+    "bytes": 744,
+    "sha256": "f9539f36ae2d515aa42d556f5c0b656c0ceb6675b7cff15c97ad9c7848ee928b"
+  },
+  {
+    "path": "src/render/SkillPresentation.ts",
+    "bytes": 1722,
+    "sha256": "58732c34396f4d59e8448ba38548e0e83c5586ae538631bb8fc0f79f9b9e9083"
+  },
+  {
+    "path": "src/render/SnowBeast.ts",
+    "bytes": 2488,
+    "sha256": "fd72adf62ed37a8da3d22e6b67e0d7abed254a56aa6830756a12d79e6230a031"
+  },
+  {
+    "path": "src/render/SnowContact.ts",
+    "bytes": 1926,
+    "sha256": "887d03b7d29fcb3816e042317dd4b2ca012dbeed90a104b0e7295662ec0b7bf8"
+  },
+  {
+    "path": "src/render/SnowSurface.ts",
+    "bytes": 729,
+    "sha256": "82f89b9ea76311ae14c51b2fae38dbbb7259bf042e5bffe6654667636f18f981"
+  },
+  {
+    "path": "src/render/SnowTrails.ts",
+    "bytes": 1848,
+    "sha256": "413f11fc50f1f23c649450f8a75a7d71d98c2fac739c9a8f31b2c3cc6b846c6e"
+  },
+  {
+    "path": "src/render/StormVfx.ts",
+    "bytes": 1651,
+    "sha256": "71acc5456c9c9fd82366cd34e31034683ff4272a790456fe77f742d5fd596fa2"
+  },
+  {
+    "path": "src/render/StructureOcclusion.ts",
+    "bytes": 1187,
+    "sha256": "62c333c17c3c7e57615022ffd0705754aba18956efa6134f237d9e712e131479"
+  },
+  {
+    "path": "src/render/SummonerVfx.ts",
+    "bytes": 1709,
+    "sha256": "b0b76fcf1ec0a61549796ddf11220b8f36003534d601fa24c9049e90d5e8eb64"
+  },
+  {
+    "path": "src/render/TerrainNormals.ts",
+    "bytes": 1240,
+    "sha256": "c6c10afad29e765e64ab648e1e4092dd797ac5000b02a1644e0807fb0f0f0ce4"
+  },
+  {
+    "path": "src/render/TowerArt.ts",
+    "bytes": 591,
+    "sha256": "70722ddacaabb64c7a9e27c5fe1fc46edbc6c0b6087df8a36ef7f20eda75550e"
+  },
+  {
+    "path": "src/render/TwistedFate.ts",
+    "bytes": 1478,
+    "sha256": "1207504b32cbd7f70be78056cd8712d37596ae88f6d217ea85998fdbd730ece5"
+  },
+  {
+    "path": "src/render/WindWallAnimation.ts",
+    "bytes": 855,
+    "sha256": "2fdef3e6b8d5733f302ab7bb2b481e4bf0508c2ad8b59d57263ff882cbcdcd65"
+  },
+  {
+    "path": "src/render/WindWallArt.ts",
+    "bytes": 1939,
+    "sha256": "2a6c5d17e9f5dcdc9185200c485a3246ce453ae241ee091804d7579ceb42da6a"
+  },
+  {
+    "path": "src/render/WindWallVfx.ts",
+    "bytes": 4705,
+    "sha256": "07c97369a8ee27026ab43e4108989225c456c8977173cc209fecdfa22efe954c"
+  },
+  {
+    "path": "src/render/YasuoAnimation.ts",
+    "bytes": 5845,
+    "sha256": "06a0bce648268da2d16c435a4cc580c6ce33fe9718f67d7414446b59c50fc5b3"
+  },
+  {
+    "path": "src/render/YasuoAssets.ts",
+    "bytes": 2035,
+    "sha256": "094507029f597c5a6fa313ef281ecb69b250945830dc38dc48cb2ffb69dec0f4"
+  },
+  {
+    "path": "src/render/YasuoCastFacing.ts",
+    "bytes": 226,
+    "sha256": "b42f147fcf3e947f86888c9b02e4f1e637c62b4334be2eb82b069bcc551d5b28"
+  },
+  {
+    "path": "src/render/YasuoEAnimation.ts",
+    "bytes": 1137,
+    "sha256": "af2db45c9b1ca7b7ca3ed02f91a92bab7137469c6194cea21609242609ff98fb"
+  },
+  {
+    "path": "src/render/YasuoQAnimation.ts",
+    "bytes": 1158,
+    "sha256": "46b910545c0ec9ea680ecb468829326103b9b011b4c71b829dc2d1288a9d6c9c"
+  },
+  {
+    "path": "src/render/YasuoQDraw.ts",
+    "bytes": 1497,
+    "sha256": "013b27b55d8db8c781915e4d364548770af4a3da3ad812edfb7c2c5972cc4a85"
+  },
+  {
+    "path": "src/render/YasuoQSlash.ts",
+    "bytes": 737,
+    "sha256": "9daff75f7136b82b2b3e8c958d929a2c3de315ccead2398749243cf329a0f6c9"
+  },
+  {
+    "path": "src/style.css",
+    "bytes": 11566,
+    "sha256": "096c0453d76b835c86a7204b2c131999f40370c3ed26249b24e687b4e12b9575"
+  },
+  {
+    "path": "src/ui/AudioFeedback.ts",
+    "bytes": 5753,
+    "sha256": "a2e7778085bd581dd28b7def86a4e4d55767cdb4eb3cfdd8397240dda8c74ce8"
+  },
+  {
+    "path": "src/ui/CombatSound.ts",
+    "bytes": 1449,
+    "sha256": "078b042538e54fc00fd0b66bb0169e72ce3bbf9c2b687213aeabb398787f8348"
+  },
+  {
+    "path": "src/ui/EnvironmentAudio.ts",
+    "bytes": 5285,
+    "sha256": "8a786dede86a26256491711edf539bf5232df95821390adf8ca6e60a3109765c"
+  },
+  {
+    "path": "src/ui/EnvironmentMix.ts",
+    "bytes": 752,
+    "sha256": "70ab299904546e79e714567584ca727782b522261c5fae94e782cce325d163f4"
+  },
+  {
+    "path": "src/ui/LeagueHud.ts",
+    "bytes": 5883,
+    "sha256": "4702fe847f382e1e2ba8bb99c320f73fc7c6c259c7a25d52c02ab4eb93864489"
+  },
+  {
+    "path": "src/ui/MapMusic.ts",
+    "bytes": 1713,
+    "sha256": "06ffe3ab949b7c4863129700689b36ea5ef70f018b1c7507cb445dc687e2ea50"
+  },
+  {
+    "path": "src/ui/MovementVoice.ts",
+    "bytes": 1196,
+    "sha256": "85d9dcef097dc5bed5b578b9784a0c715002faa66b5251c181f2670c42a0b14c"
+  },
+  {
+    "path": "src/ui/OriginalCombatAudio.ts",
+    "bytes": 3842,
+    "sha256": "6f46af8efaa29750ab8dca4c39124a30c7cc263cdc24c1d82d4b8761886230c0"
+  },
+  {
+    "path": "src/ui/OriginalSoundMap.ts",
+    "bytes": 1493,
+    "sha256": "52cfbc1ba3e4baa9794f8b35a188f0ae34e5df02d98825cc3d08d269615e71cd"
+  },
+  {
+    "path": "src/ui/YasuoSkillAudio.ts",
+    "bytes": 4154,
+    "sha256": "efa299e6e045c8ed4494c1878a69fe59c69b906855b2f10f620aa46cb8c79fd3"
+  },
+  {
+    "path": "src/ui/YasuoSkillSound.ts",
+    "bytes": 832,
+    "sha256": "a2185f5b2a222b2f26de39024f92bf03413d10ee3b721d98d11a568716c35a54"
+  },
+  {
+    "path": "src/ui/league-hud.css",
+    "bytes": 17646,
+    "sha256": "bec44078afb835eb0ed5a77c0a4f8ef22882f8e7b7f75dcbd586bff706a2599e"
+  },
+  {
+    "path": "src/ui/pixel-hud.css",
+    "bytes": 9303,
+    "sha256": "bea5b73889344f674076079dce22e96c360d350e428181de995be96579d9252a"
+  },
+  {
+    "path": "tests/abyss-scenery.test.ts",
+    "bytes": 1449,
+    "sha256": "5241e291f212784cca6dbe10ff5442e7d4960553f3dde2c491b8699d85b19366"
+  },
+  {
+    "path": "tests/ambience.test.ts",
+    "bytes": 7810,
+    "sha256": "f0428693ace71ec95a2c380633966d067a2c39d34bfd7f4f7b3bbcc93de93a6d"
+  },
+  {
+    "path": "tests/animation-timing.test.ts",
+    "bytes": 1989,
+    "sha256": "178a5660dcbfb3d85becaa4efc62862ce5ee7c238db32e6b9870c9d0ab8b8689"
+  },
+  {
+    "path": "tests/attack-move.test.ts",
+    "bytes": 2974,
+    "sha256": "c6d5c94458af3d50ad9c07181081aa9ff9c3d46ba8e6ebbd1af38e410efce308"
+  },
+  {
+    "path": "tests/bridge-camp.test.ts",
+    "bytes": 461,
+    "sha256": "7f186433f85361459f861834dd515ef3d99a60bec6446e32cd05a7116bf9ee81"
+  },
+  {
+    "path": "tests/bridge-edge.test.ts",
+    "bytes": 1705,
+    "sha256": "675f2c2da71330c18ef78f275016d0b02deeec3889eb10356395c901fdb59fd2"
+  },
+  {
+    "path": "tests/bridge-interaction.test.ts",
+    "bytes": 2488,
+    "sha256": "e38599c2b77c514d7e957adf47ce1a464e93fbb213ed3020babad89c5691a812"
+  },
+  {
+    "path": "tests/bridge-lights.test.ts",
+    "bytes": 1742,
+    "sha256": "8c8710cd1b5ea5cb58427dd6e4d9bda13e40e775d3bde47584a725b5f46f1bbb"
+  },
+  {
+    "path": "tests/bridge-paving.test.ts",
+    "bytes": 713,
+    "sha256": "75a979d889acaf9335f6ef6aed2f44864915256b203da8a00e47578678dcf36d"
+  },
+  {
+    "path": "tests/bridge-props.test.ts",
+    "bytes": 1051,
+    "sha256": "3d03d119bbfe2a6e94ea32d9760a5856d32b811a9545d67355e732a27a53e5e3"
+  },
+  {
+    "path": "tests/bridge-rails.test.ts",
+    "bytes": 2070,
+    "sha256": "1a30fcccdc44a9f2cd4c80eb77dcca954d541ed8421ddf4cbe764e2d2d0e7fbb"
+  },
+  {
+    "path": "tests/bridge-site-art.test.ts",
+    "bytes": 1172,
+    "sha256": "22e6e2c79ebe7cc5c9692f3394d371868d4676d9f371e52f901b80318de8c657"
+  },
+  {
+    "path": "tests/bridge-story.test.ts",
+    "bytes": 924,
+    "sha256": "805f411c5322f48210afb1d37cef2bbfac450d50b46d97796bc62cee73086e5c"
+  },
+  {
+    "path": "tests/bridge-surface.test.ts",
+    "bytes": 1322,
+    "sha256": "d30486c3b20b938b255ecd717e742672bf9e602cc331a1ae49ad79a74f60ca23"
+  },
+  {
+    "path": "tests/bridge-tiles.test.ts",
+    "bytes": 1966,
+    "sha256": "14d5dd4a6e1e022499880e3107b4806664e119260ef3345c5daf1e1dcc2716cf"
+  },
+  {
+    "path": "tests/bridgehead.test.ts",
+    "bytes": 1617,
+    "sha256": "fce5666278bf4bc377c52416c73e54b9e5c8ec6a6c56037836d8d7995d0d69c7"
+  },
+  {
+    "path": "tests/building-animation.test.ts",
+    "bytes": 1704,
+    "sha256": "44ad86ae0580a2afed4a8e73a1a1c02ff719154c6f9aeb0e552c013bb1b82ec0"
+  },
+  {
+    "path": "tests/camera-drag.test.ts",
+    "bytes": 1116,
+    "sha256": "2348240bd4ed713d5d57912183c210a28281d038840a222b561e883933d94bc1"
+  },
+  {
+    "path": "tests/camera.test.ts",
+    "bytes": 4715,
+    "sha256": "830c35bdb8e7f34ce23c1194a24701568d76efaea79fda1d17969842f4086cfa"
+  },
+  {
+    "path": "tests/combat-audio.test.ts",
+    "bytes": 3415,
+    "sha256": "f48d7513e55d5957e768ca763b9fc2ac47362055383ec5f40047a5eee99a9be0"
+  },
+  {
+    "path": "tests/combat-contact-sync.test.ts",
+    "bytes": 3217,
+    "sha256": "fdc6d6f28b3e513d3371dfa3ef5c31697257b8c19877ffa2f0a46b16ba04eb4d"
+  },
+  {
+    "path": "tests/combat-damage-isolation.test.ts",
+    "bytes": 2820,
+    "sha256": "2456f8fa0848e6dc0cab390d82abd790e82d398f649d313c650ff58424d780aa"
+  },
+  {
+    "path": "tests/combat-feel.test.ts",
+    "bytes": 6501,
+    "sha256": "eef1132d2ced450f71f37e93e31038d1615c31d836961b344214e8fee13e2330"
+  },
+  {
+    "path": "tests/dash-target-timer.test.ts",
+    "bytes": 2280,
+    "sha256": "2749fde078f9c81359a4eef649b903a276c1d1384e6fd76790e449a36da51eac"
+  },
+  {
+    "path": "tests/directions.test.ts",
+    "bytes": 3362,
+    "sha256": "855f942c077ffbf99d5bd4bfd8e50dd5d3ed9b4117276469d1819b37fe495999"
+  },
+  {
+    "path": "tests/dueling-cooldowns-r.test.ts",
+    "bytes": 4036,
+    "sha256": "7cfbc38a76bec9509a2a4073a58ced20fda66d00ec6c06c1e18ff42b7477c057"
+  },
+  {
+    "path": "tests/eight-way-animations.test.ts",
+    "bytes": 4220,
+    "sha256": "42a1adb08af7472b2ec0746f12c5d2142bba9c3545c9027fed8febf8fc4ed8f8"
+  },
+  {
+    "path": "tests/environment-motion.test.ts",
+    "bytes": 3105,
+    "sha256": "cc25c7b0323e83ce080b9435fce7b6a8377abc558646ebd526c76ec712866ca6"
+  },
+  {
+    "path": "tests/environmental-light.test.ts",
+    "bytes": 638,
+    "sha256": "f32e58dcdd61feab751eac523ae8905b24ae43a591cae2e8eb4fda81ae23992f"
+  },
+  {
+    "path": "tests/eq3-depth.test.ts",
+    "bytes": 454,
+    "sha256": "a19192721df31f174d6e185b694a01a313d6ac83301da8c6eb16483650e491c6"
+  },
+  {
+    "path": "tests/health-bar-trail.test.ts",
+    "bytes": 1203,
+    "sha256": "aeb50d9aaedf98b04236bf3ad0c7ab2afcd97d98b5925834c2425ee4ae2126eb"
+  },
+  {
+    "path": "tests/hero-attack-reach.test.ts",
+    "bytes": 1704,
+    "sha256": "41679dc0d8408e41c1a6e8e2a97abf686f7eb7ecc542257a853c1f2a16917c18"
+  },
+  {
+    "path": "tests/hit-stun.test.ts",
+    "bytes": 8985,
+    "sha256": "acc3b9347a7d56e2c151ab1a1b14a8c6de47dd74008ef9c8a85a9bfe4bf6f2f0"
+  },
+  {
+    "path": "tests/homeguard.test.ts",
+    "bytes": 1652,
+    "sha256": "ac2f967e09f258972692e8ede2d5c137e192b58cc054074dcfdd1e57d4cbae16"
+  },
+  {
+    "path": "tests/howling-layout.test.ts",
+    "bytes": 1157,
+    "sha256": "2de6000eb253b64024b4eb8c06a1ae77548693d1f02e64f94c82fcb384ebefbe"
+  },
+  {
+    "path": "tests/impact-motion.test.ts",
+    "bytes": 679,
+    "sha256": "0aa3974e4f2369ce1a0fba6a9b09ac72db1332262e990f09f6a02b78238760a3"
+  },
+  {
+    "path": "tests/input-response.test.ts",
+    "bytes": 4164,
+    "sha256": "9809b0f27d12048e7795e26f9815ea4b07d0eaf56b4a77835881a7c6e2f9ce65"
+  },
+  {
+    "path": "tests/living-map.test.ts",
+    "bytes": 3612,
+    "sha256": "856ea3c7d50e68df347c26c56062437369c15d5d411abae0df38b35e28fd30e4"
+  },
+  {
+    "path": "tests/locked-camera-continuity.test.ts",
+    "bytes": 2039,
+    "sha256": "de84734c11ef6cbbd9759875539014278565c5014f83701b1604307a4341ef2e"
+  },
+  {
+    "path": "tests/map-layers.test.ts",
+    "bytes": 1982,
+    "sha256": "22f4f1c44e26673fe48de96cc54479bd5cc7a4ef84b389f179d405ef54556562"
+  },
+  {
+    "path": "tests/map.test.ts",
+    "bytes": 3342,
+    "sha256": "633d31d35e69021820023362b4b49fe7d7105fcc15106cbc97200b5bbdb2671d"
+  },
+  {
+    "path": "tests/match-score.test.ts",
+    "bytes": 893,
+    "sha256": "214581807661c53f9dd8c7b2271e24e5879fb115d6c10068992ff8ffdd744635"
+  },
+  {
+    "path": "tests/match.test.ts",
+    "bytes": 11708,
+    "sha256": "072bd25536d0e7c336a762f157753634a78179e1ec8287e6ba68002495ae0e38"
+  },
+  {
+    "path": "tests/midlane-layout.test.ts",
+    "bytes": 938,
+    "sha256": "d622da79abcd232a2f07c21290c2365af2f126374b2e0a0d29ba6d92a5b43a9b"
+  },
+  {
+    "path": "tests/minion-animation.test.ts",
+    "bytes": 1644,
+    "sha256": "536fd40cea16ede53b2eb6f89da750002400093829c73a534c20a24c5b81754b"
+  },
+  {
+    "path": "tests/minion-combat-spacing.test.ts",
+    "bytes": 3481,
+    "sha256": "2606cf0a68b43c7122debcf3efbfda87bdf12dbe430d8d129b20b3b1bd259b83"
+  },
+  {
+    "path": "tests/minion-engagement.test.ts",
+    "bytes": 3539,
+    "sha256": "d5c5d1f9964064f8e15b2695914f99cbc93e419cdd2710574a3de1dab8f5f5a9"
+  },
+  {
+    "path": "tests/minion-formation.test.ts",
+    "bytes": 1831,
+    "sha256": "4e94a9c0585d40b29bf300ede82fc652c6b8d6f0c5cae10acb24ef42ba5134aa"
+  },
+  {
+    "path": "tests/minion-normal-waves.test.ts",
+    "bytes": 1888,
+    "sha256": "a1d6f01236719bfcfc653cf5c36c823e1fbfb26bb737b2f2f3b52ef64aef68bc"
+  },
+  {
+    "path": "tests/minion-role.test.ts",
+    "bytes": 3000,
+    "sha256": "fae6ef883bc1a6cb07fe36d4e78ab8bd179747feb394c6ba64737f8376811876"
+  },
+  {
+    "path": "tests/minion-speed.test.ts",
+    "bytes": 1511,
+    "sha256": "c569d6a8ec76f754a954ac4827f1794aee4caba510e44e19ba8cfe8fa2d6e243"
+  },
+  {
+    "path": "tests/movement-dodging.test.ts",
+    "bytes": 2032,
+    "sha256": "3f6eb10aceedbdb1435837e586f8c18ed8e1600fe869fa281fe66ed596d92102"
+  },
+  {
+    "path": "tests/movement-voice.test.ts",
+    "bytes": 3591,
+    "sha256": "0e2bc4a8346785a7f8eb4c9962b20cb85565c1d44c2451a41235ba6b22dd0834"
+  },
+  {
+    "path": "tests/original-audio.test.ts",
+    "bytes": 7404,
+    "sha256": "75fe3053632353e7443811d45e887face79fcadcff9c7aa2069dfc3fce312f00"
+  },
+  {
+    "path": "tests/passive-shield-animation.test.ts",
+    "bytes": 1023,
+    "sha256": "c59873abb1e512b56f08d60e0906e207ba011873e1438d2a18f3d7ff98317a05"
+  },
+  {
+    "path": "tests/playable-bridge.test.ts",
+    "bytes": 3868,
+    "sha256": "79a1b3615a2a3ab006e42dabad1f1c1e50a1c2235f99de6ea95e00b542cc72ba"
+  },
+  {
+    "path": "tests/q-compact-arm.test.ts",
+    "bytes": 866,
+    "sha256": "d096d7515d00ffb2628733a55335072bb3e099655231de6f1d290304b06257fc"
+  },
+  {
+    "path": "tests/q-crouched-rig.test.ts",
+    "bytes": 833,
+    "sha256": "984265476e5e3d746e315136250e9568b8551e5bb5bb84535dbd3ebb2bfe68bd"
+  },
+  {
+    "path": "tests/q-matched-rig.test.ts",
+    "bytes": 964,
+    "sha256": "7ee9399947b018b9352f26467c0f06c21ae1a7a71dc7faa3cd869435bc92ea51"
+  },
+  {
+    "path": "tests/q-meowa-sw-arm.test.ts",
+    "bytes": 892,
+    "sha256": "7e7e366b9a98e42c756b90a4509d38cdedb7bbdea7e77a4b7e2ba0bd9cd17747"
+  },
+  {
+    "path": "tests/q-slash.test.ts",
+    "bytes": 613,
+    "sha256": "0670d95258c77f41f68654204f2c4ef4b3e95ce962db84d2184667ae43145969"
+  },
+  {
+    "path": "tests/q-source-rig.test.ts",
+    "bytes": 762,
+    "sha256": "73ca0cd06748908e88879e824aa5969d97d41b40e00e8d48253315fea548fbab"
+  },
+  {
+    "path": "tests/q-user-eight-rig.test.ts",
+    "bytes": 1099,
+    "sha256": "2c2c87f74cc6464781028452b6418a14a988e6db4b62ad44eb344e0491504a41"
+  },
+  {
+    "path": "tests/render-depth.test.ts",
+    "bytes": 943,
+    "sha256": "4af7abb63b96214a27a4ed46cad7574e3d5a91a08f9a43ac1efd2249f0fa8784"
+  },
+  {
+    "path": "tests/render-resolution.test.ts",
+    "bytes": 1244,
+    "sha256": "0b933e172c4ff80fa86585c9b54e4150c7f0314e35ef198a96ddcefb480ce4a0"
+  },
+  {
+    "path": "tests/skill-contact-presentation.test.ts",
+    "bytes": 3984,
+    "sha256": "31fce8df9f41114e708e4dbf358a5cf9a295f965f2a99b73ad3cc9b9406f3af8"
+  },
+  {
+    "path": "tests/structure-occlusion.test.ts",
+    "bytes": 1517,
+    "sha256": "6d482f9d759133ad65a8f87b3b5b1fd4d0e5f3a6ed362fa4dddbbd6d22594e43"
+  },
+  {
+    "path": "tests/summoner-spells.test.ts",
+    "bytes": 3888,
+    "sha256": "3221e52356a89297fe3cf11356ffa209f5296542ffca1c712b70f0d327fd966a"
+  },
+  {
+    "path": "tests/terrain-normals.test.ts",
+    "bytes": 945,
+    "sha256": "d9434dd8304080c5e5930221df3c56e1306374d2fd16ace699054486f95e75c3"
+  },
+  {
+    "path": "tests/twisted-fate.test.ts",
+    "bytes": 1113,
+    "sha256": "a2b5366d614b6964996c4fedc6bc5fea578dd90ab3538f20ed85f4d2a60e4a89"
+  },
+  {
+    "path": "tests/visual-continuity.test.ts",
+    "bytes": 1491,
+    "sha256": "397f1e34aca5035e1ea2293530b2aed64f308991a2b412773d5f54ec640d03d4"
+  },
+  {
+    "path": "tests/wind-wall-animation.test.ts",
+    "bytes": 996,
+    "sha256": "b75938c28869795c72302495e17b508c3f85131f075f588dcc8e22424037940b"
+  },
+  {
+    "path": "tests/wind-wall-game.test.ts",
+    "bytes": 4611,
+    "sha256": "4e376ad4d5dfa189c8f90a56045a1f06b71f399d1868cd330570f06a6a529a8c"
+  },
+  {
+    "path": "tests/yasuo-ab-three-variants.test.ts",
+    "bytes": 1947,
+    "sha256": "9fa4ff21316b1f233f353f151b1758666b69f20ba5f790c6982e246d0158b51b"
+  },
+  {
+    "path": "tests/yasuo-ab-timing.test.ts",
+    "bytes": 1536,
+    "sha256": "7679fb2546c96420baa4b9a074bcd6366b68f50d71d23fe4be7d3f1c31fedbbe"
+  },
+  {
+    "path": "tests/yasuo-ab-user-timing.test.ts",
+    "bytes": 3036,
+    "sha256": "a0e663018f29f87977bf5fa1199be733407b61b027d036e22fd82cec05261c85"
+  },
+  {
+    "path": "tests/yasuo-attack-timing.test.ts",
+    "bytes": 1429,
+    "sha256": "3d4ddd21dd535e3e0c2fc728ba642c73365bae1a301cdfbac7107ac85f63cd4d"
+  },
+  {
+    "path": "tests/yasuo-cast-facing.test.ts",
+    "bytes": 532,
+    "sha256": "f290005709720e96a5d12e80aa856d3aeff5c3d36089f9a776fa3575f3c22628"
+  },
+  {
+    "path": "tests/yasuo-diagonal-timing.test.ts",
+    "bytes": 2964,
+    "sha256": "a607ad26af8466af7557617162f27cb37b7f9d45e35cf4d5f712085c0ed4f760"
+  },
+  {
+    "path": "tests/yasuo-e-animation.test.ts",
+    "bytes": 995,
+    "sha256": "fe3af9a740193b65549d937c5a9e347df5a6133e576a369fc6d92c0537279301"
+  },
+  {
+    "path": "tests/yasuo-e-game.test.ts",
+    "bytes": 3229,
+    "sha256": "3354f6eac496cf0c6a1fe3afc3e9db435af998289133b80c184cb027bd28a491"
+  },
+  {
+    "path": "tests/yasuo-endpoint-transitions.test.ts",
+    "bytes": 3073,
+    "sha256": "bb094186961237edbc7a07a806215454ccee00e1a136af04796d46a099d2c5a6"
+  },
+  {
+    "path": "tests/yasuo-eq-preview.test.ts",
+    "bytes": 1206,
+    "sha256": "265d64ade01bb66da17b970eabbf71fdc7edc5f3705907e1565badc48fdff1ee"
+  },
+  {
+    "path": "tests/yasuo-eq.test.ts",
+    "bytes": 1394,
+    "sha256": "925a2f42511ca418b2456ad9fbae47c9bb1c0a5b4b2915e5cf1bc7006ca40b9f"
+  },
+  {
+    "path": "tests/yasuo-flash-combos.test.ts",
+    "bytes": 6271,
+    "sha256": "d9f6c94de13fa5d4fd3145fa9aa8ce2419fe97073cdc55315a54cde69e42f842"
+  },
+  {
+    "path": "tests/yasuo-flute.test.ts",
+    "bytes": 4005,
+    "sha256": "d29f7b7585fe765da34e6849964631e5c035a6ed4c6795469ded6342f2e3ab31"
+  },
+  {
+    "path": "tests/yasuo-four-transitions-timing.test.ts",
+    "bytes": 2435,
+    "sha256": "edebc2436f0e9cdeb5e1546a9b24b824e4de4b9ba04b52bf6c67b40aacdb72e1"
+  },
+  {
+    "path": "tests/yasuo-high-low-user.test.ts",
+    "bytes": 2027,
+    "sha256": "dee0010cc6ee0bef20e5fdb497fc43b67b9199e1dcaf7f9d0cffaaed02159a34"
+  },
+  {
+    "path": "tests/yasuo-horizontal-timing.test.ts",
+    "bytes": 1549,
+    "sha256": "d3098b2843a70f66f18c444236ded693dd9abcba800aa6c6e4238f096b2aa590"
+  },
+  {
+    "path": "tests/yasuo-impact-no-fx.test.ts",
+    "bytes": 2065,
+    "sha256": "3965d0e1b0a1f22010f83c51ff29c1f6f5be9be7f66549f87eef6ea38b137618"
+  },
+  {
+    "path": "tests/yasuo-melee-contract.test.ts",
+    "bytes": 6277,
+    "sha256": "56cdee04340dbec2d9dad7701061905ddb8d19ea14f29453c8c5b4172b579743"
+  },
+  {
+    "path": "tests/yasuo-passive.test.ts",
+    "bytes": 5034,
+    "sha256": "dbf1f54ac523ca5d23fdf96b7181439a3dd9861df273cdcab8cd95229e2ab9df"
+  },
+  {
+    "path": "tests/yasuo-q-direction-player.test.ts",
+    "bytes": 9454,
+    "sha256": "4b68a331cbce53264f8db20d621d4a5851f6827e54b2adfbf783440fe56fa589"
+  },
+  {
+    "path": "tests/yasuo-q-directions.test.ts",
+    "bytes": 4900,
+    "sha256": "92aa5d3a62dd5272f4024f63ef42b32623800fe5983d2968b5faea0e1ce9bfc4"
+  },
+  {
+    "path": "tests/yasuo-q-draw.test.ts",
+    "bytes": 2023,
+    "sha256": "da2e77710771337b4bc25876d4a7b1ebe0a3ad3a855e9fed225e532415055225"
+  },
+  {
+    "path": "tests/yasuo-q-eight-wind.test.ts",
+    "bytes": 3061,
+    "sha256": "4bc81a19a19257f1a78310ded1dbc050bb355e5ef5cbf5229745b3412d6a413b"
+  },
+  {
+    "path": "tests/yasuo-q-game.test.ts",
+    "bytes": 6606,
+    "sha256": "13e92f55f9fa2e88eef4e729a430347ba925ac55531625b03917db59e30b8729"
+  },
+  {
+    "path": "tests/yasuo-q-layered.test.ts",
+    "bytes": 2900,
+    "sha256": "c5ae9aebebe9c9ce2edee5198320234fd9daf81451feb83d409367d7122ee67f"
+  },
+  {
+    "path": "tests/yasuo-q-preview-timing.test.ts",
+    "bytes": 1670,
+    "sha256": "743fcb90752084e2d86fc57d166fc2c7c0a85a0f4b100f105722c64306bbd06c"
+  },
+  {
+    "path": "tests/yasuo-q-small-grip.test.ts",
+    "bytes": 4235,
+    "sha256": "0298d4ca4cfba9eaeac2789e68e531e8ecfe831b29f71d5eca73f24545e72bd3"
+  },
+  {
+    "path": "tests/yasuo-q-user-linked.test.ts",
+    "bytes": 3829,
+    "sha256": "4c94c74af165bd6f954d5c3126c429b56b77cb2bff9a47f9c2dc148d8d260141"
+  },
+  {
+    "path": "tests/yasuo-q-wind-cast.test.ts",
+    "bytes": 2837,
+    "sha256": "f1fb0134fbf48849b3792752dc6994e9e136ff6112f0997e27d65ba6d44f112f"
+  },
+  {
+    "path": "tests/yasuo-r.test.ts",
+    "bytes": 2092,
+    "sha256": "845a55793a7a1254a95560a1cec9205c5353348b372c3dc9d3d0ed16183711b8"
+  },
+  {
+    "path": "tests/yasuo-selected-animation.test.ts",
+    "bytes": 8351,
+    "sha256": "7f0bad20a7ea01d5736fd17b8363971c5302e3bef37bfa4c46a48a922610fcd4"
+  },
+  {
+    "path": "tests/yasuo-skill-audio.test.ts",
+    "bytes": 5142,
+    "sha256": "f60a10a557adc83b92c7ee7aa076887a34d145acfc38532d3891e60bb745ffd1"
+  },
+  {
+    "path": "tests/yasuo-storm-game.test.ts",
+    "bytes": 4474,
+    "sha256": "e4064caa2823f69b225e3b8114e091ede4498d01595ba82e019e749098ab927d"
+  },
+  {
+    "path": "tests/yasuo-storm-preview.test.ts",
+    "bytes": 783,
+    "sha256": "2f5344202c6e70cb4c93afbe2778143655ec68ea041044565f1ad02e23d82f6f"
+  },
+  {
+    "path": "tests/yasuo-w-free-angle.test.ts",
+    "bytes": 2570,
+    "sha256": "57dfb81ac5ac326a21912cfaf95627155af0d68972961b83d3842c3f43d7f2a2"
+  },
+  {
+    "path": "tests/yasuo-w-motion.test.ts",
+    "bytes": 1978,
+    "sha256": "c8aea6260bdcfd8a2b10fcfe279b829ac334455103655867aa2a5141f483bb51"
+  },
+  {
+    "path": "tests/yasuo-walk-attacks-plans.test.ts",
+    "bytes": 2052,
+    "sha256": "d6df10a19f35c79be5067c54d4202363f70b59c03506bd1eb56a1c2c964dbaaa"
+  },
+  {
+    "path": "tests/yasuo-walk-attacks-timing.test.ts",
+    "bytes": 1464,
+    "sha256": "fd472b36658ef2c505a5a61538a6fa6fec1764baea55b59161d62f44e812de7a"
+  },
+  {
+    "path": "tests/yasuo-wrist-flip.test.ts",
+    "bytes": 1245,
+    "sha256": "7c68ed8181315a30592b5d847921729b49ed6d459197d08e2f1d6543e5cd9bc9"
+  },
+  {
+    "path": "tsconfig.json",
+    "bytes": 424,
+    "sha256": "7b565a355cec4e72b9552eb532c7925e941fae8160d559b3d341de2e926a7415"
+  },
+  {
+    "path": "vite.config.ts",
+    "bytes": 4411,
+    "sha256": "57dfb2b7fcdcb53e4b0706b388f0f6dfa233eb6d57f47bdd9bac4a382809eb49"
+  },
+  {
+    "path": "vite.share.config.ts",
+    "bytes": 216,
+    "sha256": "b9a8d4480460f4978425401731f1d0fcad94428168f312590f323dc78f4012a9"
+  }
+]

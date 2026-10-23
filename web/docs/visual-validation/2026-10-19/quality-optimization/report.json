@@ -1,0 +1,172 @@
+{
+  "verification": {
+    "samples": [
+      {
+        "scene": "central",
+        "enhanced": false,
+        "time": 0.016666666666666666,
+        "calls": 82,
+        "geometry": 77,
+        "textures": 27,
+        "shadowWorldTexel": 3.125,
+        "contacts": false,
+        "glow": false
+      },
+      {
+        "scene": "central",
+        "enhanced": true,
+        "time": 0.016666666666666666,
+        "calls": 69,
+        "geometry": 77,
+        "textures": 27,
+        "shadowWorldTexel": 0.71875,
+        "contacts": true,
+        "glow": true
+      },
+      {
+        "scene": "tower",
+        "enhanced": false,
+        "time": 0.016666666666666666,
+        "calls": 85,
+        "geometry": 97,
+        "textures": 33,
+        "shadowWorldTexel": 3.125,
+        "contacts": false,
+        "glow": false
+      },
+      {
+        "scene": "tower",
+        "enhanced": true,
+        "time": 0.016666666666666666,
+        "calls": 76,
+        "geometry": 97,
+        "textures": 33,
+        "shadowWorldTexel": 0.71875,
+        "contacts": true,
+        "glow": true
+      },
+      {
+        "scene": "sanctuary",
+        "enhanced": false,
+        "time": 0.016666666666666666,
+        "calls": 99,
+        "geometry": 127,
+        "textures": 35,
+        "shadowWorldTexel": 3.125,
+        "contacts": false,
+        "glow": false
+      },
+      {
+        "scene": "sanctuary",
+        "enhanced": true,
+        "time": 0.016666666666666666,
+        "calls": 94,
+        "geometry": 127,
+        "textures": 35,
+        "shadowWorldTexel": 0.84375,
+        "contacts": true,
+        "glow": true
+      }
+    ],
+    "reduced": {
+      "calls": 83,
+      "glow": false,
+      "contacts": true
+    },
+    "paused": true,
+    "resources": [
+      {
+        "geometries": 112,
+        "textures": 35
+      },
+      {
+        "geometries": 112,
+        "textures": 35
+      },
+      {
+        "geometries": 112,
+        "textures": 35
+      },
+      {
+        "geometries": 112,
+        "textures": 35
+      },
+      {
+        "geometries": 112,
+        "textures": 35
+      }
+    ],
+    "failures": [],
+    "renderer": "WebKit WebGL",
+    "motion": [
+      {
+        "resolution": 1280,
+        "zoom": 0.4,
+        "pickingError": 9.374856803373542e-13
+      },
+      {
+        "resolution": 1280,
+        "zoom": 0.65,
+        "pickingError": 9.374856803373542e-13
+      },
+      {
+        "resolution": 1280,
+        "zoom": 1.5,
+        "pickingError": 9.374856803373542e-13
+      },
+      {
+        "resolution": 1920,
+        "zoom": 0.4,
+        "pickingError": 9.374856803373542e-13
+      },
+      {
+        "resolution": 1920,
+        "zoom": 0.65,
+        "pickingError": 9.374856803373542e-13
+      },
+      {
+        "resolution": 1920,
+        "zoom": 1.5,
+        "pickingError": 9.374856803373542e-13
+      }
+    ],
+    "simulationUntouched": true
+  },
+  "errors": [],
+  "failures": [],
+  "effectDifferences": [
+    {
+      "effect": "contact",
+      "changedPixels": 49732,
+      "maximumChannelDelta": 30
+    },
+    {
+      "effect": "materials",
+      "changedPixels": 403564,
+      "maximumChannelDelta": 1
+    },
+    {
+      "effect": "glow",
+      "changedPixels": 40577,
+      "maximumChannelDelta": 21
+    },
+    {
+      "effect": "grading",
+      "changedPixels": 1589759,
+      "maximumChannelDelta": 14
+    }
+  ],
+  "controls": {
+    "customized": "画质对比：自定义",
+    "baselineDisabled": true,
+    "restored": true
+  },
+  "viewport": [
+    1600,
+    900
+  ],
+  "internal": [
+    1920,
+    1080
+  ]
+}

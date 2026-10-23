@@ -1,0 +1,38 @@
+[INFO] job_id=job_cf1779176c6f404bb0d779adb75ec29f
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=processing progress=处理中:50%
+[INFO] status=running stage=finalizing progress=处理中:50%
+[INFO] status=success stage=completed progress=已完成:100%
+[INFO] downloading_outputs count=3 to=D:\Long1ye\pixel-league-of-legends-V2\assets\heroes\nailong\generated-v2\walk-s\job_cf1779176c6f404bb0d779adb75ec29f
+[INFO] downloaded=D:\Long1ye\pixel-league-of-legends-V2\assets\heroes\nailong\generated-v2\walk-s\job_cf1779176c6f404bb0d779adb75ec29f\meowa_animation.webp
+[INFO] downloaded=D:\Long1ye\pixel-league-of-legends-V2\assets\heroes\nailong\generated-v2\walk-s\job_cf1779176c6f404bb0d779adb75ec29f\meowa_animation_background.webp
+[INFO] saved_dir=D:\Long1ye\pixel-league-of-legends-V2\assets\heroes\nailong\generated-v2\walk-s\job_cf1779176c6f404bb0d779adb75ec29f
+{
+  "status": "success",
+  "job_id": "job_cf1779176c6f404bb0d779adb75ec29f",
+  "outputs": [
+    {
+      "type": "media",
+      "path": "D:\\Long1ye\\pixel-league-of-legends-V2\\assets\\heroes\\nailong\\generated-v2\\walk-s\\job_cf1779176c6f404bb0d779adb75ec29f\\meowa_animation.webp",
+      "mime_type": "image/webp"
+    },
+    {
+      "type": "media",
+      "path": "D:\\Long1ye\\pixel-league-of-legends-V2\\assets\\heroes\\nailong\\generated-v2\\walk-s\\job_cf1779176c6f404bb0d779adb75ec29f\\meowa_animation_background.webp",
+      "mime_type": "image/webp"
+    }
+  ]
+}

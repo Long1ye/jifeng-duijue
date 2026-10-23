@@ -1,0 +1,53 @@
+{
+  "scope": "Three new independently generated A/B pairs, six paid jobs total. Same user prompts and same parameters as v8. No runtime integration or extra replacement jobs.",
+  "prompt_author": "user",
+  "submitted_prompts_modified": false,
+  "prompt_optimization": true,
+  "optimized_backend_text_saved": false,
+  "prompts": {
+    "A": "绘制第二次挥刀动画，第一次挥刀结束自然过渡到第二次挥刀结束",
+    "B": "绘制第一次挥刀动画，第二次挥刀结束自然过渡到第一次挥刀结束"
+  },
+  "effects": "No extra effect instructions appended; preserve submitted prompt intent.",
+  "canvas": [
+    176,
+    176
+  ],
+  "ground_anchor": [
+    80,
+    150
+  ],
+  "source_anchors": [
+    [
+      50,
+      122
+    ],
+    [
+      46,
+      114
+    ]
+  ],
+  "preparation": "Integer translation and transparent padding only, original 128px pixel scale preserved. All original uploads retained unchanged.",
+  "requested_frames_per_clip": 8,
+  "endpoints": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "loop_sequence": [
+    "A",
+    "B"
+  ],
+  "credits_before": 8265,
+  "estimated_credits": 270,
+  "production_ready": false,
+  "runtime_integrated": false,
+  "inputs_copied_byte_identical_from": "assets/hero-attacks/2026-10-10/yasuo/v8-user-ab",
+  "variant_count": 3,
+  "animation_count": 6
+}

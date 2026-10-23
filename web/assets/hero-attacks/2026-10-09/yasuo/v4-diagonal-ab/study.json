@@ -1,0 +1,175 @@
+{
+  "hero": "yasuo",
+  "action": "two_independent_diagonal_attacks",
+  "direction": "se",
+  "width": 192,
+  "height": 192,
+  "anchor": [
+    96,
+    163
+  ],
+  "clips": {
+    "a": {
+      "id": "a",
+      "candidate": "a-keyframes",
+      "job_id": "job_1f525544f7ca497da8c95016b0f4efcc",
+      "webp": "clips/a-keyframes/从右下低位持刀起手_经过胸前向左的中间姿势_沿斜线只做一次向左上的斜撩攻击_301b66ec/result_output_url.webp",
+      "final_media": [
+        {
+          "label": "透明WebP",
+          "path": "clips/a-keyframes/从右下低位持刀起手_经过胸前向左的中间姿势_沿斜线只做一次向左上的斜撩攻击_301b66ec/result_output_url.webp",
+          "animated": true
+        },
+        {
+          "label": "透明GIF",
+          "path": "clips/a-keyframes/从右下低位持刀起手_经过胸前向左的中间姿势_沿斜线只做一次向左上的斜撩攻击_301b66ec/result_output_transparent_output_urls_gif.gif",
+          "animated": true
+        },
+        {
+          "label": "PNG图集",
+          "path": "clips/a-keyframes/从右下低位持刀起手_经过胸前向左的中间姿势_沿斜线只做一次向左上的斜撩攻击_301b66ec/result_output_transparent_output_urls_png.png",
+          "animated": false
+        }
+      ],
+      "frame_count": 12,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "duration_ms": 1200,
+      "edge_contact_frames": [],
+      "source_to_first": {
+        "mean_rgb_error": 0.9191261574074074,
+        "alpha_identical": false
+      }
+    },
+    "b": {
+      "id": "b",
+      "candidate": "b",
+      "job_id": "job_c1182ff3e2564c91985950c3c91525b7",
+      "webp": "clips/b/亚索只做一次普通攻击_刀从画面左上方沿同一斜线挥到右下方_腰肩带动手臂_最后_f35c17cc/meowa_animation.webp",
+      "final_media": [
+        {
+          "label": "透明WebP",
+          "path": "clips/b/亚索只做一次普通攻击_刀从画面左上方沿同一斜线挥到右下方_腰肩带动手臂_最后_f35c17cc/meowa_animation.webp",
+          "animated": true
+        },
+        {
+          "label": "保留背景WebP",
+          "path": "clips/b/亚索只做一次普通攻击_刀从画面左上方沿同一斜线挥到右下方_腰肩带动手臂_最后_f35c17cc/meowa_animation_background.webp",
+          "animated": true
+        }
+      ],
+      "frame_count": 73,
+      "durations_ms": [
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41
+      ],
+      "duration_ms": 3000,
+      "edge_contact_frames": [],
+      "source_to_first": {
+        "mean_rgb_error": 1.328070746527778,
+        "alpha_identical": false
+      }
+    }
+  },
+  "seams": {
+    "a_to_b": {
+      "mean_rgb_error": 1.360107421875,
+      "alpha_identical": false
+    },
+    "b_to_a": {
+      "mean_rgb_error": 1.2445836950231481,
+      "alpha_identical": false
+    }
+  },
+  "credits_before": 9465,
+  "credits_after": 9270,
+  "credits_consumed": 195,
+  "review": "A：右下→左上的斜撩；B：左上→右下的斜砍，两条可独立播放。蓝围巾与银色护肩比上一轮稳定，但A中间过渡仍偏跳、B有额外红色刀光，接缝颜色和轮廓也有变化；尚未达到自然流畅定稿标准。",
+  "visual_acceptance": "not_accepted",
+  "preview_attack_duration_ms": 1200,
+  "runtime_integrated": false,
+  "production_ready": false
+}

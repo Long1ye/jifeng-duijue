@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>疾风对决 · 冰桥对局</title>
+  <style>
+    body.launcher-pending{margin:0;background:#08121c}.launcher-pending>:not(.start-screen):not(.boot-screen):not(script){display:none!important}
+    .boot-screen{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;background:#08121c;color:#e7edf0;font:15px/1.8 "Segoe UI","Microsoft YaHei",sans-serif}.boot-content{width:min(440px,calc(100% - 48px))}.boot-brand{color:#d5bc83;letter-spacing:6px;font-size:13px}.boot-screen h1{font-size:26px;font-weight:500;margin:16px 0 12px}.boot-screen p{color:#a8bdc9;margin:14px 0;overflow-wrap:anywhere}.boot-screen progress{display:block;width:100%;height:5px;margin:24px 0;accent-color:#d5bc83}.boot-screen button{padding:9px 18px;background:#102630;border:1px solid #718895;color:#e7edf0;font:inherit;cursor:pointer}.boot-screen button:focus-visible{outline:2px solid #d5bc83;outline-offset:4px}.boot-screen[hidden],.boot-screen button[hidden]{display:none}
+  </style>
+  </head>
+  <body class="three-ui launcher-pending">
+    <section id="boot-screen" class="boot-screen" aria-label="启动游戏" aria-busy="true">
+      <div class="boot-content"><div class="boot-brand">疾风对决</div><h1>正在启动游戏</h1><p data-boot-message role="status" aria-live="polite">正在准备菜单，请稍候…</p><progress aria-label="正在加载启动资源"></progress><button type="button" hidden>刷新重试</button><noscript><p>请启用浏览器 JavaScript 后刷新页面。</p></noscript></div>
+    </section>
+    <script>
+      (()=>{const panel=document.getElementById('boot-screen'),message=panel.querySelector('[data-boot-message]'),retry=panel.querySelector('button');retry.onclick=()=>location.reload();const slow=setTimeout(()=>{if(panel.isConnected){message.textContent='启动资源仍在加载，请保持主机服务运行。';retry.hidden=false}},8000);document.addEventListener('midline:boot-ready',()=>{clearTimeout(slow);panel.remove()},{once:true});window.addEventListener('error',event=>{if(panel.isConnected&&event.target instanceof HTMLScriptElement){clearTimeout(slow);message.textContent='启动文件加载失败，请检查主机服务后刷新重试。';panel.setAttribute('aria-busy','false');retry.hidden=false}},true)})();
+    </script>
+    <main class="match-shell">
+      <header><div><small>HOWLING ABYSS / ART MAP</small><h1>嚎哭深渊 · 冰桥</h1></div><a id="art-reference" href="/assets/map-concepts/howling-abyss-target-v1/04-central-bridge.png" target="_blank" rel="noopener">当前区域美术目标 ↗</a></header>
+      <p class="notice">按四张预设图分区搭建：圣所、外塔与中央桥段。中央四座兽像柱沿两侧错位安放，圆纹章与主路保持开敞。固定 45°，支持平移和缩放。部件清单与布局核对 ↗ · 红蓝建筑新素材 ↗</p>
+      <nav aria-label="场景控制">
+        <a href="./three.html?map=howling&amp;scene=match&amp;online=1">双人对战 · 房间码加入</a>
+        <button id="restart">重新开局</button><button id="pause">暂停 / 继续</button>
+        <button id="follow">跟随英雄：关</button><button id="sample">回到当前区域</button><button id="middle">查看中路</button><button id="fullscreen">全屏游玩</button>
+        <button id="sound" aria-pressed="true">音效：开</button><button id="music" aria-pressed="true">音乐：开</button><button id="ambience" aria-pressed="false">环境声音：关</button>
+        <label>画面<select id="presentation"><option value="art">绘制美术地图</option><option value="solid">旧 3D 样板对照</option><option value="gray">P1 空间灰盒</option></select></label>
+        <label>场景<select id="scenario"><option value="central">中央四兽柱</option><option value="ice">建筑冰晶细节</option><option value="sanctuary">蓝方圣所</option><option value="redsanctuary">红方圣所</option><option value="sample">外塔区域</option><option value="overview">整桥布局</option><option value="layout">建筑与草丛规划</option><option value="combat">中央固定靶</option><option value="match" selected>正常出生与兵线</option></select></label>
+        <label>俯角<select id="elevation"><option>45</option><option selected>60</option><option>75</option></select></label>
+        <label>诊断纹理<select id="texture"><option>32</option><option>64</option></select></label>
+        <label data-setting-group="graphics">性能模式<select id="performance-mode"><option value="auto" selected>自动降画质（推荐）</option><option value="low">低配 · 核显优先</option><option value="minimum">极低配</option><option value="balanced">均衡</option><option value="high">高清</option><option value="custom" disabled>自定义</option></select></label>
+        <p data-setting-group="graphics" id="performance-status" aria-live="polite">正在评估画质…</p>
+        <label>画面精度<select id="detail"><option value="640">640×360</option><option value="960">960×540</option><option value="1280">1280×720</option><option value="1600" selected>1600×900</option><option value="1920">1920×1080</option></select></label>
+        <label>环境画质<select id="quality"><option value="high">完整</option><option value="low">轻量</option></select></label>
+        <button id="quality-compare" aria-pressed="true">画质对比：优化</button>
+        <button id="war-fog" aria-pressed="true">战争迷雾：开</button>
+      </nav>
+      <details id="quality-options"><summary>画质细项</summary><div class="quality-controls">
+        <label><input type="checkbox" data-quality-effect="contact" checked>接地暗部</label>
+        <label><input type="checkbox" data-quality-effect="materials" checked>材质细节</label>
+        <label><input type="checkbox" data-quality-effect="glow" checked>建筑光晕</label>
+        <label><input type="checkbox" data-quality-effect="grading" checked>环境调色</label>
+        <label><input type="checkbox" data-quality-effect="weather" checked>风雪层次</label>
+        <label><input type="checkbox" data-quality-effect="winter" checked>冰雪景观</label>
+      </div></details>
+      <section id="viewport" aria-label="嚎哭深渊冰桥游戏视口" tabindex="0"><div id="error" role="alert" hidden></div></section>
+      <output id="combat-hud" aria-live="off"></output>
+      <output id="status" aria-live="off">正在加载场景与角色…</output>
+      <p>左键拖拽地图 / 单击选中 · 右键移动 / 攻击 · A 后左键选目标攻击 / 点地面攻击移动 · Q/W/E/R 施法 · D 闪现 / F 点燃 · 1 玩笑 / 2 嘲讽 / 4 笑声 · 3 吹箫 · S 停止 · Esc 取消选取 / 暂停 · Y 跟随 · 方向键移动镜头 · 滚轮缩放</p>
+      <p id="selection">按住左键拖动地图，轻点选中目标；右键移动或攻击。查看草丛与场景细节概念图 ↗。切换场景可查看圣所、外塔和整桥。</p>
+    </main>
+    <script type="module" src="/src/launch.ts"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,147 @@
+{
+  "width": 511,
+  "height": 327,
+  "ground": "ground.png",
+  "layers": [
+    {
+      "id": "reeds-west",
+      "kind": "grass",
+      "x": 17,
+      "y": 67,
+      "width": 54,
+      "height": 41,
+      "pixelCount": 1358,
+      "file": "layers/reeds-west.png"
+    },
+    {
+      "id": "reeds-nw",
+      "kind": "grass",
+      "x": 109,
+      "y": 84,
+      "width": 101,
+      "height": 71,
+      "pixelCount": 2058,
+      "file": "layers/reeds-nw.png"
+    },
+    {
+      "id": "reeds-se",
+      "kind": "grass",
+      "x": 352,
+      "y": 214,
+      "width": 73,
+      "height": 73,
+      "pixelCount": 1866,
+      "file": "layers/reeds-se.png"
+    },
+    {
+      "id": "canopy-north",
+      "kind": "canopy",
+      "x": 163,
+      "y": 0,
+      "width": 126,
+      "height": 36,
+      "pixelCount": 2265,
+      "file": "layers/canopy-north.png"
+    },
+    {
+      "id": "canopy-west",
+      "kind": "canopy",
+      "x": 0,
+      "y": 104,
+      "width": 28,
+      "height": 59,
+      "pixelCount": 1149,
+      "file": "layers/canopy-west.png"
+    },
+    {
+      "id": "canopy-east",
+      "kind": "canopy",
+      "x": 482,
+      "y": 174,
+      "width": 29,
+      "height": 49,
+      "pixelCount": 797,
+      "file": "layers/canopy-east.png"
+    },
+    {
+      "id": "fire-0",
+      "kind": "fire",
+      "x": 111,
+      "y": 176,
+      "width": 11,
+      "height": 12,
+      "pixelCount": 59,
+      "file": "layers/fire-0.png"
+    },
+    {
+      "id": "fire-1",
+      "kind": "fire",
+      "x": 253,
+      "y": 99,
+      "width": 10,
+      "height": 16,
+      "pixelCount": 68,
+      "file": "layers/fire-1.png"
+    },
+    {
+      "id": "fire-2",
+      "kind": "fire",
+      "x": 332,
+      "y": 41,
+      "width": 12,
+      "height": 14,
+      "pixelCount": 88,
+      "file": "layers/fire-2.png"
+    },
+    {
+      "id": "fire-3",
+      "kind": "fire",
+      "x": 370,
+      "y": 163,
+      "width": 14,
+      "height": 19,
+      "pixelCount": 108,
+      "file": "layers/fire-3.png"
+    },
+    {
+      "id": "fire-4",
+      "kind": "fire",
+      "x": 264,
+      "y": 228,
+      "width": 13,
+      "height": 19,
+      "pixelCount": 152,
+      "file": "layers/fire-4.png"
+    },
+    {
+      "id": "fire-5",
+      "kind": "fire",
+      "x": 173,
+      "y": 274,
+      "width": 13,
+      "height": 18,
+      "pixelCount": 117,
+      "file": "layers/fire-5.png"
+    },
+    {
+      "id": "water-nw",
+      "kind": "water",
+      "x": 0,
+      "y": 0,
+      "width": 225,
+      "height": 163,
+      "pixelCount": 15902,
+      "file": "layers/water-nw.png"
+    },
+    {
+      "id": "water-se",
+      "kind": "water",
+      "x": 306,
+      "y": 208,
+      "width": 205,
+      "height": 119,
+      "pixelCount": 12258,
+      "file": "layers/water-se.png"
+    }
+  ]
+}

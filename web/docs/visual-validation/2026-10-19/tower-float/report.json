@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "cases": [
+    {
+      "name": "eight crystals move, stone stays fixed and pause freezes",
+      "passed": true
+    },
+    {
+      "name": "toggle restores original and destroyed outer tower hides crystal",
+      "passed": true
+    },
+    {
+      "name": "restart resources stable",
+      "passed": true
+    }
+  ],
+  "frames": [],
+  "resources": [
+    {
+      "geometries": 108,
+      "textures": 31
+    },
+    {
+      "geometries": 108,
+      "textures": 31
+    },
+    {
+      "geometries": 108,
+      "textures": 31
+    },
+    {
+      "geometries": 108,
+      "textures": 31
+    },
+    {
+      "geometries": 108,
+      "textures": 31
+    }
+  ],
+  "failures": []
+}

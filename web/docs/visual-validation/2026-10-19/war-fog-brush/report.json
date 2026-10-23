@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "name": "hidden enemy",
+      "passed": true
+    },
+    {
+      "name": "shared minion sight",
+      "passed": true
+    },
+    {
+      "name": "lost sight hides body and bar",
+      "passed": true
+    },
+    {
+      "name": "paused camera never reveals",
+      "passed": true
+    },
+    {
+      "name": "authored brush conceals enemy",
+      "passed": true
+    },
+    {
+      "name": "nearby grass keeps original color",
+      "passed": true
+    },
+    {
+      "name": "grass outside sight remains dark",
+      "passed": true
+    },
+    {
+      "name": "entering same brush reveals enemy",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "color": {
+    "visibleMeanDifference": 0.435,
+    "visibleMaximumDifference": 2
+  },
+  "brushColor": {
+    "nearby": {
+      "meanDifference": 0.585693359375,
+      "brightnessRatio": 0.9996430377214611
+    },
+    "fogged": {
+      "meanDifference": 20.377685546875,
+      "brightnessRatio": 0.7808726685108104
+    }
+  },
+  "resources": [
+    {
+      "geometries": 65,
+      "textures": 34
+    },
+    {
+      "geometries": 65,
+      "textures": 34
+    },
+    {
+      "geometries": 65,
+      "textures": 34
+    },
+    {
+      "geometries": 65,
+      "textures": 34
+    },
+    {
+      "geometries": 65,
+      "textures": 34
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,94 @@
+{
+  "hero": "yasuo",
+  "direction": "se",
+  "canvas": [
+    176,
+    176
+  ],
+  "anchor": [
+    80,
+    150
+  ],
+  "requested_frames_per_clip": 8,
+  "requested_clip_count": 2,
+  "prompts": {
+    "A": "亚索从高位挥砍到低位，动作自然流畅，要有打击感，不要有刀光",
+    "B": "亚索从低位挥砍到高位，动作自然流畅，要有打击感，不要有刀光"
+  },
+  "prompt_author": "user",
+  "prompt_optimization": true,
+  "optimized_prompt_text_returned": false,
+  "inputs": [
+    {
+      "pose": 1,
+      "original": "assets/hero-attacks/2026-10-10/yasuo/v13-impact-no-fx-user/inputs/pose-1-original.png",
+      "original_sha256": "20209b1af21960d88b15def359bb33d891739db81fd75483187d19d483a1ef78",
+      "prepared": "assets/hero-attacks/2026-10-10/yasuo/v13-impact-no-fx-user/inputs/pose-1.png",
+      "prepared_sha256": "c785dcaf09ed3f725144a0132f0cd0350aa85c5516705527b1b38ffc92af1fbe",
+      "source_size": [
+        200,
+        128
+      ],
+      "source_crop": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "source_anchor": [
+        57,
+        124
+      ],
+      "translation": [
+        23,
+        26
+      ],
+      "prepared_bounds": [
+        44,
+        29,
+        129,
+        151
+      ],
+      "pixels_preserved": true
+    },
+    {
+      "pose": 2,
+      "original": "assets/hero-attacks/2026-10-10/yasuo/v13-impact-no-fx-user/inputs/pose-2-original.png",
+      "original_sha256": "e9ca90f1e750e49d9647bc3fc28a27c27ae7bf0df2f233bf7084dd7dc306c056",
+      "prepared": "assets/hero-attacks/2026-10-10/yasuo/v13-impact-no-fx-user/inputs/pose-2.png",
+      "prepared_sha256": "132645bf59010f94f4e0c2c0cc5e37e961762d47777456b063dae2c87ce93db7",
+      "source_size": [
+        200,
+        128
+      ],
+      "source_crop": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "source_anchor": [
+        68,
+        115
+      ],
+      "translation": [
+        12,
+        35
+      ],
+      "prepared_bounds": [
+        32,
+        45,
+        118,
+        151
+      ],
+      "pixels_preserved": true
+    }
+  ],
+  "credits_before": 6473,
+  "estimated_credits": 90,
+  "attack_loop_sequence": [
+    "A",
+    "B"
+  ],
+  "runtime_integration_requested": false
+}

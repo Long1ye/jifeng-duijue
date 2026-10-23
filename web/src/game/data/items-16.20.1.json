@@ -1,0 +1,6395 @@
+[
+ {
+  "id": 1036,
+  "name": "长剑",
+  "cost": 350,
+  "sell": 245,
+  "icon": 0,
+  "category": "基础",
+  "stats": {
+   "ad": 10.0
+  },
+  "recipe": [],
+  "tags": [
+   "Damage",
+   "Lane"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1036.png"
+ },
+ {
+  "id": 1042,
+  "name": "短剑",
+  "cost": 250,
+  "sell": 175,
+  "icon": 1,
+  "category": "基础",
+  "stats": {
+   "as": 0.1
+  },
+  "recipe": [],
+  "tags": [
+   "AttackSpeed"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1042.png"
+ },
+ {
+  "id": 1001,
+  "name": "鞋子",
+  "cost": 300,
+  "sell": 210,
+  "icon": 2,
+  "category": "基础",
+  "stats": {
+   "ms": 25.0
+  },
+  "recipe": [],
+  "tags": [
+   "Boots"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1001.png",
+  "unique": "boots"
+ },
+ {
+  "id": 1055,
+  "name": "多兰之刃",
+  "cost": 450,
+  "sell": 180,
+  "icon": 3,
+  "category": "基础",
+  "stats": {
+   "hp": 80.0,
+   "ad": 10.0,
+   "omnivamp": 0.025
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "Damage",
+   "LifeSteal",
+   "SpellVamp",
+   "Lane"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1055.png",
+  "groups": [
+   "starter"
+  ]
+ },
+ {
+  "id": 1018,
+  "name": "灵巧披风",
+  "cost": 600,
+  "sell": 420,
+  "icon": 4,
+  "category": "基础",
+  "stats": {
+   "crit": 0.15
+  },
+  "recipe": [],
+  "tags": [
+   "CriticalStrike"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1018.png"
+ },
+ {
+  "id": 1037,
+  "name": "十字镐",
+  "cost": 875,
+  "sell": 613,
+  "icon": 5,
+  "category": "基础",
+  "stats": {
+   "ad": 25.0
+  },
+  "recipe": [],
+  "tags": [
+   "Damage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1037.png"
+ },
+ {
+  "id": 1038,
+  "name": "暴风之剑",
+  "cost": 1300,
+  "sell": 910,
+  "icon": 6,
+  "category": "基础",
+  "stats": {
+   "ad": 40.0
+  },
+  "recipe": [],
+  "tags": [
+   "Damage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1038.png"
+ },
+ {
+  "id": 1053,
+  "name": "吸血鬼节杖",
+  "cost": 900,
+  "sell": 630,
+  "icon": 7,
+  "category": "组件",
+  "stats": {
+   "ad": 15.0,
+   "lifesteal": 0.07
+  },
+  "recipe": [
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "LifeSteal"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1053.png"
+ },
+ {
+  "id": 1043,
+  "name": "反曲之弓",
+  "cost": 700,
+  "sell": 490,
+  "icon": 8,
+  "category": "组件",
+  "stats": {
+   "as": 0.15
+  },
+  "recipe": [
+   1042
+  ],
+  "tags": [
+   "AttackSpeed",
+   "OnHit"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "叮刺\n攻击附带15额外物理伤害 攻击特效。",
+  "officialIcon": "1043.png"
+ },
+ {
+  "id": 3086,
+  "name": "狂热",
+  "cost": 1200,
+  "sell": 840,
+  "icon": 9,
+  "category": "组件",
+  "stats": {
+   "crit": 0.15,
+   "as": 0.15,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   1018,
+   1042
+  ],
+  "tags": [
+   "CriticalStrike",
+   "AttackSpeed",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3086.png"
+ },
+ {
+  "id": 1028,
+  "name": "红水晶",
+  "cost": 400,
+  "sell": 280,
+  "icon": 10,
+  "category": "基础",
+  "stats": {
+   "hp": 150.0
+  },
+  "recipe": [],
+  "tags": [
+   "Health"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1028.png"
+ },
+ {
+  "id": 1029,
+  "name": "布甲",
+  "cost": 300,
+  "sell": 210,
+  "icon": 11,
+  "category": "基础",
+  "stats": {
+   "armor": 15.0
+  },
+  "recipe": [],
+  "tags": [
+   "Armor"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1029.png"
+ },
+ {
+  "id": 3006,
+  "name": "狂战士胫甲",
+  "cost": 1100,
+  "sell": 770,
+  "icon": 12,
+  "category": "组件",
+  "stats": {
+   "ms": 45.0,
+   "as": 0.3
+  },
+  "recipe": [
+   1001,
+   1042,
+   1042
+  ],
+  "tags": [
+   "AttackSpeed",
+   "Boots"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3006.png",
+  "unique": "boots"
+ },
+ {
+  "id": 3031,
+  "name": "无尽之刃",
+  "cost": 3500,
+  "sell": 2450,
+  "icon": 13,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "ad": 75.0,
+   "critDamage": 0.3
+  },
+  "recipe": [
+   1038,
+   1037,
+   1018
+  ],
+  "tags": [
+   "CriticalStrike",
+   "Damage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3031.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3046,
+  "name": "幻影之舞",
+  "cost": 2650,
+  "sell": 1855,
+  "icon": 14,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "as": 0.65,
+   "percentMS": 0.1
+  },
+  "recipe": [
+   1042,
+   3086,
+   1042
+  ],
+  "tags": [
+   "CriticalStrike",
+   "AttackSpeed",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "幽影华尔兹变为幽灵状态。",
+  "officialIcon": "3046.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3153,
+  "name": "破败王者之刃",
+  "cost": 3200,
+  "sell": 2240,
+  "icon": 15,
+  "category": "成装",
+  "stats": {
+   "ad": 40.0,
+   "as": 0.25,
+   "lifesteal": 0.1
+  },
+  "recipe": [
+   1053,
+   1043,
+   1037
+  ],
+  "tags": [
+   "Damage",
+   "AttackSpeed",
+   "LifeSteal",
+   "Slow",
+   "OnHit"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "雾之锋\n攻击造成一部分敌人当前生命值的额外物理伤害 攻击特效。\n\n抓挠之影\n攻击一位英雄3次会对其造成持续1秒的30%减速。",
+  "officialIcon": "3153.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 1004,
+  "name": "仙女护符",
+  "cost": 200,
+  "sell": 140,
+  "icon": 1004,
+  "category": "基础",
+  "stats": {
+   "manaRegen": 0.5
+  },
+  "recipe": [],
+  "tags": [
+   "ManaRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1004.png"
+ },
+ {
+  "id": 1006,
+  "name": "治疗宝珠",
+  "cost": 300,
+  "sell": 120,
+  "icon": 1006,
+  "category": "基础",
+  "stats": {
+   "regenPercent": 1.0
+  },
+  "recipe": [],
+  "tags": [
+   "HealthRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1006.png"
+ },
+ {
+  "id": 1011,
+  "name": "巨人腰带",
+  "cost": 900,
+  "sell": 630,
+  "icon": 1011,
+  "category": "组件",
+  "stats": {
+   "hp": 350.0
+  },
+  "recipe": [
+   1028
+  ],
+  "tags": [
+   "Health"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1011.png"
+ },
+ {
+  "id": 1026,
+  "name": "爆裂魔杖",
+  "cost": 850,
+  "sell": 595,
+  "icon": 1026,
+  "category": "基础",
+  "stats": {
+   "ap": 45.0
+  },
+  "recipe": [],
+  "tags": [
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1026.png"
+ },
+ {
+  "id": 1027,
+  "name": "蓝水晶",
+  "cost": 300,
+  "sell": 210,
+  "icon": 1027,
+  "category": "基础",
+  "stats": {
+   "mana": 300.0
+  },
+  "recipe": [],
+  "tags": [
+   "Mana"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1027.png"
+ },
+ {
+  "id": 1031,
+  "name": "锁子甲",
+  "cost": 800,
+  "sell": 560,
+  "icon": 1031,
+  "category": "组件",
+  "stats": {
+   "armor": 40.0
+  },
+  "recipe": [
+   1029
+  ],
+  "tags": [
+   "Armor"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1031.png"
+ },
+ {
+  "id": 1033,
+  "name": "抗魔斗篷",
+  "cost": 400,
+  "sell": 280,
+  "icon": 1033,
+  "category": "基础",
+  "stats": {
+   "mr": 20.0
+  },
+  "recipe": [],
+  "tags": [
+   "SpellBlock"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1033.png"
+ },
+ {
+  "id": 1052,
+  "name": "增幅典籍",
+  "cost": 400,
+  "sell": 280,
+  "icon": 1052,
+  "category": "基础",
+  "stats": {
+   "ap": 20.0
+  },
+  "recipe": [],
+  "tags": [
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1052.png"
+ },
+ {
+  "id": 1054,
+  "name": "多兰之盾",
+  "cost": 450,
+  "sell": 180,
+  "icon": 1054,
+  "category": "基础",
+  "stats": {
+   "hp": 110.0
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "Lane"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "耐久专注\n每5秒回复4生命值。\n在承受来自英雄的伤害后，在8秒里回复生命值。\n帮助之手\n攻击对小兵造成5额外物理伤害。",
+  "officialIcon": "1054.png",
+  "groups": [
+   "starter"
+  ]
+ },
+ {
+  "id": 1056,
+  "name": "多兰之戒",
+  "cost": 400,
+  "sell": 160,
+  "icon": 1056,
+  "category": "基础",
+  "stats": {
+   "hp": 90.0,
+   "ap": 18.0
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "Lane",
+   "ManaRegen",
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "汲取\n每秒回复1法力值，在对一名敌方英雄造成伤害后，提升至每秒2法力值，持续5秒。如果你不能获得法力值，则转而治疗45%此数值的生命值。\n\n帮助之手\n攻击会对小兵造成5额外物理伤害。",
+  "officialIcon": "1056.png",
+  "groups": [
+   "starter"
+  ]
+ },
+ {
+  "id": 1057,
+  "name": "负极斗篷",
+  "cost": 850,
+  "sell": 595,
+  "icon": 1057,
+  "category": "组件",
+  "stats": {
+   "mr": 45.0
+  },
+  "recipe": [
+   1033
+  ],
+  "tags": [
+   "SpellBlock"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1057.png"
+ },
+ {
+  "id": 1058,
+  "name": "无用大棒",
+  "cost": 1200,
+  "sell": 840,
+  "icon": 1058,
+  "category": "基础",
+  "stats": {
+   "ap": 65.0
+  },
+  "recipe": [],
+  "tags": [
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1058.png"
+ },
+ {
+  "id": 1082,
+  "name": "黑暗封印",
+  "cost": 350,
+  "sell": 140,
+  "icon": 1082,
+  "category": "基础",
+  "stats": {
+   "hp": 50.0,
+   "ap": 15.0
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "Lane"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "荣耀\n参与击杀后提供荣耀层数，至多至10层。阵亡时损失5层荣耀。\n每层荣耀提供4法术强度。",
+  "officialIcon": "1082.png"
+ },
+ {
+  "id": 1083,
+  "name": "萃取",
+  "cost": 450,
+  "sell": 180,
+  "icon": 1083,
+  "category": "基础",
+  "stats": {
+   "ad": 7.0
+  },
+  "recipe": [],
+  "tags": [
+   "Damage",
+   "OnHit",
+   "Lane"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "收割\n回复3生命值攻击特效。\n击杀小兵时提供1金币，至多至100。达到上限时提供额外的350金币。",
+  "officialIcon": "1083.png"
+ },
+ {
+  "id": 1086,
+  "name": "多兰之弓",
+  "cost": 400,
+  "sell": 160,
+  "icon": 1086,
+  "category": "基础",
+  "stats": {
+   "ad": 8.0,
+   "as": 0.15,
+   "omnivamp": 0.015
+  },
+  "recipe": [],
+  "tags": [
+   "Damage",
+   "AttackSpeed",
+   "SpellVamp",
+   "Lane"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "1086.png",
+  "groups": [
+   "starter"
+  ]
+ },
+ {
+  "id": 1101,
+  "name": "焰爪猫幼崽",
+  "cost": 450,
+  "sell": 0,
+  "icon": 1101,
+  "category": "基础",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Jungle"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "灵兽同伴\n召唤一个焰爪猫来协助你对抗野怪。\n\n这个灵兽同伴会随着你狩猎野怪而成长，从而强化你的惩戒。在完全成长时，它会完成你的打野任务并且周期性地为你的下一个攻击或技能进行注魔，以对敌人造成灼烧和减速效果。击杀大型野怪后会让这个效果立刻就绪。",
+  "officialIcon": "1101.png",
+  "condition": "需要打野任务与野怪系统；当前 Solo 未开放"
+ },
+ {
+  "id": 1102,
+  "name": "风行狐幼体",
+  "cost": 450,
+  "sell": 0,
+  "icon": 1102,
+  "category": "基础",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Jungle"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "灵兽同伴\n召唤一个风行狐来协助你对抗野怪。\n\n这个灵兽同伴会随着你狩猎野怪而成长，从而强化你的惩戒。在完全成长时，它会完成你的打野任务并且在进入草丛的同时提供移动速度，移动速度的数额会在击杀大型野怪后提升。",
+  "officialIcon": "1102.png",
+  "condition": "需要打野任务与野怪系统；当前 Solo 未开放"
+ },
+ {
+  "id": 1103,
+  "name": "踏苔蜥幼苗",
+  "cost": 450,
+  "sell": 0,
+  "icon": 1103,
+  "category": "基础",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Jungle"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "灵兽同伴\n召唤一个踏苔蜥来协助你对抗野怪。\n\n这个灵兽同伴会随着你狩猎野怪而成长，从而强化你的惩戒。在完全成长时，它会完成你的打野任务并且在脱离战斗时和击杀野怪后提供一个护盾。",
+  "officialIcon": "1103.png",
+  "condition": "需要打野任务与野怪系统；当前 Solo 未开放"
+ },
+ {
+  "id": 1105,
+  "name": "踏苔蜥幼苗",
+  "cost": 450,
+  "sell": 180,
+  "icon": 1105,
+  "category": "基础",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Jungle"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "灵兽同伴\n召唤一个踏苔蜥来协助你对抗野怪。\n\n这个灵兽同伴会随着你狩猎野怪而成长，从而强化你的惩戒。在完全成长时，它会完成你的打野任务并且在脱离战斗时和击杀野怪后提供一个护盾。",
+  "officialIcon": "1105.png",
+  "condition": "需要打野任务与野怪系统；当前 Solo 未开放"
+ },
+ {
+  "id": 1106,
+  "name": "风行狐幼体",
+  "cost": 450,
+  "sell": 180,
+  "icon": 1106,
+  "category": "基础",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Jungle"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "灵兽同伴\n召唤一个风行狐来协助你对抗野怪。\n\n这个灵兽同伴会随着你狩猎野怪而成长，从而强化你的惩戒。在完全成长时，它会完成你的打野任务并且在进入草丛的同时提供移动速度，移动速度的数额会在击杀大型野怪后提升。",
+  "officialIcon": "1106.png",
+  "condition": "需要打野任务与野怪系统；当前 Solo 未开放"
+ },
+ {
+  "id": 1107,
+  "name": "焰爪猫幼崽",
+  "cost": 450,
+  "sell": 180,
+  "icon": 1107,
+  "category": "基础",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Jungle"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "灵兽同伴\n召唤一个焰爪猫来协助你对抗野怪。\n\n这个灵兽同伴会随着你狩猎野怪而成长，从而强化你的惩戒。在完全成长时，它会完成你的打野任务并且周期性地为你的下一个攻击或技能进行注魔，以对敌人造成灼烧和减速效果。击杀大型野怪后会让这个效果立刻就绪。",
+  "officialIcon": "1107.png",
+  "condition": "需要打野任务与野怪系统；当前 Solo 未开放"
+ },
+ {
+  "id": 1120,
+  "name": "多兰之盔",
+  "cost": 450,
+  "sell": 180,
+  "icon": 1120,
+  "category": "基础",
+  "stats": {
+   "mr": 8.0,
+   "hp": 150.0,
+   "armor": 8.0
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "Armor",
+   "Lane"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "帮助之手\n攻击会对小兵造成5额外物理伤害。",
+  "officialIcon": "1120.png",
+  "groups": [
+   "starter"
+  ]
+ },
+ {
+  "id": 2003,
+  "name": "生命药水",
+  "cost": 50,
+  "sell": 20,
+  "icon": 2003,
+  "category": "消耗品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "HealthRegen",
+   "Consumable",
+   "Lane",
+   "Jungle"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "消耗\n在15秒里持续回复共120生命值。",
+  "officialIcon": "2003.png",
+  "active": "potion"
+ },
+ {
+  "id": 2019,
+  "name": "钢铁印章",
+  "cost": 1100,
+  "sell": 770,
+  "icon": 2019,
+  "category": "组件",
+  "stats": {
+   "armor": 30.0,
+   "ad": 15.0
+  },
+  "recipe": [
+   1029,
+   1036,
+   1029
+  ],
+  "tags": [
+   "Armor",
+   "Damage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "2019.png"
+ },
+ {
+  "id": 2020,
+  "name": "残暴之力",
+  "cost": 1337,
+  "sell": 936,
+  "icon": 2020,
+  "category": "组件",
+  "stats": {
+   "ad": 25.0,
+   "haste": 10.0,
+   "lethality": 5.0
+  },
+  "recipe": [
+   2022,
+   1037
+  ],
+  "tags": [
+   "Damage",
+   "CooldownReduction",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "2020.png"
+ },
+ {
+  "id": 2021,
+  "name": "掘道钻头",
+  "cost": 1150,
+  "sell": 805,
+  "icon": 2021,
+  "category": "组件",
+  "stats": {
+   "hp": 250.0,
+   "ad": 15.0
+  },
+  "recipe": [
+   1036,
+   1028
+  ],
+  "tags": [
+   "Health",
+   "Damage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "2021.png"
+ },
+ {
+  "id": 2022,
+  "name": "荧尘",
+  "cost": 250,
+  "sell": 175,
+  "icon": 2022,
+  "category": "基础",
+  "stats": {
+   "haste": 5.0
+  },
+  "recipe": [],
+  "tags": [
+   "CooldownReduction"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "2022.png"
+ },
+ {
+  "id": 2031,
+  "name": "复用型药水",
+  "cost": 150,
+  "sell": 60,
+  "icon": 2031,
+  "category": "消耗品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "HealthRegen",
+   "Consumable",
+   "Active",
+   "Lane",
+   "Jungle"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "主动 (2层)\n在12秒里持续回复共100生命值。\n在访问商店时重新补满层数。",
+  "officialIcon": "2031.png",
+  "active": "refill",
+  "charges": 2
+ },
+ {
+  "id": 2051,
+  "name": "守护者号角",
+  "cost": 950,
+  "sell": 665,
+  "icon": 2051,
+  "category": "基础",
+  "stats": {
+   "hp": 150.0
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "Lane"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "复原力：每5秒回复20生命值。不屈不挠：格挡来自英雄的攻击和技能的15伤害(对抗持续伤害技能时的效能为25%)。",
+  "officialIcon": "2051.png"
+ },
+ {
+  "id": 2052,
+  "name": "魄罗佳肴",
+  "cost": 0,
+  "sell": 0,
+  "icon": 2052,
+  "category": "基础",
+  "stats": {},
+  "recipe": [],
+  "tags": [],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "主动 - 消耗：用一勺美味来招待附近的一只魄罗，来让它体型长大。\n\n这道由阿瓦罗萨鸡与当地弗雷尔卓德香草——当日摘取并经过速冻处理——所搭配的美味，包含了多种必备精华营养素，绝对能让你的魄罗保持酷炫和平静。\n\n所有收入都将被捐献给濒危物种斑点魄罗的栖息地保护工作。",
+  "officialIcon": "2052.png",
+  "condition": "大乱斗开局赠送"
+ },
+ {
+  "id": 2055,
+  "name": "控制守卫",
+  "cost": 75,
+  "sell": 30,
+  "icon": 2055,
+  "category": "消耗品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Consumable",
+   "Lane",
+   "Stealth",
+   "Vision"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "消耗\n放置一个控制守卫，它可以提供视野并显形敌方的侦察守卫、陷阱和伪装状态的敌人。",
+  "officialIcon": "2055.png",
+  "active": "ward"
+ },
+ {
+  "id": 2065,
+  "name": "舒瑞娅的战歌",
+  "cost": 2200,
+  "sell": 1540,
+  "icon": 2065,
+  "category": "成装",
+  "stats": {
+   "ap": 50.0,
+   "percentMS": 0.04,
+   "haste": 15.0,
+   "manaRegen": 1.25
+  },
+  "recipe": [
+   3113,
+   4642
+  ],
+  "tags": [
+   "SpellDamage",
+   "ManaRegen",
+   "Active",
+   "CooldownReduction",
+   "NonbootsMovement",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "鼓舞演讲\n为附近友军们提供持续4秒的30%移动速度。",
+  "officialIcon": "2065.png",
+  "unique": "legendary",
+  "active": "speed"
+ },
+ {
+  "id": 2138,
+  "name": "钢铁合剂",
+  "cost": 500,
+  "sell": 200,
+  "icon": 2138,
+  "category": "消耗品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Health",
+   "Consumable",
+   "NonbootsMovement",
+   "Tenacity"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "消耗\n获得300生命值，25%韧性，并提升体型，持续3分钟。在合剂生效期间，你会在身后留下一条道路，友方英雄在这条道路上会提升15%移动速度。",
+  "officialIcon": "2138.png",
+  "active": "elixir",
+  "minLevel": 9
+ },
+ {
+  "id": 2139,
+  "name": "巫术合剂",
+  "cost": 500,
+  "sell": 200,
+  "icon": 2139,
+  "category": "消耗品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Consumable",
+   "ManaRegen",
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "消耗\n获得50法术强度和15%法力回复，持续3分钟。在合剂生效期间，对英雄或防御塔造成伤害时会造成25额外真实伤害 (对英雄的冷却为5秒)。",
+  "officialIcon": "2139.png",
+  "active": "elixir",
+  "minLevel": 9
+ },
+ {
+  "id": 2140,
+  "name": "愤怒合剂",
+  "cost": 500,
+  "sell": 200,
+  "icon": 2140,
+  "category": "消耗品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Consumable",
+   "Damage",
+   "LifeSteal",
+   "SpellVamp"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "消耗\n获得30攻击力和12%物理吸血(对英雄)，持续3分钟。",
+  "officialIcon": "2140.png",
+  "active": "elixir",
+  "minLevel": 9
+ },
+ {
+  "id": 2141,
+  "name": "帽子饮品",
+  "cost": 300,
+  "sell": 300,
+  "icon": 2141,
+  "category": "消耗品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Damage",
+   "Consumable"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "帮助你出人头地。主动 - 消耗：这个饮品什么也不做。",
+  "officialIcon": "2141.png",
+  "active": "hat"
+ },
+ {
+  "id": 2420,
+  "name": "探索者的护臂",
+  "cost": 1600,
+  "sell": 640,
+  "icon": 2420,
+  "category": "组件",
+  "stats": {
+   "ap": 40.0,
+   "armor": 25.0
+  },
+  "recipe": [
+   1052,
+   1029,
+   1052
+  ],
+  "tags": [
+   "Armor",
+   "SpellDamage",
+   "Active"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "时间停止(单次使用)\n进入凝滞状态2.5秒。",
+  "officialIcon": "2420.png",
+  "groups": [
+   "stasis"
+  ],
+  "active": "stasis"
+ },
+ {
+  "id": 2422,
+  "name": "有点神奇之鞋",
+  "cost": 300,
+  "sell": 90,
+  "icon": 2422,
+  "category": "基础",
+  "stats": {
+   "ms": 25.0
+  },
+  "recipe": [],
+  "tags": [
+   "Boots"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "提供额外的10移动速度。通过【有点神奇之鞋】合成的鞋类装备都会保持这个移动速度加成。",
+  "officialIcon": "2422.png",
+  "unique": "boots",
+  "condition": "启迪符文赠送"
+ },
+ {
+  "id": 2501,
+  "name": "霸王血铠",
+  "cost": 3300,
+  "sell": 2310,
+  "icon": 2501,
+  "category": "成装",
+  "stats": {
+   "hp": 550.0,
+   "ad": 30.0
+  },
+  "recipe": [
+   2021,
+   2021
+  ],
+  "tags": [
+   "Health",
+   "Damage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "专横\n获得相当于你2.5%额外生命值的攻击力。\n\n报复\n获得基于你的百分比已损失生命值的12%攻击力提升。",
+  "officialIcon": "2501.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2502,
+  "name": "无终恨意",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 2502,
+  "category": "成装",
+  "stats": {
+   "hp": 400.0,
+   "armor": 50.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   1031,
+   3067,
+   1028
+  ],
+  "tags": [
+   "Health",
+   "Armor",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "苦楚\n在与英雄的战斗状态下，每4秒对附近的敌方英雄们造成魔法伤害，并治疗自身相当于250%已造成伤害的生命值。",
+  "officialIcon": "2502.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2503,
+  "name": "黯炎火炬",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 2503,
+  "category": "成装",
+  "stats": {
+   "mana": 600.0,
+   "ap": 80.0,
+   "haste": 20.0
+  },
+  "recipe": [
+   3802,
+   2508
+  ],
+  "tags": [
+   "SpellDamage",
+   "Mana",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "邪焰\n伤害型技能造成额外魔法伤害，持续3秒。\n\n黯炎\n被你的邪焰影响的每个敌方英雄、史诗级野怪和大型野怪都会为你提供4%法术强度。",
+  "officialIcon": "2503.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2504,
+  "name": "败魔",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 2504,
+  "category": "成装",
+  "stats": {
+   "mr": 80.0,
+   "hp": 400.0,
+   "regenPercent": 1.0
+  },
+  "recipe": [
+   3211,
+   1057
+  ],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "HealthRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "法师之祸\n如果连续15秒没有受到魔法伤害，获得魔法护盾。",
+  "officialIcon": "2504.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2508,
+  "name": "命定灰烬",
+  "cost": 900,
+  "sell": 630,
+  "icon": 2508,
+  "category": "组件",
+  "stats": {
+   "ap": 30.0
+  },
+  "recipe": [
+   1052
+  ],
+  "tags": [
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "激燃\n伤害型技能在3秒里持续造成15额外魔法伤害。\n对野怪造成额外的45魔法伤害。",
+  "officialIcon": "2508.png"
+ },
+ {
+  "id": 2510,
+  "name": "黄昏与黎明",
+  "cost": 3100,
+  "sell": 2170,
+  "icon": 2510,
+  "category": "成装",
+  "stats": {
+   "hp": 300.0,
+   "ap": 60.0,
+   "as": 0.2,
+   "haste": 20.0
+  },
+  "recipe": [
+   3057,
+   1026,
+   3067,
+   1042
+  ],
+  "tags": [
+   "Health",
+   "AttackSpeed",
+   "SpellDamage",
+   "OnHit",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "咒刃 \n施放技能后，你的下一次攻击会造成0额外魔法伤害并治疗你自身0 攻击特效然后将攻击特效施加额外的一次。",
+  "officialIcon": "2510.png",
+  "unique": "legendary",
+  "groups": [
+   "spellblade"
+  ]
+ },
+ {
+  "id": 2512,
+  "name": "猎魔人弩箭",
+  "cost": 2650,
+  "sell": 1855,
+  "icon": 2512,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "as": 0.45,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   3086,
+   3144
+  ],
+  "tags": [
+   "CriticalStrike",
+   "AttackSpeed",
+   "NonbootsMovement",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "守夜\n获得30终极技能急速。\n\n开战弹幕 \n在施放你的终极技能后，你的下3次攻击获得50%攻击速度并且必定产生暴击，造成你的80%常规暴击伤害，持续8秒。如果一次攻击本应暴击，则此攻击转而造成15%额外真实伤害。",
+  "officialIcon": "2512.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2517,
+  "name": "无穷饥渴",
+  "cost": 3100,
+  "sell": 2170,
+  "icon": 2517,
+  "category": "成装",
+  "stats": {
+   "ad": 65.0,
+   "omnivamp": 0.05,
+   "tenacity": 0.2
+  },
+  "recipe": [
+   3133,
+   1037,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "LifeSteal",
+   "SpellVamp",
+   "Tenacity",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "饥馑\n获得技能急速，基于你的额外攻击力。\n\n盛宴\n如果一名在近期曾被你造成过伤害的英雄阵亡，则获得持续适中时长的全能吸血。",
+  "officialIcon": "2517.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2520,
+  "name": "破垒者",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 2520,
+  "category": "成装",
+  "stats": {
+   "ad": 55.0,
+   "lethality": 22.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   2020,
+   3134
+  ],
+  "tags": [
+   "Damage",
+   "ArmorPenetration",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "成型炸药 (0秒)\n对一个英雄或史诗级野怪造成技能伤害时，会造成额外的0真实伤害。\n\n破坏\n参与击杀一个在3秒内被你造成过伤害的英雄后，提供持续90秒的【蓄意破坏】。在你拥有【蓄意破坏】时，你对史诗级野怪或防御塔的下一次攻击会在3秒里持续造成额外0真实伤害。",
+  "officialIcon": "2520.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2522,
+  "name": "实现器",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 2522,
+  "category": "成装",
+  "stats": {
+   "mana": 300.0,
+   "ap": 90.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   3802,
+   1026
+  ],
+  "tags": [
+   "SpellDamage",
+   "Mana",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "法力成真 (0秒)\n在8秒的持续期间里，你的法力值获得强化。在强化状态下，你的技能花费100%额外法力值，你获得额外的0技能伤害、护盾值、治疗效果，并且你的基础技能的冷却时间转速加快30%。",
+  "officialIcon": "2522.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2523,
+  "name": "海克斯镜片 C44",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 2523,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "ad": 55.0
+  },
+  "recipe": [
+   1037,
+   6670,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "CriticalStrike"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "高倍望远镜\n攻击造成至多10%额外伤害，基于敌人离你有多远 (在500码时达到最大伤害)。\n\n奥术瞄准\n当一个你在3秒内造成过伤害的英雄阵亡时，你获得持续8秒的100额外攻击距离。",
+  "officialIcon": "2523.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2524,
+  "name": "班德尔音管",
+  "cost": 2300,
+  "sell": 1610,
+  "icon": 2524,
+  "category": "成装",
+  "stats": {
+   "mr": 20.0,
+   "hp": 200.0,
+   "armor": 20.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3067,
+   1029,
+   1033
+  ],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "Armor",
+   "AttackSpeed",
+   "NonbootsMovement",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "嘹亮旋律\n减速或定身一个敌方英雄时会提供一个持续0秒的【嘹亮旋律】。【嘹亮旋律】会为你提供20移动速度。当你拥有【嘹亮旋律】时，附近的友军，包括你自己，获得0攻击速度。",
+  "officialIcon": "2524.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2525,
+  "name": "原生质护带",
+  "cost": 2600,
+  "sell": 1820,
+  "icon": 2525,
+  "category": "成装",
+  "stats": {
+   "hp": 600.0,
+   "haste": 20.0
+  },
+  "recipe": [
+   3067,
+   1011
+  ],
+  "tags": [
+   "Health",
+   "NonbootsMovement",
+   "Tenacity",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "救主灵刃 (0秒)\n在受到将使你的生命值跌到30%以下的伤害时，获得持续5秒的0最大生命值，然后在此期间持续治疗0生命值。在回复生命值状态下，你获得15%体型增长、10%移动速度、以及25%韧性。",
+  "officialIcon": "2525.png",
+  "unique": "legendary",
+  "groups": [
+   "lifeline"
+  ]
+ },
+ {
+  "id": 2526,
+  "name": "耳语头环",
+  "cost": 2250,
+  "sell": 1575,
+  "icon": 2526,
+  "category": "成装",
+  "stats": {
+   "mana": 300.0,
+   "hp": 200.0,
+   "healShield": 0.08,
+   "manaRegen": 0.75
+  },
+  "recipe": [
+   3114,
+   1028,
+   3070
+  ],
+  "tags": [
+   "Health",
+   "Mana",
+   "ManaRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "和谐\n获得0%治疗和护盾强度。\n\n法力流 (8秒，最大5层)\n技能在命中时会提供4最大法力值(对英雄时翻倍)。\n在360最大法力值时转变为歌之权冠。",
+  "officialIcon": "2526.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 2530,
+  "name": "歌之权冠",
+  "cost": 2250,
+  "sell": 1575,
+  "icon": 2530,
+  "category": "基础",
+  "stats": {
+   "mana": 1000.0,
+   "hp": 200.0,
+   "healShield": 0.08,
+   "manaRegen": 1.0
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "Mana",
+   "ManaRegen",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "和谐\n获得0%治疗和护盾强度。\n\n和音\n当你或你在前3秒提供过治疗或护盾的任一友军处在与英雄的战斗状态时，每秒治疗附近生命值最低的那个友军。",
+  "officialIcon": "2530.png",
+  "condition": "由耳语头环进化"
+ },
+ {
+  "id": 3003,
+  "name": "大天使之杖",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 3003,
+  "category": "成装",
+  "stats": {
+   "mana": 600.0,
+   "ap": 70.0,
+   "haste": 25.0
+  },
+  "recipe": [
+   3070,
+   3802,
+   3108
+  ],
+  "tags": [
+   "SpellDamage",
+   "Mana",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "敬畏\n获得相当于1%额外法力值的法术强度。\n\n法力流 (8秒，最大5层充能)\n技能在命中时提供5最大法力值(对英雄时翻倍)。\n在360最大法力值时转变为炽天使之拥。",
+  "officialIcon": "3003.png",
+  "unique": "legendary",
+  "groups": [
+   "tear"
+  ]
+ },
+ {
+  "id": 3004,
+  "name": "魔宗",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 3004,
+  "category": "成装",
+  "stats": {
+   "mana": 500.0,
+   "ad": 35.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3070,
+   3133,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "Mana",
+   "CooldownReduction",
+   "OnHit",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "敬畏\n获得0额外攻击力。\n\n法力流 (8秒，最大4层)\n普攻和技能在命中时会提供3最大法力值(对英雄时翻倍)。\n在360最大法力值时转变为魔切。",
+  "officialIcon": "3004.png",
+  "unique": "legendary",
+  "groups": [
+   "tear"
+  ]
+ },
+ {
+  "id": 3008,
+  "name": "暴食胫甲",
+  "cost": 1000,
+  "sell": 700,
+  "icon": 3008,
+  "category": "成装",
+  "stats": {
+   "ms": 45.0,
+   "omnivamp": 0.04
+  },
+  "recipe": [
+   1001
+  ],
+  "tags": [
+   "LifeSteal",
+   "SpellVamp",
+   "Boots"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "杀戮\n参与击杀英雄后获得0.6%全能吸血，可叠加至多10次。",
+  "officialIcon": "3008.png",
+  "unique": "boots"
+ },
+ {
+  "id": 3009,
+  "name": "轻灵之靴",
+  "cost": 1000,
+  "sell": 700,
+  "icon": 3009,
+  "category": "组件",
+  "stats": {
+   "ms": 55.0
+  },
+  "recipe": [
+   1001
+  ],
+  "tags": [
+   "Boots"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "迅捷步\n将减速效果的效能降低25%。",
+  "officialIcon": "3009.png",
+  "unique": "boots"
+ },
+ {
+  "id": 3020,
+  "name": "法师之靴",
+  "cost": 1100,
+  "sell": 770,
+  "icon": 3020,
+  "category": "组件",
+  "stats": {
+   "ms": 45.0,
+   "flatMagicPen": 12.0
+  },
+  "recipe": [
+   1001
+  ],
+  "tags": [
+   "Boots",
+   "MagicPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3020.png",
+  "unique": "boots"
+ },
+ {
+  "id": 3024,
+  "name": "冰川圆盾",
+  "cost": 900,
+  "sell": 630,
+  "icon": 3024,
+  "category": "组件",
+  "stats": {
+   "mana": 300.0,
+   "armor": 25.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   1029,
+   1027,
+   2022
+  ],
+  "tags": [
+   "Armor",
+   "Mana",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3024.png"
+ },
+ {
+  "id": 3026,
+  "name": "守护天使",
+  "cost": 3200,
+  "sell": 1280,
+  "icon": 3026,
+  "category": "成装",
+  "stats": {
+   "armor": 45.0,
+   "ad": 55.0
+  },
+  "recipe": [
+   2019,
+   1038
+  ],
+  "tags": [
+   "Armor",
+   "Damage"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "重生\n你的英雄在受到致命伤害时，会在凝滞4秒后原地复活，恢复50%基础生命值和100%最大法力值。",
+  "officialIcon": "3026.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3032,
+  "name": "育恩塔尔荒野箭",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3032,
+  "category": "成装",
+  "stats": {
+   "ad": 50.0,
+   "as": 0.45,
+   "crit": 0.0
+  },
+  "recipe": [
+   1038,
+   3144,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "CriticalStrike",
+   "AttackSpeed"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "熟能生巧\n攻击时，永久获得暴击几率，至多至25%。\n\n疾风骤雨 \n攻击一个敌方英雄时，获得持续6秒的30%攻击速度(30秒冷却时间)。\n攻击可使这个冷却时间缩短1秒，这个缩减值会在暴击时提升至2秒。",
+  "officialIcon": "3032.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3033,
+  "name": "凡性的提醒",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3033,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "ad": 35.0,
+   "armorPen": 0.3
+  },
+  "recipe": [
+   3123,
+   3035,
+   1018
+  ],
+  "tags": [
+   "Damage",
+   "CriticalStrike",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "重伤\n对敌方英雄造成物理伤害时会施加40%重伤效果，持续3秒。",
+  "officialIcon": "3033.png",
+  "unique": "legendary",
+  "groups": [
+   "lastwhisper"
+  ]
+ },
+ {
+  "id": 3035,
+  "name": "最后的轻语",
+  "cost": 1450,
+  "sell": 1015,
+  "icon": 3035,
+  "category": "组件",
+  "stats": {
+   "ad": 20.0,
+   "armorPen": 0.18
+  },
+  "recipe": [
+   1036,
+   1036
+  ],
+  "tags": [
+   "ArmorPenetration",
+   "Damage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3035.png"
+ },
+ {
+  "id": 3036,
+  "name": "多米尼克领主的致意",
+  "cost": 3300,
+  "sell": 2310,
+  "icon": 3036,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "ad": 35.0,
+   "armorPen": 0.35
+  },
+  "recipe": [
+   3035,
+   6670
+  ],
+  "tags": [
+   "Damage",
+   "CriticalStrike",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "巨人杀手\n基于敌方英雄的额外生命值，对其至多造成15%额外伤害。最大伤害加成在1500额外生命值时达成。",
+  "officialIcon": "3036.png",
+  "unique": "legendary",
+  "groups": [
+   "lastwhisper"
+  ]
+ },
+ {
+  "id": 3039,
+  "name": "阿塔玛的清算",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 3039,
+  "category": "成装",
+  "stats": {
+   "hp": 700.0,
+   "crit": 0.2,
+   "haste": 10.0
+  },
+  "recipe": [
+   1011,
+   1018,
+   1011
+  ],
+  "tags": [
+   "Health",
+   "CriticalStrike"
+  ],
+  "maps": [
+   12
+  ],
+  "effect": "大手\n获得0-30%暴击几率，受益于你的额外生命值。",
+  "officialIcon": "3039.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3040,
+  "name": "炽天使之拥",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 3040,
+  "category": "基础",
+  "stats": {
+   "mana": 1000.0,
+   "ap": 70.0,
+   "haste": 25.0
+  },
+  "recipe": [],
+  "tags": [
+   "SpellDamage",
+   "Mana",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "敬畏\n获得0法术强度。\n\n救主灵刃 (0秒)\n在受到将使你的生命值跌到30%以下的伤害时，提供持续3秒的0护盾值。",
+  "officialIcon": "3040.png",
+  "groups": [
+   "tear"
+  ],
+  "condition": "女神之泪叠满后由大天使之杖进化"
+ },
+ {
+  "id": 3041,
+  "name": "梅贾的窃魂卷",
+  "cost": 1500,
+  "sell": 1050,
+  "icon": 3041,
+  "category": "组件",
+  "stats": {
+   "hp": 100.0,
+   "ap": 20.0
+  },
+  "recipe": [
+   1082
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "荣耀\n参与击杀后提供荣耀层数，至多至25层。阵亡时损失10层荣耀。\n每层荣耀提供5法术强度，并在10层或以上荣耀时提供10%移动速度。",
+  "officialIcon": "3041.png"
+ },
+ {
+  "id": 3042,
+  "name": "魔切",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 3042,
+  "category": "基础",
+  "stats": {
+   "mana": 1000.0,
+   "ad": 35.0,
+   "haste": 15.0
+  },
+  "recipe": [],
+  "tags": [
+   "Damage",
+   "Mana",
+   "CooldownReduction",
+   "OnHit",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "敬畏\n获得2%最大法力值的额外攻击力。\n\n冲击\n攻击会对英雄造成1.2%最大法力值的额外物理伤害攻击特效。\n伤害型技能会对英雄造成3% - 4%最大法力值的额外物理伤害。",
+  "officialIcon": "3042.png",
+  "groups": [
+   "tear"
+  ],
+  "condition": "女神之泪叠满后由魔宗进化"
+ },
+ {
+  "id": 3044,
+  "name": "净蚀",
+  "cost": 1100,
+  "sell": 770,
+  "icon": 3044,
+  "category": "组件",
+  "stats": {
+   "hp": 200.0,
+   "ad": 15.0
+  },
+  "recipe": [
+   1028,
+   1036
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "狂怒\n攻击会提供持续2秒的移动速度。",
+  "officialIcon": "3044.png"
+ },
+ {
+  "id": 3047,
+  "name": "铁板靴",
+  "cost": 1200,
+  "sell": 840,
+  "icon": 3047,
+  "category": "组件",
+  "stats": {
+   "ms": 45.0,
+   "armor": 25.0
+  },
+  "recipe": [
+   1001,
+   1029
+  ],
+  "tags": [
+   "Armor",
+   "Boots"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "镀板\n使即将到来的攻击伤害降低10%。",
+  "officialIcon": "3047.png",
+  "unique": "boots"
+ },
+ {
+  "id": 3050,
+  "name": "基克的聚合",
+  "cost": 2200,
+  "sell": 1540,
+  "icon": 3050,
+  "category": "成装",
+  "stats": {
+   "mr": 25.0,
+   "hp": 300.0,
+   "armor": 25.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   3067,
+   1029,
+   1033
+  ],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "Armor",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "霜火风暴\n施放你的终极技能时会召唤一个风暴环绕于你5秒。这个风暴对敌方英雄们造成每秒30魔法伤害和30%减速。",
+  "officialIcon": "3050.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3051,
+  "name": "缚炉之斧",
+  "cost": 1200,
+  "sell": 840,
+  "icon": 3051,
+  "category": "组件",
+  "stats": {
+   "ad": 20.0,
+   "as": 0.2
+  },
+  "recipe": [
+   1036,
+   1042,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "AttackSpeed"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3051.png"
+ },
+ {
+  "id": 3053,
+  "name": "斯特拉克的挑战护手",
+  "cost": 3200,
+  "sell": 2240,
+  "icon": 3053,
+  "category": "成装",
+  "stats": {
+   "hp": 400.0,
+   "tenacity": 0.2
+  },
+  "recipe": [
+   1037,
+   2021,
+   1028
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "Tenacity"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "抓人双爪\n获得额外攻击力。\n\n救主灵刃\n在受到将使你的生命值跌到30%以下的伤害时，提供持续4.5秒的不断衰减的护盾值。",
+  "officialIcon": "3053.png",
+  "unique": "legendary",
+  "groups": [
+   "lifeline"
+  ]
+ },
+ {
+  "id": 3057,
+  "name": "耀光",
+  "cost": 900,
+  "sell": 630,
+  "icon": 3057,
+  "category": "成装",
+  "stats": {
+   "haste": 10.0
+  },
+  "recipe": [
+   2022
+  ],
+  "tags": [
+   "OnHit",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "咒刃\n施放技能后，你的下一次普通攻击会造成额外物理伤害攻击特效。",
+  "officialIcon": "3057.png",
+  "unique": "legendary",
+  "groups": [
+   "spellblade"
+  ]
+ },
+ {
+  "id": 3065,
+  "name": "振奋盔甲",
+  "cost": 2700,
+  "sell": 1890,
+  "icon": 3065,
+  "category": "成装",
+  "stats": {
+   "mr": 50.0,
+   "hp": 400.0,
+   "haste": 10.0,
+   "regenPercent": 1.0
+  },
+  "recipe": [
+   3211,
+   3067
+  ],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "HealthRegen",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "无拘活力\n你身上的治疗和护盾效果提升25%。",
+  "officialIcon": "3065.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3066,
+  "name": "带翼的月板甲",
+  "cost": 800,
+  "sell": 560,
+  "icon": 3066,
+  "category": "组件",
+  "stats": {
+   "hp": 200.0,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   1028
+  ],
+  "tags": [
+   "Health",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3066.png"
+ },
+ {
+  "id": 3067,
+  "name": "燃烧宝石",
+  "cost": 800,
+  "sell": 560,
+  "icon": 3067,
+  "category": "组件",
+  "stats": {
+   "hp": 200.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   1028,
+   2022
+  ],
+  "tags": [
+   "Health",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3067.png"
+ },
+ {
+  "id": 3068,
+  "name": "日炎圣盾",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 3068,
+  "category": "成装",
+  "stats": {
+   "hp": 350.0,
+   "armor": 50.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   6660,
+   1031,
+   1028
+  ],
+  "tags": [
+   "Health",
+   "Armor",
+   "Aura",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "献祭\n承受或造成伤害后，每秒对附近敌人造成魔法伤害，持续3秒。",
+  "officialIcon": "3068.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3070,
+  "name": "女神之泪",
+  "cost": 400,
+  "sell": 280,
+  "icon": 3070,
+  "category": "基础",
+  "stats": {
+   "mana": 240.0
+  },
+  "recipe": [],
+  "tags": [
+   "Mana",
+   "ManaRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "法力流 (8秒，最大4层)\n技能在命中时会提供3最大法力值(对英雄时翻倍)，至多至360。\n\n帮助之手\n攻击会对小兵造成额外的5物理伤害。",
+  "officialIcon": "3070.png"
+ },
+ {
+  "id": 3071,
+  "name": "黑色切割者",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3071,
+  "category": "成装",
+  "stats": {
+   "hp": 400.0,
+   "ad": 45.0,
+   "haste": 20.0
+  },
+  "recipe": [
+   3044,
+   3067,
+   1037
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "CooldownReduction",
+   "OnHit",
+   "NonbootsMovement",
+   "ArmorPenetration",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "切割\n对英雄造成物理伤害时会将该目标的护甲降低6%，持续6秒(可叠加5次)。\n\n热烈\n造成物理伤害时会提供持续2秒的0移动速度。",
+  "officialIcon": "3071.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3072,
+  "name": "饮血剑",
+  "cost": 3400,
+  "sell": 2380,
+  "icon": 3072,
+  "category": "成装",
+  "stats": {
+   "ad": 80.0,
+   "lifesteal": 0.15
+  },
+  "recipe": [
+   1038,
+   1037,
+   1053
+  ],
+  "tags": [
+   "Damage",
+   "LifeSteal"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "灵液护盾\n将来自你的生命偷取的溢出治疗效果转化为护盾值。",
+  "officialIcon": "3072.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3073,
+  "name": "海克斯注力刚壁",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3073,
+  "category": "成装",
+  "stats": {
+   "hp": 450.0,
+   "ad": 40.0,
+   "as": 0.2
+  },
+  "recipe": [
+   2021,
+   1042,
+   3044
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "AttackSpeed",
+   "CooldownReduction",
+   "NonbootsMovement",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "海克斯充能\n获得30终极技能急速。\n\n过载 \n在施放你的终极技能后，获得持续8秒的0%攻击速度和0%移动速度。",
+  "officialIcon": "3073.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3074,
+  "name": "贪欲九头蛇",
+  "cost": 3300,
+  "sell": 2310,
+  "icon": 3074,
+  "category": "成装",
+  "stats": {
+   "ad": 65.0,
+   "lifesteal": 0.12,
+   "haste": 15.0
+  },
+  "recipe": [
+   3077,
+   1053,
+   3133
+  ],
+  "tags": [
+   "Damage",
+   "LifeSteal",
+   "CooldownReduction",
+   "OnHit",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "顺劈\n攻击会对附近的敌人们造成物理伤害。血斩\n对你周围的敌人们造成物理伤害。\n你的生命偷取会作用于此伤害。",
+  "officialIcon": "3074.png",
+  "unique": "legendary",
+  "groups": [
+   "hydra"
+  ],
+  "active": "cleave"
+ },
+ {
+  "id": 3075,
+  "name": "荆棘之甲",
+  "cost": 2450,
+  "sell": 1715,
+  "icon": 3075,
+  "category": "成装",
+  "stats": {
+   "hp": 150.0,
+   "armor": 75.0
+  },
+  "recipe": [
+   3076,
+   1031,
+   1028
+  ],
+  "tags": [
+   "Health",
+   "Armor"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "荆棘\n在被一次攻击命中后，对攻击者造成魔法伤害，并且如果目标是英雄，还会施加持续3秒的40%重伤效果。",
+  "officialIcon": "3075.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3076,
+  "name": "棘刺背心",
+  "cost": 800,
+  "sell": 560,
+  "icon": 3076,
+  "category": "组件",
+  "stats": {
+   "armor": 30.0
+  },
+  "recipe": [
+   1029,
+   1029
+  ],
+  "tags": [
+   "Armor"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "荆棘\n在被一次攻击命中后，对攻击者造成0魔法伤害并且如果目标是英雄，还会对其施加持续3秒的40%重伤效果。",
+  "officialIcon": "3076.png"
+ },
+ {
+  "id": 3077,
+  "name": "提亚马特",
+  "cost": 1200,
+  "sell": 840,
+  "icon": 3077,
+  "category": "组件",
+  "stats": {
+   "ad": 25.0
+  },
+  "recipe": [
+   1036,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "OnHit"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "顺劈\n攻击会对附近的敌人们造成物理伤害。\n新月\n对你周围的敌人们造成物理伤害。",
+  "officialIcon": "3077.png",
+  "active": "cleave"
+ },
+ {
+  "id": 3078,
+  "name": "三相之力",
+  "cost": 3333,
+  "sell": 2333,
+  "icon": 3078,
+  "category": "成装",
+  "stats": {
+   "hp": 333.0,
+   "ad": 36.0,
+   "as": 0.3,
+   "haste": 15.0
+  },
+  "recipe": [
+   3057,
+   3044,
+   3051
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "AttackSpeed",
+   "CooldownReduction",
+   "OnHit",
+   "NonbootsMovement",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "咒刃\n施放技能后，你的下一次普通攻击会造成额外物理伤害攻击特效。\n \n加快\n攻击一个单位时会提供持续2秒的20移动速度。",
+  "officialIcon": "3078.png",
+  "unique": "legendary",
+  "groups": [
+   "spellblade"
+  ]
+ },
+ {
+  "id": 3082,
+  "name": "守望者铠甲",
+  "cost": 1000,
+  "sell": 700,
+  "icon": 3082,
+  "category": "组件",
+  "stats": {
+   "armor": 40.0
+  },
+  "recipe": [
+   1029,
+   1029
+  ],
+  "tags": [
+   "Armor"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "坚如磐石\n使所受的来自攻击的伤害降低。",
+  "officialIcon": "3082.png"
+ },
+ {
+  "id": 3083,
+  "name": "狂徒铠甲",
+  "cost": 3100,
+  "sell": 2170,
+  "icon": 3083,
+  "category": "成装",
+  "stats": {
+   "hp": 1000.0,
+   "regenPercent": 1.0
+  },
+  "recipe": [
+   1011,
+   1011,
+   3801
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "狂徒之心 \n如果你拥有2000额外生命值，并且在8秒内没有受到伤害，则每秒回复0生命值。\n\n狂徒之活力\n获得额外生命值，相当于你12%的装备生命值(0)。",
+  "officialIcon": "3083.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3084,
+  "name": "心之钢",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3084,
+  "category": "成装",
+  "stats": {
+   "hp": 900.0,
+   "regenPercent": 1.0
+  },
+  "recipe": [
+   1011,
+   3801,
+   1011
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "庞然吞食 每个目标(0秒)\n如果一个敌方英雄在附近度过了若干秒，那么你的下一次对其打出的攻击会造成70外加你的6%最大生命值的额外物理伤害，并为你提供相当于10%该伤害的最大生命值。\n\n歌利亚巨人\n每有1000最大生命值，获得3%体型提升，至多至30%。",
+  "officialIcon": "3084.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3085,
+  "name": "卢安娜的飓风",
+  "cost": 2650,
+  "sell": 1855,
+  "icon": 3085,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "as": 0.4,
+   "percentMS": 0.05
+  },
+  "recipe": [
+   3086,
+   3144
+  ],
+  "tags": [
+   "CriticalStrike",
+   "AttackSpeed",
+   "OnHit",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "风怒\n攻击对目标附近的2个额外敌人发射弩箭。\n每根弩箭造成物理伤害并施加攻击特效。",
+  "officialIcon": "3085.png",
+  "unique": "legendary",
+  "condition": "仅远程英雄可使用分裂箭；当前亚索为近战英雄"
+ },
+ {
+  "id": 3087,
+  "name": "斯塔缇克电刃",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3087,
+  "category": "成装",
+  "stats": {
+   "ap": 45.0,
+   "ad": 45.0,
+   "as": 0.3,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   3144,
+   3113,
+   1037
+  ],
+  "tags": [
+   "Damage",
+   "AttackSpeed",
+   "SpellDamage",
+   "OnHit",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "电火花\n你的盈能攻击会发射连锁闪电，造成附带攻击特效，并且对附近的目标们造成魔法伤害。\n\n电疗 \n普通攻击提供额外盈能层数。",
+  "officialIcon": "3087.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3089,
+  "name": "灭世者的死亡之帽",
+  "cost": 3500,
+  "sell": 2450,
+  "icon": 3089,
+  "category": "成装",
+  "stats": {
+   "ap": 130.0
+  },
+  "recipe": [
+   1058,
+   1058
+  ],
+  "tags": [
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "魔法乐章\n使你的总法术强度提升30%。",
+  "officialIcon": "3089.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3091,
+  "name": "智慧末刃",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 3091,
+  "category": "成装",
+  "stats": {
+   "mr": 45.0,
+   "as": 0.5,
+   "tenacity": 0.2
+  },
+  "recipe": [
+   1043,
+   1057,
+   1043
+  ],
+  "tags": [
+   "SpellBlock",
+   "AttackSpeed",
+   "OnHit",
+   "Tenacity"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "喧争\n普攻造成额外魔法伤害 攻击特效。",
+  "officialIcon": "3091.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3094,
+  "name": "疾射火炮",
+  "cost": 2650,
+  "sell": 1855,
+  "icon": 3094,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "as": 0.35,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   3086,
+   3144
+  ],
+  "tags": [
+   "CriticalStrike",
+   "AttackSpeed",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "神射手\n你的盈能攻击造成40额外魔法伤害并获得35%额外攻击距离。",
+  "officialIcon": "3094.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3095,
+  "name": "岚切",
+  "cost": 3200,
+  "sell": 2240,
+  "icon": 3095,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "ad": 50.0,
+   "as": 0.25
+  },
+  "recipe": [
+   1038,
+   1018,
+   3144
+  ],
+  "tags": [
+   "Damage",
+   "CriticalStrike",
+   "AttackSpeed",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "盈能\n移动和攻击会生成一次盈能攻击。\n\n弩箭\n你的盈能攻击附带0额外魔法伤害并提供持续1.5秒的45%移动速度。",
+  "officialIcon": "3095.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3100,
+  "name": "巫妖之祸",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 3100,
+  "category": "成装",
+  "stats": {
+   "ap": 100.0,
+   "percentMS": 0.06,
+   "haste": 10.0
+  },
+  "recipe": [
+   3057,
+   3113,
+   1026
+  ],
+  "tags": [
+   "SpellDamage",
+   "OnHit",
+   "NonbootsMovement",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "咒刃\n施放技能后，你的下一次攻击会造成额外魔法伤害攻击特效。",
+  "officialIcon": "3100.png",
+  "unique": "legendary",
+  "groups": [
+   "spellblade"
+  ]
+ },
+ {
+  "id": 3102,
+  "name": "女妖面纱",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3102,
+  "category": "成装",
+  "stats": {
+   "mr": 40.0,
+   "ap": 105.0
+  },
+  "recipe": [
+   1058,
+   4632
+  ],
+  "tags": [
+   "SpellBlock",
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "废除\n提供一层法术护盾来格挡下一个敌方技能。",
+  "officialIcon": "3102.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3107,
+  "name": "救赎",
+  "cost": 2300,
+  "sell": 1610,
+  "icon": 3107,
+  "category": "成装",
+  "stats": {
+   "ap": 30.0,
+   "haste": 15.0,
+   "manaRegen": 1.0,
+   "healShield": 0.1
+  },
+  "recipe": [
+   3108,
+   3114
+  ],
+  "tags": [
+   "SpellDamage",
+   "ManaRegen",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "干涉 \n在2.5秒后，为友方单位们回复150 - 350生命值，并对敌方英雄们造成10%最大生命值的真实伤害。",
+  "officialIcon": "3107.png",
+  "unique": "legendary",
+  "active": "heal"
+ },
+ {
+  "id": 3108,
+  "name": "恶魔法典",
+  "cost": 850,
+  "sell": 595,
+  "icon": 3108,
+  "category": "组件",
+  "stats": {
+   "ap": 25.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   1052,
+   2022
+  ],
+  "tags": [
+   "SpellDamage",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3108.png"
+ },
+ {
+  "id": 3109,
+  "name": "骑士之誓",
+  "cost": 2300,
+  "sell": 1610,
+  "icon": 3109,
+  "category": "成装",
+  "stats": {
+   "hp": 200.0,
+   "armor": 40.0,
+   "haste": 10.0,
+   "regenPercent": 1.0
+  },
+  "recipe": [
+   3067,
+   1031,
+   1006
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "Armor",
+   "Aura",
+   "Active",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "牺牲\n当你的誓约者在附近时，将其所受的14%伤害转移到你身上，并为你提供相当于其对英雄的12%已造成伤害值的治疗效果。立誓(0秒)\n指定一名友方英雄作为你的誓约者。",
+  "officialIcon": "3109.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3110,
+  "name": "冰霜之心",
+  "cost": 2500,
+  "sell": 1750,
+  "icon": 3110,
+  "category": "成装",
+  "stats": {
+   "mana": 400.0,
+   "armor": 75.0,
+   "haste": 20.0
+  },
+  "recipe": [
+   3082,
+   3024
+  ],
+  "tags": [
+   "Armor",
+   "Mana",
+   "Aura",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "凛冬之抚\n使附近敌方英雄的攻击速度降低20%。",
+  "officialIcon": "3110.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3111,
+  "name": "水银之靴",
+  "cost": 1250,
+  "sell": 875,
+  "icon": 3111,
+  "category": "组件",
+  "stats": {
+   "mr": 20.0,
+   "ms": 45.0,
+   "tenacity": 0.3
+  },
+  "recipe": [
+   1001,
+   1033
+  ],
+  "tags": [
+   "Boots",
+   "SpellBlock",
+   "Tenacity"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3111.png",
+  "unique": "boots"
+ },
+ {
+  "id": 3112,
+  "name": "守护者法球",
+  "cost": 950,
+  "sell": 665,
+  "icon": 3112,
+  "category": "基础",
+  "stats": {
+   "hp": 150.0,
+   "ap": 50.0
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "ManaRegen",
+   "Lane"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "复原力：每5秒回复10法力值。如果你不能获得法力值，则转而回复15生命值。",
+  "officialIcon": "3112.png"
+ },
+ {
+  "id": 3113,
+  "name": "以太精魂",
+  "cost": 900,
+  "sell": 630,
+  "icon": 3113,
+  "category": "组件",
+  "stats": {
+   "ap": 30.0,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   1052
+  ],
+  "tags": [
+   "NonbootsMovement",
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3113.png"
+ },
+ {
+  "id": 3114,
+  "name": "禁忌雕像",
+  "cost": 600,
+  "sell": 420,
+  "icon": 3114,
+  "category": "组件",
+  "stats": {
+   "manaRegen": 0.5,
+   "healShield": 0.08
+  },
+  "recipe": [
+   1004
+  ],
+  "tags": [
+   "ManaRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3114.png"
+ },
+ {
+  "id": 3115,
+  "name": "纳什之牙",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 3115,
+  "category": "成装",
+  "stats": {
+   "ap": 80.0,
+   "as": 0.5,
+   "haste": 15.0
+  },
+  "recipe": [
+   1043,
+   1026,
+   3108
+  ],
+  "tags": [
+   "AttackSpeed",
+   "SpellDamage",
+   "OnHit",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "艾卡西亚之咬\n普攻造成额外魔法伤害 攻击特效。",
+  "officialIcon": "3115.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3116,
+  "name": "瑞莱的冰晶节杖",
+  "cost": 2600,
+  "sell": 1820,
+  "icon": 3116,
+  "category": "成装",
+  "stats": {
+   "hp": 400.0,
+   "ap": 65.0
+  },
+  "recipe": [
+   1026,
+   1011,
+   1052
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "Slow"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "凝霜\n伤害型技能会使敌人减速30%，持续1秒。",
+  "officialIcon": "3116.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3118,
+  "name": "残疫",
+  "cost": 2700,
+  "sell": 1890,
+  "icon": 3118,
+  "category": "成装",
+  "stats": {
+   "mana": 600.0,
+   "ap": 90.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3802,
+   1026
+  ],
+  "tags": [
+   "SpellDamage",
+   "Mana",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "蔑视\n获得20终极技能急速。\n\n憎恨之雾\n在用你的终极技能对一个英雄造成伤害时，灼烧其脚下的地面3秒，每秒造成魔法伤害并削减其魔法抗性。",
+  "officialIcon": "3118.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3119,
+  "name": "凛冬之临",
+  "cost": 2400,
+  "sell": 1680,
+  "icon": 3119,
+  "category": "成装",
+  "stats": {
+   "mana": 500.0,
+   "hp": 550.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3070,
+   1011,
+   3067
+  ],
+  "tags": [
+   "Health",
+   "Mana",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "敬畏\n获得0生命值。\n\n法力流 (8秒，最大4层)\n普攻和技能在命中时会提供3最大法力值(对英雄时翻倍)。\n在360最大法力值时转变为末日寒冬。",
+  "officialIcon": "3119.png",
+  "unique": "legendary",
+  "groups": [
+   "tear"
+  ]
+ },
+ {
+  "id": 3121,
+  "name": "末日寒冬",
+  "cost": 2400,
+  "sell": 1680,
+  "icon": 3121,
+  "category": "基础",
+  "stats": {
+   "mana": 1000.0,
+   "hp": 550.0,
+   "haste": 15.0
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "Mana",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "敬畏\n获得0生命值。\n\n永续(0秒)\n定身或减速 (仅限近战)一名敌方英雄时会提供一个持续3秒的护盾 。\n如果附近有1名以上的敌人，则护盾值会提升80%。",
+  "officialIcon": "3121.png",
+  "groups": [
+   "tear"
+  ],
+  "condition": "女神之泪叠满后由凛冬之临进化"
+ },
+ {
+  "id": 3123,
+  "name": "死刑宣告",
+  "cost": 800,
+  "sell": 560,
+  "icon": 3123,
+  "category": "组件",
+  "stats": {
+   "ad": 15.0
+  },
+  "recipe": [
+   1036
+  ],
+  "tags": [
+   "Damage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "重伤\n对敌方英雄造成物理伤害时会施加持续3秒的40%重伤效果。",
+  "officialIcon": "3123.png"
+ },
+ {
+  "id": 3124,
+  "name": "鬼索的狂暴之刃",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3124,
+  "category": "成装",
+  "stats": {
+   "ap": 30.0,
+   "ad": 30.0,
+   "as": 0.25
+  },
+  "recipe": [
+   1052,
+   1043,
+   1037
+  ],
+  "tags": [
+   "Damage",
+   "AttackSpeed",
+   "SpellDamage",
+   "OnHit"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "怨怒\n攻击造成30额外魔法伤害攻击特效。\n\n沸腾打击\n攻击会提供8%攻击速度，持续4秒(可叠加4次)。\n在满层状态下，每第三次攻击会附带2次攻击特效。",
+  "officialIcon": "3124.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3133,
+  "name": "考尔菲德的战锤",
+  "cost": 1050,
+  "sell": 735,
+  "icon": 3133,
+  "category": "组件",
+  "stats": {
+   "ad": 20.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   1036,
+   2022,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3133.png"
+ },
+ {
+  "id": 3134,
+  "name": "锯齿短匕",
+  "cost": 1000,
+  "sell": 700,
+  "icon": 3134,
+  "category": "成装",
+  "stats": {
+   "ad": 20.0,
+   "lethality": 10.0
+  },
+  "recipe": [
+   1036,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3134.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3135,
+  "name": "虚空之杖",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3135,
+  "category": "成装",
+  "stats": {
+   "ap": 95.0,
+   "magicPen": 0.4
+  },
+  "recipe": [
+   4630,
+   1026
+  ],
+  "tags": [
+   "MagicPenetration",
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3135.png",
+  "unique": "legendary",
+  "groups": [
+   "magicpen"
+  ]
+ },
+ {
+  "id": 3137,
+  "name": "蜕生",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3137,
+  "category": "成装",
+  "stats": {
+   "ap": 75.0,
+   "magicPen": 0.3,
+   "haste": 20.0
+  },
+  "recipe": [
+   4630,
+   3108,
+   3108
+  ],
+  "tags": [
+   "SpellDamage",
+   "MagicPenetration",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "死中焕生\n每当一个敌方英雄在被你造成伤害后的3秒内阵亡时，在其所在位置生成一个新星，来为友军们治疗生命值。",
+  "officialIcon": "3137.png",
+  "unique": "legendary",
+  "groups": [
+   "magicpen"
+  ]
+ },
+ {
+  "id": 3139,
+  "name": "水银弯刀",
+  "cost": 3200,
+  "sell": 2240,
+  "icon": 3139,
+  "category": "成装",
+  "stats": {
+   "mr": 35.0,
+   "ad": 50.0,
+   "lifesteal": 0.1
+  },
+  "recipe": [
+   3140,
+   1037,
+   1053
+  ],
+  "tags": [
+   "SpellBlock",
+   "Damage",
+   "LifeSteal",
+   "Active",
+   "NonbootsMovement",
+   "Tenacity"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "主动 \n水银\n移除所有控制类减益效果(浮空除外)，并提供移动速度。",
+  "officialIcon": "3139.png",
+  "unique": "legendary",
+  "groups": [
+   "quicksilver"
+  ],
+  "active": "cleanse"
+ },
+ {
+  "id": 3140,
+  "name": "水银饰带",
+  "cost": 1300,
+  "sell": 910,
+  "icon": 3140,
+  "category": "组件",
+  "stats": {
+   "mr": 30.0
+  },
+  "recipe": [
+   1033
+  ],
+  "tags": [
+   "Active",
+   "SpellBlock"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "水银\n移除所有控制类减益效果(滞空除外)。",
+  "officialIcon": "3140.png",
+  "groups": [
+   "quicksilver"
+  ],
+  "active": "cleanse"
+ },
+ {
+  "id": 3142,
+  "name": "幽梦之灵",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 3142,
+  "category": "成装",
+  "stats": {
+   "ad": 55.0,
+   "percentMS": 0.04,
+   "lethality": 18.0
+  },
+  "recipe": [
+   3134,
+   6690,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "Active",
+   "NonbootsMovement",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "鬼影萦绕\n非战斗状态期间获得0移动速度。\n\n鬼魂步伐\n提供移动速度和幽灵状态，持续0秒。",
+  "officialIcon": "3142.png",
+  "unique": "legendary",
+  "active": "speed"
+ },
+ {
+  "id": 3143,
+  "name": "兰顿之兆",
+  "cost": 2700,
+  "sell": 1890,
+  "icon": 3143,
+  "category": "成装",
+  "stats": {
+   "hp": 350.0,
+   "armor": 75.0
+  },
+  "recipe": [
+   3082,
+   1011
+  ],
+  "tags": [
+   "Health",
+   "Armor",
+   "Active",
+   "Slow"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "复原力\n所受的来自暴击的伤害降低30%。\n谦卑\n对附近敌人造成持续2秒的70%减速。",
+  "officialIcon": "3143.png",
+  "unique": "legendary",
+  "active": "slow"
+ },
+ {
+  "id": 3144,
+  "name": "斥候弹弓",
+  "cost": 600,
+  "sell": 420,
+  "icon": 3144,
+  "category": "组件",
+  "stats": {
+   "as": 0.2
+  },
+  "recipe": [
+   1042,
+   1042
+  ],
+  "tags": [
+   "AttackSpeed"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "靶心\n对一名敌方英雄造成伤害时会造成额外魔法伤害。\n攻击可使这个冷却时间缩减1秒。",
+  "officialIcon": "3144.png"
+ },
+ {
+  "id": 3145,
+  "name": "海克斯科技发电机",
+  "cost": 1100,
+  "sell": 770,
+  "icon": 3145,
+  "category": "组件",
+  "stats": {
+   "ap": 45.0
+  },
+  "recipe": [
+   1052,
+   1052
+  ],
+  "tags": [
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "转速加快\n对一名敌方英雄造成伤害时会造成额外魔法伤害。",
+  "officialIcon": "3145.png"
+ },
+ {
+  "id": 3146,
+  "name": "海克斯科技枪刃",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3146,
+  "category": "成装",
+  "stats": {
+   "ap": 80.0,
+   "ad": 40.0,
+   "omnivamp": 0.1
+  },
+  "recipe": [
+   1053,
+   3145,
+   1052
+  ],
+  "tags": [
+   "Damage",
+   "LifeSteal",
+   "SpellDamage",
+   "Active",
+   "SpellVamp"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "主动 (0秒)\n闪电弹\n震击目标敌方英雄，造成0魔法伤害和持续1.5秒的25%减速。",
+  "officialIcon": "3146.png",
+  "unique": "legendary",
+  "active": "gunblade"
+ },
+ {
+  "id": 3147,
+  "name": "幽魂面具",
+  "cost": 1300,
+  "sell": 910,
+  "icon": 3147,
+  "category": "成装",
+  "stats": {
+   "hp": 200.0,
+   "ap": 30.0
+  },
+  "recipe": [
+   1052,
+   1028
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "癫狂\n在与敌方英雄作战时，每过1秒，就会造成2%额外伤害，至多至6%。",
+  "officialIcon": "3147.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3152,
+  "name": "海克斯科技火箭腰带",
+  "cost": 2650,
+  "sell": 1855,
+  "icon": 3152,
+  "category": "成装",
+  "stats": {
+   "hp": 350.0,
+   "ap": 60.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   3145,
+   3067,
+   1028
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "Active",
+   "CooldownReduction",
+   "NonbootsMovement",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "超音速\n朝着目标方向冲刺，释放多颗魔法弹，魔法弹造成魔法伤害。",
+  "officialIcon": "3152.png",
+  "unique": "legendary",
+  "active": "rocket"
+ },
+ {
+  "id": 3155,
+  "name": "海克斯饮魔刀",
+  "cost": 1300,
+  "sell": 910,
+  "icon": 3155,
+  "category": "组件",
+  "stats": {
+   "mr": 25.0,
+   "ad": 25.0
+  },
+  "recipe": [
+   1036,
+   1033,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "SpellBlock"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "救主灵刃\n在受到将使你的生命值跌到30%以下的魔法伤害时，提供持续2.5秒的魔法伤害护盾。",
+  "officialIcon": "3155.png",
+  "groups": [
+   "lifeline"
+  ]
+ },
+ {
+  "id": 3156,
+  "name": "玛莫提乌斯之噬",
+  "cost": 3100,
+  "sell": 2170,
+  "icon": 3156,
+  "category": "成装",
+  "stats": {
+   "mr": 40.0,
+   "ad": 60.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3155,
+   3133
+  ],
+  "tags": [
+   "SpellBlock",
+   "Damage",
+   "LifeSteal",
+   "SpellVamp",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "救主灵刃\n在受到将使你的生命值跌到30%以下的魔法伤害时，提供持续3秒的魔法伤害护盾和持续到战斗状态结束的10%全能吸血。",
+  "officialIcon": "3156.png",
+  "unique": "legendary",
+  "groups": [
+   "lifeline"
+  ]
+ },
+ {
+  "id": 3157,
+  "name": "中娅沙漏",
+  "cost": 3250,
+  "sell": 2275,
+  "icon": 3157,
+  "category": "成装",
+  "stats": {
+   "ap": 105.0,
+   "armor": 50.0
+  },
+  "recipe": [
+   1058,
+   2420
+  ],
+  "tags": [
+   "Armor",
+   "SpellDamage",
+   "Active"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "时间停止\n进入凝滞状态2.5秒。",
+  "officialIcon": "3157.png",
+  "unique": "legendary",
+  "groups": [
+   "stasis"
+  ],
+  "active": "stasis"
+ },
+ {
+  "id": 3158,
+  "name": "明朗之靴",
+  "cost": 900,
+  "sell": 630,
+  "icon": 3158,
+  "category": "组件",
+  "stats": {
+   "ms": 45.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   1001,
+   2022
+  ],
+  "tags": [
+   "Boots",
+   "CooldownReduction"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "艾欧尼亚的洞悉\n获得10召唤师技能急速。",
+  "officialIcon": "3158.png",
+  "unique": "boots"
+ },
+ {
+  "id": 3161,
+  "name": "朔极之矛",
+  "cost": 3100,
+  "sell": 2170,
+  "icon": 3161,
+  "category": "成装",
+  "stats": {
+   "hp": 450.0,
+   "ad": 45.0
+  },
+  "recipe": [
+   1037,
+   2021,
+   1028
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "龙之力量\n获得25基础技能急速。\n\n专注意志\n使用技能造成伤害会使你的英雄技能和被动伤害提升3%，持续6秒。（叠加4次）。",
+  "officialIcon": "3161.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3165,
+  "name": "莫雷洛秘典",
+  "cost": 2850,
+  "sell": 1995,
+  "icon": 3165,
+  "category": "成装",
+  "stats": {
+   "hp": 350.0,
+   "ap": 75.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3916,
+   1026,
+   3067
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "重伤\n对敌方英雄造成魔法伤害时会施加持续3秒的40%重伤效果。",
+  "officialIcon": "3165.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3168,
+  "name": "不朽之路",
+  "cost": 1000,
+  "sell": 700,
+  "icon": 3168,
+  "category": "成装",
+  "stats": {
+   "ms": 45.0,
+   "omnivamp": 0.04
+  },
+  "recipe": [
+   3008
+  ],
+  "tags": [
+   "LifeSteal",
+   "SpellVamp",
+   "Boots"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "杀戮\n参与击杀英雄后获得0.6%全能吸血，可叠加至多10次。\n\n现在到永远\n在一半生命值以上时，造成4%额外伤害。\n\n在一半生命值以下时，获得12%额外治疗值、护盾值和回复。",
+  "officialIcon": "3168.png",
+  "unique": "boots",
+  "condition": "位置任务奖励升级；当前 Solo 未开放"
+ },
+ {
+  "id": 3170,
+  "name": "迅速进军",
+  "cost": 1000,
+  "sell": 700,
+  "icon": 3170,
+  "category": "成装",
+  "stats": {
+   "ms": 65.0
+  },
+  "recipe": [
+   3009
+  ],
+  "tags": [
+   "Boots"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "迅捷步\n将减速效果的效能降低25%。\n\n诺克萨斯的狂热\n获得相当于你5%移动速度的适应之力。",
+  "officialIcon": "3170.png",
+  "unique": "boots",
+  "condition": "位置任务奖励升级；当前 Solo 未开放"
+ },
+ {
+  "id": 3171,
+  "name": "猩红明朗",
+  "cost": 900,
+  "sell": 630,
+  "icon": 3171,
+  "category": "成装",
+  "stats": {
+   "ms": 45.0,
+   "haste": 20.0
+  },
+  "recipe": [
+   3158
+  ],
+  "tags": [
+   "CooldownReduction",
+   "Boots"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "艾欧尼亚的洞悉\n获得20召唤师技能急速。\n\n诺克萨斯的急速\n用技能增强或保护友军、用技能对敌军造成伤害或者施放召唤师技能会提供持续4秒的0移动速度。\n\n【诺克萨斯的急速】每次施放技能只能被触发1次。",
+  "officialIcon": "3171.png",
+  "unique": "boots",
+  "condition": "位置任务奖励升级；当前 Solo 未开放"
+ },
+ {
+  "id": 3172,
+  "name": "炮铜胫甲",
+  "cost": 1100,
+  "sell": 770,
+  "icon": 3172,
+  "category": "成装",
+  "stats": {
+   "ms": 45.0,
+   "as": 0.45,
+   "lifesteal": 0.05
+  },
+  "recipe": [
+   3006
+  ],
+  "tags": [
+   "AttackSpeed",
+   "LifeSteal",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "",
+  "officialIcon": "3172.png",
+  "unique": "boots",
+  "condition": "位置任务奖励升级；当前 Solo 未开放"
+ },
+ {
+  "id": 3173,
+  "name": "带链碾碎者",
+  "cost": 1250,
+  "sell": 875,
+  "icon": 3173,
+  "category": "成装",
+  "stats": {
+   "mr": 25.0,
+   "ms": 45.0,
+   "tenacity": 0.3
+  },
+  "recipe": [
+   3111
+  ],
+  "tags": [
+   "SpellBlock",
+   "Boots",
+   "Tenacity",
+   "MagicResist"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "诺克萨斯的不懈(0秒)\n在受到来自英雄的魔法伤害后，获得一个持续5秒的0魔法护盾。",
+  "officialIcon": "3173.png",
+  "unique": "boots",
+  "condition": "位置任务奖励升级；当前 Solo 未开放"
+ },
+ {
+  "id": 3174,
+  "name": "装甲战靴",
+  "cost": 1200,
+  "sell": 840,
+  "icon": 3174,
+  "category": "成装",
+  "stats": {
+   "ms": 45.0,
+   "armor": 35.0
+  },
+  "recipe": [
+   3047
+  ],
+  "tags": [
+   "Armor",
+   "Boots"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "镀板\n使即将到来的攻击伤害降低10%。\n\n诺克萨斯的耐久 (0秒)\n在受到来自英雄的物理伤害后，获得一个持续5秒的0物理护盾。",
+  "officialIcon": "3174.png",
+  "unique": "boots",
+  "condition": "位置任务奖励升级；当前 Solo 未开放"
+ },
+ {
+  "id": 3175,
+  "name": "灵能使之靴",
+  "cost": 1100,
+  "sell": 770,
+  "icon": 3175,
+  "category": "成装",
+  "stats": {
+   "ms": 45.0,
+   "flatMagicPen": 20.0,
+   "magicPen": 0.08
+  },
+  "recipe": [
+   3020
+  ],
+  "tags": [
+   "Boots",
+   "MagicPenetration"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "",
+  "officialIcon": "3175.png",
+  "unique": "boots",
+  "condition": "位置任务奖励升级；当前 Solo 未开放"
+ },
+ {
+  "id": 3177,
+  "name": "守护者之刃",
+  "cost": 950,
+  "sell": 665,
+  "icon": 3177,
+  "category": "基础",
+  "stats": {
+   "hp": 150.0,
+   "ad": 30.0,
+   "haste": 15.0
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "Damage",
+   "Lane",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3177.png"
+ },
+ {
+  "id": 3179,
+  "name": "黯影阔剑",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 3179,
+  "category": "成装",
+  "stats": {
+   "ad": 60.0,
+   "lethality": 18.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3134,
+   3133
+  ],
+  "tags": [
+   "Damage",
+   "Vision",
+   "CooldownReduction",
+   "ArmorPenetration",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "夜行者\n未被敌人看见达一小段时间后，你对英雄的下一次攻击造成额外真实伤害。\n\n封锁 \n在你处在敌方侦察守卫和陷阱附近时，将其短暂显形。在显形守卫状态下，你的攻击对其造成额外伤害。",
+  "officialIcon": "3179.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3181,
+  "name": "破舰者",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3181,
+  "category": "成装",
+  "stats": {
+   "hp": 500.0,
+   "ad": 40.0,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   2021,
+   3066,
+   1037
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "船长\n对英雄和史诗级野怪的每第五次攻击造成额外物理伤害，对建筑物造成更多伤害。\n\n登舰小组\n附近的友军攻城兵和超级士兵获得护甲和魔法抗性。",
+  "officialIcon": "3181.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3184,
+  "name": "守护者战锤",
+  "cost": 950,
+  "sell": 665,
+  "icon": 3184,
+  "category": "基础",
+  "stats": {
+   "hp": 150.0,
+   "ad": 25.0,
+   "lifesteal": 0.05
+  },
+  "recipe": [],
+  "tags": [
+   "Health",
+   "Damage",
+   "LifeSteal",
+   "Lane"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3184.png"
+ },
+ {
+  "id": 3190,
+  "name": "钢铁烈阳之匣",
+  "cost": 2200,
+  "sell": 1540,
+  "icon": 3190,
+  "category": "成装",
+  "stats": {
+   "mr": 30.0,
+   "hp": 200.0,
+   "armor": 30.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   3067,
+   1029,
+   1033
+  ],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "Armor",
+   "Aura",
+   "Active",
+   "MagicResist",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "虔诚\n为附近友军提供290 - 360护盾值，在2.5秒里持续衰减。",
+  "officialIcon": "3190.png",
+  "unique": "legendary",
+  "active": "shield"
+ },
+ {
+  "id": 3211,
+  "name": "幽魂斗篷",
+  "cost": 1250,
+  "sell": 875,
+  "icon": 3211,
+  "category": "组件",
+  "stats": {
+   "mr": 35.0,
+   "hp": 200.0,
+   "regenPercent": 1.0
+  },
+  "recipe": [
+   1028,
+   1033,
+   1006
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "SpellBlock"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3211.png"
+ },
+ {
+  "id": 3222,
+  "name": "米凯尔的祝福",
+  "cost": 2300,
+  "sell": 1610,
+  "icon": 3222,
+  "category": "成装",
+  "stats": {
+   "hp": 250.0,
+   "manaRegen": 1.0,
+   "healShield": 0.12,
+   "haste": 15.0
+  },
+  "recipe": [
+   3067,
+   3114
+  ],
+  "tags": [
+   "Health",
+   "ManaRegen",
+   "Active",
+   "CooldownReduction",
+   "Tenacity",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "纯化 \n移除一名友方英雄身上的所有控制类减益效果(滞空和压制除外)并为其回复100 - 250生命值。",
+  "officialIcon": "3222.png",
+  "unique": "legendary",
+  "active": "cleanse"
+ },
+ {
+  "id": 3302,
+  "name": "界弓",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3302,
+  "category": "成装",
+  "stats": {
+   "ad": 30.0,
+   "as": 0.35
+  },
+  "recipe": [
+   3051,
+   1043
+  ],
+  "tags": [
+   "Damage",
+   "AttackSpeed",
+   "OnHit",
+   "MagicPenetration",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "晦影\n攻击造成0额外魔法伤害 攻击特效。\n\n交相\n对抗英雄时，在光明特效和黑暗特效之间轮换：附带光明特效的攻击提供持续5秒的护甲和魔抗。附带黑暗特效的攻击提供持续5秒的10%护甲穿透和法术穿透。",
+  "officialIcon": "3302.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3330,
+  "name": "草间人",
+  "cost": 0,
+  "sell": 0,
+  "icon": 3330,
+  "category": "饰品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Active",
+   "Jungle",
+   "Lane",
+   "Trinket",
+   "Vision"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "不能售出\n\n主动 - 饰品：放置一个持续0秒的草间人，并且现身于敌人视野时会对敌人做出和费德提克一样的动作。每0秒储存1层充能，至多可储存2层充能。\n\n敌方英雄在接近草间人时会将其激活，使该草间人假装进行一个随机的动作，然后该草间人会四分五裂。",
+  "officialIcon": "3330.png",
+  "condition": "英雄专属：FiddleSticks"
+ },
+ {
+  "id": 3340,
+  "name": "侦察守卫",
+  "cost": 0,
+  "sell": 0,
+  "icon": 3340,
+  "category": "饰品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Active",
+   "Jungle",
+   "Lane",
+   "Trinket",
+   "Vision"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "主动 (210 - 90秒，最大2层充能)\n放置一个隐形的侦察守卫来提供视野，持续90 - 120秒。",
+  "officialIcon": "3340.png",
+  "active": "ward"
+ },
+ {
+  "id": 3363,
+  "name": "远见改造",
+  "cost": 0,
+  "sell": 0,
+  "icon": 3363,
+  "category": "饰品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Active",
+   "Trinket",
+   "Vision"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "主动 (198 - 99秒)\n显形一个远方区域2秒并留下一个守卫，这个守卫会在侦测到一个敌方英雄后到期。",
+  "officialIcon": "3363.png",
+  "active": "ward"
+ },
+ {
+  "id": 3364,
+  "name": "神谕透镜",
+  "cost": 0,
+  "sell": 0,
+  "icon": 3364,
+  "category": "饰品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Active",
+   "Trinket",
+   "Vision"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "主动 (160 - 100秒，最大2层充能)\n显形你周围的敌方侦察守卫和陷阱，持续8秒。",
+  "officialIcon": "3364.png",
+  "active": "sweep"
+ },
+ {
+  "id": 3504,
+  "name": "炽热香炉",
+  "cost": 2200,
+  "sell": 1540,
+  "icon": 3504,
+  "category": "成装",
+  "stats": {
+   "ap": 45.0,
+   "percentMS": 0.04,
+   "healShield": 0.1,
+   "manaRegen": 1.25
+  },
+  "recipe": [
+   3113,
+   3114
+  ],
+  "tags": [
+   "AttackSpeed",
+   "SpellDamage",
+   "ManaRegen",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "圣洁化\n对一名友方英雄施加治疗或护盾时，会使你们两个都获得持续6秒的强化，提供25%攻击速度和20魔法伤害 攻击特效。",
+  "officialIcon": "3504.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3508,
+  "name": "夺萃之镰",
+  "cost": 3050,
+  "sell": 2135,
+  "icon": 3508,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "ad": 50.0,
+   "haste": 20.0
+  },
+  "recipe": [
+   3057,
+   3133,
+   1018
+  ],
+  "tags": [
+   "Damage",
+   "CriticalStrike",
+   "ManaRegen",
+   "CooldownReduction",
+   "OnHit",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "咒刃 \n施放技能后，你的下一次普通攻击会造成额外物理伤害并提供法力值 攻击特效。",
+  "officialIcon": "3508.png",
+  "unique": "legendary",
+  "groups": [
+   "spellblade"
+  ]
+ },
+ {
+  "id": 3599,
+  "name": "卡莉丝塔的黑色长矛",
+  "cost": 0,
+  "sell": 0,
+  "icon": 3599,
+  "category": "消耗品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Consumable"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "主动 - 消耗：选择一位友军进行绑定，让该友军在该局的剩余时间里成为誓约者。誓约者在你附近时，你和誓约者彼此都会得到强化。",
+  "officialIcon": "3599.png",
+  "condition": "英雄专属：Kalista"
+ },
+ {
+  "id": 3600,
+  "name": "卡莉丝塔的黑色长矛",
+  "cost": 0,
+  "sell": 0,
+  "icon": 3600,
+  "category": "消耗品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Consumable"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "主动 - 消耗：选择一位友军进行绑定，让该友军在该局的剩余时间里成为誓约者。誓约者在你附近时，你和誓约者彼此都会得到强化。\n\n需要使用卡莉丝塔的终极技能。",
+  "officialIcon": "3600.png",
+  "condition": "英雄专属：Sylas"
+ },
+ {
+  "id": 3742,
+  "name": "亡者的板甲",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 3742,
+  "category": "成装",
+  "stats": {
+   "hp": 350.0,
+   "armor": 55.0,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   3066,
+   1028,
+   1031
+  ],
+  "tags": [
+   "Health",
+   "Armor",
+   "Slow",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "沉船者\n在移动时，积攒至多20额外移动速度。你的下一次攻击会释放掉已积攒的移动速度来造成额外物理伤害。\n\n永不沉没\n使所受的减速效果的效能降低15%。",
+  "officialIcon": "3742.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3748,
+  "name": "巨型九头蛇",
+  "cost": 3300,
+  "sell": 2310,
+  "icon": 3748,
+  "category": "成装",
+  "stats": {
+   "hp": 600.0,
+   "ad": 40.0
+  },
+  "recipe": [
+   3077,
+   2021,
+   1011
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "Damage",
+   "OnHit"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "顺劈\n攻击附带物理伤害并对目标身后的敌人们造成物理伤害。\n刚斩\n强化你的下一次顺劈，使其造成额外物理伤害 攻击特效并对目标身后的敌人们造成额外物理伤害。",
+  "officialIcon": "3748.png",
+  "unique": "legendary",
+  "groups": [
+   "hydra"
+  ],
+  "active": "cleave"
+ },
+ {
+  "id": 3801,
+  "name": "晶体护腕",
+  "cost": 800,
+  "sell": 560,
+  "icon": 3801,
+  "category": "组件",
+  "stats": {
+   "hp": 200.0,
+   "regenPercent": 1.0
+  },
+  "recipe": [
+   1028,
+   1006
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "3801.png"
+ },
+ {
+  "id": 3802,
+  "name": "遗失的章节",
+  "cost": 1200,
+  "sell": 840,
+  "icon": 3802,
+  "category": "组件",
+  "stats": {
+   "mana": 300.0,
+   "ap": 40.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   1052,
+   1027,
+   2022
+  ],
+  "tags": [
+   "SpellDamage",
+   "Mana",
+   "ManaRegen",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "启蒙\n升级时会在3秒里持续回复共20%最大法力值。",
+  "officialIcon": "3802.png"
+ },
+ {
+  "id": 3803,
+  "name": "万世催化石",
+  "cost": 1300,
+  "sell": 910,
+  "icon": 3803,
+  "category": "组件",
+  "stats": {
+   "mana": 375.0,
+   "hp": 300.0
+  },
+  "recipe": [
+   1028,
+   1028,
+   1027
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "Mana",
+   "ManaRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "永恒\n将来自英雄的10%所受伤害回复为法力值。\n施放一个技能时，治疗自身相当于25%法力消耗的生命值。",
+  "officialIcon": "3803.png"
+ },
+ {
+  "id": 3814,
+  "name": "夜之锋刃",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 3814,
+  "category": "成装",
+  "stats": {
+   "hp": 250.0,
+   "ad": 50.0,
+   "lethality": 15.0
+  },
+  "recipe": [
+   3134,
+   2021
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "废除\n提供一层法术护盾来格挡下一个敌方技能。",
+  "officialIcon": "3814.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 3865,
+  "name": "云游图鉴",
+  "cost": 400,
+  "sell": 160,
+  "icon": 3865,
+  "category": "基础",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Health",
+   "ManaRegen",
+   "Vision",
+   "GoldPer",
+   "Lane"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "",
+  "officialIcon": "3865.png",
+  "condition": "需要辅助任务；当前 Solo 未开放"
+ },
+ {
+  "id": 3866,
+  "name": "符文罗盘",
+  "cost": 400,
+  "sell": 160,
+  "icon": 3866,
+  "category": "基础",
+  "stats": {
+   "hp": 60.0,
+   "regenPercent": 0.75,
+   "manaRegen": 0.5
+  },
+  "recipe": [],
+  "tags": [
+   "SpellDamage",
+   "ManaRegen",
+   "Vision",
+   "GoldPer",
+   "Lane"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "辅助任务 \n使用这个装备赚取0金币来将其转变为异世珍藏。\n\n分享财富 (0秒，最大0层充能)\n在一名友方英雄附近时，对敌方英雄造成伤害或者击杀小兵即可获得金币。主动 (3层充能)\n放置一个隐形的侦察守卫来提供视野。",
+  "officialIcon": "3866.png",
+  "condition": "需要辅助任务；当前 Solo 未开放"
+ },
+ {
+  "id": 3867,
+  "name": "异世珍藏",
+  "cost": 400,
+  "sell": 160,
+  "icon": 3867,
+  "category": "基础",
+  "stats": {
+   "hp": 200.0,
+   "regenPercent": 0.75,
+   "manaRegen": 0.75
+  },
+  "recipe": [],
+  "tags": [
+   "SpellDamage",
+   "ManaRegen",
+   "Vision",
+   "GoldPer",
+   "Lane"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "升级： \n这件装备可被免费升级为血鸣、星界据守、圆梦使者、扎兹沙克的溃口或摩天雪橇。主动 (4层充能)\n放置一个隐形的侦察守卫来提供视野。",
+  "officialIcon": "3867.png",
+  "condition": "需要辅助任务；当前 Solo 未开放"
+ },
+ {
+  "id": 3869,
+  "name": "星界据守",
+  "cost": 400,
+  "sell": 160,
+  "icon": 3869,
+  "category": "组件",
+  "stats": {
+   "hp": 200.0,
+   "regenPercent": 0.75,
+   "manaRegen": 0.75
+  },
+  "recipe": [
+   3867
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "ManaRegen",
+   "Vision",
+   "GoldPer",
+   "Lane"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "神峰庇佑\n使所承受的来自英雄的伤害降低，受到来自英雄的伤害后会存留2秒。当这个效果结束时，对附近敌人造成持续1.5秒的50%减速。\n主动 (4层充能)\n放置一个隐形的侦察守卫来提供视野。",
+  "officialIcon": "3869.png",
+  "condition": "需要辅助任务；当前 Solo 未开放"
+ },
+ {
+  "id": 3870,
+  "name": "圆梦使者",
+  "cost": 400,
+  "sell": 160,
+  "icon": 3870,
+  "category": "组件",
+  "stats": {
+   "hp": 200.0,
+   "regenPercent": 0.75,
+   "manaRegen": 0.75
+  },
+  "recipe": [
+   3867
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "ManaRegen",
+   "Vision",
+   "GoldPer",
+   "Lane"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "圆梦使者\n为另一个友军提供治疗或护盾时，美梦泡泡会飞向目标队友，持续3秒。该友军的下一次攻击造成额外魔法伤害 攻击特效并且所受的下一段伤害降低。主动 (4层充能)\n放置一个隐形的侦察守卫来提供视野。",
+  "officialIcon": "3870.png",
+  "condition": "需要辅助任务；当前 Solo 未开放"
+ },
+ {
+  "id": 3871,
+  "name": "扎兹沙克的溃口",
+  "cost": 400,
+  "sell": 160,
+  "icon": 3871,
+  "category": "组件",
+  "stats": {
+   "hp": 200.0,
+   "regenPercent": 0.75,
+   "manaRegen": 0.75
+  },
+  "recipe": [
+   3867
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "ManaRegen",
+   "Vision",
+   "GoldPer",
+   "Lane"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "虚空扩爆\n对英雄造成技能伤害会引发一次爆炸，造成魔法伤害。\n\n主动 (4层充能)\n放置一个隐形的侦察守卫来提供视野。",
+  "officialIcon": "3871.png",
+  "condition": "需要辅助任务；当前 Solo 未开放"
+ },
+ {
+  "id": 3876,
+  "name": "摩天雪橇",
+  "cost": 400,
+  "sell": 160,
+  "icon": 3876,
+  "category": "组件",
+  "stats": {
+   "hp": 200.0,
+   "regenPercent": 0.75,
+   "manaRegen": 0.75
+  },
+  "recipe": [
+   3867
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "ManaRegen",
+   "Vision",
+   "GoldPer",
+   "Lane"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "雪橇出击\n减速或定身一名处在友军附近的敌方英雄时，会为你和附近的一名友军回复生命值并提供在2.5秒里持续衰减的20%移动速度。 主动 (4层充能)\n放置一个隐形的侦察守卫来提供视野。",
+  "officialIcon": "3876.png",
+  "condition": "需要辅助任务；当前 Solo 未开放"
+ },
+ {
+  "id": 3877,
+  "name": "血鸣",
+  "cost": 400,
+  "sell": 160,
+  "icon": 3877,
+  "category": "组件",
+  "stats": {
+   "hp": 200.0,
+   "regenPercent": 0.75,
+   "manaRegen": 0.75
+  },
+  "recipe": [
+   3867
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "ManaRegen",
+   "Vision",
+   "GoldPer",
+   "Lane"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "咒刃\n施放技能后，你的下一次普通攻击会造成额外物理伤害攻击特效。如果目标是英雄，则使其承受的伤害提升，持续4秒。主动 (4层充能)\n放置一个隐形的侦察守卫来提供视野。",
+  "officialIcon": "3877.png",
+  "condition": "需要辅助任务；当前 Solo 未开放"
+ },
+ {
+  "id": 3916,
+  "name": "湮灭宝珠",
+  "cost": 800,
+  "sell": 560,
+  "icon": 3916,
+  "category": "组件",
+  "stats": {
+   "ap": 25.0
+  },
+  "recipe": [
+   1052
+  ],
+  "tags": [
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "重伤\n对敌方英雄造成魔法伤害时会施加持续3秒的40%重伤效果。",
+  "officialIcon": "3916.png"
+ },
+ {
+  "id": 4003,
+  "name": "救生索",
+  "cost": 1600,
+  "sell": 1120,
+  "icon": 4003,
+  "category": "成装",
+  "stats": {
+   "ad": 25.0,
+   "percentMS": 0.04,
+   "lethality": 5.0
+  },
+  "recipe": [
+   6690,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "NonbootsMovement",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   12
+  ],
+  "effect": "主动 -  灵魂之锚 (0秒)\n标记你的当前位置。在4秒后，回到被标记的位置。 你可以在灵魂之锚期间的任一时间点进行重新施放以提前回到你标记的位置。",
+  "officialIcon": "4003.png",
+  "unique": "legendary",
+  "active": "anchor"
+ },
+ {
+  "id": 4004,
+  "name": "幽魂弯刀",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 4004,
+  "category": "成装",
+  "stats": {
+   "ad": 50.0,
+   "percentMS": 0.04,
+   "lethality": 15.0
+  },
+  "recipe": [
+   4003,
+   3134
+  ],
+  "tags": [
+   "Damage",
+   "NonbootsMovement",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   12
+  ],
+  "effect": "主动 -  灵魂之锚 (0秒)\n标记你的当前位置。在4秒后，回到被标记的位置。 你可以在灵魂之锚期间的任一时间点进行重新施放以提前回到你标记的位置。",
+  "officialIcon": "4004.png",
+  "unique": "legendary",
+  "active": "anchor"
+ },
+ {
+  "id": 4005,
+  "name": "帝国指令",
+  "cost": 2400,
+  "sell": 1680,
+  "icon": 4005,
+  "category": "成装",
+  "stats": {
+   "ap": 60.0,
+   "haste": 15.0,
+   "manaRegen": 1.5
+  },
+  "recipe": [
+   1052,
+   4642,
+   1052
+  ],
+  "tags": [
+   "SpellDamage",
+   "ManaRegen",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "控制\n你的带有定身效果的那些技能获得20技能急速。\n\n命令\n在定身一个敌方英雄时，为其打上标记，施加持续4秒的7%易损。",
+  "officialIcon": "4005.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 4401,
+  "name": "自然之力",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 4401,
+  "category": "成装",
+  "stats": {
+   "mr": 55.0,
+   "hp": 400.0,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   1057,
+   1028,
+   3066
+  ],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "坚定\n受到8次来自英雄的魔法伤害后，获得70魔法抗性和6%额外移动速度。",
+  "officialIcon": "4401.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 4628,
+  "name": "视界专注",
+  "cost": 2700,
+  "sell": 1890,
+  "icon": 4628,
+  "category": "成装",
+  "stats": {
+   "ap": 75.0,
+   "haste": 25.0
+  },
+  "recipe": [
+   3108,
+   3108,
+   1052
+  ],
+  "tags": [
+   "SpellDamage",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "高能射击\n在对600码或更远的英雄造成技能伤害时，将其显形6秒。\n\n专注\n在高能射击触发时，显形目标1400码内的所有其它敌方英雄3秒。",
+  "officialIcon": "4628.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 4629,
+  "name": "星界驱驰",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 4629,
+  "category": "成装",
+  "stats": {
+   "hp": 350.0,
+   "ap": 70.0,
+   "percentMS": 0.04,
+   "haste": 25.0
+  },
+  "recipe": [
+   3067,
+   3113,
+   3108
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "NonbootsMovement",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "咒舞\n对英雄造成魔法伤害或真实伤害时会提供移动速度，持续4秒。",
+  "officialIcon": "4629.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 4630,
+  "name": "枯萎珠宝",
+  "cost": 1100,
+  "sell": 770,
+  "icon": 4630,
+  "category": "组件",
+  "stats": {
+   "ap": 25.0,
+   "magicPen": 0.13
+  },
+  "recipe": [
+   1052
+  ],
+  "tags": [
+   "MagicPenetration",
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "4630.png"
+ },
+ {
+  "id": 4632,
+  "name": "翠绿屏障",
+  "cost": 1600,
+  "sell": 1120,
+  "icon": 4632,
+  "category": "组件",
+  "stats": {
+   "mr": 25.0,
+   "ap": 40.0
+  },
+  "recipe": [
+   1052,
+   1033,
+   1052
+  ],
+  "tags": [
+   "SpellBlock",
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "废除\n提供一层法术护盾来格挡下一个敌方技能。",
+  "officialIcon": "4632.png"
+ },
+ {
+  "id": 4633,
+  "name": "裂隙制造者",
+  "cost": 3100,
+  "sell": 2170,
+  "icon": 4633,
+  "category": "成装",
+  "stats": {
+   "hp": 350.0,
+   "ap": 70.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3147,
+   3108
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "CooldownReduction",
+   "SpellVamp"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "虚空腐蚀\n在与敌方英雄作战时，每过1秒，就会造成2%额外伤害，至多至8%。在最大强度时，获得全能吸血。\n\n虚空灌注\n获得相当于你2%额外生命值的法术强度。",
+  "officialIcon": "4633.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 4642,
+  "name": "班德尔玻璃镜",
+  "cost": 900,
+  "sell": 630,
+  "icon": 4642,
+  "category": "组件",
+  "stats": {
+   "ap": 20.0,
+   "manaRegen": 1.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   1004,
+   1052,
+   2022
+  ],
+  "tags": [
+   "SpellDamage",
+   "ManaRegen",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "4642.png"
+ },
+ {
+  "id": 4645,
+  "name": "影焰",
+  "cost": 3200,
+  "sell": 2240,
+  "icon": 4645,
+  "category": "成装",
+  "stats": {
+   "ap": 110.0,
+   "flatMagicPen": 15.0
+  },
+  "recipe": [
+   3145,
+   1058
+  ],
+  "tags": [
+   "SpellDamage",
+   "MagicPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "余烬绽放\n魔法伤害和真实伤害会暴击低于40%生命值的敌人，造成20%提升伤害。",
+  "officialIcon": "4645.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 4646,
+  "name": "风暴狂涌",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 4646,
+  "category": "成装",
+  "stats": {
+   "ap": 90.0,
+   "percentMS": 0.06,
+   "flatMagicPen": 15.0
+  },
+  "recipe": [
+   3145,
+   3113
+  ],
+  "tags": [
+   "SpellDamage",
+   "GoldPer",
+   "NonbootsMovement",
+   "MagicPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "风暴掠袭 \n在2.5秒内对一个英雄造成相当于其25%最大生命值的伤害时，对其施加风啸。\n\n风啸\n在2秒后，造成魔法伤害。如果目标在风啸触发前阵亡，那么它会对附近的敌人们造成伤害。",
+  "officialIcon": "4646.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6032,
+  "name": "属性加成",
+  "cost": 750,
+  "sell": 375,
+  "icon": 6032,
+  "category": "消耗品",
+  "stats": {},
+  "recipe": [],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "Armor",
+   "Damage",
+   "CriticalStrike",
+   "AttackSpeed",
+   "SpellDamage",
+   "Mana",
+   "Consumable",
+   "CooldownReduction",
+   "SpellVamp",
+   "NonbootsMovement",
+   "Tenacity",
+   "MagicPenetration",
+   "ArmorPenetration",
+   "MagicResist",
+   "AbilityHaste"
+  ],
+  "maps": [
+   12
+  ],
+  "effect": "主动 - 消耗： 自动开启一次半随机的选择，用来获得一个永久属性加成。以及一顶帽子！",
+  "officialIcon": "6032.png",
+  "condition": "地图事件专属奖励；不能直接购买"
+ },
+ {
+  "id": 6333,
+  "name": "死亡之舞",
+  "cost": 3300,
+  "sell": 2310,
+  "icon": 6333,
+  "category": "成装",
+  "stats": {
+   "armor": 50.0,
+   "ad": 60.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   2019,
+   1037,
+   3133
+  ],
+  "tags": [
+   "Armor",
+   "Damage",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "无视痛苦\n所受的一部分伤害会以流血形式在3秒里持续扣除。\n\n蔑视\n如果一名在过去3秒内曾被你造成过伤害的英雄阵亡，会净化无视痛苦的剩余伤害，并在2秒里持续为你回复生命值。",
+  "officialIcon": "6333.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6609,
+  "name": "炼金朋克链锯剑",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 6609,
+  "category": "成装",
+  "stats": {
+   "hp": 450.0,
+   "ad": 45.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3123,
+   1011,
+   3133
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "劈削\n对敌方英雄造成物理伤害时会施加40%重伤效果，持续3秒。",
+  "officialIcon": "6609.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6610,
+  "name": "焚天",
+  "cost": 3100,
+  "sell": 2170,
+  "icon": 6610,
+  "category": "成装",
+  "stats": {
+   "hp": 400.0,
+   "ad": 40.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   2021,
+   3133
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "光盾打击\n你对一个英雄打出的第一次攻击会暴击并回复生命值。",
+  "officialIcon": "6610.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6616,
+  "name": "流水法杖",
+  "cost": 2250,
+  "sell": 1575,
+  "icon": 6616,
+  "category": "成装",
+  "stats": {
+   "ap": 35.0,
+   "healShield": 0.1,
+   "manaRegen": 1.25,
+   "haste": 10.0
+  },
+  "recipe": [
+   3108,
+   3114
+  ],
+  "tags": [
+   "SpellDamage",
+   "ManaRegen",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "湍流\n当你为一名友军提供治疗或护盾效果时，你和你的目标都会获得持续6秒的40法术强度和15技能急速。",
+  "officialIcon": "6616.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6617,
+  "name": "月石再生器",
+  "cost": 2200,
+  "sell": 1540,
+  "icon": 6617,
+  "category": "成装",
+  "stats": {
+   "hp": 200.0,
+   "ap": 25.0,
+   "haste": 20.0,
+   "manaRegen": 1.25
+  },
+  "recipe": [
+   3067,
+   4642
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "ManaRegen",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "星光恩典\n对一名友军的治疗或护盾会连锁至另一名友方英雄(你自己除外)，提供相当于 30%原治疗值的治疗效果或 35%原护盾值的护盾效果。",
+  "officialIcon": "6617.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6620,
+  "name": "海力亚的回响",
+  "cost": 2200,
+  "sell": 1540,
+  "icon": 6620,
+  "category": "成装",
+  "stats": {
+   "hp": 200.0,
+   "ap": 35.0,
+   "haste": 20.0,
+   "manaRegen": 1.25
+  },
+  "recipe": [
+   3067,
+   4642
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "ManaRegen",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "灵魂吸取\n获得【灵魂充能】，数额相当于对英雄的30%折前伤害值。为一位友军提供治疗或护盾时，会消耗所有灵魂充能来回复生命值。",
+  "officialIcon": "6620.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6621,
+  "name": "黎明核心",
+  "cost": 2500,
+  "sell": 1750,
+  "icon": 6621,
+  "category": "成装",
+  "stats": {
+   "ap": 45.0,
+   "healShield": 0.16,
+   "manaRegen": 1.0
+  },
+  "recipe": [
+   1026,
+   3114,
+   3114
+  ],
+  "tags": [
+   "SpellDamage",
+   "ManaRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "最初之光\n每100%基础法力回复获得2%治疗和护盾强度和10法术强度。",
+  "officialIcon": "6621.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6631,
+  "name": "挺进破坏者",
+  "cost": 3300,
+  "sell": 2310,
+  "icon": 6631,
+  "category": "成装",
+  "stats": {
+   "hp": 450.0,
+   "ad": 40.0,
+   "as": 0.25
+  },
+  "recipe": [
+   3077,
+   3044,
+   1042
+  ],
+  "tags": [
+   "Health",
+   "Damage",
+   "AttackSpeed",
+   "Slow"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "顺劈\n攻击会对附近的敌人们造成物理伤害。\n破阵冲击波\n对附近的敌人们造成物理伤害和35%减速。\n每命中一个英雄就会获得持续衰减的35%移动速度，持续3秒。",
+  "officialIcon": "6631.png",
+  "unique": "legendary",
+  "groups": [
+   "hydra"
+  ],
+  "active": "stride"
+ },
+ {
+  "id": 6653,
+  "name": "兰德里的折磨",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 6653,
+  "category": "成装",
+  "stats": {
+   "hp": 300.0,
+   "ap": 60.0
+  },
+  "recipe": [
+   3147,
+   2508
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "折磨\n伤害型技能会灼烧敌人，每秒造成2%最大生命值的魔法伤害，持续3秒。\n\n受苦\n在与敌方英雄作战时，每过1秒，就会造成2%额外伤害，至多至6%。",
+  "officialIcon": "6653.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6655,
+  "name": "卢登的回声",
+  "cost": 2750,
+  "sell": 1925,
+  "icon": 6655,
+  "category": "成装",
+  "stats": {
+   "mana": 600.0,
+   "ap": 100.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   3802,
+   3145
+  ],
+  "tags": [
+   "SpellDamage",
+   "Mana",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "回声\n伤害型技能会发射6道回声，对目标和附近的敌人造成额外魔法伤害。剩余回声会对主要目标发射，造成20%伤害。",
+  "officialIcon": "6655.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6657,
+  "name": "时光之杖",
+  "cost": 2600,
+  "sell": 1820,
+  "icon": 6657,
+  "category": "成装",
+  "stats": {
+   "mana": 500.0,
+   "hp": 350.0,
+   "ap": 45.0
+  },
+  "recipe": [
+   1026,
+   3803
+  ],
+  "tags": [
+   "Health",
+   "HealthRegen",
+   "SpellDamage",
+   "Mana",
+   "ManaRegen"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "时无限\n这件装备每60秒获得10生命值、30法力值和3法术强度，至多至10层。在达到最大层数时，还会使英雄等级提升1级。\n\n永恒\n承受来自英雄的伤害时，回复相当于10%伤害值的法力值。\n施放一个技能时，为自身治疗相当于25%法力消耗的生命值。",
+  "officialIcon": "6657.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6660,
+  "name": "斑比的熔渣",
+  "cost": 900,
+  "sell": 630,
+  "icon": 6660,
+  "category": "组件",
+  "stats": {
+   "hp": 150.0,
+   "haste": 5.0
+  },
+  "recipe": [
+   1028,
+   2022
+  ],
+  "tags": [
+   "Health",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "献祭\n承受或造成伤害后，对附近敌人造成魔法伤害，持续3秒。",
+  "officialIcon": "6660.png"
+ },
+ {
+  "id": 6662,
+  "name": "冰脉护手",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 6662,
+  "category": "成装",
+  "stats": {
+   "hp": 300.0,
+   "armor": 50.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3057,
+   1028,
+   1031
+  ],
+  "tags": [
+   "Health",
+   "Armor",
+   "CooldownReduction",
+   "Slow",
+   "OnHit",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "咒刃\n在施放一个技能后，你的下一次攻击造成额外物理伤害攻击特效并生成一个持续2秒的冰冷地带，这个地带可造成减速。",
+  "officialIcon": "6662.png",
+  "unique": "legendary",
+  "groups": [
+   "spellblade"
+  ]
+ },
+ {
+  "id": 6664,
+  "name": "璀璨回响",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 6664,
+  "category": "成装",
+  "stats": {
+   "mr": 40.0,
+   "hp": 400.0,
+   "haste": 10.0,
+   "regenPercent": 1.0
+  },
+  "recipe": [
+   6660,
+   3211
+  ],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "HealthRegen",
+   "Aura",
+   "MagicResist",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "献祭\n承受或造成伤害后，每秒对附近敌人造成魔法伤害，持续3秒。\n\n荒弃\n击杀一个敌人时，会在其周围造成魔法伤害。",
+  "officialIcon": "6664.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6665,
+  "name": "千变者贾修",
+  "cost": 3200,
+  "sell": 2240,
+  "icon": 6665,
+  "category": "成装",
+  "stats": {
+   "mr": 45.0,
+   "hp": 350.0,
+   "armor": 45.0
+  },
+  "recipe": [
+   1011,
+   1031,
+   1057
+  ],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "Armor",
+   "MagicResist"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "虚空生物的复原力\n在与英雄战斗5秒后，使你的额外护甲和魔法抗性提升30%，持续到战斗结束为止。",
+  "officialIcon": "6665.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6670,
+  "name": "正午箭袋",
+  "cost": 1300,
+  "sell": 910,
+  "icon": 6670,
+  "category": "组件",
+  "stats": {
+   "crit": 0.2,
+   "ad": 15.0
+  },
+  "recipe": [
+   1036,
+   1018
+  ],
+  "tags": [
+   "Damage",
+   "CriticalStrike"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "6670.png"
+ },
+ {
+  "id": 6672,
+  "name": "海妖杀手",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 6672,
+  "category": "成装",
+  "stats": {
+   "ad": 45.0,
+   "as": 0.4,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   6690,
+   3051,
+   1043
+  ],
+  "tags": [
+   "Damage",
+   "AttackSpeed",
+   "OnHit",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "放倒它\n每第三次攻击造成额外物理伤害攻击特效，这个伤害会基于目标的已损失生命值获得提升。",
+  "officialIcon": "6672.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6673,
+  "name": "不朽盾弓",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 6673,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "ad": 55.0
+  },
+  "recipe": [
+   1037,
+   6670
+  ],
+  "tags": [
+   "Damage",
+   "CriticalStrike"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "救主灵刃\n在受到将使你的生命值跌到30%以下的伤害时，提供持续3秒的护盾值。",
+  "officialIcon": "6673.png",
+  "unique": "legendary",
+  "groups": [
+   "lifeline"
+  ]
+ },
+ {
+  "id": 6675,
+  "name": "纳沃利烁刃",
+  "cost": 2650,
+  "sell": 1855,
+  "icon": 6675,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "as": 0.4,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   1042,
+   3086,
+   1042
+  ],
+  "tags": [
+   "CriticalStrike",
+   "AttackSpeed",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "超凡入圣\n攻击会使各基础技能的冷却时间缩短15%剩余冷却时间。",
+  "officialIcon": "6675.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6676,
+  "name": "收集者",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 6676,
+  "category": "成装",
+  "stats": {
+   "crit": 0.25,
+   "ad": 50.0,
+   "lethality": 10.0
+  },
+  "recipe": [
+   1037,
+   3134,
+   1018
+  ],
+  "tags": [
+   "Damage",
+   "CriticalStrike",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "死\n你的伤害会处决低于5%生命值的英雄。\n\n税\n击杀英雄时提供25额外金币。",
+  "officialIcon": "6676.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6690,
+  "name": "剑翎",
+  "cost": 775,
+  "sell": 543,
+  "icon": 6690,
+  "category": "组件",
+  "stats": {
+   "ad": 15.0,
+   "percentMS": 0.04
+  },
+  "recipe": [
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "NonbootsMovement"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "",
+  "officialIcon": "6690.png"
+ },
+ {
+  "id": 6692,
+  "name": "星蚀",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 6692,
+  "category": "成装",
+  "stats": {
+   "ad": 60.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3133,
+   1037,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "CooldownReduction",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "永升之月\n在2秒内用2次独立的攻击或技能命中一名英雄时，会为你提供持续2秒的护盾值。",
+  "officialIcon": "6692.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6694,
+  "name": "赛瑞尔达的怨恨",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 6694,
+  "category": "成装",
+  "stats": {
+   "ad": 45.0,
+   "armorPen": 0.35,
+   "haste": 15.0
+  },
+  "recipe": [
+   3133,
+   3035
+  ],
+  "tags": [
+   "Damage",
+   "CooldownReduction",
+   "ArmorPenetration",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "严寒\n伤害型技能会对低于50%生命值的敌人造成持续1秒的30%减速。",
+  "officialIcon": "6694.png",
+  "unique": "legendary",
+  "groups": [
+   "lastwhisper"
+  ]
+ },
+ {
+  "id": 6695,
+  "name": "巨蛇之牙",
+  "cost": 2500,
+  "sell": 1750,
+  "icon": 6695,
+  "category": "成装",
+  "stats": {
+   "ad": 55.0,
+   "lethality": 15.0
+  },
+  "recipe": [
+   3134,
+   1037
+  ],
+  "tags": [
+   "Damage",
+   "ArmorPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "掠盾者\n对一名敌方英雄造成伤害时，会使其获得的护盾值降低0%，持续3秒。\n如果该敌方英雄尚未被掠盾者影响，会使其身上的所有护盾降低0%。",
+  "officialIcon": "6695.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6696,
+  "name": "公理圆弧",
+  "cost": 2750,
+  "sell": 1925,
+  "icon": 6696,
+  "category": "成装",
+  "stats": {
+   "ad": 55.0,
+   "lethality": 18.0,
+   "haste": 20.0
+  },
+  "recipe": [
+   2020,
+   3133
+  ],
+  "tags": [
+   "Damage",
+   "ArmorPenetration",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "涌动\n在你对一名敌方英雄造成伤害后，如果该英雄在3秒内阵亡，则会返还你的终极技能的一些总冷却时间。",
+  "officialIcon": "6696.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6697,
+  "name": "狂妄",
+  "cost": 2800,
+  "sell": 1960,
+  "icon": 6697,
+  "category": "成装",
+  "stats": {
+   "ad": 55.0,
+   "lethality": 18.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   3134,
+   3133
+  ],
+  "tags": [
+   "Damage",
+   "Active",
+   "CooldownReduction",
+   "ArmorPenetration",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11
+  ],
+  "effect": "盛名\n如果一名在过去3秒内曾被你造成过伤害的英雄阵亡，则获得持续90秒的12+3x已击杀英雄数的攻击力。",
+  "officialIcon": "6697.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 6698,
+  "name": "亵渎九头蛇",
+  "cost": 2850,
+  "sell": 1995,
+  "icon": 6698,
+  "category": "成装",
+  "stats": {
+   "ad": 55.0,
+   "lethality": 18.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   3077,
+   2020
+  ],
+  "tags": [
+   "Damage",
+   "Active",
+   "CooldownReduction",
+   "ArmorPenetration",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "顺劈\n攻击会对附近的敌人们造成物理伤害。\n邪斩\n对你附近的敌人们造成物理伤害。",
+  "officialIcon": "6698.png",
+  "unique": "legendary",
+  "groups": [
+   "hydra"
+  ],
+  "active": "cleave"
+ },
+ {
+  "id": 6699,
+  "name": "电震涡流剑",
+  "cost": 3000,
+  "sell": 2100,
+  "icon": 6699,
+  "category": "成装",
+  "stats": {
+   "ad": 55.0,
+   "lethality": 10.0,
+   "haste": 10.0
+  },
+  "recipe": [
+   2020,
+   1036,
+   1036
+  ],
+  "tags": [
+   "Damage",
+   "Active",
+   "CooldownReduction",
+   "ArmorPenetration",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "通电\n用技能对一名敌人造成伤害会触发盈能(充能完毕时)。\n\n苍穹\n你的盈能攻击造成相当于%目标当前生命值的额外物理伤害，并为你提供持续4秒的 额外穿甲。",
+  "officialIcon": "6699.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 8010,
+  "name": "放血者的诅咒",
+  "cost": 2900,
+  "sell": 2030,
+  "icon": 8010,
+  "category": "成装",
+  "stats": {
+   "hp": 400.0,
+   "ap": 65.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3147,
+   3108
+  ],
+  "tags": [
+   "Health",
+   "SpellDamage",
+   "CooldownReduction",
+   "MagicPenetration"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "恶劣衰朽\n用技能或被动对英雄造成魔法伤害时，会对其造成持续6秒的7.5%魔法抗性削减。(可叠加4次)。",
+  "officialIcon": "8010.png",
+  "unique": "legendary"
+ },
+ {
+  "id": 8020,
+  "name": "深渊面具",
+  "cost": 2650,
+  "sell": 1855,
+  "icon": 8020,
+  "category": "成装",
+  "stats": {
+   "mr": 45.0,
+   "hp": 350.0,
+   "haste": 15.0
+  },
+  "recipe": [
+   3067,
+   1057
+  ],
+  "tags": [
+   "Health",
+   "SpellBlock",
+   "CooldownReduction",
+   "MagicResist",
+   "AbilityHaste"
+  ],
+  "maps": [
+   11,
+   12
+  ],
+  "effect": "损毁\n使附近的敌方英雄承受12%额外魔法伤害。",
+  "officialIcon": "8020.png",
+  "unique": "legendary"
+ }
+]

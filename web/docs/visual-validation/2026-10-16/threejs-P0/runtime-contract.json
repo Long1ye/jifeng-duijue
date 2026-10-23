@@ -1,0 +1,350 @@
+{
+  "WORLD": {
+    "width": 6200,
+    "height": 3400,
+    "step": 0.016666666666666666
+  },
+  "VIEWPORT": {
+    "width": 480,
+    "height": 270
+  },
+  "BALANCE": {
+    "csToWin": 100,
+    "firstWaveAt": 2,
+    "waveInterval": 30,
+    "aiInterval": 0.18,
+    "hero": {
+      "hp": 640,
+      "mana": 0,
+      "speed": 80,
+      "range": 58,
+      "damage": 43,
+      "attackInterval": 0.8,
+      "windup": 0.19
+    },
+    "melee": {
+      "hp": 150,
+      "speed": 28,
+      "range": 13,
+      "damage": 6,
+      "attackInterval": 1.25,
+      "windup": 0.24
+    },
+    "ranged": {
+      "hp": 105,
+      "speed": 28,
+      "range": 76,
+      "damage": 6,
+      "attackInterval": 1.45,
+      "windup": 0.25
+    },
+    "tower": {
+      "hp": 1000,
+      "range": 250,
+      "damage": 90,
+      "attackInterval": 1.15,
+      "windup": 0.15
+    },
+    "projectileSpeed": 190,
+    "fountainRadius": 44,
+    "fountainHeal": 42
+  },
+  "ABILITIES": {
+    "q": {
+      "name": "斩钢闪",
+      "cost": 0,
+      "cooldown": 2.5,
+      "range": 145,
+      "damage": 85
+    },
+    "w": {
+      "name": "风之障壁",
+      "cost": 0,
+      "cooldown": 14,
+      "range": 32,
+      "damage": 0
+    },
+    "e": {
+      "name": "踏前斩",
+      "cost": 0,
+      "cooldown": 0.1,
+      "range": 100,
+      "damage": 55
+    },
+    "r": {
+      "name": "狂风绝息斩",
+      "cost": 0,
+      "cooldown": 45,
+      "range": 420,
+      "damage": 200
+    }
+  },
+  "BASES": {
+    "blue": {
+      "x": 673.8256000000001,
+      "y": 2851.4048000000003
+    },
+    "red": {
+      "x": 5526.1744,
+      "y": 548.5952
+    }
+  },
+  "TOWERS": {
+    "blue": {
+      "x": 2382.0879999999997,
+      "y": 2040.704
+    },
+    "red": {
+      "x": 3817.9120000000003,
+      "y": 1359.296
+    }
+  },
+  "SPAWNS": {
+    "blue": {
+      "x": 673.8256000000001,
+      "y": 2851.4048000000003
+    },
+    "red": {
+      "x": 5526.1744,
+      "y": 548.5952
+    }
+  },
+  "MINION_EXITS": {
+    "blue": {
+      "x": 1075.1200000000001,
+      "y": 2660.96
+    },
+    "red": {
+      "x": 5124.88,
+      "y": 739.04
+    }
+  },
+  "bridge": {
+    "world": {
+      "width": 6200,
+      "height": 3400
+    },
+    "mapScale": 2.4,
+    "lengthScale": 2.6,
+    "projection": {
+      "origin": [
+        3100,
+        1700
+      ],
+      "along": [
+        3.6816,
+        -1.7472
+      ],
+      "across": [
+        1.44,
+        1.56
+      ]
+    },
+    "outline": [
+      {
+        "x": 218.84800000000007,
+        "y": 2708.3840000000005
+      },
+      {
+        "x": 844.7200000000001,
+        "y": 2411.36
+      },
+      {
+        "x": 1208.368,
+        "y": 2346.4640000000004
+      },
+      {
+        "x": 4669.072,
+        "y": 704.0959999999999
+      },
+      {
+        "x": 4894.4800000000005,
+        "y": 489.43999999999994
+      },
+      {
+        "x": 5520.352000000001,
+        "y": 192.41599999999983
+      },
+      {
+        "x": 5981.152,
+        "y": 691.6159999999999
+      },
+      {
+        "x": 5355.28,
+        "y": 988.64
+      },
+      {
+        "x": 4991.632,
+        "y": 1053.5359999999998
+      },
+      {
+        "x": 1530.9279999999999,
+        "y": 2695.904
+      },
+      {
+        "x": 1305.52,
+        "y": 2910.56
+      },
+      {
+        "x": 679.648,
+        "y": 3207.5840000000003
+      }
+    ],
+    "slots": [
+      {
+        "id": "blue-spawn",
+        "label": "出生 / 商店",
+        "u": -659,
+        "v": 0,
+        "w": 88,
+        "h": 148,
+        "team": "blue"
+      },
+      {
+        "id": "blue-nexus",
+        "label": "基地 · 占位",
+        "u": -580,
+        "v": 0,
+        "w": 47,
+        "h": 47,
+        "team": "blue"
+      },
+      {
+        "id": "blue-nexus-tower-0",
+        "label": "门牙塔 · 占位",
+        "u": -510,
+        "v": -63,
+        "w": 38,
+        "h": 38,
+        "team": "blue"
+      },
+      {
+        "id": "blue-nexus-tower-1",
+        "label": "门牙塔 · 占位",
+        "u": -510,
+        "v": 63,
+        "w": 38,
+        "h": 38,
+        "team": "blue"
+      },
+      {
+        "id": "blue-inhibitor",
+        "label": "水晶 · 占位",
+        "u": -425,
+        "v": 0,
+        "w": 29,
+        "h": 29,
+        "team": "blue"
+      },
+      {
+        "id": "blue-inner",
+        "label": "内塔 · 占位",
+        "u": -330,
+        "v": 0,
+        "w": 38,
+        "h": 38,
+        "team": "blue"
+      },
+      {
+        "id": "blue-outer",
+        "label": "外塔",
+        "u": -195,
+        "v": 0,
+        "w": 38,
+        "h": 38,
+        "team": "blue"
+      },
+      {
+        "id": "red-spawn",
+        "label": "出生 / 商店",
+        "u": 659,
+        "v": 0,
+        "w": 88,
+        "h": 148,
+        "team": "red"
+      },
+      {
+        "id": "red-nexus",
+        "label": "基地 · 占位",
+        "u": 580,
+        "v": 0,
+        "w": 47,
+        "h": 47,
+        "team": "red"
+      },
+      {
+        "id": "red-nexus-tower-0",
+        "label": "门牙塔 · 占位",
+        "u": 510,
+        "v": 63,
+        "w": 38,
+        "h": 38,
+        "team": "red"
+      },
+      {
+        "id": "red-nexus-tower-1",
+        "label": "门牙塔 · 占位",
+        "u": 510,
+        "v": -63,
+        "w": 38,
+        "h": 38,
+        "team": "red"
+      },
+      {
+        "id": "red-inhibitor",
+        "label": "水晶 · 占位",
+        "u": 425,
+        "v": 0,
+        "w": 29,
+        "h": 29,
+        "team": "red"
+      },
+      {
+        "id": "red-inner",
+        "label": "内塔 · 占位",
+        "u": 330,
+        "v": 0,
+        "w": 38,
+        "h": 38,
+        "team": "red"
+      },
+      {
+        "id": "red-outer",
+        "label": "外塔",
+        "u": 195,
+        "v": 0,
+        "w": 38,
+        "h": 38,
+        "team": "red"
+      }
+    ]
+  },
+  "presentation": {
+    "heroScale": 2.975,
+    "effectScale": 0.74375,
+    "renderScale": 3
+  },
+  "unitMetrics": {
+    "hero": {
+      "radius": 11,
+      "halfWidth": 21,
+      "height": 78
+    },
+    "melee": {
+      "radius": 6,
+      "halfWidth": 10,
+      "height": 32
+    },
+    "ranged": {
+      "radius": 6,
+      "halfWidth": 10,
+      "height": 32
+    },
+    "tower": {
+      "radius": 20,
+      "halfWidth": 32,
+      "height": 105
+    }
+  },
+  "minionScale": 0.6956521739130435
+}

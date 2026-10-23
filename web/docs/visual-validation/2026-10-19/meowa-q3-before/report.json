@@ -1,0 +1,277 @@
+{
+  "stats": [
+    {
+      "name": "startup",
+      "time": 0.21666666666666665,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [],
+      "cards": [],
+      "calls": 68
+    },
+    {
+      "name": "launch",
+      "time": 0.41666666666666663,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [
+        {
+          "x": 3062.897866666666,
+          "y": 1731.4496,
+          "remaining": 260.8333333333344,
+          "vx": 1,
+          "vy": 0
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 70
+    },
+    {
+      "name": "flight",
+      "time": 0.6666666666666671,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [
+        {
+          "x": 3125.3978666666635,
+          "y": 1731.4496,
+          "remaining": 198.33333333333667,
+          "vx": 1,
+          "vy": 0
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 70
+    },
+    {
+      "name": "knockup",
+      "time": 0.8666666666666677,
+      "hp": 1915,
+      "airborne": true,
+      "shots": [
+        {
+          "x": 3175.3978666666617,
+          "y": 1731.4496,
+          "remaining": 148.3333333333385,
+          "vx": 1,
+          "vy": 0
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 71
+    },
+    {
+      "name": "late-flight",
+      "time": 1.1166666666666676,
+      "hp": 1915,
+      "airborne": true,
+      "shots": [
+        {
+          "x": 3237.8978666666594,
+          "y": 1731.4496,
+          "remaining": 85.83333333334076,
+          "vx": 1,
+          "vy": 0
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 71
+    },
+    {
+      "name": "ended",
+      "time": 1.6166666666666658,
+      "hp": 1915,
+      "airborne": true,
+      "shots": [],
+      "cards": [],
+      "calls": 68
+    },
+    {
+      "name": "direction-0",
+      "time": 0.5666666666666668,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [
+        {
+          "x": 3100.3978666666644,
+          "y": 1731.4496,
+          "remaining": 223.33333333333576,
+          "vx": 1,
+          "vy": 0
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 68
+    },
+    {
+      "name": "direction-1",
+      "time": 0.5666666666666668,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [
+        {
+          "x": 3080.871652079104,
+          "y": 1778.5900520791038,
+          "remaining": 223.33333333333235,
+          "vx": 0.7071067811865481,
+          "vy": 0.7071067811865469
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 68
+    },
+    {
+      "name": "direction-2",
+      "time": 0.5666666666666668,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [
+        {
+          "x": 3033.7312,
+          "y": 1798.1162666666678,
+          "remaining": 223.33333333333212,
+          "vx": 6.123233995736766e-17,
+          "vy": 1
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 68
+    },
+    {
+      "name": "direction-3",
+      "time": 0.5666666666666668,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [
+        {
+          "x": 2986.5907479208963,
+          "y": 1778.5900520791038,
+          "remaining": 223.33333333333235,
+          "vx": -0.7071067811865468,
+          "vy": 0.7071067811865482
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 68
+    },
+    {
+      "name": "direction-4",
+      "time": 0.5666666666666668,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [
+        {
+          "x": 2967.064533333336,
+          "y": 1731.4496,
+          "remaining": 223.33333333333576,
+          "vx": -1,
+          "vy": 1.2246467991473532e-16
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 68
+    },
+    {
+      "name": "direction-5",
+      "time": 0.5666666666666668,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [
+        {
+          "x": 2986.5907479208963,
+          "y": 1684.309147920896,
+          "remaining": 223.33333333333235,
+          "vx": -0.7071067811865475,
+          "vy": -0.7071067811865476
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 68
+    },
+    {
+      "name": "direction-6",
+      "time": 0.5666666666666668,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [
+        {
+          "x": 3033.7312,
+          "y": 1664.782933333332,
+          "remaining": 223.33333333333212,
+          "vx": 6.123233995736766e-17,
+          "vy": -1
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 68
+    },
+    {
+      "name": "direction-7",
+      "time": 0.5666666666666668,
+      "hp": 2000,
+      "airborne": false,
+      "shots": [
+        {
+          "x": 3080.871652079104,
+          "y": 1684.309147920896,
+          "remaining": 223.33333333333235,
+          "vx": 0.707106781186547,
+          "vy": -0.707106781186548
+        }
+      ],
+      "cards": [
+        "combat-tornado"
+      ],
+      "calls": 68
+    }
+  ],
+  "paused": true,
+  "blocked": true,
+  "piercing": {
+    "heroHp": 1915,
+    "minionHp": 915,
+    "airborne": true
+  },
+  "resources": [
+    {
+      "geometries": 71,
+      "textures": 28
+    },
+    {
+      "geometries": 71,
+      "textures": 28
+    },
+    {
+      "geometries": 71,
+      "textures": 28
+    },
+    {
+      "geometries": 71,
+      "textures": 28
+    }
+  ],
+  "artErrors": [],
+  "errors": []
+}

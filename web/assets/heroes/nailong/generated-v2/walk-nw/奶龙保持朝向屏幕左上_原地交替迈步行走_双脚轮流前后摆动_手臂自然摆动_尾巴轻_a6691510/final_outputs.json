@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "job_id": "job_9544e141cb47468ca32da1adc53d920d",
+  "outputs": [
+    {
+      "type": "media",
+      "path": "D:\\Long1ye\\pixel-league-of-legends-V2\\assets\\heroes\\nailong\\generated-v2\\walk-nw\\奶龙保持朝向屏幕左上_原地交替迈步行走_双脚轮流前后摆动_手臂自然摆动_尾巴轻_a6691510\\meowa_animation.webp",
+      "mime_type": "image/webp"
+    },
+    {
+      "type": "media",
+      "path": "D:\\Long1ye\\pixel-league-of-legends-V2\\assets\\heroes\\nailong\\generated-v2\\walk-nw\\奶龙保持朝向屏幕左上_原地交替迈步行走_双脚轮流前后摆动_手臂自然摆动_尾巴轻_a6691510\\meowa_animation_background.webp",
+      "mime_type": "image/webp"
+    }
+  ]
+}

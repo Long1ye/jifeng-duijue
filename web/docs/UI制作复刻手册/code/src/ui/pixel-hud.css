@@ -1,0 +1,51 @@
+/* Pixel HUD v2: compact gameplay layout; champion growth extends it separately. */
+body.pixel-hud{--pixel-frame:#9d874e;--pixel-highlight:#dbc48a;--pixel-bg:#08151c}
+.pixel-hud .player-hud{width:404px;height:94px;min-height:0;left:50%;bottom:0;transform:translateX(-50%);padding:8px;display:grid;grid-template-columns:68px 244px 56px;grid-template-rows:46px 25px;gap:5px 8px;border:2px solid var(--pixel-frame);border-top-color:var(--pixel-highlight);border-bottom:0;background:linear-gradient(#2b3b39 0 2px,#10232b 2px 5px,#08151c 5px);box-shadow:0 -2px #03090c,2px 0 #03090c,-2px 0 #03090c,inset 0 0 0 2px #1c3033;border-radius:0}
+.pixel-hud .player-hud::before,.pixel-hud .player-hud::after{display:none}
+.pixel-hud .hero-portrait{grid-column:1;grid-row:1/3;display:block;width:68px;height:68px;align-self:center;border:0;clip-path:none;background:#07131d;box-shadow:0 0 0 1px #2f3f3e;overflow:hidden;border-radius:0;padding:0}
+.pixel-hud .hero-portrait img{position:static;display:block;left:auto;top:auto;width:100%;height:100%;max-width:100%;object-fit:fill;image-rendering:pixelated}
+.pixel-hud .ability-bar{grid-column:2;grid-row:1;display:grid;grid-template-columns:28px repeat(4,44px);gap:8px;align-items:center;padding:0;align-self:center}
+.pixel-hud .ability{width:44px;height:44px;padding:0;border:0;background:#06111a;box-shadow:0 0 0 1px #3f4937;overflow:visible;border-radius:0;transition:none}
+.pixel-hud .ability-glyph{width:100%;height:100%;display:block;overflow:hidden}.pixel-hud .ability-glyph img{display:block;width:100%;height:100%;object-fit:fill;image-rendering:pixelated}
+.pixel-hud .ability-key{font:9px/11px Consolas,monospace;bottom:0;left:1px;color:#f0dfb1;padding:0 2px;background:#07111ce0;border:0}.pixel-hud .ability-cost{font:7px/10px Consolas,monospace;right:1px;bottom:0;color:#b3d6dc}
+.pixel-hud .ability-time{font:19px Consolas,monospace;background:#040d17ce}.pixel-hud .ability.cooling .ability-glyph{filter:brightness(.5) saturate(.45)}.pixel-hud .ability.unaffordable .ability-glyph{filter:grayscale(.7) brightness(.55)}
+.pixel-hud .ability-name{bottom:49px}.pixel-hud .ability:focus-visible{outline:2px solid #d5cb91;outline-offset:3px}
+.pixel-hud .passive-slot{display:block;width:28px;height:28px;position:relative;background:#0b1b23;box-shadow:0 0 0 1px #6d6343}.pixel-hud .passive-slot img{width:100%;height:100%;image-rendering:pixelated;display:block}
+.pixel-hud .hero-vitals{grid-column:2;grid-row:2;width:244px;display:grid;grid-template-rows:12px 8px;gap:3px;align-self:start;position:relative}
+.pixel-hud .vitals-title strong{display:none}.pixel-hud .vitals-title span{font:9px/12px Consolas,monospace;top:0;left:0;width:100%;text-align:center;letter-spacing:0;color:#edf3db;text-shadow:1px 1px #071307}
+.pixel-hud .hero-vitals progress{width:100%;height:12px;margin:0;border:1px solid #030b0e;border-radius:0;box-shadow:0 0 0 1px #536047;background:#15251c}.pixel-hud #hero-health::-webkit-progress-value{background:repeating-linear-gradient(90deg,transparent 0 23px,#143b2270 23px 24px),linear-gradient(#a3cf63 0 2px,#4f8f32 2px 7px,#2c5f2b 7px)}
+.pixel-hud #hero-flow{height:8px}.pixel-hud #hero-flow::-webkit-progress-value{background:linear-gradient(#87bccc 0 2px,#386e96 2px 5px,#245371 5px)}.pixel-hud .flow-label{top:14px}.pixel-hud .flow-label span{font:8px/8px Consolas,monospace}
+.pixel-hud .summoner-slots{grid-column:3;grid-row:1/3;display:flex;align-items:flex-start;gap:4px;padding-top:3px}
+.pixel-hud .summoner-slot{position:relative;width:26px;height:28px;padding:0;opacity:1;border:1px solid #5e634e;background:#0a1920;border-radius:0;box-shadow:0 0 0 1px #020a0e;cursor:default}.pixel-hud .summoner-slot img{display:block;width:100%;height:100%;image-rendering:pixelated;filter:brightness(.55) saturate(.65)}.pixel-hud .summoner-slot kbd{position:absolute;bottom:-1px;left:0;padding:0 1px;border:0;background:#061017;font:8px/10px Consolas,monospace;box-shadow:none;color:#b8b292}
+.pixel-hud .minimap{width:190px;height:190px;bottom:0;right:0;padding:5px;clip-path:polygon(7px 0,100% 0,100% 100%,0 100%,0 7px);border:2px solid #8d794d;border-top-color:#c3aa70;background:#08131b;box-shadow:-2px 0 #02090e,0 -2px #02090e,inset 0 0 0 1px #283b3e}
+.pixel-hud .minimap svg{width:100%;height:100%;display:block;background:#09131c;border:1px solid #263a3f}.pixel-hud .minimap span{display:none}
+.pixel-hud .hud-menu-content .champion-stats{display:grid;grid-template-columns:1fr 1fr;gap:5px 16px;border:0;border-top:1px solid #34464b;margin-top:15px;padding:12px 0 0}.pixel-hud .hud-menu-content .hud-commands{display:flex;gap:8px;border:0;padding:10px 0 0}.pixel-hud .hud-menu-content .hud-command{height:32px;flex:1;flex-direction:row;gap:10px}.pixel-hud .hud-menu-content .hud-command kbd{font-size:12px}
+.pixel-hud .toast{bottom:110px}.pixel-hud #hero-animation-state{bottom:106px}
+@media(max-width:900px){.pixel-hud .minimap{width:164px;height:164px}}
+@media(max-width:760px){.pixel-hud .player-hud{left:8px;transform:none}.pixel-hud .minimap{width:140px;height:140px}}
+@media(max-width:590px){.pixel-hud .player-hud{left:4px;width:368px;height:86px;grid-template-columns:56px 224px 56px;grid-template-rows:40px 23px;gap:4px 6px;padding:7px;border-width:1px}.pixel-hud .hero-portrait{width:56px;height:56px}.pixel-hud .ability-bar{grid-template-columns:24px repeat(4,42px);gap:8px}.pixel-hud .ability{width:42px;height:40px}.pixel-hud .passive-slot{width:24px;height:24px}.pixel-hud .hero-vitals{width:224px}.pixel-hud .minimap{width:116px;height:116px;bottom:94px}.pixel-hud .summoner-slots{display:flex;padding-top:1px}.pixel-hud .toast{bottom:100px}}
+@media(max-width:375px){.pixel-hud .player-hud{width:calc(100% - 4px);left:2px;grid-template-columns:48px minmax(0,1fr) 48px;gap:4px}.pixel-hud .hero-portrait{width:48px;height:54px}.pixel-hud .ability-bar{grid-template-columns:20px repeat(4,minmax(0,1fr));gap:4px}.pixel-hud .ability{width:100%;height:38px}.pixel-hud .hero-vitals{width:100%}.pixel-hud .passive-slot{width:20px;height:22px}.pixel-hud .summoner-slot{width:22px;height:25px}}
+
+.pixel-hud .hud-menu-content{max-height:calc(100dvh - 92px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#756444 #0a1820}
+
+/* Client atlas fill profiles, with live values and fine pixel dividers. */
+.pixel-hud #hero-health::-webkit-progress-value{background-image:repeating-linear-gradient(90deg,transparent 0 37px,#0a291a9c 37px 38px),url('../../assets/ui/riot-healthbars-2026-10-15/runtime/health-green.png');background-size:auto,100% 100%;image-rendering:pixelated}
+.pixel-hud #hero-flow::-webkit-progress-value{background-image:url('../../assets/ui/riot-healthbars-2026-10-15/runtime/resource-blue.png');background-size:100% 100%;image-rendering:pixelated}
+
+/* Gameplay-only scoreboard and native client cursors. */
+.pixel-hud .scoreboard{height:30px;gap:16px;padding:0 12px;display:flex;align-items:center;pointer-events:auto;color:#bcbda8}
+.pixel-hud .scoreboard>.team-score{display:none}.pixel-hud .match-kills,.pixel-hud .match-kda,.pixel-hud .match-cs{display:flex;align-items:center;gap:5px;font:12px Consolas,monospace;white-space:nowrap}
+.pixel-hud .match-kills{order:0}.pixel-hud .match-kda{order:1}.pixel-hud .match-cs{order:2}.pixel-hud .match-clock{order:3}
+.pixel-hud #blue-kills{color:#81c6df}.pixel-hud #red-kills{color:#e97976}.pixel-hud .match-kills>span{font-size:9px;color:#9a998a}.pixel-hud .scoreboard svg{width:13px;height:13px;color:#b8aa68}.pixel-hud .scoreboard b{font:12px Consolas,monospace}
+.pixel-hud .match-clock strong{font-size:12px}.pixel-hud .match-clock strong::before{content:'◷';color:#b8aa68;margin-right:5px}
+.pixel-hud #game canvas,.pixel-hud .ability{cursor:url('../../assets/ui/riot-healthbars-2026-10-15/runtime/hover_precise.png') 2 2,default}
+.pixel-hud #game canvas[data-cursor='ally']{cursor:url('../../assets/ui/riot-healthbars-2026-10-15/runtime/hover_ally_precise.png') 2 2,pointer}
+.pixel-hud #game canvas[data-cursor='enemy']{cursor:url('../../assets/ui/riot-healthbars-2026-10-15/runtime/hover_enemy_precise.png') 2 2,crosshair}
+.pixel-hud #game canvas[data-cursor='target']{cursor:url('../../assets/ui/riot-healthbars-2026-10-15/runtime/target_precise.png') 16 16,crosshair}
+@media(max-width:400px){.pixel-hud .scoreboard{gap:10px;padding:0 8px}}
+
+.pixel-hud #game canvas[data-cursor='locked']{cursor:url('../../assets/ui/riot-healthbars-2026-10-15/runtime/hover_enemycannotattack_precise.png') 2 2,not-allowed}
+
+.pixel-hud .summoner-slot{cursor:pointer}.pixel-hud .summoner-slot img{filter:none}.pixel-hud .summoner-slot.cooling img{filter:brightness(.4) saturate(.5)}.pixel-hud .summoner-cooldown{position:absolute;inset:0;display:grid;place-items:center;color:#fff;font:10px Consolas,monospace;text-shadow:1px 1px #000;pointer-events:none}
+
+.pixel-hud #hero-flow::-webkit-progress-value{background:#8c9aa6;background-image:none}.pixel-hud #hero-flow::-moz-progress-bar{background:#8c9aa6}.pixel-hud #hero-flow.flow-ready::-webkit-progress-value{background:#edfaff}.pixel-hud #hero-flow.flow-ready::-moz-progress-bar{background:#edfaff}.pixel-hud .passive-slot.passive-ready{box-shadow:0 0 0 1px #dcf8ff,0 0 7px #87bdce}.pixel-hud .passive-slot.passive-shielded{box-shadow:0 0 0 2px #fff}

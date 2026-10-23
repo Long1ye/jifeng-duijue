@@ -1,0 +1,789 @@
+{
+  "version": "16.20.1",
+  "source": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/item.json",
+  "data": {
+    "1036": {
+      "name": "长剑",
+      "description": "<mainText><stats><attention>10</attention>攻击力</stats><br><br></mainText>",
+      "colloq": ";changjian;cj;Long;Sword",
+      "plaintext": "略微提升攻击力",
+      "into": [
+        "1053",
+        "4003",
+        "6701",
+        "2015",
+        "2019",
+        "2021",
+        "3077",
+        "6670",
+        "3133",
+        "2517",
+        "323004",
+        "3142",
+        "3004",
+        "2523",
+        "3032",
+        "3035",
+        "3044",
+        "3051",
+        "3155",
+        "6690",
+        "3123",
+        "3134",
+        "6699",
+        "6671",
+        "6692"
+      ],
+      "image": {
+        "full": "1036.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 96,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "total": 350,
+        "sell": 245
+      },
+      "tags": [
+        "Damage",
+        "Lane"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 10
+      }
+    },
+    "1042": {
+      "name": "短剑",
+      "description": "<mainText><stats><attention>10%</attention>攻击速度</stats><br><br></mainText>",
+      "colloq": ";duanjian;dj;Dagger",
+      "plaintext": "略微提升攻击速度",
+      "into": [
+        "1043",
+        "3086",
+        "2510",
+        "3006",
+        "3046",
+        "3051",
+        "3073",
+        "3131",
+        "3144",
+        "6631",
+        "6675",
+        "6677"
+      ],
+      "image": {
+        "full": "1042.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 336,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 250,
+        "purchasable": true,
+        "total": 250,
+        "sell": 175
+      },
+      "tags": [
+        "AttackSpeed"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "PercentAttackSpeedMod": 0.1
+      }
+    },
+    "1001": {
+      "name": "鞋子",
+      "description": "<mainText><stats><attention>25</attention>移动速度</stats><br><br></mainText>",
+      "colloq": ";suduzhixue;sdzx;Boots",
+      "plaintext": "略微提升移动速度",
+      "into": [
+        "3005",
+        "3047",
+        "3008",
+        "3006",
+        "3009",
+        "3010",
+        "3020",
+        "3111",
+        "3117",
+        "3158"
+      ],
+      "image": {
+        "full": "1001.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 300,
+        "sell": 210
+      },
+      "tags": [
+        "Boots"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatMovementSpeedMod": 25
+      }
+    },
+    "1055": {
+      "name": "多兰之刃",
+      "description": "<mainText><stats><attention>10</attention>攻击力<br><attention>80</attention>生命值<br><attention>2.5%</attention>全能吸血</stats><br><br></mainText>",
+      "colloq": ";Doran's Blade;duolanzhiren;dlr;duolanjian;dlzr",
+      "plaintext": "普攻型英雄的优秀起始装备",
+      "image": {
+        "full": "1055.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 96,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 450,
+        "sell": 180
+      },
+      "tags": [
+        "Health",
+        "Damage",
+        "LifeSteal",
+        "SpellVamp",
+        "Lane"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatHPPoolMod": 80,
+        "FlatPhysicalDamageMod": 10
+      }
+    },
+    "1018": {
+      "name": "灵巧披风",
+      "description": "<mainText><stats><attention>15%</attention>暴击几率</stats><br><br></mainText>",
+      "colloq": ";lingqiaopifeng;lqpf;Cloak of Agility",
+      "plaintext": "提升暴击几率",
+      "into": [
+        "123430",
+        "667666",
+        "3031",
+        "3086",
+        "6670",
+        "3033",
+        "3039",
+        "3508",
+        "3095",
+        "6676"
+      ],
+      "image": {
+        "full": "1018.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 192,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "total": 600,
+        "sell": 420
+      },
+      "tags": [
+        "CriticalStrike"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.15
+      }
+    },
+    "1037": {
+      "name": "十字镐",
+      "description": "<mainText><stats><attention>25</attention>攻击力</stats><br><br></mainText>",
+      "colloq": ";shizigao;szg;Pickaxe",
+      "plaintext": "适度提升攻击力",
+      "into": [
+        "667666",
+        "3071",
+        "6333",
+        "3031",
+        "3153",
+        "6701",
+        "2020",
+        "2517",
+        "3087",
+        "6695",
+        "2523",
+        "3053",
+        "3072",
+        "3124",
+        "3181",
+        "3139",
+        "3161",
+        "6029",
+        "6035",
+        "6673",
+        "6676",
+        "6692"
+      ],
+      "image": {
+        "full": "1037.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 144,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 875,
+        "purchasable": true,
+        "total": 875,
+        "sell": 613
+      },
+      "tags": [
+        "Damage"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 25
+      }
+    },
+    "1038": {
+      "name": "暴风之剑",
+      "description": "<mainText><stats><attention>40</attention>攻击力</stats><br><br></mainText>",
+      "colloq": ";bfdj;baofengdajian;B. F. Sword",
+      "plaintext": "显著提升攻击力",
+      "into": [
+        "3031",
+        "3026",
+        "3032",
+        "3072",
+        "3095",
+        "4403",
+        "6671"
+      ],
+      "image": {
+        "full": "1038.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 192,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 1300,
+        "purchasable": true,
+        "total": 1300,
+        "sell": 910
+      },
+      "tags": [
+        "Damage"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 40
+      }
+    },
+    "1053": {
+      "name": "吸血鬼节杖",
+      "description": "<mainText><stats><attention>15</attention>攻击力<br><attention>7%</attention>生命偷取</stats><br><br></mainText>",
+      "colloq": ";xixueguijiezhang;xxgjz;Vampiric Scepter",
+      "plaintext": "普攻回复生命值",
+      "from": [
+        "1036"
+      ],
+      "into": [
+        "3153",
+        "3146",
+        "3072",
+        "3074",
+        "3139",
+        "4403"
+      ],
+      "image": {
+        "full": "1053.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 0,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 550,
+        "purchasable": true,
+        "total": 900,
+        "sell": 630
+      },
+      "tags": [
+        "Damage",
+        "LifeSteal"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 15,
+        "PercentLifeStealMod": 0.07
+      },
+      "depth": 2
+    },
+    "1043": {
+      "name": "反曲之弓",
+      "description": "<mainText><stats><attention>15%</attention>攻击速度</stats><br><br><passive>叮刺</passive><br>攻击附带<physicalDamage>15额外物理伤害</physicalDamage> <OnHit>攻击特效</OnHit>。</mainText>",
+      "colloq": ";fanquzhigong;fqzg;Recurve Bow",
+      "plaintext": "显著提升攻击速度",
+      "from": [
+        "1042"
+      ],
+      "into": [
+        "3302",
+        "3153",
+        "3115",
+        "6672",
+        "3091",
+        "3124"
+      ],
+      "image": {
+        "full": "1043.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 384,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "total": 700,
+        "sell": 490
+      },
+      "tags": [
+        "AttackSpeed",
+        "OnHit"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "PercentAttackSpeedMod": 0.15
+      },
+      "depth": 2
+    },
+    "3086": {
+      "name": "狂热",
+      "description": "<mainText><stats><attention>15%</attention>攻击速度<br><attention>15%</attention>暴击几率<br><attention>4%</attention>移动速度</stats><br><br></mainText>",
+      "colloq": ";kuangre;Zeal",
+      "plaintext": "略微提升暴击几率，移动速度和攻击速度",
+      "from": [
+        "1018",
+        "1042"
+      ],
+      "into": [
+        "2512",
+        "3094",
+        "3046",
+        "3085",
+        "4403",
+        "6671",
+        "6675"
+      ],
+      "image": {
+        "full": "3086.png",
+        "sprite": "item3.png",
+        "group": "item",
+        "x": 192,
+        "y": 288,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "total": 1200,
+        "sell": 840
+      },
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.15,
+        "PercentAttackSpeedMod": 0.15,
+        "PercentMovementSpeedMod": 0.04
+      },
+      "depth": 2
+    },
+    "1028": {
+      "name": "红水晶",
+      "description": "<mainText><stats><attention>150</attention>生命值</stats><br><br></mainText>",
+      "colloq": ";Ruby Crystal;hong;红;hongshuijing;hsj",
+      "plaintext": "提升生命值",
+      "into": [
+        "3742",
+        "1011",
+        "3068",
+        "2021",
+        "323222",
+        "323075",
+        "326617",
+        "323107",
+        "3012",
+        "3147",
+        "3067",
+        "3211",
+        "2502",
+        "322526",
+        "2526",
+        "3023",
+        "3044",
+        "3053",
+        "3066",
+        "3075",
+        "3152",
+        "3161",
+        "3801",
+        "3803",
+        "4401",
+        "4635",
+        "6035",
+        "6660",
+        "6662"
+      ],
+      "image": {
+        "full": "1028.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 336,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "total": 400,
+        "sell": 280
+      },
+      "tags": [
+        "Health"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatHPPoolMod": 150
+      }
+    },
+    "1029": {
+      "name": "布甲",
+      "description": "<mainText><stats><attention>15</attention>护甲</stats><br><br></mainText>",
+      "colloq": ";bujia;bj;Cloth Armor",
+      "plaintext": "略微提升护甲",
+      "into": [
+        "2421",
+        "2420",
+        "1031",
+        "323050",
+        "323190",
+        "2019",
+        "3193",
+        "3047",
+        "3024",
+        "3050",
+        "2524",
+        "3023",
+        "3076",
+        "3082",
+        "3105",
+        "3190"
+      ],
+      "image": {
+        "full": "1029.png",
+        "sprite": "item0.png",
+        "group": "item",
+        "x": 384,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 300,
+        "sell": 210
+      },
+      "tags": [
+        "Armor"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatArmorMod": 15
+      }
+    },
+    "3006": {
+      "name": "狂战士胫甲",
+      "description": "<mainText><stats><attention>30%</attention>攻击速度<br><attention>45</attention>移动速度</stats><br><br></mainText>",
+      "colloq": "攻速鞋;Berserker's Greaves;gongsuxie;gsx;kzsjingjia;kuangzhanshijingjia;zerker",
+      "plaintext": "增强移动速度和攻击速度",
+      "from": [
+        "1001",
+        "1042",
+        "1042"
+      ],
+      "into": [
+        "3172"
+      ],
+      "image": {
+        "full": "3006.png",
+        "sprite": "item3.png",
+        "group": "item",
+        "x": 0,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "total": 1100,
+        "sell": 770
+      },
+      "tags": [
+        "AttackSpeed",
+        "Boots"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatMovementSpeedMod": 45,
+        "PercentAttackSpeedMod": 0.3
+      },
+      "depth": 2
+    },
+    "3031": {
+      "name": "无尽之刃",
+      "description": "<mainText><stats><attention>75</attention>攻击力<br><attention>25%</attention>暴击几率<br><attention>30%</attention>暴击伤害</stats><br><br></mainText>",
+      "colloq": ";Infinity Edge;wujinzhiren;wjzr",
+      "plaintext": "巨幅加强暴击",
+      "from": [
+        "1038",
+        "1037",
+        "1018"
+      ],
+      "image": {
+        "full": "3031.png",
+        "sprite": "item3.png",
+        "group": "item",
+        "x": 48,
+        "y": 144,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 725,
+        "purchasable": true,
+        "total": 3500,
+        "sell": 2450
+      },
+      "tags": [
+        "CriticalStrike",
+        "Damage"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.25,
+        "FlatPhysicalDamageMod": 75
+      },
+      "depth": 2
+    },
+    "3046": {
+      "name": "幻影之舞",
+      "description": "<mainText><stats><attention>65%</attention>攻击速度<br><attention>25%</attention>暴击几率<br><attention>10%</attention>移动速度</stats><br><br><passive>幽影华尔兹</passive>变为<keyword>幽灵</keyword>状态。</mainText>",
+      "colloq": ";鬼魂;幻影之舞;香蕉;Phantom Dancer;huanyingzhiwu;hyzw;红双刀;hongshuangdao",
+      "plaintext": "攻击敌方英雄时移动得更快，并在低血量时提供一层护盾。",
+      "from": [
+        "1042",
+        "3086",
+        "1042"
+      ],
+      "image": {
+        "full": "3046.png",
+        "sprite": "item3.png",
+        "group": "item",
+        "x": 48,
+        "y": 192,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 950,
+        "purchasable": true,
+        "total": 2650,
+        "sell": 1855
+      },
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatCritChanceMod": 0.25,
+        "PercentAttackSpeedMod": 0.65,
+        "PercentMovementSpeedMod": 0.1
+      },
+      "depth": 3
+    },
+    "3153": {
+      "name": "破败王者之刃",
+      "description": "<mainText><stats><attention>40</attention>攻击力<br><attention>25%</attention>攻击速度<br><attention>10%</attention>生命偷取</stats><br><br><passive>雾之锋</passive><br>攻击造成<physicalDamage>一部分</physicalDamage>敌人当前生命值的<physicalDamage>额外物理伤害</physicalDamage> <OnHit>攻击特效</OnHit>。<br><br><passive>抓挠之影</passive><br>攻击一位英雄3次会对其造成持续1秒的30%<status>减速</status>。</mainText>",
+      "colloq": "应对坦克;克制坦克;百分比生命值;Blade of The Ruined King;pobaiwangzhezhiren;pbwzzr",
+      "plaintext": "造成基于目标生命值的伤害，并能偷取移动速度",
+      "from": [
+        "1053",
+        "1043",
+        "1037"
+      ],
+      "image": {
+        "full": "3153.png",
+        "sprite": "item4.png",
+        "group": "item",
+        "x": 192,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "gold": {
+        "base": 725,
+        "purchasable": true,
+        "total": 3200,
+        "sell": 2240
+      },
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "LifeSteal",
+        "Slow",
+        "OnHit"
+      ],
+      "maps": {
+        "11": true,
+        "12": true,
+        "22": false,
+        "30": false,
+        "453": true
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 40,
+        "PercentAttackSpeedMod": 0.25,
+        "PercentLifeStealMod": 0.1
+      },
+      "depth": 3
+    }
+  }
+}
