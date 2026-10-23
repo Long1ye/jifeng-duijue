@@ -1,22 +1,22 @@
 {
   "version": "0.1.4",
   "date": "2026-10-23",
-  "testFiles": 190,
-  "testsPassed": 1061,
+  "testFiles": 191,
+  "testsPassed": 1064,
   "packages": [
     {
       "kind": "web",
-      "file": "jifeng-duijue-web-0.1.4.zip",
-      "bytes": 135913789,
-      "sha256": "083DB4EBA609515BD5FD0EF7F7EDEEACB896D2210F98055970D35538CE28EFF0",
+      "file": "jifeng-duijue-web-0.1.4-original-icons.zip",
+      "bytes": 135909968,
+      "sha256": "1C9CEA563FFFE21447FD03D81DE533C5B68A9875693D98AA94AB69096B9FD878",
       "indexAtRoot": true,
       "within50MB": false
     },
     {
       "kind": "platform",
-      "file": "jifeng-duijue-web-0.1.4-platform.zip",
-      "bytes": 49897171,
-      "sha256": "C1E2399B3782CE38D3820A7B1B766A6F22955B4C84E91AA30B86B3A65B80798A",
+      "file": "jifeng-duijue-web-0.1.4-original-icons-platform.zip",
+      "bytes": 49889420,
+      "sha256": "86EDB5F55D0DE50FC63651A4D8F02C03FA89A2611EBE9CCA084F77E7FEC56299",
       "indexAtRoot": true,
       "within50MB": true
     }
@@ -32,5 +32,12 @@
     "TypeScript client and server checks",
     "ordinary and platform build",
     "ZIP CRC, SHA256, root entry and version verification"
+  ],
+  "revision": "original-icons",
+  "restoredOriginalIcons": [
+    1033,
+    1086,
+    2065,
+    2502
   ]
 }

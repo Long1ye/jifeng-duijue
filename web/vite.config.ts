@@ -1,9 +1,10 @@
 import { defineConfig } from 'vitest/config';
 import { assetCache } from './scripts/asset-cache';
+import { gameShell } from './scripts/game-shell';
 
 export default defineConfig({
   base: './',
-  plugins: [assetCache()],
+  plugins: [gameShell(), assetCache()],
   server: { port: 5173, strictPort: true },
   build: {
     chunkSizeWarningLimit: 1500,

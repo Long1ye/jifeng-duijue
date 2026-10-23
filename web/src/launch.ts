@@ -2,14 +2,14 @@ import './ui/start-screen.css';
 import { mountStartScreen } from './ui/StartScreen';
 import { mountFullscreen } from './ui/Fullscreen';
 import type { NetworkHost } from './network/NetworkHost';
-import legacyPage from '../index.html?raw';
-import threePage from '../three.html?raw';
+import legacyPage from '../index.html?game-shell';
+import threePage from '../three.html?game-shell';
 import {isLanGameHost} from './ui/LanAccess';
 
 const templates = new Map<boolean, string>();
 // Upload hosts may rewrite secondary HTML requests back to the entry page.
-templates.set(false, new DOMParser().parseFromString(legacyPage, 'text/html').querySelector('.app-shell')!.outerHTML);
-templates.set(true, new DOMParser().parseFromString(threePage, 'text/html').querySelector('main.match-shell')!.outerHTML);
+templates.set(false, legacyPage);
+templates.set(true, threePage);
 let disposeGame: ((preserveRoom?: boolean) => void) | undefined;
 let disposeMenu: (() => void) | undefined;
 let disposeFullscreen: (() => void) | undefined;

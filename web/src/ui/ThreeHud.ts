@@ -1,4 +1,4 @@
-import stablePage from '../../index.html?raw';
+import stablePage from '../../index.html?game-shell';
 import { mountLeagueHud } from './LeagueHud';
 import type { Match } from '../game/Match';
 import type { AbilityKey, Entity, Team } from '../game/types';

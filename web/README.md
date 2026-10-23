@@ -2,6 +2,11 @@
 
 ## v0.1.4（2026-10-23）
 
+### 0.1.4 图标修订
+
+1033（抗魔斗篷）、1086（多兰之弓）、2065（舒瑞娅的战歌）、2502（无终恨意）已恢复为 `assets/ui/league-items-16.20.1/` 中保留的原版图标，其他图标不变。重传平台请使用 `release/jifeng-duijue-web-0.1.4-original-icons-platform.zip`。游戏模板改为构建时提取界面容器，脚本不再携带完整 HTML 文档头部和重复启动脚本。
+
+
 本版加入单人对手选择（亚索 / 奶龙）、硬件自动画质预设、持续掉帧降档和开始前画质说明。低配最高 1280×720 / 30 帧，均衡最高 1600×900 / 60 帧，保留角色动作、技能与音效；小兵血条改为独立清晰界面层，修复低画质下细线缩放闪烁。主菜单加强 Meowa AI 署名展示。
 
 最新发布包：`release/jifeng-duijue-web-0.1.4-platform.zip`（平台上传，限 50 MB）与 `release/jifeng-duijue-web-0.1.4.zip`（普通静态网页版）。准确体积与 SHA-256 见 `release/platform-package.json`、`release/web-package.json`。GitHub 仓库将本项目保存在 `web/`，桌面版保留于仓库根目录。下文旧版本发布记录用于追溯。
